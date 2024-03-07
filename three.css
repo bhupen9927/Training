@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+html body .container{
+    /* border: 1px solid black; */
+    width: 100%;
+    padding: 2rem 0;
+}
+
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 1400px;
+    margin: 0 auto;
+    align-items: center;
+    /* padding: 10rem 2rem 2rem;*/
+}
+
+.heading{
+    font-size: 2.25rem;
+    font-weight: 400;
+    font-family: Raleway, sans-serif !important;
+    margin-bottom: 60px;
+}
+
+.content{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    grid-gap: 100px;
+    width: 64%;
+    margin-bottom: 60px;
+}
+
+.left_content, .right_content{
+    /* border: 3px solid black; */
+    font-size: 1rem;
+    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+    /* width: 23rem; */
+    word-spacing: 12px;
+}
+
+/* .right_content{
+    border: 3px solid black;
+    font-size: 1rem;
+    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+     width: 18rem; 
+    word-spacing: 10px;
+} */
+
+.Images{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    grid-gap: 10px;
+}
+.image{
+    height: 100%;
+    width: 100%;
+    transition: all 0.5s ease;
+    opacity: 1;
+    cursor: pointer;
+}
+.image:hover{
+    opacity: 0.5;
+}
+img{
+    height: 385px;
+    width: 373px;
+    background-position: center;
+    object-position: 50% 50%;
+    object-fit: cover;
+}
+.footer{
+    color: #ffffff;
+    background-color: #333333;
+    padding: 6vh;
+    font-size: 1.1rem;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.link2{
+    color: rgb(100, 190, 190);
+    text-decoration: underline;
+}
+
+@media screen and (max-width : 1024px){
+    .content{
+        flex-direction: column;
+        grid-gap: 40px;
+    }
+    .Images{
+        flex-direction: column;
+    }
+    .parent{
+        width:420px;
+    }
+}
