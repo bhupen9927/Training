@@ -1134,13 +1134,204 @@ p{
     }
 }
 
+/* Quote-panel end */
+
+/* strategy-panel start */
+
+.strategy-panel{
+    /* border: 1px solid black; */
+    margin: 0 14%;
+    margin-top: 10%;
+}
+
+.strategy-panel-box{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    display: flex;
+}
+
+.brand-strategy{
+    max-width: 50%;
+    min-width: 50%;
+    text-align: left;
+    background-color: transparent !important;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.brand-strategy-heading{
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 1.5rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: 400;
+    word-wrap: break-word;
+    line-height: 1.2;
+    font-family: Roboto, sans-serif;
+    padding-top: 5%;
+    padding-right: 2%;
+    padding-left: 3%;
+}
+
+.brand-strategy-content{
+    font-weight: 300;
+    margin: 20px 0 0;
+    word-wrap: break-word;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    padding-top: 2%;
+    padding-right: 11%;
+    padding-left: 3%;
+}
+
+.brand-strategy-list{
+    font-size: 1.25rem;
+    line-height: 2;
+    font-weight: 700;
+    margin: 28px 0 0;
+    padding-left: 40px;
+    list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.list-icon{
+    display: inline-block;
+    width: 1em;
+    padding-right: 10px;
+    fill: currentColor;
+    text-align: center;
+}
+
+.chat-now-icon{
+    border-style: none;
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin: 30px auto 0 0;
+    padding: 0;
+    color: #000000;
+    text-decoration: none;
+    padding-right: 2%;
+    padding-left: 3%;
+    padding-bottom: 5%;
+}
+
+.icon-chat{
+    fill: #1934fd !important;
+}
+
+.communication-strategy{
+    max-width: 50%;
+    min-width: 50%;
+    text-align: left;
+    background-color: #1934fd;
+    color: #ffffff;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.communication-strategy-heading{
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 1.5rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: 400;
+    word-wrap: break-word;
+    line-height: 1.2;
+    font-family: Roboto, sans-serif;
+    padding-top: 5%;
+    padding-right: 2%;
+    padding-left: 3%;
+}
+
+.communication-strategy-content{
+    font-weight: 300;
+    margin: 20px 0 0;
+    word-wrap: break-word;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    padding-top: 2%;
+    padding-right: 11%;
+    padding-left: 3%;
+}
+
+.communication-strategy-list{
+    font-size: 1.25rem;
+    line-height: 2;
+    font-weight: 700;
+    margin: 28px 0 0;
+    padding-left: 40px;
+    list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.list-icon{
+    display: inline-block;
+    width: 1em;
+    padding-right: 10px;
+    fill: currentColor;
+    text-align: center;
+}
+
+.call-icon{
+    border-style: none;
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin: 30px auto 0 0;
+    padding: 0;
+    color: #ffffff !important;
+    text-decoration: none;
+    padding-bottom: 5%;
+    padding-right: 2%;
+    padding-left: 3%;
+}
+
+.icon-call{
+    fill: #ffffff !important;
+}
+
+@media screen and (min-width:768px) and (max-width:1200px) {
+    .strategy-panel{
+        margin: 0 5%;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .strategy-panel{
+        margin: 0 10%;
+    }
+    .strategy-panel-box{
+        flex-direction: column; 
+    }
+    .brand-strategy{
+        width: 100% !important;
+        min-width: none;
+        max-width: none;
+    }
+    .communication-strategy{
+        width: 100% !important;
+        min-width: none;
+        max-width: none;
+    }
+}
+
 .footer{
     color: #ffffff;
     background-color: #333333;
     padding-bottom: 2%;
     /* padding: 6vh; */
     /* margin-top: 20px; */
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-family: 'Open Sans', sans-serif;
     display: flex;
     justify-content: center;
