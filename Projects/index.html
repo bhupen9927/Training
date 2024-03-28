@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header-container">
+            <div class="header">
+                <div class="search-container">
+                    <!-- Search box -->
+                    <input type="text" class="search-box" placeholder="Search">
+                      <svg class="search-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M18.293 16.207l4 4-1.414 1.414-4-4a8 8 0 1 1 1.414-1.414zM11 18a7 7 0 1 0 0-14 7 7 0 0 0 0 14z"/>
+                     <path fill="none" d="M0 0h24v24H0V0z"/>
+                    </svg>
+                </div>
+                <div class="menu-button">
+                    <button class="menu-btn" id="menuBtn">☰</button>
+                <!-- Your menu content here -->
+                <div id="menuContent">
+                    <span class="close-btn" onclick="closeMenu()">✖</span>
+                <!-- Add your menu items here -->
+                <ul>
+                    <li><a href="#">Page 1</a></li>
+                </ul>
+                </div>
+                </div>
+                <script>
+                    // Function to toggle the menu
+                    function toggleMenu() {
+                        var menuContent = document.getElementById("menuContent");
+                        if (menuContent.style.left === "-300px") {
+                        menuContent.style.left = "0";
+                        } else {
+                        menuContent.style.left = "-300px";
+                        }
+                    }
+
+                      // Function to close the menu
+                        function closeMenu() {
+                         document.getElementById("menuContent").style.left = "-300px";
+                         }
+
+                    // Attach click event listener to the menu button
+                    document.getElementById("menuBtn").addEventListener("click", toggleMenu);
+                    </script>
+            </div>
+        </div>
+
+        <div class="parent-container">
+            <div class="hero-section">
+                <div class="project-section">
+                    <h2>projects</h2>
+                    <div class="project-image-content">
+                        <div class="image-one">
+
+                        </div>
+                        <div class="image-one-content">
+                            <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub-project-section">
+                    <img src="https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/1cfa9a77bcda54beb439e25e/pexels-photo-3545779.jpeg">
+                    <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                </div>
+            </div>
+
+            <div class="creative-panel">
+                <div class="creative-content-box">
+                    <h2> New day,
+                        <br>
+                        New creative things.
+                    </h2>
+                    <a href="#">View More</a>
+                </div>
+            </div>
+        </div>
+         <div class="footer">
+                <div class="footer-content">
+                    <div class="contentone">
+                        <p>Sample text. Click to select the Text Element.Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                </div>
+             <span><a class="link2">Website Templates </a>created with <a class="link2">Website Builder Software</a></span>    
+        </div>
+    </div>
+    </div>
+</body>
+</html>
