@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulting Firm</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header-container">
+            <div class="header">
+                <div class="logoicon">
+                    <img src="https://i.ibb.co/p03S3Bp/default-logo.png">
+                </div>
+                <div class="nav-bar">
+                    <a href="#">Home</a>
+                    <a href="#">About Company</a>
+                </div>
+                <div class="menu-button">
+                    <button class="menu-btn" id="menuBtn">☰</button>
+                <!-- Your menu content here -->
+                <div id="menuContent">
+                    <span class="close-btn" onclick="closeMenu()">✖</span>
+                <!-- Add your menu items here -->
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Company</a></li>
+                </ul>
+                </div>
+                </div>
+                <script>
+                    // Function to toggle the menu
+                    function toggleMenu() {
+                        var menuContent = document.getElementById("menuContent");
+                        if (menuContent.style.left === "-300px") {
+                        menuContent.style.left = "0";
+                        } else {
+                        menuContent.style.left = "-300px";
+                        }
+                    }
+
+                      // Function to close the menu
+                        function closeMenu() {
+                         document.getElementById("menuContent").style.left = "-300px";
+                         }
+
+                    // Attach click event listener to the menu button
+                    document.getElementById("menuBtn").addEventListener("click", toggleMenu);
+                    </script>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

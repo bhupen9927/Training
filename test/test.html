@@ -3,38 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="test.css"></link>
+    <title>Consulting Firm</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="list-section">
-    <div class="list-box">
-        <div class="specialism-list">
-            <h4>Specialism</h4>
-            <p>
-                <a href="#">Planning Permission</a>
-                <br>
-                <a href="#">Architectural Design</a>
-                <br>
-                <a href="#">Interior Design</a>
-                <br>
-                <a href="#">Master Planning</a>
-            </p>
-        </div>
-        <div class="project-type-list">
-            <h4>Project Type</h4>
-            <p>
-                <a href="#">Extension</a>
-                <br>
-                <a href="#">Flat Conversion</a>
-                <br>
-                <a href="#">Self Build House</a>
-                <br>
-                <a href="#">New Build Flats</a>
-            </p>
+    <div class="container">
+        <div class="header-container">
+            <div class="header">
+                <div class="logoicon">
+                    <img src="https://i.ibb.co/p03S3Bp/default-logo.png">
+                </div>
+                <div class="menu-button" id="menuButton">
+                    <!-- Your menu content here -->
+                    <div id="menuContent">
+                        <span class="close-btn" onclick="closeMenu()">✖</span>
+                        <!-- Add your menu items here -->
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Company</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-</div>
 
+    <script>
+        // Function to close the menu
+        function closeMenu() {
+            document.getElementById("menuContent").style.left = "-300px";
+        }
+
+        // Attach click event listener to the menu button
+        document.getElementById("menuButton").addEventListener("click", toggleMenu);
+
+        // Function to toggle the menu
+        function toggleMenu() {
+            var menuContent = document.getElementById("menuContent");
+            if (menuContent.style.left === "-300px") {
+                menuContent.style.left = "0";
+            } else {
+                menuContent.style.left = "-300px";
+            }
+        }
+
+        // Add a resize event listener to check screen size and toggle menu button
+        window.addEventListener("resize", function() {
+            var screenWidth = window.innerWidth;
+            var menuButton = document.getElementById("menuButton");
+
+            if (screenWidth > 991) {
+                // Hide menu button
+                menuButton.style.display = "none";
+            } else {
+                // Show menu button
+                menuButton.style.display = "block";
+            }
+        });
+
+        // Call the resize event listener once to set the initial state
+        window.dispatchEvent(new Event("resize"));
+    </script>
 </body>
 </html>

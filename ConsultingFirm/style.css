@@ -14,14 +14,14 @@
 html body .container{
     /* border: 1px solid black;  */
     width: 100%;
-    background-color: black;
+    background-color: white;
 }
 
 html body .container .header-container{
     width: 100%;
-    border-bottom: 1px solid #999999;
+    /* border-bottom: 1px solid #999999; */
     color: #ffffff;
-    background-color: #000000;
+    background-color: white;
 }
 
 /* Header section start=> */
@@ -39,11 +39,16 @@ html body .container .header{
     align-items: center;
 }
 
+.logoicon img{
+    width: 64px;
+    height: 32px;
+}
+
 .menu-btn {
     cursor: pointer;
     padding: 10px;
     background:none;
-    color: white;
+    color:black;
     text-align: center;
     border: none;
     font-size: 2rem;
@@ -90,6 +95,34 @@ html body .container .header{
     color: #fff;
     cursor: pointer;
     font-size: 28px;
+}
+
+@media screen and (min-width:991px) {
+    .menu-button{
+        display: none;
+    }
+    .nav-bar{
+        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-gap: 50px;
+        font-size: 1rem;
+        letter-spacing: normal;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .nav-bar a{
+        color: black !important;
+        text-decoration: none;
+    }
+    .nav-bar a:hover{
+        color: #ec6011 !important;
+    }
+}
+
+@media screen and (max-width:991px){
+    .nav-bar{
+        display: none;
+    }
 }
 
 /* Header section end. */
