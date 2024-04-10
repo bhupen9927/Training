@@ -2200,6 +2200,10 @@ html body .container .header{
 
 .who-card{
     border-top:20px solid #92c705;
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding-top: 8% !important;
+    padding: 0 5%;
+    width: 90%;
 }
 .who-card h4{
     font-size: 1.5rem;
@@ -2208,6 +2212,7 @@ html body .container .header{
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
+    margin-bottom: 4%;
 }
 
 .who-card p{
@@ -2215,6 +2220,7 @@ html body .container .header{
     line-height: 2.2;
     font-family: 'Open Sans', sans-serif;
     color: white !important;
+    margin-bottom: 8%;
 }
 
 .who-card a{
@@ -2227,11 +2233,20 @@ html body .container .header{
     letter-spacing: 1px;
     /* margin: 25px auto 0 0; */
     padding: 5px 0 6px; 
+    font-family: 'Open Sans', sans-serif;
+}
+
+.who-card a:hover{
+    color: #92c705 !important;
+    border-bottom: 2px solid #92c705 ;
 }
 
 .what-card{
     border-top: 20px solid #ec6011;
-    background-color: ;    
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding-top: 8% !important;
+    padding: 0 5%; 
+    width: 90%;  
 }
 
 .what-card h4{
@@ -2241,6 +2256,7 @@ html body .container .header{
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
+    margin-bottom: 4%;
 }
 
 .what-card p{
@@ -2248,6 +2264,7 @@ html body .container .header{
     line-height: 2.2;
     font-family: 'Open Sans', sans-serif;
     color: white !important;
+    margin-bottom: 8%;
 }
 
 .what-card a{
@@ -2260,10 +2277,20 @@ html body .container .header{
     letter-spacing: 1px;
     /* margin: 25px auto 0 0; */
     padding: 5px 0 6px; 
+    font-family: 'Open Sans', sans-serif;
+}
+
+.what-card a:hover{
+    color: #92c705 !important;
+    border-bottom: 2px solid #92c705 ;
 }
 
 .our-card{
     border-top: 20px solid white;
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding-top: 8% !important;
+    padding: 0 5%;
+    width: 90%;
 }
 
 .our-card h4{
@@ -2273,6 +2300,7 @@ html body .container .header{
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
+    margin-bottom: 4%;
 }
 
 .our-card p{
@@ -2280,6 +2308,7 @@ html body .container .header{
     line-height: 2.2;
     font-family: 'Open Sans', sans-serif;
     color: white !important;
+    margin-bottom: 8%;
 }
 
 .our-card a{
@@ -2292,4 +2321,603 @@ html body .container .header{
     letter-spacing: 1px;
     /* margin: 25px auto 0 0; */
     padding: 5px 0 6px; 
+    font-family: 'Open Sans', sans-serif;
+}
+
+.our-card a:hover{
+    color: #92c705 !important;
+    border-bottom: 2px solid #92c705 ;
+}
+
+.our-image-link{
+    margin: 27px 0 0;
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25rem !important;
+    line-height: 1.6;
+    color: white;
+    text-align: center;
+}
+
+.our-image-link a{
+    color: white !important;
+    cursor: pointer;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    font-style: italic;
+}
+
+@media screen and (min-width:992px) and (max-width:1199px){
+    .cards-box{
+        min-height: 335px;
+        margin: 0 6%;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px){
+    .cards-box{
+        min-height: 317px;
+        margin: 0 10%;
+        grid-template-columns: repeat(2, auto);
+        padding-top: 274px;
+    }
+    .who-card{
+        height: 255px;
+    }
+    .our-card{
+        height: 255px;
+    }
+    .about-section{
+        height: 1008px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:767px){
+    .cards-box{
+        min-height: 317px;
+        margin: 0 10%;
+        grid-template-columns: repeat(1, auto);
+        padding-top: 274px;
+    }
+    .who-card{
+        height: 225px;
+        padding-top: 4% !important;
+        width: 80%;
+    }
+    .who-card p{
+        margin-bottom: 5%;
+    }
+    .what-card{
+        height: 225px;
+        padding-top: 4% !important;
+        width: 80%;
+    }
+    .what-card p{
+        margin-bottom: 5%;
+    }
+    .our-card{
+        height: 225px;
+        padding-top: 4% !important;
+        width: 80%;
+    }
+    .our-card p{
+        margin-bottom: 5%;
+    }
+    .about-section{
+        height: 1217px;
+    }
+}
+
+@media screen and (min-width:361px) and (max-width:575px){
+    .cards-box{
+        min-height: 317px;
+        margin: 0 5%;
+        grid-template-columns: repeat(1, auto);
+        padding-top: 274px;
+    }
+    .who-card{
+        height: 225px;
+        padding-top: 4% !important;
+        width: 90%;
+    }
+    .who-card p{
+        margin-bottom: 5%;
+    }
+    .what-card{
+        height: 225px;
+        padding-top: 4% !important;
+        width: 90%;
+    }
+    .what-card p{
+        margin-bottom: 5%;
+    }
+    .our-card{
+        height: 225px;
+        padding-top: 4% !important;
+        width: 90%;
+    }
+    .our-card p{
+        margin-bottom: 5%;
+    }
+    .about-section{
+        height: 1217px;
+    }
+}
+
+@media screen and (max-width:360px){
+    .cards-box{
+        min-height: 317px;
+        margin: 0 2%;
+        grid-template-columns: repeat(1, auto);
+        padding-top: 274px;
+    }
+    .who-card{
+        height: 260px;
+        padding-top: 4% !important;
+        width: 100%;
+        padding:0;
+    }
+    .who-card h4{
+        margin-left: 2%;
+    }
+    .who-card p{
+        margin-bottom: 4%;
+        margin-left: 2%;
+        line-height: 2;
+    }
+    .what-card{
+        height: 260px;
+        padding-top: 4% !important;
+        width: 100%;
+        padding:0;
+    }
+    .what-card h4{
+        margin-left: 2%;
+    }
+    .what-card p{
+        margin-bottom: 4%;
+        margin-left: 2%;
+        line-height: 2;
+    }
+    .our-card{
+        height: 260px;
+        padding-top: 4% !important;
+        width: 100%;
+        padding:0;
+    }
+    .our-card h4{
+        margin-left: 2%;
+    }
+    .our-card p{
+        margin-bottom: 4%;
+        margin-left: 2%;
+        line-height: 2;
+    }
+    .about-section{
+        height: 1285px;
+    }
+}
+
+/* About-section End */
+
+/* Contact-section Start=> */
+
+.contact-section{
+    color: #ffffff;
+    background-color: #2b2933;
+    margin: 0 auto;
+    
+    height: 630px;
+}
+
+.contact-box{
+    padding: 5% 0;
+    display: flex;
+    flex-direction: row;
+    margin: 0 10%;
+}
+
+.contact-form{
+    width: 50%;
+}
+
+.name-email{
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    grid-gap: 3%;
+    margin-bottom: 15px;
+}
+
+.add-phone{
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    grid-gap: 3%;
+    margin-bottom: 15px;
+}
+
+.contact-form h5{
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 20px;
+}
+
+.contact-form h2{
+    font-size: 3rem;
+    line-height: 1.1;
+    font-weight: 700;
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 20px;
+}
+
+
+form {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+    font-size: 1rem;
+}
+
+.contact-form
+input[type="text"],
+input[type="email"],
+input[type="tel"]
+ {
+    
+    width: 100%;
+    padding: 12px 12px;
+    background-image: none;
+    background-clip: padding-box;
+    border: none;
+    transition: border-color ease-in-out 0.15s, 
+    box-shadow ease-in-out 0.15s;
+    height: auto;
+    font-size: 1rem;
+    margin: 4px;
+    margin-bottom: 0 !important;
+}
+
+.contact-form textarea{
+    width: 80%;
+    padding: 12px 12px;
+    background-image: none;
+    background-clip: padding-box;
+    border: none;
+    transition: border-color ease-in-out 0.15s, 
+    box-shadow ease-in-out 0.15s;
+    height: auto;
+    font-size: 1rem;
+    margin: 4px;
+    margin-bottom: 0 !important;
+}
+
+input[type="submit"] {
+    width: 85%;
+    text-align: center;
+    padding: 13px 32px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    background-color: orangered;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+
+.social-icons{
+    height: 30px;
+    width: 137px;
+    min-width: 24px;
+    /* margin: 30px auto 0 0; */
+    /* margin: 157px auto 0 29px; */
+    /* position: relative; */
+    display: flex;
+    grid-gap: 18px;
+}
+
+.social-icons a{
+    height: 100%;
+    display: inline-block;
+    flex: 1;
+}
+
+.icon-social-facebook{
+    display: flex;
+    height: 100% !important;
+    color: white;
+    line-height: 0;
+    border-width: 0px;
+}
+
+.icon-social-twitter{
+    display: flex;
+    height: 100% !important;
+    color: white;
+    line-height: 0;
+    border-width: 0px;
+}
+
+.icon-social-instagram{
+    display: flex;
+    height: 100% !important;
+    color: white;
+    line-height: 0;
+    border-width: 0px;
+}
+
+.svg-link {
+    width: 100%;
+    height: 100%;
+}
+
+.svg-content {
+    width: 0;
+    height: 0;
+}
+
+.address-details{
+    width: 44%;
+    background-color: white;
+    color: black;
+    padding-top: 8%;
+    padding-left: 2%;
+}
+
+ .address-details span{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    font-family: Montserrat, sans-serif;
+}
+
+.address-details p{
+    font-size: 1.125rem;
+    line-height: 2.2;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 4%;
+    margin-bottom: 8%;
+}
+
+.address-details img{
+    height: 1em;
+    width: auto;
+    line-height: 1;
+    vertical-align: -0.15em;
+    object-fit: cover;
+}
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .contact-box{
+        margin:0 5%;
+    }
+    .address-details{
+        width: 47%;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .contact-box{
+        flex-direction: column;
+        margin: 0 10%;
+    }
+    .contact-form{
+        width: 100%;
+    }
+    .name-email{
+        width: 90%;
+    }
+    .add-phone{
+        width: 90%;
+    }
+    .contact-form textarea{
+        width: 86%;
+    }
+    input[type="submit"]{
+        width: 90%;
+    }
+    .contact-section{
+        height: 1185px;
+    }
+    .address-details{
+        width: 94%;
+        margin-top: 9%;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    .contact-box{
+        flex-direction: column;
+        margin: 0 10%;
+        padding-top: 15% !important;
+        padding: 0;
+    }
+    .contact-form{
+        width: 100%;
+    }
+    .name-email{
+        width: 90%;
+    }
+    .add-phone{
+        width: 90%;
+    }
+    .contact-form textarea{
+        width: 85%;
+    }
+    input[type="submit"]{
+        width: 90%;
+    }
+    .contact-section{
+        height: 1185px;
+    }
+    .address-details{
+        width: 94%;
+        margin-top: 9%;
+    }
+}
+
+@media screen and (min-width:461px) and (max-width:575px) {
+    .contact-box{
+        flex-direction: column;
+        margin: 0 10%;
+        padding-top: 15% !important;
+        padding: 0;
+        margin-left: 20%;
+    }
+    .contact-form{
+        width: 80%;
+    }
+    .name-email{
+        width: 90%;
+        flex-direction: column;
+        row-gap: 3vh;
+    }
+    .add-phone{
+        width: 90%;
+        flex-direction: column;
+        row-gap: 3vh;
+    }
+    .contact-form textarea{
+        width: 90%;
+    }
+    input[type="submit"]{
+        width: 100%;
+    }
+    .contact-section{
+        height: 1245px;
+    }
+    .address-details{
+        width: 94%;
+        margin-top: 9%;
+    }
+    .contact-form h2{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width:361px) and (max-width:460px) {
+    .contact-box{
+        flex-direction: column;
+        margin: 0 10%;
+        padding-top: 20% !important;
+        padding: 0;
+        margin-left: 12%;
+    }
+    .contact-form{
+        width: 86%;
+    }
+    .name-email{
+        width: 90%;
+        flex-direction: column;
+        row-gap: 3vh;
+    }
+    .add-phone{
+        width: 90%;
+        flex-direction: column;
+        row-gap: 3vh;
+    }
+    .contact-form textarea{
+        width: 90%;
+    }
+    input[type="submit"]{
+        width: 100%;
+    }
+    .contact-section{
+        height: 1205px;
+    }
+    .address-details{
+        width: 94%;
+        margin-top: 9%;
+    }
+    .contact-form h2{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .contact-box{
+        flex-direction: column;
+        margin: 0 5%;
+        padding-top: 20% !important;
+        padding: 0;
+    }
+    .contact-form{
+        width: 95%;
+    }
+    .name-email{
+        width: 90%;
+        flex-direction: column;
+        row-gap: 3vh;
+    }
+    .add-phone{
+        width: 90%;
+        flex-direction: column;
+        row-gap: 3vh;
+    }
+    .contact-form textarea{
+        width: 90%;
+    }
+    input[type="submit"]{
+        width: 100%;
+    }
+    .contact-section{
+        height: 1205px;
+    }
+    .address-details{
+        width: 94%;
+        margin-top: 9%;
+    }
+    .contact-form h2{
+        font-size: 1.5rem;
+    }
+}
+
+/* contact-section :end */
+
+/* Footer start */
+
+.footer{
+    color: #ffffff;
+    background-color: #333333;
+    padding-bottom: 2%;
+    /* padding: 6vh; */
+    /* margin-top: 20px; */
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 40px; */
+    width: 100%;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 45px;
+    text-align: center;
+    align-items: center;
+}
+
+.contentone{
+    width: 70%;
+    margin-top: 49px;
+    margin-bottom: 49px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.875rem;
+}
+
+.footer-two span{
+    font-size: 0.8rem;
+    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.link2{
+    color: #e5d9e3;
+    text-decoration: underline;
 }
