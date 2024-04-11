@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Set Timeout function</h1>
+    <p>Click here to open the DOM youtube channel (leela Web Dev)</p>
+    <button onclick="newWindow()">Click now</button>
+
+    <script>
+        function newWindow(){
+            let url="https://youtube.com/leelawebdev";
+            let windowOpen= window.open(url,'','width=400,height=400');
+        
+            setTimeout(() => {
+                windowOpen.close();
+                document.write("Time is up");
+            },5000);
+        }
+
+        function closeWindow() {
+            if (windowOpen) {
+                windowOpen.close();
+                document.write("Closed successfully");
+            }
+        }
+    </script>
+</body>
+
+</html>
