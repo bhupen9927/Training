@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Create an element / or cloning of an element</h1>
+    <ul>
+        <li>item 1</li>
+    </ul>
+
+    <script>
+        let ulElement=document.querySelector('ul');
+
+        let liElement=document.querySelector('li');
+
+        setInterval(()=>{
+            ulElement.appendChild(liElement.cloneNode(true));
+        },5000)
+    </script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Create an html document dynamically</h1>
+
+
+    <script>
+        let newPara=document.createElement('p')
+        // newPara.textContent="This is dynaamically addes para";
+
+        newPara.innerHTML="This is dynaamically added para";
+
+        // find the parent elemet
+        let body=document.querySelector('body');
+        body.appendChild(newPara);
+        console.log(body);
+
+        let newPara1=document.createElement('p')
+        // newPara.textContent="This is dynaamically addes para";
+
+        newPara1.innerHTML="This is dynaamically added para";
+
+        // find the reference elemet
+        let h1Element= document.querySelector('h1');
+        console.log(h1Element);
+        // call insertBefore Method
+        body.insertBefore(newPara1,h1Element);
+
+    </script>
+</body>
+</html>
