@@ -11,21 +11,20 @@
     <button onclick="newWindow()">Click now</button>
 
     <script>
+        let demo;
         function newWindow(){
+           
             let url="https://youtube.com/leelawebdev";
             let windowOpen= window.open(url,'','width=400,height=400');
+            console.log(windowOpen,"aaaaaaaaaa")
+          
         
             setTimeout(() => {
-                windowOpen.close();
+                // closeWindow()
+                console.log(windowOpen)
+                window.close();
                 document.write("Time is up");
             },5000);
-        }
-
-        function closeWindow() {
-            if (windowOpen) {
-                windowOpen.close();
-                document.write("Closed successfully");
-            }
         }
     </script>
 </body>
