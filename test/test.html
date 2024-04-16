@@ -1,100 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<style>
-/* Add some style to the form */
-.container {
-  width: 300px;
-  padding: 16px;
-  background-color: white;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
-.container input[type=text], .container input[type=email], .container input[type=tel], .container textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
-
-.container input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.container input[type=submit]:hover {
-  background-color: #45a049;
-}
-
-/* Style for labels */
-.container label {
-  display: block;
-  font-weight: bold;
-}
-
-/* Style for input fields */
-.container .half-width {
-  width: calc(50% - 8px); /* Adjust width to fit two fields in one row */
-  display: inline-block;
-  margin-right: 8px;
-}
-
-/* Clearfix to clear the floats */
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-/* Adjustments for name and email fields */
-.container .name-email {
-  display: inline-block;
-  width: calc(50% - 4px);
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details Summary Background Color</title>
+    <style>
+        /* CSS for the active background color */
+        summary.active {
+            background-color: lightblue;
+        }
+    </style>
 </head>
 <body>
-
-<h2>Contact Form</h2>
-
-<div class="container">
-  <form action="/submit_form" method="post">
-    <div class="clearfix">
-      <div class="name-email">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" placeholder="Enter your name" class="half-width" required>
-      </div>
-      <div class="name-email">
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" placeholder="Enter your email" class="half-width" required>
-      </div>
+    <div class="question-box">
+        <details>
+            <summary id="questionSummary">What factors should I consider when purchasing homeowners insurance?
+                <div class="plus">
+                    <svg class="u-svg-link-plus" preserveAspectRatio="xMidYMin slice" viewBox="0 0 426.66667 426.66667" style="">
+                        <use xlink:href="#svg-b6d8"></use>
+                    </svg>
+                    <svg class="u-svg-content-plus" viewBox="0 0 426.66667 426.66667" id="svg-b6d8">
+                        <path d="m405.332031 192h-170.664062v-170.667969c0-11.773437-9.558594-21.332031-21.335938-21.332031-11.773437 0-21.332031 9.558594-21.332031 21.332031v170.667969h-170.667969c-11.773437 0-21.332031 9.558594-21.332031 21.332031 0 11.777344 9.558594 21.335938 21.332031 21.335938h170.667969v170.664062c0 11.777344 9.558594 21.335938 21.332031 21.335938 11.777344 0 21.335938-9.558594 21.335938-21.335938v-170.664062h170.664062c11.777344 0 21.335938-9.558594 21.335938-21.335938 0-11.773437-9.558594-21.332031-21.335938-21.332031zm0 0"></path>
+                    </svg>
+                </div>
+            </summary>
+            <p>Answer. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id suscipit ex. Suspendisse rhoncus laoreet purus quis elementum. Phasellus sed efficitur dolor, et ultricies sapien. Quisque fringilla sit amet dolor commodo efficitur. Aliquam et sem odio. In ullamcorper nisi nunc, et molestie ipsum iaculis sit amet.</p>
+        </details>
     </div>
 
-    <div class="clearfix">
-      <label for="address">Address:</label>
-      <input type="text" id="address" name="address" placeholder="Enter your address" class="half-width" required>
-      <label for="phone">Phone:</label>
-      <input type="tel" id="phone" name="phone" pattern="\+[0-9]{1,3}[0-9]{10}" placeholder="Enter your phone number" class="half-width" required>
-    </div>
+    <script>
+        // Get the summary element
+        const questionSummary = document.getElementById('questionSummary');
 
-    <div class="clearfix">
-      <label for="message">Message:</label>
-      <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
-    </div>
-
-    <input type="submit" value="Submit">
-  </form>
-</div>
-
+        // Add click event listener to the summary element
+        questionSummary.addEventListener('click', function() {
+            // Toggle the active class to change the background color
+            this.classList.toggle('active');
+        });
+    </script>
 </body>
 </html>
