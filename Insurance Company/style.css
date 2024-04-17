@@ -2202,6 +2202,10 @@ input[type="submit"] {
     font-size: 1.1rem;
 }
 
+input[type="submit"]:hover{
+    background-color: #f16fa9;
+}
+
 @media screen and (min-width:992px) and (max-width:1199px) {
     .contact-form{
         height: 421px;
