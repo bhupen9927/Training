@@ -22,5 +22,6 @@ function getDetails(){
     let message=document.getElementById('message');
 
     message.textContent=`Hi ${name} can i have your ${animal}`;    
-
 }
+
+// set interval

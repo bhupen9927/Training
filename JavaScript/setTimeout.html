@@ -10,23 +10,9 @@
     <p>Click here to open the DOM youtube channel (leela Web Dev)</p>
     <button onclick="newWindow()">Click now</button>
 
-    <script>
-        let demo;
-        function newWindow(){
-           
-            let url="https://youtube.com/leelawebdev";
-            let windowOpen= window.open(url,'','width=400,height=400');
-            console.log(windowOpen,"aaaaaaaaaa")
-          
-        
-            setTimeout(() => {
-                // closeWindow()
-                console.log(windowOpen)
-                window.close();
-                document.write("Time is up");
-            },5000);
-        }
-    </script>
+     <div id="output"></div>
+
+    <script type="text/javascript" src="set.js"></script>
 </body>
 
 </html>
