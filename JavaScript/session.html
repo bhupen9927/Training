@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Session Storage Example</title>
+</head>
+<body>
+
+<script>
+    // Set data in sessionStorage
+    sessionStorage.setItem("username", "John");
+    sessionStorage.setItem("usernames", "bhuppi");
+
+    // Get data from sessionStorage
+    var username = sessionStorage.getItem("username");
+    console.log("Username:", username); // Output: "John"
+
+    // Remove data from sessionStorage
+    sessionStorage.removeItem("username");
+
+    // Check if data is removed
+    var removedUsername = sessionStorage.getItem("username");
+    console.log("Removed Username:", removedUsername); // Output: null
+</script>
+
+</body>
+</html>
