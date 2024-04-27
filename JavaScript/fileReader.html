@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>File Reader Example</title>
+</head>
+<body>
+
+<input type="file" id="fileInput" onchange="handleFileSelect(event)">
+<div id="fileContent"></div>
+
+<script>
+    function handleFileSelect(event) {
+        const file = event.target.files[0];
+        const reader = new FileReader();
+
+        reader.onload = function(event) {
+            const contents = event.target.result;
+            document.getElementById('fileContent').innerText = contents;
+        };
+
+        reader.onerror = function(event) {
+            console.error("File could not be read! Code " + event.target.error.code);
+        };
+
+        reader.readAsText(file);
+    }
+</script>
+
+</body>
+</html>
