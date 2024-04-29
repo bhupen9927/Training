@@ -1,0 +1,538 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html body .container{
+    width: 100%;
+    background-color: white;
+}
+
+html body .container .header-container{
+    width: 100%;
+    color: #ffffff;
+    background-color: white;
+}
+
+/* Header section start=> */
+
+
+html body .container .header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    min-height: 80px;
+}
+
+html body .logoicon{
+    display: flex;
+    align-items: center;
+}
+
+html body .logoicon img{
+    width: 64px;
+    height: 32px;
+}
+
+html body .menu-btn {
+    cursor: pointer;
+    padding: 10px;
+    background:none;
+    color:black;
+    text-align: center;
+    border: none;
+    font-size: 2rem;
+}
+
+#menuContent {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px; 
+    height: 100%;
+    background-color:black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: left 0.3s ease;
+    padding: 20px;
+    box-sizing: border-box;
+    opacity: 0.85;
+}
+
+#menuContent ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 64px;
+    text-align: center;
+}
+
+#menuContent ul li {
+    margin-bottom: 5px;
+    font-size: 1.25rem;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+}
+
+#menuContent ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+html body .close-btn {
+    position: absolute;
+    top: 15px;
+    right: 17px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 28px;
+}
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    html body .container .header{
+        max-width: 940px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    html body .container .header{
+        max-width: 740px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    html body .container .header{
+        max-width: 540px;
+    }
+}
+@media screen and (min-width:361px) and (max-width:575px) {
+    html body .container .header{
+        max-width: 340px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    html body .container .header{
+        max-width: 90%;
+    }
+}
+
+@media screen and (min-width:991px) {
+    html body .menu-button{
+        display: none;
+    }
+    html body .nav-bar{
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        grid-gap: 40px;
+        font-size: 1rem;
+        letter-spacing: normal;
+        font-family: 'Open Sans', sans-serif;
+        margin-right: 20px;
+    }
+    html body .nav-bar a{
+        color: black !important;
+        text-decoration: none;
+    }
+    html body .nav-bar a:hover{
+        color: #ec6011 !important;
+    }
+}
+
+@media screen and (max-width:991px){
+    html body .nav-bar{
+        display: none;
+    }
+}
+
+/* Header section end. */
+
+/* Hero=section Start */
+html body .container .hero-section{
+    color: #111111;
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+html body .hero-box{
+    margin: -21px;
+    display: flex;
+    flex-direction: row;
+    height:860px;
+}
+
+html body .teach-yourself{
+    margin: 90px auto 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 21px solid transparent;
+    width: 38%;
+}
+
+.teach-yourself h1{
+    font-size: 3.4375rem;
+    font-weight: 700;
+    font-family: "Fjalla One";
+    line-height: 1.1;
+    color: #888351;
+    margin-bottom: 28px;
+}
+
+.teach-yourself p{
+    font-size: 1.125rem;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+}
+
+.image-link-text{
+    font-style: italic;
+    font-size: 1rem !important;
+    line-height: 1.6 !important;
+    margin-top: 20px;
+}
+
+.image-link{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    border-bottom: 2px solid #888351;
+}
+
+.primary-button{
+    padding: 15px 43px 15px 42px;
+    margin: 45px auto 0 0;
+    text-transform: uppercase;
+    letter-spacing: normal;
+    font-size: 1rem;
+    background-image: none;
+    text-align: center;
+    font-weight: 700;
+    border: 2px solid #888351;
+    color: #888351;
+    background:transparent;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.primary-button:hover{
+    color: white !important;
+    background-color:#888351 !important;
+}
+
+html body .hero-section-images{
+    margin: 40px auto 40px 0;
+    border: 21px solid transparent;
+    width: 61.66666667%;;
+}
+
+.first-box{
+    width: 531px;
+    height: 384px;
+    background-image: none;
+    margin: 264px auto 0 72px;
+    background-color: #888351;
+}
+
+.second-box{
+    width: 447px;
+    height: 356px;
+    background-image: none;
+    margin: -603px auto 0 0;
+    border: 16px solid #888351;
+}
+
+.line-image{
+    background-image: url("https://images03.nicepage.com/c461c07a441a5d220e8feb1a/530cf97bb01a53af93448682/m.png");
+    width: 393px;
+    min-height: 248px;
+    margin: 39px 0 0 auto;
+}
+
+.teacher-image img{
+    width: 564px;
+    height: 526px;
+    box-shadow: 0 0 35px 0 rgba(0, 0, 0, 0.5);
+    margin: -721px 0 0 auto;
+    object-fit: cover;
+    display: block;
+}
+
+@media screen and (min-width:992px) and (max-width:1199px){
+    html body .container .hero-section{
+        max-width:940px
+    }
+    html body .hero-box{
+        height:706px;
+    }
+    .first-box{
+        width: 381px;
+        height: 278px;
+        margin-top: 264px;
+        margin-left: 66px;
+    }
+    .second-box{
+        margin-top: -497px;
+    }
+    .line-image{
+        width: 323px;
+        min-height: 232px;
+        margin-top: -74px;
+    }
+    .teacher-image img{
+        width: 454px;
+        height: 445px;
+        margin-top: -584px;
+        margin-right: 0;
+        margin-bottom: -124px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px){
+    html body .container .hero-section{
+        max-width:740px
+    }
+    html body .hero-box{
+        height:706px;
+    }
+    .first-box{
+        width: 338px;
+        height: 209px;
+        margin-top: 264px;
+        margin-left: 40px;
+    }
+    .second-box{
+        height: 292px;
+        margin-top: -427px;
+        width: auto;
+    }
+    .line-image{
+        width: 323px;
+        min-height: 232px;
+        margin-top: -27px;
+    }
+    .teacher-image img{
+        width: 341px;
+        height: 373px;
+        margin-top: -562px;
+        margin-right: 0;
+        margin-bottom: -94px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:767px){
+    html body .container .hero-section{
+        max-width:540px
+    }
+    html body .hero-box{
+        height:auto;
+        flex-direction: column;
+    }
+    html body .teach-yourself{
+        width: 92%;
+        margin-top: 40px;
+    }
+    html body .hero-section-images{
+        height: 470px;
+        width: 100%;
+        border: none;
+    }
+    .first-box{
+        width: 420px;
+        height: 228px;
+        margin-top: 191px;
+        margin-left: 63px;
+    }
+    .second-box{
+        height: 292px;
+        margin: -425px auto 0 0;
+        width: 447px;
+    }
+    .line-image{
+        width: 323px;
+        min-height: 252px;
+        margin-top: -82px;
+        margin-left: 220px;
+    }
+    .teacher-image img{
+        width: 437px;
+        height: 426px;
+        margin-top: -560px;
+        margin-right: 0px;
+        margin-left: 107px;
+        margin-bottom: -94px;
+    }
+}
+
+@media screen and (min-width:361px) and (max-width:575px){
+    html body .container .hero-section{
+        max-width:340px;
+    }
+    html body .hero-box{
+        height:auto;
+        flex-direction: column;
+        margin: auto;
+    }
+    html body .teach-yourself{
+        width: 92%;
+        margin-top: 40px;
+    }
+    .teach-yourself h1{
+        font-size: 2.25rem;
+    }
+    html body .hero-section-images{
+        height: 470px;
+        width: 100%;
+        border: none;
+        margin-top: 0;
+    }
+    .first-box{
+        width: 255px;
+        height: 201px;
+        margin-top: 210px;
+        margin-right: 40px;
+        margin-left: 45px;
+    }
+    .second-box{
+        height: 249px;
+        width: 261px;
+        margin-top: -378px;
+        margin-right: auto;
+        margin-left: 0;
+    }
+    .line-image{
+        width: 212px;
+        min-height: 264px;
+        margin-top: -82px;
+    }
+    .teacher-image img{
+        width: 268px;
+        height: 332px;
+        margin-top: -500px;
+        
+    }
+}
+
+@media screen and (max-width:360px){
+    html body .container .hero-section{
+        max-width:100%
+    }
+    html body .hero-box{
+        height:auto;
+        flex-direction: column;
+        margin: auto;
+    }
+    html body .teach-yourself{
+        width: 92%;
+        margin-top: 40px;
+        border: none;
+        margin:10% 4%;
+    }
+    .teach-yourself h1{
+        font-size: 2.25rem;
+    }
+    html body .hero-section-images{
+        height: 470px;
+        width: 95%;
+        border: none;
+        margin: 0 2%;
+        margin-bottom: 10% !important;
+    }
+    .first-box{
+        width: 61%;
+        height: 201px;
+        margin-top: 210px;
+        margin-right: 40px;
+        margin-left: 45px;
+    }
+    .second-box{
+        height: 249px;
+        width: 76%;
+        margin-top: -378px;
+        margin-right: auto;
+        margin-left: 0;
+    }
+    .line-image{
+        width: 72%;
+        min-height: 264px;
+        margin-top: -82px;
+    }
+    .teacher-image img{
+        width: 78%;
+        height: 332px;
+        margin-top: -500px;
+        
+    }
+}
+
+
+/* .hero-section end */
+
+/* Footer start */
+
+html body .container .footer{
+    color: #ffffff;
+    background-color: #333333;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+html body .footer-content{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 45px;
+    text-align: center;
+    align-items: center;
+}
+
+ html body .contentone{
+    width: 70%;
+    margin-top: 49px;
+    margin-bottom: 49px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.875rem;
+}
+
+.footer-two span{
+    font-size: 0.8rem;
+    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.link2{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #e7e4c9;
+}
+
+.link2:hover{
+    color: #a1a1a1;
+    text-decoration: none;
+}
+
+@media screen and (min-width:361px) and (max-width:575px) {
+    html body .contentone{
+        width: 331px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    html body .contentone{
+        width: 100%;
+    }
+}
