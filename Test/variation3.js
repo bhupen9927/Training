@@ -1,11 +1,11 @@
-// Get the product policies
+// Get the product block element
 var productBlock = document.querySelector('.product-single__meta > div:nth-child(2) > .product-block:nth-child(1) .product__policies');
 
 // Check if the .product__policies element exists
 if (!productBlock) {
     console.error("Error: '.product__policies' element not found.");
 } else {
-    // Create SVG icon 
+    // Create the SVG icon element
     var svgIcon = document.createElementNS("http://www.w3.org/2000/svg", "svg");
     svgIcon.setAttribute("xmlns", "http://www.w3.org/2000/svg");
     svgIcon.setAttribute("width", "13");
@@ -14,19 +14,19 @@ if (!productBlock) {
     svgIcon.classList.add('svg-icon-size');
     svgIcon.innerHTML = '<path d="M6.5 3.45055V3.44444M6.5 9.55556V5.27778M12 6.5C12 9.53759 9.53759 12 6.5 12C3.46244 12 1 9.53759 1 6.5C1 3.46244 3.46244 1 6.5 1C9.53759 1 12 3.46244 12 6.5Z" stroke="black" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round"></path>';
 
-    // Create size info link
+    // Create the size info link
     var sizeInfoLink = document.createElement('a');
     sizeInfoLink.href = '#';
     sizeInfoLink.textContent = 'Size chart';
     sizeInfoLink.classList.add('size-info-link');
 
-    // Insert SVG icon before size info link
+    // Insert the SVG icon before the size info link
     productBlock.parentNode.insertBefore(svgIcon, productBlock.nextSibling);
 
-    // Insertsize info link after SVG icon
+    // Insert the size info link after the SVG icon
     svgIcon.parentNode.insertBefore(sizeInfoLink, svgIcon.nextSibling);
 
-    // Create popup 
+    // Create the popup element
     var popup = document.createElement('div');
     popup.id = 'size-info-popup';
     popup.classList.add('popup');
@@ -34,9 +34,9 @@ if (!productBlock) {
     var popupContent = document.createElement('div');
     popupContent.classList.add('popup-content');
 
-    // Add content to popup
+    // Add content to the popup
     popupContent.innerHTML = `
-        <span class="close-popup" style="cursor: pointer; position: absolute; top: 4px; right: 9px;">&times;</span>
+        <span class="close-popup" style="cursor: pointer; position: absolute; top: 10px; right: 10px;">&times;</span>
         <p style="font-weight: 700; ">Regular — Fits Most (Small to Large)</p>
         <p style="font-weight: 400; ">This bracelet is designed to fit most wrists, with an adjustable size ranging from 16 CM (6") to 19 CM (7.5"). It comes with a 2 CM (1") extension chain that can be used to increase the length up to 20 CM (8"). If you're unsure about your size, this bracelet will fit the majority of our customers.</p>
         <p style="font-weight: 700; ">Extra Large (Fits XL–XXL)</p>
@@ -46,27 +46,28 @@ if (!productBlock) {
         <p style="font-weight: 400; ">Read more on the Details Tab on each product page.</p>
     `;
 
+    // Append popup content to the popup element
     popup.appendChild(popupContent);
 
-    // Insert popup after the size info link
+    // Insert the popup after the size info link
     sizeInfoLink.insertAdjacentElement('afterend', popup);
 
-    // Create overlay
+    // Create the overlay element
     var overlay = document.createElement('div');
     overlay.classList.add('overlay');
     document.body.appendChild(overlay);
 
-    // Add click event listener to size info link
+    // Add click event listener to the size info link
     sizeInfoLink.addEventListener('click', function(event) {
         event.preventDefault();
-        // Displaypopup and overlay
+        // Display the popup and overlay
         popup.style.display = 'block';
         overlay.style.display = 'block';
-        //make popup appear above overlay
+        // Adjust z-index to make popup appear above overlay
         popup.style.zIndex = '10001';
     });
 
-    // Add click event listener to close button
+    // Add click event listener to the close button
     var closePopupButton = popup.querySelector('.close-popup');
     closePopupButton.addEventListener('click', function() {
         // Hide the popup and overlay
@@ -74,7 +75,7 @@ if (!productBlock) {
         overlay.style.display = 'none';
     });
 
-    // Close popup when clicked outside of it
+    // Close the popup when clicked outside of it
     window.addEventListener('click', function(event) {
         if (event.target == overlay) {
             // Hide the popup and overlay
@@ -83,7 +84,7 @@ if (!productBlock) {
         }
     });
 
-    // Dynamically add CSS
+    // Dynamically add CSS styles
     var cssStyles = `
         html body .popup {
             display: none;
@@ -96,7 +97,7 @@ if (!productBlock) {
             text-align: left;
         }
 
-        .popup-content {
+    html body    .popup-content {
             background-color: #fefefe;
             margin: 20% auto;
             padding: 45px;
@@ -106,11 +107,11 @@ if (!productBlock) {
             font-family: quasimoda_light, sans-serif;
         }
 
-        .popup-content p {
+    html body    .popup-content p {
             margin-bottom: 15px;
         }
 
-        .close-popup {
+     html body   .close-popup {
             color: black;
             font-size: 31px;
             position: absolute;
@@ -124,7 +125,7 @@ if (!productBlock) {
             text-decoration: none;
         }
 
-        .size-info-link {
+     html body   .size-info-link {
             color: black;
             font-family: Quasimoda;
             font-size: 10px;
@@ -137,7 +138,7 @@ if (!productBlock) {
             text-decoration: underline;
         }
 
-        .svg-icon-size {
+     html body   .svg-icon-size {
             width: 13px;
             height: 13px;
             vertical-align: middle;
@@ -146,7 +147,7 @@ if (!productBlock) {
             background-color: white;
         }
 
-        .overlay {
+    html body    .overlay {
             display: none;
             position: fixed;
             top: 0;
@@ -164,7 +165,7 @@ if (!productBlock) {
                         max-width: 93%;
                     }
 
-                    .popup-content{
+            html body  .popup-content{
                         padding: 45px 13px 20px;
                         font-size: 10px;
                         width: 100%;
@@ -176,6 +177,6 @@ if (!productBlock) {
     var styleElement = document.createElement('style');
     styleElement.textContent = cssStyles;
 
-    // Append style element to the head of the document
+    // Append the style element to the head of the document
     document.head.appendChild(styleElement);
 }

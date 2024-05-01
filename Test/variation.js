@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     // Get the product block element
-    var productBlock = document.querySelector('.product-block');
+    var productBlock = document.querySelector('.product__policies');
 
     // Create the SVG icon element
     var svgIcon = document.createElementNS("http://www.w3.org/2000/svg", "svg");
@@ -27,11 +27,8 @@ document.addEventListener("DOMContentLoaded", function() {
     popup.id = 'size-info-popup';
     popup.classList.add('popup');
 
-
     var popupContent = document.createElement('div');
     popupContent.classList.add('popup-content');
-    // Apply font family and margin to popup content
-    popupContent.style.fontFamily = 'quasimoda_light, sans-serif';
 
     // Add content to the popup
     popupContent.innerHTML = `
@@ -85,4 +82,89 @@ document.addEventListener("DOMContentLoaded", function() {
 
         }
     });
+
+    // Dynamically add CSS styles
+    var cssStyles = `
+        html body .popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+     width: 1049px;
+    transform:translate(-50%, -50%);
+}
+
+.popup-content {
+    background-color: #fefefe;
+    margin: 20% auto;
+    padding: 45px;
+    border: 1px solid #888;
+    width: 60%;
+    position: relative;
+    font-size: 12px;
+    font-family: quasimoda_light, sans-serif;
+}
+
+.popup-content p{
+    margin-bottom: 15px;
+}
+
+.close-popup {
+    color: black;
+    float: right;
+    font-size: 38px;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.close-popup:hover,
+.close-popup:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+html body .size-info-link{
+    color: black;
+    font-family: Quasimoda;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    display: inline-block; /* Added */
+    vertical-align: middle;
+    margin-left:5px;
+}
+
+.svg-icon-size {
+    width: 13px; /* Set width */
+    height: 13px; /* Set height */
+    margin-right: 5px; /* Adjust margin as needed */
+    vertical-align: middle; /* Align vertically */
+    cursor: pointer; /* Add cursor pointer */
+    fill: none;
+    background-color: white;
+}
+
+@media screen and (max-width:767px){
+    html body .popup{
+        width: 100%;
+        max-width: 93%;
+    }
+
+    .popup-content{
+        padding: 45px 13px 20px;
+        font-size: 10px;
+        width: 91%;
+    }
+
+}
+
+    `;
+
+    var styleElement = document.createElement('style');
+    styleElement.textContent = cssStyles;
+
+    // Append the style element to the head of the document
+    document.head.appendChild(styleElement);
 });
