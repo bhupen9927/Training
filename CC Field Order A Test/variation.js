@@ -26,22 +26,16 @@
 
     /* Variation Init */
     function init() {
-      const nameInput = document.querySelector('input[name="dwfrm_billing_creditCardFields_cardOwner"]');
-      const cardNumberInput = document.querySelector('#cardNumber-container');
+      const nameInput = document.querySelector('.credit-card-form > div:nth-child(2)');
+      const cardNumberInput = document.querySelector('.credit-card-form > div:nth-child(3)');
 
       if (nameInput && cardNumberInput) {
-        const nameInputParent = nameInput.parentNode.parentNode;
-        const cardNumberInputParent = cardNumberInput.parentNode.parentNode;
-        nameInputParent.insertBefore(cardNumberInput.parentNode, nameInputParent.firstChild);
-        cardNumberInputParent.insertBefore(nameInput.parentNode, cardNumberInputParent.firstChild);
-
-      // adding style for maintain the space between cardholdername and card number
-      nameInputParent.style.marginBottom = '10px'; 
-}
+          nameInput.insertAdjacentElement('beforebegin', cardNumberInput);
+      }
     }
 
     /* Initialize variation */
-    waitForElement('body', init, 50, 15000);
+    waitForElement('.credit-card-form > div:nth-child(2)', init, 50, 15000);
   } catch (e) {
     if (debug) console.log(e, "error in Test" + variation_name);
   }
