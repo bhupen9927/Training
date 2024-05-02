@@ -66,6 +66,16 @@ if (!productBlock) {
         popup.style.zIndex = '10001';
     });
 
+    
+       svgIcon.addEventListener('click', function(event) {
+        event.preventDefault();
+        // Displaypopup and overlay
+        popup.style.display = 'block';
+        overlay.style.display = 'block';
+        //make popup appear above overlay
+        popup.style.zIndex = '10001';
+    });
+
     // Add click event listener to close button
     var closePopupButton = popup.querySelector('.close-popup');
     closePopupButton.addEventListener('click', function() {
