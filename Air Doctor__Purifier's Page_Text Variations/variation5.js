@@ -30,8 +30,6 @@
         const AD3500_desc = document.querySelector("#varprod_nu_135527");
         if (AD3500_desc) {
             AD3500_desc.innerHTML = `Our most popular model. Powerful enough to protect the air in <b>bedrooms, living rooms, kitchens.</b> Circulates the air <b>5x/hour in a 504 sq. ft. space</b> (as recommended by the CDC to effectively remove allergens like smoke, bacteria, viruses, dust, and pollen).`;
-        }else {
-        console.log("AD3500_desc with ID 'varprod_nu_135527' not found.");
         }
 
         const AD2000_desc = document.querySelector("#varprod_nu_135595");
