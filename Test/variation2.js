@@ -27,7 +27,7 @@
     /* Variation Init */
     function init() {
 
-    const productBlock = document.querySelector('.product__policies');
+    const productBlock = document.querySelector('.product-single__meta > div:nth-child(2) > .product-block:nth-child(1) .product__policies');
 
     if (!productBlock) {
         console.error("Error: '.product__policies' element not found.");
@@ -96,11 +96,11 @@
             });
         }
     }
-    
+
     }
 
     /* Initialize variation */
-    waitForElement('body', init, 50, 15000);
+    waitForElement('.product-single__meta > div:nth-child(2) > .product-block:nth-child(1) .product__policies', init, 50, 15000);
     console.log("code executed");
   } catch (e) {
     if (debug) console.log(e, "error in Test" + variation_name);
