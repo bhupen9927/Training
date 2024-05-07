@@ -1,0 +1,120 @@
+[class*='pictureWrapper']::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0); 
+    opacity: 0;
+    transition: opacity 0.3s ease; 
+    z-index: 1; 
+}
+
+[class*='cardWrapper']>a:hover [class*='pictureWrapper']::before {
+    background-color: rgba(0, 0, 0, 0.5); 
+    opacity: 1;
+}
+
+[class*='cardWrapper']>a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius:20px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0); 
+    opacity: 0;
+    transition: opacity 0.3s ease; 
+    z-index: 2; 
+}
+
+[class*='cardWrapper']>a:hover::before {
+    background-color: rgba(0, 0, 0, 0.1); 
+}
+
+.quote-button {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    background: rgb(229, 37, 0);
+    padding: 4px 36px 4px 16px;
+    border-radius: 16px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration: none;
+    z-index: 3;
+    position: relative; 
+    margin-bottom: 10px;
+    pointer-events: all;
+}
+
+.quote-button::after {
+    content: "";
+    background-image: url(/icons/media/arrow-right-white.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    position: absolute;
+    right: px;
+    left:100px;
+    top: 50%;
+    width: 16px;
+    height: 16px;
+    margin: -8px 0px 0px;
+}
+
+.learn-more-button {
+    color: black;
+    cursor: pointer;
+    background: white;
+    padding: 4px 36px 4px 16px;
+    border-radius: 16px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration: none;
+    z-index: 3; 
+    position: relative; 
+    border: none;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.button-wrapper {
+    display: none;
+}
+
+
+[class*='cardWrapper']>a:hover .button-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    z-index: 2; 
+}
+
+@media screen and (min-width: 1024px) and (max-width:1144px) {
+    .learn-more-button{
+        padding: 4px 18px 4px 16px;
+    }
+    .quote-button{
+        padding: 4px 18px 4px 16px;
+        width:130px
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width:865px) {
+    .learn-more-button{
+        padding: 4px 18px 4px 16px;
+    }
+    .quote-button{
+        padding: 4px 18px 4px 16px;
+        width:130px
+    }
+}
+
+[class*='backgroundCss-emptyStyles-emptyStyles'] [class*='cardBottomCta']{
+    display:none;
+}
