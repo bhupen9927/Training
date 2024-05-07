@@ -1,0 +1,6 @@
+{
+  "files": ["./variation1/variation.css", "./variation1/variation.js"],
+  "urls": [
+    "https://www.regus.com/en-gb/results?lat=51.528869438730936&lng=-0.10159865021706072&radius=41.02357542698658&northeastLat=51.766185156405676&northeastLng=0.3536473214626268&southwestLat=51.29031022773593&southwestLng=-0.5568446218967482&search=London%2C+UK&ws=office-space&lang=en-gb&trigger=map&sort=near&place_id=ChIJdd4hrwug2EcRmSrV3Vo6llI"
+  ]
+}
