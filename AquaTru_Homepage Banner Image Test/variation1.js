@@ -28,7 +28,7 @@
     function init() {
         const imgElement = document.querySelector('.tg-bg >img');
         if (imgElement) {
-            imgElement.src = 'https://i.ibb.co/WzDbLYw/Group-1016.png';
+            imgElement.src = 'https://i.ibb.co/Vvjs3BC/AQT-Carafe-kitchen-MRZ1351-1.png';
         }
     }
 

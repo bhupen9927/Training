@@ -1,6 +1,6 @@
 .tg-custom>div:nth-child(1){
     background-image:url("https://i.ibb.co/WzDbLYw/Group-1016.png");
-    background-position-x:right;
+    background-position-x: right;
 }
 
 @media screen and (max-width: 849px) {
@@ -8,3 +8,12 @@
         width: 100%;
     }
 }
+
+.hide-for-medium >div>div>img{
+    display:none;
+}
+
+.show-for-small >div>div>img{
+    display:none;
+}
+
