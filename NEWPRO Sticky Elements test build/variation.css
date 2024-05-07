@@ -1,0 +1,42 @@
+.sticky-form-offer-text-wrap{
+    display: none !important;
+}
+
+.sticky-form .form-group{
+    display: none;
+}
+
+.sticky-form >div:nth-child(7){
+    display: block !important;
+}
+
+.sticky-form >div:nth-child(7)>input{
+    height: 4.5rem;
+    width: 180px;
+    font-size: 1.5rem;
+}
+
+.sticky-form-phone-wrap{
+    margin-left:80% !important;
+}
+
+@media screen and (min-width:991px) and (max-width:1280px) {
+    .sticky-form-phone-wrap{
+        margin-left:77% !important;
+    }
+}
+
+.sticky-wrap>div:nth-child(3){
+    flex-direction:row;
+}
+
+
+/* for Mobile */
+
+.app-nav-section >button:nth-child(1){
+    display: none;
+}
+
+.app-nav-section >a:nth-child(4){
+    display:none;
+}
