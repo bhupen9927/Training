@@ -1,0 +1,24 @@
+html body .eg-delivery_section {
+    padding: 10px;
+    background: #b5debc4d;
+    margin-top: 10px;
+}
+
+html body [itemprop="offers"] .delivery--information .delivery--label {
+    display: none;
+}
+
+html body .eg-delivery_section .eg-heading {
+    font-size: 0.812rem;
+    font-weight: 700;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    line-height: 1.5rem;
+    color: #008115;
+}
+
+html body .eg-delivery_section p:last-of-type {
+    font-size: 0.812rem;
+    font-weight: 600;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    color: #666;
+}
