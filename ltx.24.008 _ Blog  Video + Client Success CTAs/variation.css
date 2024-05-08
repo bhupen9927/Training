@@ -1,0 +1,181 @@
+html body .eg-video-client {
+    width: 100% !important;
+    max-width: 941px !important;
+    margin: auto;
+    background: #27343C !important;
+    padding: 27px 21px !important;
+    display: flex;
+    grid-gap: 14px;
+    margin-top: 40px !important;
+}
+
+html body .eg-video-client h2 {
+    color: #FFF;
+    font-family: "DINNextLTPro-Bold", sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 35px !important;
+    margin-top: 8px !important;
+    text-align: center;
+}
+
+html body .eg-video-image {
+    width: 266px;
+    height: 148px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    margin: 0 !important;
+    cursor: pointer !important;
+}
+
+html body .eg-video-client .eg-ctas a:hover {
+    background: #fff;
+    color: #009CDE;
+    text-decoration: none !important;
+}
+
+html body .eg-video-client .eg-ctas a {
+    padding: 10px 15px !important;
+    border-radius: 25px;
+    border: 1px solid #FFF;
+    background: rgba(170, 170, 170, 0.00);
+    color: #FFF;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 14.08px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    text-decoration: none !important;
+}
+
+html body .eg-video-client .eg-ctas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 22px;
+}
+
+@media only screen and (min-width: 768px) and (max-width:1024px) {
+    html body .eg-video-client .eg-ctas {
+        flex-direction: column !important;
+        grid-gap: 10px;
+        margin-top: 10px;
+    }
+
+    html body .eg-video-client h2 {
+        margin-bottom: 15px !important;
+        font-size: 24px !important;
+    }
+
+    html body .eg-video-client {
+        align-items: center !important;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    html body .eg-video-client {
+        flex-direction: column;
+        align-items: center;
+        padding: 25px 20px;
+        grid-gap: 14px;
+        margin-top: 40px !important;
+    }
+
+    html body .eg-video-client h2 {
+        text-align: center;
+        margin-bottom: 5px !important;
+        margin-top: 0 !important;
+    }
+
+    html body .eg-video-client .eg-ctas {
+        display: flex;
+        flex-direction: column;
+        grid-gap: 18px;
+        margin-top: 6px !important;
+    }
+}
+
+@media only screen and (min-width:450px) and (max-width:767px) {
+    html body .eg-video-image {
+        width: 335px !important;
+        height: 180px !important;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+
+.eg-card-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #00000061;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    pointer-events: none !important;
+    transition: opacity 0.2s linear;
+}
+
+.eg-card-overlay .eg-video {
+    display: none;
+}
+
+.eg-card-overlay .eg-video {
+    display: block !important;
+}
+
+.eg-card-overlay .eg-card-video .eg-new_videos {
+    padding: 25px 22px 22px;
+}
+
+.eg-card-overlay .eg-card-video {
+    width: 700px;
+    margin: auto;
+    background: white;
+    position: relative;
+    padding: 0px !important;
+    box-shadow: 2px 2px 11px rgb(0 0 0 /44%);
+}
+
+html body .eg-video-frame {
+    width: 100% !important;
+    height: 100% !important;
+    aspect-ratio: 16/9.05;
+}
+
+.eg-cut-video {
+    position: absolute;
+    right: -2px;
+    top: -4px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.eg-cut-video svg {
+    fill: #afafaf;
+}
+
+html body.eg-active .eg-card-overlay {
+    display: flex !important;
+    pointer-events: all !important;
+}
+
+html body.eg-active {
+    height: 100vh;
+    overflow: hidden !important;
+}
