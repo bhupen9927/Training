@@ -2,8 +2,14 @@
     display:none;
 } 
 
-#content>section:nth-child(1)>div:nth-child(2)>div:nth-child(1)>div:nth-child(1){
+#content .banner-section:nth-child(1) .slider{
     display:none;
+}
+
+html body .eg-container{
+    display: flex;
+    height: 476px;
+    justify-content: center;
 }
 
 html body .eg-hero-background{
@@ -13,21 +19,18 @@ html body .eg-hero-background{
     background-position: 50% 50%;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    position: relative;
-    right: 0;
     left: 37%;
 }
 html body .eg-hero-container {
     background-color: white !important;
     height: 100%;
     box-shadow: 52px 199px 101px rgb(255 255 255), 52px -121px 101px rgb(255 255 255);
-    width: 41.5%;
+    width: 639px;
     padding-left: 82px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    position: absolute;
-    top: 0;
+    position: relative;
 }
 
 html body .eg-hero-heading {
@@ -66,7 +69,6 @@ html body .eg-shop-cta {
     color: white;
     font-size: 16px;
     font-weight: 700;
-    /* margin-bottom: 10px; */
 }
 
 html body .eg-filter-cta {
@@ -80,18 +82,10 @@ html body .eg-trustLine{
     font-family: "inter";
     font-weight: 400;
 }
-.logo-section >div:nth-child(2)>div:nth-child(1)>div:nth-child(2){
+.logo-section .section-content .img{
     display: none;
 }
-.logo-section >div:nth-child(2)>div:nth-child(1)>div:nth-child(3){
-    display: none;
-}
-.logo-section >div:nth-child(2)>div:nth-child(1)>div:nth-child(4){
-    display: none;
-}
-.logo-section >div:nth-child(2)>div:nth-child(1)>div:nth-child(5){
-    display: none;
-}
+
 html body .eg-trustImg{
     margin-left: 8%;
  }
@@ -105,28 +99,38 @@ html body .eg-trustImg{
         display:flex;
         flex-wrap:wrap;
     }
-    html body .eg-shop-cta{
-        margin-bottom:15px;
-    }
+
     html body .eg-hero-background{
         width:70%;
-        left:33%;
+        height:400px
+    }
+    html body .eg-container{
         height:400px
     }
 }
 @media screen and (min-width:767px) and (max-width:991px){
     html body .eg-hero-background{
-        height:400px;
+        height: 390px;
+        width:90%
+    }
+    html body .eg-hero-container{
+        height:390px;
     }
         html body .eg-hero-container{
         padding-left:5%;
+    }
+    html body .eg-shop-cta{
+        margin-bottom:10px;
     }
 }
 
 @media screen and (min-width:548px) and (max-width:766px){
     html body .eg-hero-background{
-        height:310px;
-        left:39%
+        height:340px;
+        width:50%
+    }
+    html body .eg-container{
+        height:340px
     }
     html body .eg-hero-container{
         width:50%;
@@ -145,6 +149,9 @@ html body .eg-trustImg{
      html body .eg-trustImg{
         width:85%;
     }
+     html body .eg-shop-cta{
+        margin-bottom:10px;
+    }
 }
 #content>section:nth-child(2)>div:nth-child(2){
     display:none;
@@ -153,22 +160,31 @@ html body .eg-trustImg{
 @media screen and (max-width:547px){
     html body .eg-hero-background{
         height:300px;
+        width:100%;
+    }
+    html body .eg-container{
+        display: contents;
     }
     html body .eg-hero-container{
         width:100%;
         padding-left:4.5%;
-        background:transparent !important
+        background:transparent !important;
+        position: absolute;
     }
     html body .eg-hero-heading{
         font-size:22px !important;
         margin-bottom:10px !important;
         line-height: 24.82px;
+        text-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%);
+        text-align: center;
     }
     html body .eg-hero-content{
         font-size:14px !important;
         margin-bottom:10px !important;
         line-height: 20px !important;
         margin-left:10px;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%) !important;
     }
     html body .eg-cta-container{
         display:flex;
@@ -176,11 +192,24 @@ html body .eg-trustImg{
         align-items: center;
         margin: 0 auto;
     }
+    
     html body .eg-trustImg{
         width:85%;
+    }
+    html body .eg-shop-cta{
+        margin:15px 0;
+    }
+    html body .eg-button{
+        padding:10px 20px;
     }
 }
 
 #content>section:nth-child(1){
     display:block !important;
+}
+.header-inner>div:nth-child(4)>ul>li:nth-child(2){
+    display:none;
+}
+.header-inner>div:nth-child(4)>ul>li:nth-child(6){
+    display:none
 }

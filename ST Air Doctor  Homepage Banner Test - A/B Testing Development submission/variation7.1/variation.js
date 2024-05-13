@@ -21,29 +21,28 @@
         clearInterval(interval);
       }, delayTimeout);
     }
-
+  const homePage = `
+    <div class="eg-container">
+      <div class="eg-hero-container">
+        <h2 class="eg-hero-heading">Ready to Breathe Cleaner, Healthier Air?</h2>
+        <p class="eg-hero-content">Say Goodbye to 99.99% of Airborne Allergens, Viruses and Smoke!</p>
+          <div class="eg-cta-container">
+            <a class="eg-shop-cta eg-button" href="https://airdoctorpro.com/purifiers/">Shop Purifiers</a>
+            <a class="eg-filter-cta eg-button" href="https://airdoctorpro.com/store/">Replacement Filters</a>
+          </div>
+      </div>
+        <div class="eg-hero-background">
+        </div>
+    </div>`;
 
 
     /* Variation Init */
     function init() {
-        const homePage = `
-                    <div class="eg-container">
-                        <div class="eg-hero-background">
-                        </div>
-                        <div class="eg-hero-container">
-                            <h2 class="eg-hero-heading">Ready to Breathe Cleaner, Healthier Air?</h2>
-                            <p class="eg-hero-content">Say Goodbye to 99.99% of Airborne Allergens, Viruses and Smoke!</p>
-                            <div class="eg-cta-container">
-                                <a class="eg-shop-cta eg-button" href="https://airdoctorpro.com/purifiers/">Shop Purifiers</a>
-                                <a class="eg-filter-cta eg-button" href="https://airdoctorpro.com/">Replacement Filters</a>
-                            </div>
-                        </div>
-                    </div>`;
-        const targetElement = document.querySelector('#content>section:nth-child(1)>div:nth-child(2)>div:nth-child(1)>div:nth-child(1)');
+        const targetElement = document.querySelector('#content .banner-section:nth-child(1) .slider');
             if (targetElement) {
                 targetElement.insertAdjacentHTML('afterend', homePage);
             } 
-        const trustLine=document.querySelector('.logo-section >div:nth-child(2)>div:nth-child(1)>div:nth-child(1)>div:nth-child(1)>div:nth-child(1)');
+        const trustLine=document.querySelector('.logo-section .section-content .text');
             if (trustLine) {  
                 const imageLink = 'https://i.ibb.co/RYgVndq/image-3-2.png';
                 const imgElement = document.createElement('img');
@@ -61,13 +60,12 @@
     }
 
     /* Initialize variation */
-    waitForElement('#content>section:nth-child(1)>div:nth-child(2)>div:nth-child(1)>div:nth-child(1)', init, 50, 15000);
+    waitForElement('#content .banner-section:nth-child(1) .slider', init, 50, 15000);
   } catch (e) {
     if (debug) console.log(e, "error in Test" + variation_name);
   }
 })();
 
-                        // <img class="eg-hero-img" src="https://i.ibb.co/Gvj7t96/AD3500-Couple-on-Couch-04-24-024-1.png">
 
 
 
