@@ -1,0 +1,170 @@
+#content .banner-section:first-child .section-content,
+#content .banner-section:first-child .section-bg {
+    display: none;
+}
+
+html body .eg-hero-section {
+    width: 100%;
+    background-size: contain !important;
+    background-position-x: right !important;
+    background-repeat: no-repeat !important;
+    background: url(https://i.ibb.co/Gvj7t96/AD3500-Couple-on-Couch-04-24-024-1.png);
+}
+html body .eg-inner-container {
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+html body .eg-right-content {
+    width: 55%;
+    background: linear-gradient(90deg, #FFF 66%, rgba(255, 255, 255, 0.00) 100%);
+    padding: 102px 106px 74px;
+}
+
+html body .eg-right-content h2 {
+    color: #000;
+    font-family: "PT Sans";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 9px !important;
+}
+
+html body .eg-right-content > p {
+    color: #000;
+    font-family: "PT Sans";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-shadow: none !important;
+    margin-bottom: 12px !important;
+}
+
+html body .eg-right-content .eg-hero-ctas {
+    display: flex;
+    grid-gap: 20px;
+}
+
+html body .eg-hero-ctas a {
+    display: flex;
+    padding: 15px 30px;
+    align-items: center;
+    gap: 10px;
+    font-family: "PT Sans";
+    font-size: 16px;
+    font-style: normal;
+    line-height: normal;
+    border-radius: 300px;
+}
+
+html body .eg-hero-ctas .eg-purifiers {
+    color: #FFF;
+    background: #FF8700;
+    font-weight: 700;
+}
+
+html body .eg-hero-ctas .eg-filters {
+    background: #FFF;
+    color: #279ED8;
+    font-weight: 400;
+    border: 1px solid #279ED8;
+}
+
+html body .eg-right-content,
+html body .eg-left-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#content .logo-section {
+    padding-top: 40px;
+}
+.logo-section .section-content > div > div:nth-child(4) img {
+    filter: grayscale(1);
+}
+
+#content .logo-section {
+    padding-top: 40px;
+}
+.logo-section .section-content > div > div:nth-child(4) img {
+    filter: grayscale(1);
+}
+
+.logo-section .section-content .text {
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+@media screen and (max-width: 575px) {
+    #content .banner-section:nth-child(2){
+        display:none;
+    }
+    #content>.banner-section:first-child{
+        display:block !important;
+    }
+    html body .eg-hero-ctas a {
+        padding: 15px 20px;
+    }
+    html body .eg-right-content .eg-hero-ctas {
+        grid-gap: 15px;
+    }
+    html body .eg-right-content {
+        padding: 102px 15px 74px;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+    html body .eg-right-content {
+        width: 65%;
+        padding-left: 15px;
+    }
+    
+}
+
+@media screen and (min-width: 575px) and (max-width: 767px) {
+    html body .eg-right-content {
+        width: 85%;
+        padding-left: 15px;
+    }
+}
+
+@media screen and (max-width: 575px){
+    html body .eg-right-content {
+        width: 100%;
+        background: linear-gradient(90deg, #FFF 30%, rgba(255, 255, 255, 0.00) 100%);
+    }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1630px) {
+    html body .eg-right-content {
+        width: 80%;
+        background: linear-gradient(90deg, #FFF 66%, rgba(255, 255, 255, 0.00) 100%);
+    }
+}
+
+@media screen and (min-width: 1631px) and (max-width: 1730px) {
+    html body .eg-right-content {
+        width: 80%;
+        background: linear-gradient(90deg, #FFF 76%, rgba(255, 255, 255, 0.00) 100%);
+    }
+}
+
+
+@media screen and (min-width: 1731px) and (max-width: 1930px) {
+    html body .eg-right-content {
+        width: 85%;
+        background: linear-gradient(90deg, #FFF 86%, rgba(255, 255, 255, 0.00) 100%);
+    }
+}

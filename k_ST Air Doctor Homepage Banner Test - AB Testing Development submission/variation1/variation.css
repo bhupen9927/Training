@@ -1,0 +1,217 @@
+#content .banner-section:first-child .section-content,
+#content .banner-section:first-child .section-bg {
+    display: none;
+}
+
+html body .eg-hero-section {
+    background: #38A3D9;
+    padding: 27px 45px 40px;
+    width: 100%;
+}
+html body .eg-inner-container {
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+html body .eg-right-content h2 {
+    color: #FFF;
+    font-family: "PT Sans";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 12px !important;
+}
+
+html body .eg-right-content > p {
+    color: #FFF;
+    font-family: "PT Sans";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-shadow: none !important;
+    margin-bottom: 40px !important;
+}
+
+html body .eg-right-content .eg-hero-ctas {
+    display: flex;
+    grid-gap: 20px;
+}
+
+html body .eg-hero-ctas a {
+    display: flex;
+    padding: 15px 30px;
+    align-items: center;
+    gap: 10px;
+    font-family: "PT Sans";
+    font-size: 16px;
+    font-style: normal;
+    line-height: normal;
+    border-radius: 300px;
+}
+
+html body .eg-hero-ctas .eg-purifiers {
+    color: #FFF;
+    background: #FF8700;
+    font-weight: 700;
+}
+
+html body .eg-hero-ctas .eg-filters {
+    background: #FFF;
+    color: #279ED8;
+    font-weight: 400;
+
+}
+
+html body .eg-right-content,
+html body .eg-left-content {
+    width: 41%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+html body .eg-left-content .video-element {
+    height: 286px;
+    margin: 34px 0 0;
+}
+
+.logo-section .section-content > div > div:nth-child(4) img {
+    filter: grayscale(1);
+}
+
+.logo-section .section-content .text {
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+html body .eg-play-button {
+    background: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    top: 42%;
+    left: 46%;
+    background: #FFF;
+    padding: 10px 12px;
+    cursor: pointer;
+}
+
+html body .eg-left-content {
+    position: relative;
+}
+
+
+html body .eg-left-content .icon-play:before {
+    content: "";
+    color: #5c12fd;
+    font-size: 20px;
+}
+
+html body .eg-play .eg-play-button {
+    display: none;
+}
+
+#content .logo-section {
+    padding-top: 40px;
+}
+
+@media screen and (min-width:991px) and (max-width:1199px){
+    html body .eg-left-content {
+    width: 50%;
+    align-items:center;
+    }
+}
+@media screen and (min-width:575px) and (max-width:991px){
+    html body .eg-left-content{
+    width: 100%;
+    align-items: center;
+    }
+    html body .eg-inner-container{
+        flex-direction:column-reverse
+    }
+    html body .eg-right-content{
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25px;
+    }
+    html body .eg-right-content h2,
+    html body .eg-right-content > p {
+        text-align:center;
+    }
+}
+
+@media screen and (min-width:360px) and (max-width:575px){
+    html body .eg-left-content{
+        width: 100%;
+        align-items: center;
+    }
+    html body .eg-inner-container{
+        flex-direction:column-reverse
+    }
+    html body .eg-right-content{
+        width: 100%;
+    }
+    html body .eg-right-content h2,
+    html body .eg-right-content > p {
+        text-align:center;
+    }
+    html body .eg-left-content .video-element {
+    height: 192px;
+    margin: 34px 0;
+}
+    html body .eg-right-content .eg-hero-ctas{
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+}
+
+@media screen and (max-width:360px){
+    html body .eg-left-content{
+        width: 100%;
+                align-items: center;
+    }
+    html body .eg-inner-container{
+        flex-direction:column-reverse
+    }
+        html body .eg-right-content{
+        width: 100%;
+    }
+    html body .eg-right-content h2,
+    html body .eg-right-content > p {
+        text-align:center;
+    }
+    html body .eg-left-content .video-element {
+    height: 153px;
+    margin: 34px 0;
+}
+    html body .eg-right-content .eg-hero-ctas{
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    #content .banner-section:nth-child(2){
+        display:none;
+    }
+    #content>.banner-section:first-child{
+        display:block !important;
+    }
+}
+
+
+#wrapper >div:nth-child(2){
+    display:none;
+}
