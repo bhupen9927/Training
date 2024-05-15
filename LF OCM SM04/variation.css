@@ -1,0 +1,23 @@
+html body .eg-banner-container{
+    width: 100%;
+    max-width: 78.75rem;
+    margin: 0 auto;
+    background-color:#445356;
+    display: flex;
+}
+
+html body .eg-left-img,
+html body .eg-right-img{
+    width: 117px;
+    height: 30px;
+}
+
+html body .eg-banner-icon{
+    display: flex;
+}
+
+html body .eg-banner-image{
+    width: 30px;
+    height: 30px;
+
+}
