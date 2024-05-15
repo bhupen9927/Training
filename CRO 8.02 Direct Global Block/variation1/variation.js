@@ -62,8 +62,8 @@
             if (exploreETF) {
                 exploreETF.insertAdjacentHTML('afterend', qrBlock);
             }
-        } else if (window.location.href === "https://www.betashares.com.au/") {
-            const fundFocus = document.querySelector('#content > section:nth-child(3)');
+        } else if (window.location.href === "https://www.betashares.com.au/education/") {
+            const fundFocus = document.querySelector('#content +section');
             if (fundFocus) {
                 fundFocus.insertAdjacentHTML('afterend', qrBlock);
             }

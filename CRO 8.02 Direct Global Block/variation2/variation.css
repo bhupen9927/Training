@@ -1,5 +1,4 @@
 html body .eg-get-block{
-    width: 100%;
     margin: 50px 0;
     padding: 40px 0;
     border-top: 1px solid #aeaeae;
@@ -35,7 +34,6 @@ html body .eg-get-container{
 
 html body .eg-qr-heading{
     color: #fc4d16;
-    margin-top: 0;
     margin-bottom: 4px;
     font-family: Runddisplay, sans-serif;
     font-size: 28px;

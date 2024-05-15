@@ -55,11 +55,19 @@
         </div>`
 
     /* Variation Init */
-    function init() {
-            const text = document.querySelector('.richtext');
-            if (text) {
-                text.insertAdjacentHTML('afterend', qrBlock);
+    function init() {     
+        if(window.innerWidth > 767){
+          const text = document.querySelector('.richtext');
+          if (text) {
+              text.insertAdjacentHTML('afterend', qrBlock);
+          }
+        }
+        else if(window.innerWidth < 767){
+          const firstH2 = document.querySelectorAll('.richtext h2')[0];
+            if(firstH2){
+                firstH2.insertAdjacentHTML("beforebegin",qrBlock);
             }
+        }
     }
 
     /* Initialize variation */

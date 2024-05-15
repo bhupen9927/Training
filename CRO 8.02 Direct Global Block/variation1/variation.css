@@ -19,7 +19,7 @@ html body .eg-hide-mobile{
 
 html body .eg-qr-block{
     display: flex;
-    grid-gap: 1rem;
+    grid-gap: 40px;
 }
 
 html body .eg-qr-container{

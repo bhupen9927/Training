@@ -71,12 +71,9 @@
     }
 
     /* Initialize variation */
-    waitForElement('body', init, 50, 15000);
+    waitForElement('.related-articles', init, 50, 15000);
   } catch (e) {
     if (debug) console.log(e, "error in Test" + variation_name);
   }
 })();
-
-
-// .content-breadcrumb + main>div:nth-child(2)>div:nth-child(1)>div:nth-child(3)
 
