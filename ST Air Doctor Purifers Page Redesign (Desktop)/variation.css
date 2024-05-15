@@ -1,0 +1,78 @@
+html body .eg-expert-advice{
+    background-color: white;
+}
+
+html body .eg-expert-advice-container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+html body .eg-expertAdvice-heading{
+    color:#264363;
+    font-family: Open Sans;
+    font-size: 40px !important;
+    font-weight: 700;
+    line-height: 73px;
+    text-align: center;
+    margin-bottom: 68px !important;
+}
+
+html body .eg-expert-advice-inner{
+    display: flex;
+}
+
+html body .eg-left-panel{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+html body .eg-line{
+    width: 30px;
+    height: 2px;
+    background-color: #313D4A;
+    margin-left: 15px;
+}
+
+html body .eg-expert-heading{
+    color: #313D4A;
+    font-family: Open Sans;
+    font-size: 15px !important;
+    font-weight: 700;
+    padding: 15px;
+    margin: 0 !important;
+}
+
+html body .eg-expert-content{
+    color:black;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 600;
+    width: 97%;
+    padding: 15px;
+    margin-bottom: 5px;
+}
+
+html body .eg-expert-button{
+    padding: 6px 15px;
+    gap: 10px;
+    border-radius: 99px;
+    border: 1px solid #FF904D;
+    font-family: PT Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #212325;
+    width: fit-content;
+    margin-left:15px;
+}
+
+html body .eg-right-panel{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
