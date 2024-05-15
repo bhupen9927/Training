@@ -5,10 +5,6 @@ html body .eg-get-block{
     border-bottom: 1px solid #aeaeae;
 }
 
-html body .eg-hide-mobile{
-    display: flex;
-}
-
 html body .eg-qr-block{
     display: flex;
     grid-gap: 30px;
@@ -85,7 +81,7 @@ html body .eg-badge-pair{
     display: flex;
     flex-direction: column;
     grid-gap: 20px;
-    margin-top: 30px;
+    margin-top: 42px;
 }
 
 html body .eg-w-inline-block{
@@ -144,7 +140,8 @@ html body .eg-app-badge-2{
         margin-bottom: 20px;
     }
     html body .eg-badge-pair{
-        flex-direction:row
+        flex-direction:row;
+        margin-top: 10px;
     }
     html body .eg-get-container{
         margin-bottom:20px;

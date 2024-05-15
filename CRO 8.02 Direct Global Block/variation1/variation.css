@@ -13,10 +13,6 @@ html body .eg-get-block{
     padding: 50px;
 }
 
-html body .eg-hide-mobile{
-    display: flex;
-}
-
 html body .eg-qr-block{
     display: flex;
     grid-gap: 40px;
@@ -42,7 +38,7 @@ html body .eg-get-container{
 html body .eg-qr-heading{
     color: #fc4d16;
     margin-top: 0;
-    margin-bottom: 4px;
+    margin-bottom: 6px;
     font-family: Runddisplay, sans-serif;
     font-size: 32px;
     font-weight: 600;
@@ -55,7 +51,7 @@ html body .eg-qr-subheading{
     font-weight: 600;
     line-height: 33.6px;
     font-family: Runddisplay, sans-serif;
-    margin-bottom: 14px;
+    margin-bottom: 18px;
 }
 
 html body .eg-qr-body{
@@ -187,13 +183,13 @@ html body .eg-app-badge-2{
     }
     html body .eg-hide-desktop{
         display:block;
-        margin-bottom: 10px;
+        margin-bottom: 18px;
     }
     html body .eg-badge-pair{
         flex-direction:row
     }
     html body .eg-get-container{
-        margin-bottom:10px;
+        margin-bottom: 15px;
     }
 }
 
