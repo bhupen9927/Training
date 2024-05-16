@@ -1,0 +1,241 @@
+html body .eg-content-container {
+    overflow: hidden;
+    padding-bottom: 80px;
+}
+
+html body .eg-content-container {
+    display: flex;
+    flex-direction: column;
+}
+
+html body .eg-also-like {
+    border-left: 3px solid rgb(219, 0, 17);
+}
+
+html body .eg-also-like h2 {
+    font-size: 2.1875rem;
+    line-height: 2.625rem;
+    font-family: "UniversNext", Arial, sans-serif;
+    color: #333;
+    font-weight: 400;
+    padding-left: 20px;
+}
+
+html body .eg-explore-para {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+html body .eg-explore-para p {
+    letter-spacing: 0.6px;
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+html body .eg-view-all {
+    display: inline-flex;
+    box-sizing: border-box;
+    align-items: center;
+    height: auto !important;
+    min-height: 2.5rem;
+    font-family: "UniversNext", Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    border: 1px solid #333;
+    background-color: #fff;
+    padding: 0.575rem 1.63rem;
+    text-decoration: none;
+    color: #333;
+}
+
+html body .eg-banking-cards {
+    display: flex;
+    grid-gap: 16px;
+    margin-top: 95px;
+    position: relative;
+}
+
+html body .eg-card {
+    background-color: #fff;
+    padding: 25px;
+}
+
+html body .eg-card:nth-child(2),
+html body .eg-card:nth-child(3) {
+    margin-left: 20px;
+}
+
+html body .eg-card h2 {
+    margin-top: 32px;
+    font-size: 28px;
+    font-weight: 400;
+    min-height: 84px;
+    line-height: normal;
+}
+
+html body .eg-card>p {
+    margin-top: 25px;
+    min-height: 105px;
+    line-height: normal;
+}
+
+html body .eg-card a {
+    display: inline-flex;
+    box-sizing: border-box;
+    align-items: center;
+    height: auto !important;
+    min-height: 2.5rem;
+    font-family: "UniversNext", Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    transition: background-color 0.1s ease-out 0s, color 0.1s ease-out 0s, border 0.1s ease-out 0s;
+    background-color: rgb(219, 0, 17);
+    border-color: rgb(219, 0, 17);
+    color: rgb(255, 255, 255);
+    padding: 1rem 1.612rem;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+html body .eg-image-name {
+    display: flex;
+    align-items: center;
+    grid-gap: 13px;
+}
+
+html body .eg-image-name img {
+    width: 52px;
+    height: 52px;
+}
+
+html body .eg-image-name p {
+    font-size: 18px
+}
+
+html body .eg-card a:hover {
+    background-color: rgb(175, 0, 13) !important;
+    border-color: rgb(175, 0, 13) !important;
+}
+
+@media screen and (min-width: 767px) {
+    html body .eg-banking-cards .swiper-slide {
+        width: 33%;
+    }
+
+    html body .eg-banking-cards .swiper-slide:nth-child(1),
+    html body .eg-banking-cards .swiper-slide:nth-child(2) {
+        margin-right: 20px;
+    }
+}
+
+
+@media screen and (min-width: 1275px) {
+    html body .eg-content-container {
+        padding: 4rem 0.5rem;
+        max-width: 1216px;
+    }
+}
+
+@media screen and (min-width: 830px) and (max-width: 1024px) {
+    html body .eg-card h2 {
+        min-height: 126px;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 830px) {
+    html body .eg-card h2 {
+        min-height: 144px;
+    }
+
+    html body .eg-card>p {
+        min-height: 126px;
+    }
+}
+
+@media screen and (min-width: 767px) {
+
+    html body .eg-pagination,
+    html body .eg-prev,
+    html body .eg-next {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    html body .eg-banking-cards {
+        margin-top: 68px;
+    }
+
+    html body .eg-ctaSection {
+        padding: 4rem 0 2rem;
+        padding-bottom: 0px !important;
+    }
+
+    html body .eg-prev,
+    html body .eg-next {
+        position: absolute;
+        top: 123%;
+    }
+
+    html body .eg-pagination {
+        bottom: -100px !important;
+    }
+
+    html body .eg-view-all {
+        margin-top: 160px;
+        max-width: 255px !important;
+    }
+
+    html body .eg-explore-para {
+        margin-top: 34px;
+    }
+
+    .swiper-pagination-bullet {
+        width: 10px !important;
+        height: 10px !important;
+        border-radius: 0 !important;
+        margin: 0 5px !important;
+    }
+
+    .swiper-pagination-bullet-active {
+        background-color: rgb(219, 0, 17) !important;
+    }
+
+    .swiper-button-prev:after,
+    .swiper-button-next:after {
+        background-color: #3a4a54 !important;
+        padding: 18px 21px !important;
+        color: #fff !important;
+        font-size: 16px !important;
+        font-weight: 600 !important;
+    }
+
+    html body .eg-card a {
+        padding: 0.85rem 1.9rem;
+        margin-top: 20px;
+    }
+
+    html body .eg-card>p {
+        margin-top: 28px;
+    }
+}
+
+@media screen and (min-width: 861px) and (max-width: 990px) {
+    html body .eg-card>p {
+        min-height: 143px;
+    }
+}
+
+@media screen and (min-width: 990px) and (max-width: 1084px) {
+    html body .eg-card>p {
+        min-height: 122px !important;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 861px) {
+    html body .eg-card>p {
+        min-height: 165px !important;
+    }
+}
