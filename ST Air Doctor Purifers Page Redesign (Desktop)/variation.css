@@ -23,7 +23,7 @@ html body .eg-expert-advice-inner{
     display: flex;
 }
 
-html body .eg-left-panel{
+html body .eg-expert-left-panel{
     display: flex;
     flex-direction: column;
     width: 50%;
@@ -31,7 +31,7 @@ html body .eg-left-panel{
 
 html body .eg-line{
     width: 30px;
-    height: 2px;
+    height: 4px;
     background-color: #313D4A;
     margin-left: 15px;
 }
@@ -71,8 +71,240 @@ html body .eg-expert-button{
     margin-left:15px;
 }
 
-html body .eg-right-panel{
+html body .eg-expert-right-panel{
     display: flex;
     flex-direction: column;
     width: 50%;
+}
+
+@media screen and (min-width:810px) and (max-width:1052px) {
+    html body .eg-expert-content{
+        height: 90px;
+    }
+}
+@media screen and (min-width:767px) and (max-width:808px) {
+    html body .eg-expert-heading{
+        height: 70px;
+    }
+    html body .eg-expert-content{
+        height: 90px;
+    }
+}
+
+@media screen and (min-width:575px) and (max-width:767px){
+    html body .eg-expert-advice-inner{
+        flex-direction:column;
+    }
+    html body .eg-expert-left-panel{
+        width:100%;
+        margin-bottom: 30px;
+        align-items: center;
+        text-align: center;
+    }
+    html body .eg-expert-right-panel{
+        width:100%;
+        align-items: center;
+        text-align: center;
+    }
+    html body .eg-expertAdvice-heading{
+        margin-bottom:30px !important;
+        line-height: normal;
+    }
+    html body .eg-line{
+        background-color: white;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:575px){
+    html body .eg-expert-advice-inner{
+        flex-direction:column;
+    }
+    html body .eg-expert-left-panel{
+        width:100%;
+        margin-bottom: 30px;
+    }
+    html body .eg-expert-right-panel{
+        width:100%;
+    }
+    html body .eg-expertAdvice-heading{
+        margin-bottom:30px !important;
+        line-height: normal;
+        text-align:left;
+        margin-left: 15px !important;
+        font-size: 34px !important;
+    }
+    html body .eg-line{
+        background-color: white;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+    }
+    html body .eg-expert-button{
+        width:93%;
+        margin:0 3%;
+    }
+}
+
+
+/* the below code for Air Doctor Difference Component */
+
+
+html body .eg-air-doctor-difference{
+    background-color: white;
+}
+
+html body .eg-air-doctor-difference-container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 15px;
+}
+
+html body .eg-air-doctor-difference-inner{
+    display: flex;
+}
+
+html body .eg-difference-left-panel{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+}
+
+html body .eg-air-heading{
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 600;
+    color: #264363;
+}
+
+html body .eg-air-content{
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 400;
+    color: #313D4A;
+    line-height: 19.92px;
+    width: 95%;
+} 
+
+html body .eg-difference-right-panel{
+    width: 50%;
+}
+
+html body .eg-icons-container{
+    display: flex;
+    align-items: flex-start;
+    margin: 20px 0;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+html body .eg-air-icon-inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 14.20%;
+    margin-bottom: 25px;
+}
+
+html body .eg-air-icon{
+    width: 64px;
+    height: 64px;
+}
+
+html body .eg-air-icon-content{
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18.75px;
+    text-align: center;
+    margin-top: 15px;
+    width: 96%;
+}
+
+html body .eg-air-icon-subcontent{
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    width: 95%;
+}
+
+html body .eg-shop-purifiers-button{
+    display: none;
+    margin-bottom: 20px !important;
+    margin-top: 10px !important;
+}
+
+html body .eg-shop-cta{
+    font-family: Open Sans;
+    font-size: 19px;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding: 6px 0;
+    border-radius: 99px;
+    background-color: #FF904D;
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (min-width:767px) and (max-width:991px){
+    html body .eg-air-icon-inner{
+        width: 25%;
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (min-width:575px) and (max-width:767px){
+    html body .eg-air-icon-inner{
+        width: 25%;
+        margin-bottom: 25px;
+    }
+    html body .eg-air-doctor-difference-inner{
+        flex-direction:column;
+    }
+    html body .eg-difference-left-panel{
+        width:100%
+    }
+    html body .eg-difference-right-panel{
+        width:100%
+    }
+    html body .eg-air-heading {
+        font-size:34px !important;
+    }
+    html body .eg-air-content{
+        margin-top:15px;
+    }
+    html body .eg-shop-purifiers-button{
+        display: flex;
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:575px){
+    html body .eg-air-icon-inner{
+        width: 50%;
+        margin-bottom: 25px;
+    }
+    html body .eg-air-doctor-difference-inner{
+        flex-direction:column;
+    }
+    html body .eg-difference-left-panel{
+        width:100%
+    }
+    html body .eg-difference-right-panel{
+        width:100%
+    }
+    html body .eg-air-heading {
+        font-size:34px !important;
+    }
+    html body .eg-air-content{
+        margin-top:15px;
+    }
+    html body .eg-shop-purifiers-button{
+        display: flex;
+        width: auto;
+    }
 }
