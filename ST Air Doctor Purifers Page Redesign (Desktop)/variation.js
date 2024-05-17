@@ -76,7 +76,7 @@
             <div class="eg-air-icon-inner">
               <img claass="eg-air-icon" src="https://i.ibb.co/xGYLwyn/ozons.png">
               <p class="eg-air-icon-content">Eliminate dangerous ozone, odors and gases</p>
-              <p class="eg-air-icon-subcontent">with dual action carbon/gas trap/voc filte</p>
+              <p class="eg-air-icon-subcontent">with dual action carbon/gas trap/voc filter</p>
             </div>
             <div class="eg-air-icon-inner">
               <img claass="eg-air-icon" src="https://i.ibb.co/4m8ts3n/airpurification.png">
