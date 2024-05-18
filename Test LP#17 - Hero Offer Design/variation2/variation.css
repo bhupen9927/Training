@@ -1,10 +1,11 @@
-[data-elementor-type="single-post"] > .elementor-element:nth-child(2) .e-con-inner  > div:nth-child(1),
-[data-elementor-type="single-post"] > .elementor-element:nth-child(2) .e-con-inner  > div:nth-child(2),
-[data-elementor-type="single-post"] > .elementor-element:nth-child(2) .e-con-inner  > div:nth-child(3){
-    display:none;
+[data-elementor-type="single-post"]>.elementor-element:nth-child(2) .e-con-inner>div:nth-child(1),
+[data-elementor-type="single-post"]>.elementor-element:nth-child(2) .e-con-inner>div:nth-child(2),
+[data-elementor-type="single-post"]>.elementor-element:nth-child(2) .e-con-inner>div:nth-child(3),
+[data-elementor-type="single-post"]>.elementor-element:nth-child(2) .e-con-inner .t-below-cta {
+    display: none;
 }
 
-html body .eg-box-container{
+html body .eg-box-container {
     display: flex;
     flex-direction: column;
     grid-gap: 11px;
@@ -12,19 +13,19 @@ html body .eg-box-container{
     align-items: center;
 }
 
-html body .eg-box{
+html body .eg-box {
     height: 78px;
 }
 
-html body .eg-off-img{
-    height:78px;
+html body .eg-off-img {
+    height: 78px;
 }
 
-html body .eg-hero-box-content{
-    margin: 32px auto 35px;
+html body .eg-hero-box-content {
+    margin: 16px auto 36px;
 }
 
-html body .eg-hero-content{
+html body .eg-hero-content {
     font-family: "proxima-nova", sans-serif;
     font-size: 40px;
     font-weight: 700;
@@ -34,12 +35,12 @@ html body .eg-hero-content{
     text-align: center;
 }
 
-html body .eg-button{
+html body .eg-button {
     margin: 0 auto 8px;
     transition: transform 0.3s;
 }
 
-html body .eg-order-cta{
+html body .eg-order-cta {
     padding: 17px 48px;
     border-radius: 70px;
     background-color: #CF6445;
@@ -50,15 +51,15 @@ html body .eg-order-cta{
     text-align: center;
 }
 
-html body .eg-button:hover{
+html body .eg-button:hover {
     transform: scale(0.9);
 }
 
-html body .eg-cancel{
+html body .eg-cancel {
     margin: 0 auto;
 }
 
-html body .eg-cancel-content{
+html body .eg-cancel-content {
     font-family: "proxima-nova", sans-serif;
     font-size: 20px;
     font-weight: 700;
@@ -68,39 +69,61 @@ html body .eg-cancel-content{
     margin: 0;
 }
 
-@media screen and (min-width:575px) and (max-width:767px){
+@media screen and (min-width:575px) and (max-width:767px) {
+
     html body .eg-box,
-    html body .eg-off-img{
-        height:68px;
+    html body .eg-off-img {
+        height: 68px;
     }
-    html body .eg-hero-content{
+
+    html body .eg-hero-content {
         font-size: 36px;
     }
 }
 
-@media screen and (max-width:575px){
+@media screen and (max-width:575px) {
+
     html body .eg-box,
-    html body .eg-off-img{
-        height:48px;
+    html body .eg-off-img {
+        height: 48px;
     }
-    html body .eg-hero-content{
+
+    html body .eg-hero-content {
         font-size: 24px;
         line-height: 24px;
     }
-    html body .eg-order-cta{
+
+    html body .eg-order-cta {
         padding: 12px 32px;
         font-size: 20px;
     }
+
     html body .eg-box-container {
-        grid-gap:15px;
+        grid-gap: 15px;
     }
-    html body .eg-cancel-content{
-        font-size:14px;
+
+    html body .eg-cancel-content {
+        font-size: 14px;
+    }
+
+    html body .eg-hero-box-content {
+        margin: 12px auto 32px
+    }
+
+    .eg-background [data-elementor-type="single-post"] > .elementor-element:nth-child(2) {
+        background-position: 40% 0px;
     }
 }
 
-@media screen and (max-width:360px){
-    html body .eg-box-container{
-        height:auto
+@media screen and (max-width:360px) {
+    html body .eg-box-container {
+        height: auto
+    }
+}
+
+@media only screen and (max-width:767px) {
+    [data-elementor-type="single-post"]>.elementor-element:nth-child(2)>div:first-child svg {
+        width: calc(175% + 1.3px);
+        height: 100px;
     }
 }
