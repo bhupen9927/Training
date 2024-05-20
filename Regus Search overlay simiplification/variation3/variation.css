@@ -1,0 +1,369 @@
+@media only screen and (min-width:1024px) {
+
+    .lock-scroll #root>div:first-child [data-id="CLOSE"]+div,
+    .lock-scroll #root>div:first-child>div:nth-child(4) [data-id="CLOSE"]+div+div>div>div:first-child,
+    .lock-scroll #root>div:first-child [data-id="CLOSE"]+div+div>div>div,
+    .lock-scroll #root>div:first-child [data-id="CLOSE"]+div+div form .TypeAheadDropDown label .custom-icon-holder,
+    .lock-scroll #root>div:first-child [data-id="CLOSE"],
+    .lock-scroll #root>div:first-child [data-id="CLOSE"]+div+div form .TypeAheadDropDown>div>div:last-child {
+        display: none;
+    }
+
+    .eg-change_color #__next [class*='modalSearchContent'] [class*='formAreaCss'] .typeHeadeInput-holder>div:last-child::before {
+        color: #008385 !important;
+    }
+
+    .lock-scroll #__next [class*='modalSearchContent'] [class*='formAreaCss'] .typeHeadeInput-holder>[data-shrink="true"] {
+        font-size: 18px !important;
+    }
+
+    .eg-new_show [class*='tabsHeader-setOverFlowAuto']>li>div:first-child button {
+        pointer-events: none !important;
+    }
+
+    .lock-scroll #root>div:first-child .mobile-nav [data-id="CLOSE"],
+    .lock-scroll #root>div:first-child .desktop-nav [data-id="CLOSE"] {
+        display: block !important;
+    }
+
+    .lock-scroll #root>div:first-child>div:nth-child(4) {
+        margin-top: 120px !important;
+    }
+
+    .lock-scroll #root>div:first-child>div:nth-child(3) {
+        margin-top: 70px !important;
+    }
+
+    .lock-scroll #root>div:first-child [data-id="CLOSE"]+div+div form .TypeAheadDropDown #location-label>div:first-child>div {
+        font-size: 26px;
+        font-weight: 300;
+    }
+
+    .lock-scroll #root>div:first-child [data-id="CLOSE"]+div+div>div {
+        box-shadow: unset !important;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .lock-scroll #root>div:first-child [data-id="CLOSE"]+div+div form .TypeAheadDropDown>div {
+        background: transparent;
+        padding-left: 0px !important;
+        padding-top: 0 !important;
+    }
+
+    #root>div:first-child>div:last-of-type>div>div:first-child>div,
+    #root>div:first-child>div:nth-child(3)>div>div:first-child>div {
+        max-width: 1490px !important;
+    }
+
+    .lock-scroll #root>div:first-child>div:nth-child(4)>div>div:first-child,
+    .lock-scroll #root>div:first-child>div:nth-child(3)>div>div {
+        background: transparent !important;
+    }
+
+    .lock-scroll #root>div:first-child>div:nth-child(4) form {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .lock-scroll #root>div:first-child [data-id="CLOSE"]+div+div form .TypeAheadDropDown label>div:last-child {
+        border-radius: 50px !important;
+        /* background: rgb(244, 243, 240) !important; */
+        border: unset !important;
+    }
+
+    .lock-scroll #root>div:first-child [data-id="CLOSE"]+div+div {
+        margin-top: 10px !important;
+    }
+
+    .lock-scroll #__next [class*='modalSearchContent'] [class*='formAreaCss'] .typeHeadeInput-holder>div:last-child::before {
+        content: "";
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+        font-family: icomoon !important;
+        font-size: 25px !important;
+        margin-right: 0px;
+        position: relative;
+        top: -1px;
+        left: -17px;
+        color: #393939;
+    }
+
+    .lock-scroll #root>div:first-child [data-id="CLOSE"]+div+div form .TypeAheadDropDown>div>div:first-child {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+
+    .lock-scroll #root>div:first-child [data-id="CLOSE"]+div+div form .TypeAheadDropDown label input {
+        margin-top: 30px !important;
+    }
+
+    /* control selector */
+
+
+    .lock-scroll #__next [class*='modalSearchContent'] {
+        margin-top: 75px;
+    }
+
+    .lock-scroll #__next [class*='modalSearchContent'] [class*='Container']>[class*='formAreaCss'] {
+        margin-top: 0px;
+    }
+
+    .lock-scroll #__next [class*='modalSearchContent'] [class*='Container'] [class*='inputAreaCss'] {
+        padding-left: 0px !important;
+    }
+
+    .lock-scroll #__next [class*='modalSearchContent'] [class*='formAreaCss'] .typeHeadeInput-holder>div:first-child {
+        font-size: 22px;
+        font-weight: 300;
+        margin-left: 20px;
+    }
+
+    /* .lock-scroll #__next [class*='modalSearchContent'] [class*='formAreaCss'] .typeHeadeInput-holder>[data-shrink="true"]::before {
+        top: 14px !important;
+    } */
+
+    /* .lock-scroll #__next [class*='modalSearchContent'] [class*='formAreaCss'] .typeHeadeInput-holder>div:first-child::before {
+        content: "";
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+        font-family: icomoon !important;
+        font-size: 26px !important;
+        margin-right: 0px;
+        position: relative;
+        top: 3px;
+        left: -17px;
+    } */
+
+    .lock-scroll #__next [class*='modalSearchContent'] [data-id="CLOSE"],
+    .lock-scroll #__next [class*='modalSearchContent'] [class*='logoAreaCss'],
+    .lock-scroll #__next [class*='modalSearchContent'] [class*='bottomArea'],
+    .lock-scroll #__next [class*='modalSearchContent'] [class*='formAreaCss'] [class*='tabAreaCss'],
+    .lock-scroll #__next [class*='modalSearchContent'] [class*='formAreaCss'] [class*='inputHolderCss'] .custom-icon-holder,
+    .lock-scroll #__next [class*='modalSearchContent'] [class*='formAreaCss'] [class*='inputAreaCss']>div:last-child {
+
+        display: none !important;
+    }
+
+    .lock-scroll #__next [class*='modalSearchContent'] [class*='Container'] {
+        background: white;
+    }
+
+    .lock-scroll #__next [class*='modalSearchContent'] [class*='formAreaCss'] [class*='formHolderCss'] {
+        box-shadow: unset !important;
+        width: 100% !important;
+    }
+
+    .lock-scroll #__next [class*='modalSearchContent'] [class*='formAreaCss'] [class*='iconAlignmentCss'] {
+        border-radius: 0px !important;
+        border: unset !important;
+    }
+
+    .lock-scroll #__next [class*='modalSearchContent'] [class*='topArea'],
+    .lock-scroll #__next [class*='modalSearchContent'] [class*='formAreaCss'] [class*='inputAreaCss'] {
+        background: transparent !important;
+    }
+
+    .lock-scroll #__next [class*='modalSearchContent'] [class*='formHolderCss'] input {
+        padding-left: 0px;
+    }
+
+    .lock-scroll #__next [class*='modalSearchContent'] [class*='formAreaCss'] [class*='iconAlignmentCss'] input {
+        margin-top: 13px !important;
+        margin-left: -4.5px;
+    }
+
+    /* control selector end */
+}
+
+@media only screen and (max-width:1024px) {
+
+    .lock-scroll #__next [class*='modalSearchContent'] [class*='formAreaCss'] .typeHeadeInput-holder>[data-shrink="true"]::before {
+        top: 12px !important;
+    }
+
+    .lock-scroll #__next [class*='modalSearchContent'] [class*='formAreaCss'] [class*='iconAlignmentCss'] input {
+        padding-left: 10px;
+        padding-left: 20px;
+        margin-top: 13px !important;
+    }
+
+    .lock-scroll #root>div:first-child [data-id="CLOSE"]+div+div>div>div,
+    .lock-scroll #root>div:first-child [data-id="CLOSE"]+div+div>div .custom-icon-holder,
+    .lock-scroll #root>div:first-child [data-id="CLOSE"]+div,
+    .lock-scroll #root>div:first-child>div:nth-child(4) [data-id="CLOSE"]>span:first-of-type,
+    .lock-scroll #root>div:first-child>div:nth-child(4) [data-id="CLOSE"]+div+div .TypeAheadDropDown>div>div:last-child,
+    .lock-scroll #root>div:first-child [data-id="CLOSE"]>span:first-child,
+    .lock-scroll #root>div:first-child [data-id="CLOSE"]+div+div form .TypeAheadDropDown>div>div:last-child {
+        display: none !important;
+    }
+
+    .lock-scroll #root>div:first-child [data-id="CLOSE"]+div+div>div {
+        display: flex;
+        flex-direction: row;
+        box-shadow: unset;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .lock-scroll #root>div:first-child>div:nth-child(4) [aria-haspopup="listbox"]>div,
+    .lock-scroll #root>div:first-child>div:nth-child(3)>div>div,
+    .lock-scroll #root>div:first-child [data-id="CLOSE"]+div+div>div .TypeAheadDropDown>div {
+        background: unset !important;
+    }
+
+    .lock-scroll #root>div:first-child>div:nth-child(4)>div>div:first-child {
+        background: transparent !important;
+    }
+
+    .lock-scroll #root>div:first-child [data-id="CLOSE"]+div+div>div form {
+        width: 100% !important;
+        max-width: 80% !important;
+    }
+
+    .lock-scroll #root>div:first-child [data-id="CLOSE"]+div+div>div #location-label>div:last-child {
+        border-radius: 50px !important;
+        background: rgb(244, 243, 240) !important;
+        border: unset !important;
+    }
+
+    .lock-scroll #root>div:first-child [data-id="CLOSE"] {
+        margin-top: 30px !important;
+    }
+
+    .lock-scroll #root>div:first-child [data-id="CLOSE"]+div+div {
+        margin-top: 10px;
+    }
+
+    .lock-scroll #root>div:first-child [data-id="CLOSE"]+div+div>div #location-label>div:first-child>div::before {
+        content: "";
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+        font-family: icomoon !important;
+        font-size: 17px !important;
+        margin-right: 10px;
+        position: relative;
+        top: 1px;
+    }
+
+    .lock-scroll #root>div:first-child [data-id="CLOSE"]+div+div>div .TypeAheadDropDown>div>div:first-child {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+
+    .lock-scroll #root>div:first-child>div:nth-child(4) [aria-haspopup="listbox"]>div:nth-child(2) {
+        background: rgb(244, 243, 240);
+        border-radius: 0px !important;
+    }
+
+
+    /* control selector */
+
+    .lock-scroll #__next [class*='modalSearchContent'] [class*='Container']>[class*='formAreaCss'] {
+        margin-top: 0px;
+    }
+
+    .lock-scroll #__next [class*='modalSearchContent'] [class*='Container'] [class*='inputAreaCss'] {
+        padding-left: 0px !important;
+    }
+
+    .lock-scroll #__next [class*='modalSearchContent'] [class*='formAreaCss'] .typeHeadeInput-holder>div:first-child::before {
+        content: "";
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+        font-family: icomoon !important;
+        font-size: 17px !important;
+        margin-right: 10px;
+        position: relative;
+        top: 1px;
+    }
+
+    .lock-scroll #__next [class*='modalSearchContent'] [class*='logoAreaCss'],
+    .lock-scroll #__next [class*='modalSearchContent'] [class*='bottomArea'],
+    .lock-scroll #__next [class*='modalSearchContent'] [class*='formAreaCss'] [class*='tabAreaCss'],
+    .lock-scroll #__next [class*='modalSearchContent'] [class*='formAreaCss'] [class*='inputHolderCss'] .custom-icon-holder,
+    .lock-scroll #__next [class*='modalSearchContent'] [class*='formAreaCss'] [class*='inputAreaCss']>div:last-child,
+    .lock-scroll #__next [class*='modalSearchContent'] [data-id="CLOSE"] .icon-closer {
+
+        display: none !important;
+    }
+
+    .lock-scroll #__next [class*='modalSearchContent'] [class*='Container'] {
+        background: white;
+    }
+
+    .lock-scroll #__next [class*='modalSearchContent'] [class*='formAreaCss'] [class*='formHolderCss'] {
+        box-shadow: unset !important;
+        width: 85% !important;
+        margin-right: auto !important;
+    }
+
+    .lock-scroll #__next [class*='modalSearchContent'] [class*='formAreaCss'] [class*='iconAlignmentCss'] {
+        border-radius: 0px !important;
+        border: unset !important;
+    }
+
+    .lock-scroll #__next [class*='modalSearchContent'] [class*='topArea'],
+    .lock-scroll #__next [class*='modalSearchContent'] [class*='formAreaCss'] [class*='inputAreaCss'] {
+        background: transparent !important;
+    }
+
+    .lock-scroll #__next [class*='modalSearchContent'] [class*='formAreaCss'] [class*='iconAlignmentCss'] {
+        border-radius: 50px !important;
+        border: unset !important;
+        background: rgb(244, 243, 240) !important;
+    }
+
+    .lock-scroll #__next [class*='modalSearchContent'] [data-id="CLOSE"] {
+        margin-top: 32px !important;
+    }
+
+    /* control selector end */
+}
+
+@media only screen and (min-width:767px) and (max-width:1024px) {
+    .lock-scroll #root>div:first-child [data-id="CLOSE"]+div+div>div form {
+        width: 100% !important;
+        max-width: 91% !important;
+    }
+
+    .lock-scroll #root>div:first-child [data-id="CLOSE"] {
+        margin-top: 38px !important;
+    }
+
+    .lock-scroll #root>div:first-child [data-id="CLOSE"]+div+div>div .TypeAheadDropDown>div {
+        background: transparent;
+        padding-left: 0px;
+    }
+
+    /* control css */
+
+    .lock-scroll #__next [class*='modalSearchContent'] [data-id="CLOSE"] {
+        margin-top: 40px !important;
+    }
+
+    .lock-scroll #__next [class*='modalSearchContent'] [class*='formAreaCss'] [class*='formHolderCss'] {
+        box-shadow: unset !important;
+        width: 97% !important;
+        margin-right: auto !important;
+    }
+
+    .lock-scroll #__next [class*='modalSearchContent'] [class*='Container'] {
+        background: white;
+        width: calc(100% - 47px);
+    }
+
+    /* control css end*/
+}
