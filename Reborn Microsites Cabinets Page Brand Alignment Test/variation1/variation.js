@@ -38,7 +38,7 @@
           "bgImg": "https://www.reborncabinets.com/micro/cabinets/cabinet-refacing/img/gallery/one.jpg",
           "cta": {
             "text": "VIEW PROJECT",
-            "link": "https://www.reborncabinets.com/case-study/29609/"
+            "link": ""
           }
         },
         {
@@ -47,7 +47,7 @@
           "bgImg": "https://www.reborncabinets.com/micro/cabinets/cabinet-refacing/img/gallery/three.jpg",
           "cta": {
             "text": "VIEW PROJECT",
-            "link": "https://www.reborncabinets.com/case-study/a-bath-solutions-project-charlie-parkers-story/"
+            "link": ""
           }
         },
         {
@@ -56,7 +56,7 @@
           "bgImg": "https://www.reborncabinets.com/micro/cabinets/cabinet-refacing/img/gallery/four.jpg",
           "cta": {
             "text": "VIEW PROJECT",
-            "link": "https://www.reborncabinets.com/case-study/a-refacing-project-kenny-and-kerri-peloquin/"
+            "link": ""
           }
         }
       ]
@@ -145,6 +145,13 @@
       if (window.innerWidth > 1024) {
         document.querySelector('#hero_left .hero_text').insertAdjacentHTML('afterend', egstring);
       }
+
+      document.querySelector('#hero_form > div:nth-child(3) > div > div:first-child input').setAttribute('placeholder', 'First Name');
+      document.querySelector('#hero_form > div:nth-child(3) > div > div:last-child input').setAttribute('placeholder', 'Last Name');
+      document.querySelector('#hero_form > div:nth-child(4) > div > div:first-child input').setAttribute('placeholder', 'Email');
+      document.querySelector('#hero_form > div:nth-child(5) > div > div:first-child input').setAttribute('placeholder', 'Phone');
+      document.querySelector('#hero_form > div:nth-child(5) > div > div:last-child input').setAttribute('placeholder', 'ZIP');
+
     }
 
     function exceedexpectations() {
@@ -170,14 +177,24 @@
         <h2>Current Offers</h2>
         <div class="eg-wrapper_container">
             <div class="offer_section">
-                <a href="" class="eg-offer">OFFER</a>
+                <div class='eg-image'> 
+                  <img src="https://www.reborncabinets.com/micro/cabinets/cabinet-refacing/img/home/cta-left.jpg">
+                </div>
+                <div>
+                  <a href="" class="eg-offer">OFFER</a>
                 <div class="eg-title">50% OFF <br> Installation*</div>
                 <a href="specials" class="eg-learn_more">LEARN MORE</a>
+                </div>
             </div>
             <div class="offer_section">
-                <a href="" class="eg-offer">OFFER</a>
+              <div class='eg-image'> 
+                  <img src="https://www.reborncabinets.com/micro/cabinets/cabinet-refacing/img/home/cta-right.jpg">
+                </div>
+                <div>
+                  <a href="" class="eg-offer">OFFER</a>
                 <div class="eg-title">12 Month No Interest and No Payment Financing**</div>
                 <a href="financing" class="eg-learn_more">LEARN MORE</a>
+              </div>
             </div>
         </div>
     </div>

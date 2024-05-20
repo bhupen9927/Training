@@ -352,6 +352,7 @@ html body .eg-herobelowsection_title p {
         height: 100% !important;
         max-height: 100% !important;
         position: relative;
+        padding-bottom: 0px !important;
     }
 
     html body #content.container-fluid .entry_content>div:last-child {
@@ -459,7 +460,7 @@ html body .eg-currentoffer_section .eg-wrapper_container .offer_section {
     align-items: center;
 }
 
-html body .eg-currentoffer_section .eg-wrapper_container .offer_section:last-child {
+html body .eg-currentoffer_section .eg-wrapper_container .offer_section>div:last-child {
     padding: 41px 10px 65px !important;
 }
 
@@ -504,7 +505,37 @@ html body .eg-currentoffer_section .eg-wrapper_container .offer_section .eg-titl
     line-height: 51px;
 }
 
+html body .eg-currentoffer_section .eg-wrapper_container .offer_section .eg-image {
+    display: none;
+}
+
+html body .eg-currentoffer_section .eg-wrapper_container .offer_section .eg-image+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 @media only screen and (max-width:767px) {
+
+    html body .eg-currentoffer_section .eg-wrapper_container .offer_section img {
+        width: 100% !important;
+        height: 150px;
+        background-size: cover;
+        object-fit: cover;
+    }
+
+    html body .eg-currentoffer_section .eg-wrapper_container .offer_section>div:last-child {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    html body .eg-currentoffer_section .eg-wrapper_container .offer_section .eg-image {
+        display: block !important;
+        width: 100% !important;
+    }
 
     html body .eg-currentoffer_section {
         padding-bottom: 70px;
@@ -525,11 +556,11 @@ html body .eg-currentoffer_section .eg-wrapper_container .offer_section .eg-titl
     }
 
     html body .eg-currentoffer_section .eg-wrapper_container .offer_section {
-        height: 327px !important;
+        height: unset !important;
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-top: 15px !important;
+        padding: 0px !important;
     }
 
     html body .eg-currentoffer_section .eg-wrapper_container .offer_section .eg-title {
@@ -552,8 +583,8 @@ html body .eg-currentoffer_section .eg-wrapper_container .offer_section .eg-titl
         padding: 15px 40px;
     }
 
-    html body .eg-currentoffer_section .eg-wrapper_container .offer_section:last-child {
-        padding: 85px 10px !important;
+    html body .eg-currentoffer_section .eg-wrapper_container .offer_section>div:last-child {
+        padding: 40px 10px !important;
     }
 }
 
@@ -648,6 +679,7 @@ html body #secondary_content_area #secondary_content_right ul li {
     font-weight: 400;
     line-height: 27px;
     margin-bottom: 10px !important;
+    list-style-type: none;
 }
 
 html body #secondary_content_area #secondary_content_right .btn {
@@ -1274,6 +1306,10 @@ html body #secondary_content_area #secondary_content_left {
     html body #secondary_content_area #secondary_content_right {
         order: -1 !important;
     }
+
+    html body .secondary_content_text_container .eg-bathroomremodeling_title {
+        margin-bottom: 40px !important;
+    }
 }
 
 @media only screen and (min-width:992px) and (max-width:1550px) {
@@ -1285,5 +1321,19 @@ html body #secondary_content_area #secondary_content_left {
         width: 100% !important;
         max-width: 100% !important;
         flex: unset;
+    }
+}
+
+@media only screen and (min-width:767px) and (max-width:1024px) {
+    html body .eg-currentoffer_section .eg-wrapper_container .offer_section {
+        width: 100% !important;
+        max-width: 44% !important;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1125px) {
+    html body #content.container-fluid .entry_content {
+        position: relative;
+        margin-bottom: 80px !important;
     }
 }
