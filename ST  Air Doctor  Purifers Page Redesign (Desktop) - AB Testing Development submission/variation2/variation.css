@@ -704,6 +704,7 @@ html body #content>section:first-of-type .section-content [id*='nu-custom-headin
     text-align: left !important;
     margin-bottom: 5px !important;
     font-family: "Open Sans" !important;
+    font-weight: 600 !important;
 }
 
 html body #content>section:first-of-type .section-content .product_specification_wrapper>h5 {
@@ -825,7 +826,7 @@ html body #content>section:first-of-type .section-content .nu_qty_addcart_wrappe
 }
 
 .section-content>section:nth-of-type(4) .product_section-wrapper>div>div:last-child .product_specification_wrapper {
-    margin-bottom: 105px;
+    margin-bottom: 100px;
     text-align: left;
     font-family: Roboto !important;
 }
@@ -1178,3 +1179,43 @@ html body .eg-bottomsection .eg-container_new .eg-image>div {
         overflow-x: scroll;
     }
 }
+
+/* Faq css */
+
+.iot-radio-pro-box .iot-var-options1>div:last-child {
+    width: fit-content;
+}
+
+.iot-radio-pro-box .iot-var-options1>div:last-child:after {
+    content: 'New!';
+    color: #808285 !important;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 145%;
+    position: relative;
+    top: 2px;
+    left: 3px;
+}
+
+.product-faq .accordion-item button+span {
+    color: #464849;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.review-scroll-inner>button {
+    background: transparent !important;
+}
+
+@media only screen and (min-width:767px) {
+    .product-faq .accordion-item button+span {
+        font-size: 22px;
+    }
+}
+
+/* Faq css end */

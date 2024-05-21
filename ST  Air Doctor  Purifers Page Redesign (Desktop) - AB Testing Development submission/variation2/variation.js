@@ -178,7 +178,7 @@
               <img class="eg-air-image" src="https://sitetunershosting.com/clients/air/Mask%20group.png">
             </div>
             <div class="eg-shop-purifiers-button">
-              <a class="eg-shop-cta" href=# >Shop Purifiers</a>
+              <a class="eg-shop-cta" href=# >SHOP PURIFIERS</a>
             </div>
           </div>
           <div class="eg-icons-container">
@@ -333,7 +333,7 @@
 
         const label2 = document.querySelectorAll('.iot-radio-pro-box .iot-var-options1 > div:last-child label');
         label2.forEach((label, index) => {
-          label.textContent = 'Smart Connected New!';
+          label.textContent = 'Smart Connected';
         });
 
       }, 500);
@@ -360,7 +360,7 @@
         { name: 'All Purifiers', selector: '#content>section:first-of-type' },
         { name: 'Expert Advice', selector: '.eg-expert-advice-container' },
         { name: 'The AirDoctor Difference', selector: '.eg-air-doctor-difference' },
-        { name: 'Compare Models', selector: '.product-table' },
+        { name: 'Compare Models', selector: '.eg-bottomsection' },
         { name: 'Reviews', selector: '.eg-air-doctor-difference + section' },
         { name: 'FAQs', selector: '.product-faq' },
       ];
