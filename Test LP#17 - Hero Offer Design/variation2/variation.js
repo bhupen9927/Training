@@ -25,13 +25,13 @@
     const boxes =
       `<div class="eg-box-container">
             <div class="eg-box eg-box-first">
-                <img class="eg-off-img" src="https://i.ibb.co/30L0BnT/Frame-21.png">
+                <img class="eg-off-img" src="https://www.bellaandduke.com/wp-content/uploads/2024/05/Frame-21.png">
             </div>
             <div class="eg-box eg-box-second">
-                <img class="eg-off-img" src="https://i.ibb.co/gyFZCPm/Frame-22.png">
+                <img class="eg-off-img" src="https://www.bellaandduke.com/wp-content/uploads/2024/05/Frame-22.png">
             </div>
             <div class="eg-box eg-box-third">
-                <img class="eg-off-img" src="https://i.ibb.co/WVfVgXr/Frame-23.png" >
+                <img class="eg-off-img" src="https://www.bellaandduke.com/wp-content/uploads/2024/05/Frame-23.png" >
             </div>
         </div>
         <div class="eg-hero-box-content">
