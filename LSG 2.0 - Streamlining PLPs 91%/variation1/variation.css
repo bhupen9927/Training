@@ -1,0 +1,45 @@
+html body .grid-view-item.product-card a {
+    bottom: 150px !important;
+    /* height: fit-content; */
+}
+
+html body .cv-selectoptions .cv-colourname>span {
+    color: #323232;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+}
+
+html body .cv-selectoptions .cv-colourname .cv-text {
+    color: #000 !important;
+    font-weight: 400;
+}
+
+html body .cv-selectoptions .cv-colouroptions .cv-image img {
+    border-radius: 100px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+html body .cv-selectoptions {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 8px;
+    margin-bottom: 15px;
+    z-index: 9;
+}
+
+html body .boost-pfs-filter-products .grid-view-item {
+    display: flex;
+    flex-direction: column;
+}
+
+html body .cv-selectoptions .cv-colouroptions {
+    display: flex;
+    flex-direction: row;
+    grid-gap: 8px;
+    flex-wrap: wrap;
+}
