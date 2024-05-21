@@ -31,7 +31,7 @@
       if(marketplace){
         marketplace.insertAdjacentElement('beforebegin',right);
       }
-      const header=document.querySelector('.my-auto .title-center-header');
+      const header=document.querySelector('.my-auto .title-center-header>h2');
       if(header){
         header.innerText='Find the right credit card or loan for you';
       }
