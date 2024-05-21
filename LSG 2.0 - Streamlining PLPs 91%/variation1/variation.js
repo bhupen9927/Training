@@ -581,7 +581,7 @@
 
             "colorName": "White",
 
-            "colorImgURL": "http",
+            "colorImgURL": "https://www.mamasandpapas.com/cdn/shop/files/swatch-Solo-swatch-White_50x.jpg?v=10035907285240098647",
 
             "productImg": "https://www.mamasandpapas.com/cdn/shop/products/mamas-papas-cot-beds-dover-cotbed-white-32479602737317_1024x1024@2x.jpg?v=1692085806",
 
@@ -601,7 +601,7 @@
 
             "colorName": "White",
 
-            "colorImgURL": "http",
+            "colorImgURL": "https://www.mamasandpapas.com/cdn/shop/files/swatch-Solo-swatch-White_50x.jpg?v=10035907285240098647",
 
             "productImg": "https://www.mamasandpapas.com/cdn/shop/products/mamas-papas-mia-baby-cot-bed-white-31397659279525_1024x1024@2x.jpg?v=1632217251",
 
@@ -621,7 +621,7 @@
 
             "colorName": "White",
 
-            "colorImgURL": "http",
+            "colorImgURL": "https://www.mamasandpapas.com/cdn/shop/files/swatch-Solo-swatch-White_50x.jpg?v=10035907285240098647",
 
             "productImg": "https://www.mamasandpapas.com/cdn/shop/products/mamas-papas-cot-beds-oxford-baby-cot-bed-pure-white-31938782658725_1024x1024@2x.jpg?v=1636451747",
 
@@ -661,7 +661,7 @@
 
             "colorName": "White/Natural",
 
-            "colorImgURL": "http",
+            "colorImgURL": "https://www.mamasandpapas.com/cdn/shop/files/swatch-Solo-swatch-Natural_White_50x.jpg?v=15667487981342401233",
 
             "productImg": "https://www.mamasandpapas.com/cdn/shop/files/mamas-papas-cot-beds-wedmore-cotbed-white-natural-34588788883621_1024x1024@2x.jpg?v=1691757294",
 
@@ -757,7 +757,7 @@
 
             "colorName": "Natural",
 
-            "colorImgURL": "https://www.mamasandpapas.com/cdn/shop/files/swatch-BUNDLESET%7Cs0064798_50x.jpg?82261",
+            "colorImgURL": "https://www.mamasandpapas.com/cdn/shop/files/swatch-Solo-swatch-natural_50x.jpg?v=735786286471359758",
 
             "productImg": "https://www.mamasandpapas.com/cdn/shop/products/mamas-papas-cot-beds-coxley-cotbed-natural-33500845932709_1024x1024@2x.jpg?v=1663938813",
 
@@ -777,7 +777,7 @@
 
             "colorName": "White",
 
-            "colorImgURL": "http",
+            "colorImgURL": "https://www.mamasandpapas.com/cdn/shop/files/swatch-Solo-swatch-White_50x.jpg?v=10035907285240098647",
 
             "productImg": "https://www.mamasandpapas.com/cdn/shop/files/mamas-papas-cot-beds-austwick-cotbed-white-34771582517413_1024x1024@2x.jpg?v=1696410799",
 
@@ -797,7 +797,7 @@
 
             "colorName": "White",
 
-            "colorImgURL": "http",
+            "colorImgURL": "https://www.mamasandpapas.com/cdn/shop/files/swatch-Solo-swatch-White_50x.jpg?v=10035907285240098647",
 
             "productImg": "https://www.mamasandpapas.com/cdn/shop/products/mamas-papas-cot-beds-harwell-baby-cot-bed-white-oak-30983836631205_1024x1024@2x.jpg?v=1628943768",
 
@@ -901,7 +901,7 @@
 
             "colorName": "White",
 
-            "colorImgURL": "http",
+            "colorImgURL": "https://www.mamasandpapas.com/cdn/shop/files/swatch-Solo-swatch-White_50x.jpg?v=10035907285240098647",
 
             "productImg": "https://www.mamasandpapas.com/cdn/shop/files/mamas-papas-cot-beds-flyn-baby-cotbed-white-34588859924645_1024x1024@2x.jpg?v=1691756039",
 
@@ -1521,7 +1521,7 @@
 
             "colorName": "White",
 
-            "colorImgURL": "http",
+            "colorImgURL": "https://www.mamasandpapas.com/cdn/shop/files/swatch-Solo-swatch-White_50x.jpg?v=10035907285240098647",
 
             "productImg": "https://www.mamasandpapas.com/cdn/shop/files/mamas-papas-cot-beds-hampden-cotbed-white-34588821225637_1024x1024@2x.jpg?v=1691757538",
 
@@ -1541,7 +1541,7 @@
 
             "colorName": "White",
 
-            "colorImgURL": "http",
+            "colorImgURL": "https://www.mamasandpapas.com/cdn/shop/files/swatch-Solo-swatch-White_50x.jpg?v=10035907285240098647",
 
             "productImg": "https://www.mamasandpapas.com/cdn/shop/files/mamas-papas-harwell-single-bed-white-34849593688229_1024x1024@2x.jpg?v=1697711482",
 
@@ -1621,7 +1621,7 @@
 
             "colorName": "Natural",
 
-            "colorImgURL": "http",
+            "colorImgURL": "https://www.mamasandpapas.com/cdn/shop/files/swatch-Solo-swatch-natural_50x.jpg?v=735786286471359758",
 
             "productImg": "https://www.mamasandpapas.com/cdn/shop/products/snuz-cot-beds-snuzkot-skandi-cot-bed-natural-31747253010597_1024x1024@2x.jpg?v=1634914363",
 
@@ -1641,7 +1641,7 @@
 
             "colorName": "White",
 
-            "colorImgURL": "http",
+            "colorImgURL": "https://www.mamasandpapas.com/cdn/shop/files/swatch-Solo-swatch-White_50x.jpg?v=10035907285240098647",
 
             "productImg": "https://www.mamasandpapas.com/cdn/shop/products/snuz-cot-beds-snuzkot-skandi-cot-bed-white-31747277521061_1024x1024@2x.jpg?v=1634914198",
 
@@ -1661,7 +1661,7 @@
 
             "colorName": "Slate",
 
-            "colorImgURL": "http",
+            "colorImgURL": "https://www.mamasandpapas.com/cdn/shop/files/swatch-Solo-swatch-Slate_50x.jpg?v=2298134758161298524",
 
             "productImg": "https://www.mamasandpapas.com/cdn/shop/products/snuz-cot-beds-snuzkot-skandi-cot-bed-slate-31782367723685_1024x1024@2x.jpg?v=1635231719",
 
@@ -1701,7 +1701,7 @@
 
             "colorName": "White",
 
-            "colorImgURL": "http",
+            "colorImgURL": "https://www.mamasandpapas.com/cdn/shop/files/swatch-Solo-swatch-White_50x.jpg?v=10035907285240098647",
 
             "productImg": "https://www.mamasandpapas.com/cdn/shop/products/snuz-cot-beds-snuzkot-extension-kit-white-31784993751205_1024x1024@2x.jpg?v=1644224382",
 
@@ -1721,7 +1721,7 @@
 
             "colorName": "Slate",
 
-            "colorImgURL": "http",
+            "colorImgURL": "https://www.mamasandpapas.com/cdn/shop/files/swatch-Solo-swatch-Slate_50x.jpg?v=2298134758161298524",
 
             "productImg": "https://www.mamasandpapas.com/cdn/shop/products/snuz-cot-beds-snuzkot-extension-kit-slate-31785066332325_1024x1024@2x.jpg?v=1644224410",
 
@@ -1804,23 +1804,21 @@
       }
       live('.grid--view-items > .grid__item .cv-colouroptions .cv-image', 'click', function () {
         var ele = this;
-        ele.classList.add('cvActive');
         var parentElement = ele.closest('.product-card');
         parentElement.querySelector('.grid-view-item__image-wrapper img').src = ele.getAttribute('cvproductimage');
         parentElement.querySelector('.grid-view-item__image-wrapper img').setAttribute('data-srcset', ele.getAttribute('cvproductimage'));
         parentElement.querySelector('.grid-view-item__image-wrapper img').srcset = ele.getAttribute('cvproductimage');
-
         parentElement.querySelector('.grid--view-items > .grid__item .cv-colourname .cv-colour').textContent = ele.getAttribute('cvname');
         parentElement.querySelector('.grid-view-item__link').href = ele.getAttribute('cvproductlink');
-
-
+        parentElement.querySelector('.cv-image.cvActive') && parentElement.querySelector('.cv-image.cvActive') .classList.remove('cvActive');
+        ele.classList.add('cvActive');
       });
     }
     function generateHTML(data) {
       var colorStr = '';
       var colorList = data.color;
-      colorList.forEach(function (val) {
-        colorStr += `<div class="cv-image" cvImg="${val.colorImgURL}" cvName="${val.colorName}" cvProductImage="${val.productImg}" cvProductLink="${val.productURL}">
+      colorList.forEach(function (val,i) {
+        colorStr += `<div class="cv-image ${i==0? "cvActive": "" }" cvImg="${val.colorImgURL}" cvName="${val.colorName}" cvProductImage="${val.productImg}" cvProductLink="${val.productURL}">
 <img src="${val.colorImgURL}">
 </div>`;
       });

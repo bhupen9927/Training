@@ -43,3 +43,8 @@ html body .cv-selectoptions .cv-colouroptions {
     grid-gap: 8px;
     flex-wrap: wrap;
 }
+
+html body .cvActive img {
+    border: 1px solid #0C7276;
+    padding: 2px;
+}
