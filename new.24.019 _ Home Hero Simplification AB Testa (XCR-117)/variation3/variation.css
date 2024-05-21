@@ -1,0 +1,133 @@
+.storepage>div .container-fluid>div>.experience-component:nth-child(2) {
+    display: none;
+}
+
+html body .eg-hero-section {
+    padding: 0 2rem;
+    background-image: url(https://newellbrands.imgix.net/7fac914a-38cc-3cbf-9ce5-2daa65478a19/7fac914a-38cc-3cbf-9ce5-2daa65478a19.jpg?fm=jpg&amp;w=3000);
+}
+
+html body .eg-hero-container {
+    display: flex;
+    justify-content: center;
+    max-width: 90rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+html body .eg-right-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 34%;
+}
+
+html body .eg-right-content h2 {
+    font-size: 2rem;
+    font-family: "Dinot-Bold", sans-serif !important;
+    font-weight: 700;
+    text-align: center;
+}
+
+html body .eg-right-content p {
+    font-family: "Roboto-Regular", sans-serif !important;
+    color: #3f4142;
+    line-height: 1.5;
+    letter-spacing: normal;
+    font-weight: 400;
+    text-align: center;
+    margin: 0px 0 20px;
+}
+
+html body .eg-right-content .eg-ctas {
+    display: flex;
+    grid-gap: 17px;
+}
+
+html body .eg-right-content .eg-ctas a {
+    background-color: #294388;
+    color: #fff;
+    border-color: #294388;
+    padding: 11px 30px;
+    font-family: "Roboto-Regular", sans-serif;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    text-align: center;
+    border-radius: 1.5rem;
+    text-decoration: none;
+}
+
+html body .eg-hero-section img {
+    width: 40%;
+    height: 337px;
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1600px) {
+    html body .eg-right-content {
+        width: 45%;
+    }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+    html body .eg-right-content {
+        width: 50%;
+    }
+
+    html body .eg-hero-section img {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    html body .eg-hero-container {
+        flex-direction: column;
+    }
+
+    html body .eg-right-content {
+        width: 100%;
+        background: #fff;
+        padding: 1rem;
+    }
+
+    html body .eg-hero-section img {
+        width: 100%;
+        height: auto;
+    }
+
+    html body .eg-hero-section {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    html body .eg-right-content .eg-ctas {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        grid-gap: 16px;
+    }
+
+    html body .eg-right-content .eg-ctas a {
+        width: 100%;
+        padding: 9.5px 15px;
+        font-size: 14px;
+    }
+
+    html body .eg-right-content p {
+        text-align: left;
+        margin-top: 12px;
+        margin-bottom: 30px;
+    }
+
+    html body .eg-right-content p>b {
+        font-weight: 700;
+    }
+
+    html body .eg-right-content h2 {
+        font-size: 1.5rem;
+    }
+}

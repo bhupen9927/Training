@@ -1,0 +1,184 @@
+@media screen and (max-width: 767px) {
+    .storepage>div .experience-component:nth-child(1) .slick-slide:first-child h2 {
+        padding-right: 20px;
+    }
+}
+
+.storepage>div .experience-component:nth-child(1) .slick-slide:nth-child(2) .text-container img,
+.storepage>div .experience-component:nth-child(1) .slick-slide:nth-child(1) .image-container,
+.storepage>div .experience-component:nth-child(1) .slick-slide:nth-child(1) .text-cta-container,
+.storepage>div .experience-component:nth-child(1) .slick-slide:nth-child(1) .text-cta-container .text-container,
+.storepage > div .experience-component:nth-child(1) .slick-slide:nth-child(2) picture {
+    display: none !important;
+}
+
+.storepage>div .experience-component:nth-child(1) .slick-carousel .custom-next {
+    right: 0.5rem;
+}
+
+
+.storepage>div .container-fluid>div>.experience-component:nth-child(2) {
+    display: none;
+}
+
+html body .eg-hero-section {
+    margin: 0 -0.75rem 0;
+    padding: 0 2rem;
+    background-image: url(https://newellbrands.imgix.net/7fac914a-38cc-3cbf-9ce5-2daa65478a19/7fac914a-38cc-3cbf-9ce5-2daa65478a19.jpg?fm=jpg&amp;w=3000);
+}
+
+html body .eg-hero-container {
+    display: flex;
+    justify-content: center;
+}
+
+html body .eg-right-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 34%;
+}
+
+html body .eg-right-content h2 {
+    font-size: 2rem;
+    font-family: "Dinot-Bold", sans-serif !important;
+    font-weight: 700;
+    text-align: center;
+}
+
+html body .eg-right-content p {
+    font-family: "Roboto-Regular", sans-serif !important;
+    color: #3f4142;
+    line-height: 1.5;
+    letter-spacing: normal;
+    font-weight: 400;
+    text-align: center;
+    margin: 0px 0 20px;
+}
+
+html body .eg-right-content .eg-ctas {
+    display: flex;
+    grid-gap: 17px;
+}
+
+html body .eg-right-content .eg-ctas a {
+    background-color: #294388;
+    color: #fff;
+    border-color: #294388;
+    padding: 11px 30px;
+    font-family: "Roboto-Regular", sans-serif;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    text-align: center;
+    border-radius: 1.5rem;
+    text-decoration: none;
+}
+
+html body .eg-hero-section img {
+    width: 55%;
+    height: 500px;
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+html body .storepage > div .experience-component:nth-child(1) .slick-slide:nth-child(2) .image-container {
+    background: url(https://assets-manager.abtasty.com/a61571af9fa8da96a89e3a6892373b7d/image-2024-05-18T084541.219.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+@media screen and (min-width: 1500px) {
+    html body .eg-hero-container {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+    html body .eg-right-content {
+        width: 42%;
+    }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+    html body .eg-right-content {
+        width: 31%;
+    }
+
+    html body .eg-hero-section img {
+        width: 61%;
+    }
+
+    html body .eg-right-content .eg-ctas {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    html body .eg-hero-container {
+        flex-direction: column;
+    }
+
+    html body .eg-right-content {
+        width: 100%;
+        background: #fff;
+        padding: 1rem;
+    }
+
+    html body .eg-hero-section img {
+        width: 100%;
+        height: 314px;
+    }
+
+    html body .eg-hero-section {
+        padding: 0;
+    }
+
+    .storepage>div .experience-component:nth-child(1) .slick-carousel .custom-next,
+    .storepage>div .experience-component:nth-child(1) .slick-carousel .custom-prev {
+        top: 44%;
+    }
+
+    html body .storepage > div .experience-component:nth-child(1) .slick-slide:nth-child(2) .image-container {
+        background: url(https://assets-manager.abtasty.com/a61571af9fa8da96a89e3a6892373b7d/image-2024-05-18T084548.763.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+
+    .storepage > div .experience-component:nth-child(1) .slick-slide:nth-child(2) .text-cta-container {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    html body .eg-right-content .eg-ctas {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        grid-gap: 16px;
+    }
+
+    html body .eg-right-content .eg-ctas a {
+        width: 100%;
+        padding: 9.5px 15px;
+        font-size: 14px;
+    }
+
+    html body .eg-right-content p {
+        text-align: left;
+        margin-top: 12px;
+        margin-bottom: 30px;
+    }
+
+    html body .eg-right-content p>b {
+        font-weight: 700;
+    }
+
+    html body .eg-right-content h2 {
+        font-size: 1.5rem;
+    }
+}
