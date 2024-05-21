@@ -38,11 +38,51 @@
         <div class="eg-form-title">
           <img src="https://www.newpro.com/wp-content/uploads/2021/12/anglemarks.svg">
           <h2>Premium Windows, Expert Installation</h2>
-        </div>`
+        </div>`;
+
+        function formPlaceholderTexts() {
+          var firstName = document.querySelector("#hero_form .form-group:nth-child(3) .form-row > div:first-child input");
+          var lastName = document.querySelector('#hero_form .form-group:nth-child(3) .form-row > div:last-child input');
+          var email = document.querySelector('#hero_form .form-group:nth-child(4) .form-row > div:last-child input');
+          var zipCode = document.querySelector('#hero_form .form-group:nth-child(5) .form-row > div:last-child input');
+          var phoneNumber = document.querySelector('#hero_form .form-group:nth-child(5) .form-row > div:first-child input');
+          if (firstName) {
+            firstName.placeholder = "First name";
+          }
+          if(lastName){
+            lastName.placeholder = "Last name";
+          }
+          if(email) {
+            email.placeholder = "Email";
+          }
+          if(phoneNumber) {
+            phoneNumber.placeholder = "Phone number";
+          }
+          if(zipCode) {
+            zipCode.placeholder = "Zip code";
+          }
+        }
+
+        function ctaTextChange() {
+          const elementsToChange = [
+            { selector: '#hero_right button', text: 'GET A FREE QUOTE' },
+            { selector: '#hero_content [href="get-a-quote"]', text: 'GET A FREE QUOTE' },
+            { selector: '#sub_footer #sub_footer_right .btn-success', text: 'GET A FREE QUOTE' }
+          ];
+      
+          elementsToChange.forEach(item => {
+            const element = document.querySelector(item.selector);
+            if (element) {
+              element.innerText = item.text;
+            }
+          });
+        }
 
 
     /* Variation Init */
     function init() {
+      formPlaceholderTexts();
+      ctaTextChange()
       var heroHeading = document.querySelector('#hero_left .hero_text');
       heroHeading.innerHTML = heroSectionTexts;
       var topForm = document.querySelector('#hero_form');
@@ -75,6 +115,18 @@
       var heroText = document.querySelector('html body #hero_left .hero_text')
       if(window.innerWidth < 767) {
         heroText.insertAdjacentElement('beforeend', getAquote);
+      }
+      var conditionText = document.querySelector('html body #hero #o-c-container span');
+      if(conditionText) {
+        conditionText.innerHTML = '<p>I agree to the <span>terms and conditions.</span></p><small>*I’m interested in learning more about NEWPRO’s products. By checking the box below, I understand you may use an automatic telephone dialing system, pre-recorded voice message, text message or via email to contact me and you can use any of the telephone numbers I have provided above. I understand that I do not need to sign this provision in order to purchase any goods or services. By clicking Get a Free Quote Now!, you authorize NEWPRO Home Solutions to reach out to you with questions about your project, via phone, email, or text. Message/data rates apply. Consent is not a condition of purchase. You may unsubscribe at any time.  <a href="https://www.newpro.com/sms-terms-and-conditions/">Terms &amp; Conditions</a> |  <a href="https://www.newpro.com/privacy-policy/">Privacy Policy</a>.</small>'
+      }
+      var trustLogos = document.querySelector('html body #hero_content .trust_logos');
+      if(window.innerWidth< 767 && trustLogos && mobileHeroCta) {
+        mobileHeroCta.insertAdjacentElement("afterend", trustLogos);
+      }
+      var footerConditionText = document.querySelector('html body #subfooter_form #o-c-container span');
+      if(footerConditionText) {
+        footerConditionText.innerHTML = '<p>I agree to the <span>terms and conditions.</span></p><small>*I’m interested in learning more about NEWPRO’s products. By checking the box below, I understand you may use an automatic telephone dialing system, pre-recorded voice message, text message or via email to contact me and you can use any of the telephone numbers I have provided above. I understand that I do not need to sign this provision in order to purchase any goods or services. By clicking Get a Free Quote Now!, you authorize NEWPRO Home Solutions to reach out to you with questions about your project, via phone, email, or text. Message/data rates apply. Consent is not a condition of purchase. You may unsubscribe at any time.  <a href="https://www.newpro.com/sms-terms-and-conditions/">Terms &amp; Conditions</a> |  <a href="https://www.newpro.com/privacy-policy/">Privacy Policy</a>.</small>'
       }
     }
 
