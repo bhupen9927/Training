@@ -141,7 +141,8 @@
               <div class="swiper-slide">
                 <div class="eg-card">
                   <div class="eg-image-name">
-                    <img src="https://i.ibb.co/ZGhnpF6/Icon-1-1.png">
+                    <span class="cta-panel-label__icon cta-panel-label__icon--product"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="#fff" aria-hidden="true"><path d="M3.9,13.5V9.7l2.5,1.5L8.4,10v6.3L3.9,13.5z M14.1,9.7v3.7l-4.5,2.9V10l2.1,1.2L14.1,9.7z M2.1,7.3l1.6-1L7.9,9L6.4,9.9L2.1,7.3z M10.1,9l4.2-2.7l1.6,1l-4.2,2.6L10.1,9z M4.7,5.7L9,3l4.3,2.7L9,8.3L4.7,5.7z M2.1,4l4.3-2.7l1.6,1l0,0l0,0L3.7,5L2.1,4z M10,2.3L10,2.3L10,2.3l1.6-1L15.9,4l-1.6,1L10,2.3z M11.6,0L9,1.7L6.4,0L0,4l2.6,1.7L0,7.4L2.8,9v0.1h0v5L9,18l0,0l0,0l6.2-3.9v-5h0V9L18,7.4l-2.6-1.7L18,4L11.6,0z"></path></svg>
+                    </span>
                     <p>${currentTestData.data.FirstCardSubHead}</p>
                   </div>
                   <h2>${currentTestData.data.FirstCardHeading}</h2>
@@ -152,7 +153,8 @@
               <div class="swiper-slide">
                 <div class="eg-card">
                   <div class="eg-image-name">
-                    <img src="https://i.ibb.co/ZGhnpF6/Icon-1-1.png">
+                    <span class="cta-panel-label__icon cta-panel-label__icon--product"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="#fff" aria-hidden="true"><path d="M3.9,13.5V9.7l2.5,1.5L8.4,10v6.3L3.9,13.5z M14.1,9.7v3.7l-4.5,2.9V10l2.1,1.2L14.1,9.7z M2.1,7.3l1.6-1L7.9,9L6.4,9.9L2.1,7.3z M10.1,9l4.2-2.7l1.6,1l-4.2,2.6L10.1,9z M4.7,5.7L9,3l4.3,2.7L9,8.3L4.7,5.7z M2.1,4l4.3-2.7l1.6,1l0,0l0,0L3.7,5L2.1,4z M10,2.3L10,2.3L10,2.3l1.6-1L15.9,4l-1.6,1L10,2.3z M11.6,0L9,1.7L6.4,0L0,4l2.6,1.7L0,7.4L2.8,9v0.1h0v5L9,18l0,0l0,0l6.2-3.9v-5h0V9L18,7.4l-2.6-1.7L18,4L11.6,0z"></path></svg>
+                    </span>
                     <p>${currentTestData.data.SecondCardSubHead}</p>
                   </div>
                   <h2>${currentTestData.data.SecondCardHeading}</h2>
@@ -163,7 +165,8 @@
               <div class="swiper-slide">
                 <div class="eg-card">
                   <div class="eg-image-name">
-                    <img src="https://i.ibb.co/ZGhnpF6/Icon-1-1.png">
+                    <span class="cta-panel-label__icon cta-panel-label__icon--product"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="#fff" aria-hidden="true"><path d="M3.9,13.5V9.7l2.5,1.5L8.4,10v6.3L3.9,13.5z M14.1,9.7v3.7l-4.5,2.9V10l2.1,1.2L14.1,9.7z M2.1,7.3l1.6-1L7.9,9L6.4,9.9L2.1,7.3z M10.1,9l4.2-2.7l1.6,1l-4.2,2.6L10.1,9z M4.7,5.7L9,3l4.3,2.7L9,8.3L4.7,5.7z M2.1,4l4.3-2.7l1.6,1l0,0l0,0L3.7,5L2.1,4z M10,2.3L10,2.3L10,2.3l1.6-1L15.9,4l-1.6,1L10,2.3z M11.6,0L9,1.7L6.4,0L0,4l2.6,1.7L0,7.4L2.8,9v0.1h0v5L9,18l0,0l0,0l6.2-3.9v-5h0V9L18,7.4l-2.6-1.7L18,4L11.6,0z"></path></svg>
+                    </span>
                     <p>${currentTestData.data.ThirdCardSubHead}</p>
                   </div>
                   <h2>${currentTestData.data.ThirdCardHeading}</h2>
@@ -181,7 +184,7 @@
 
     /* Variation Init */
     function init() {
-      var destination = document.querySelector('main>[class*="product-details"] [class*="product-details__content"] > div:first-child');
+      var destination = document.querySelector('main>[class*="product-details"] [class*="product-details__content"] > div:nth-child(2)');
       if (!document.querySelector('.eg-ctaSection')) {
         destination.insertAdjacentHTML("afterend", ctasSection);
       }
@@ -224,7 +227,7 @@
 
     /* Initialize variation */
 
-    waitForElement('main>[class*="product-details"] [class*="product-details__content"] > div:first-child', init, 1000, 15000);
+    waitForElement('main>[class*="product-details"] [class*="product-details__content"] > div:nth-child(2)', init, 1000, 15000);
 
   } catch (e) {
     if (debug) console.log(e, "error in Test" + variation_name);
