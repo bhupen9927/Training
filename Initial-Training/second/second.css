@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.container{
+    border: 1px solid black;
+    width: 100%;
+}
+
+.parent{
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    margin: 0 auto;
+    align-items: center;
+    padding: 10rem 2rem 2rem ;
+}
+.upper{
+    margin: 2px;
+}
+h1{
+        /* text-transform: capitalize; */
+        font-style: italic;
+        color: black;
+        margin-left: 2px;
+        margin-top: 0;
+        margin-bottom: 45px;
+        font-size: 11.75rem;
+        letter-spacing: 8px;
+        font-family: 'Playfair Display', serif !important;
+        font-weight: 100;
+}
+.middle{
+   
+    display: flex;
+    /* align-items: flex-start; */
+    justify-content: center;
+    grid-gap: 20px;
+}
+.lastpara{
+    /* border: 3px solid black; */
+    width: 41%;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+    /* padding-left: 3rem; */
+    font-size: 3.5rem;
+    line-height: 1.6;
+    margin-left: 16%;
+}
+
+.image{
+    /* border: 3px solid black; */
+    
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.footer{
+    color: #ffffff;
+    background-color: #333333;
+    padding: 6vh;
+    font-size: 2.8rem;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link2{
+    color: aqua;
+    text-decoration: underline;
+}

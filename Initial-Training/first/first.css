@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+.Container{
+    border: 1px solid black;
+    width: 100%;
+    background-image: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/6a991996f93057feb83f5025/bg3.png);
+}
+
+.parent{
+    /* border: 2px solid rgb(182, 47, 47); */
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    /* padding: 2vh; */
+}
+.right_panel{
+    /* border: 2px solid blue; */
+    /* min-height: 100vh; */
+    width: 40%;
+    background-image:url(imgfirst.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x:60% ;
+ 
+}
+.left_panel{
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{  
+    /* border: 1px solid black; */
+}
+.para{
+      max-width:420px;
+      font-size:20px;
+      font-style:italic;
+      font-family: 'Open Sans', sans-serif;
+}
+.link{
+    color: white;
+    background-color: #61a734;
+    font-size: 16px;
+    padding:20px 40px;
+    display:flex;
+    margin: 25px 0 0 0;
+    text-transform: uppercase;
+    margin: 25px 225px 3px 0px;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.organic{
+    font-size:90px;
+    text-transform: capitalize;
+    font-style: italic;
+    color: #FF5A00;
+    margin-left: 2px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-family: 'Great Vibes';
+}
+.Fresh{
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #61a734;
+    margin-left: 150px;
+    margin-bottom: -27px;
+    font-weight: bolder;
+    font-family: 'Open Sans', sans-serif;
+}
+/* .footer{
+    color: #ffffff;
+    background-color: #333333;
+    padding: 6vh;
+    font-size: 0.8rem;
+    font-family: 'Open Sans',sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     }  */
+.footer{
+    color: #ffffff;
+    background-color: #333333;
+    padding: 6vh;
+    font-size: 0.8rem;
+    font-family: 'Open Sans',sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link2{
+    color: aqua;
+    text-decoration: underline;
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .parent { flex-direction: column;
+        background-size: 111% 55%;
+    background-position: 20% 50%;
+    height: 100vh;
+    margin: 12%;
+}
+}
