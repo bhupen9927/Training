@@ -1,0 +1,184 @@
+#wrapper >div:nth-child(2){
+    display:none;
+} 
+
+#content .banner-section:nth-child(1) .slider{
+    display:none;
+}
+
+html body .eg-background{
+    background-image: url("https://i.ibb.co/gSyDjvJ/image-4.png");
+    height: 554px;
+    width: 100%;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    /* width: 1440px; */
+}
+html body .eg-hero-section {
+    background-color: white !important;
+    height: 100%;
+    box-shadow: 52px 199px 101px rgb(255 255 255), 52px -121px 101px rgb(255 255 255);
+    width: 41.5%;
+    padding-left: 82px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+html body .eg-hero-heading {
+    font-size: 30px !important;
+    color: black !important;
+    font-family: "PT Sans";
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 38.82px;
+}
+
+html body .eg-hero-content {
+    font-size: 22px !important;
+    color: black !important;
+    text-shadow: 0 0 black !important;
+    font-weight: 400;
+    line-height: 28.47px !important;
+}
+
+html body .eg-cta-container {
+    margin-top: 10px;
+}
+
+html body .eg-button {
+    display: inline-block;
+    padding: 15px 30px;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 300px;
+    text-decoration: none;
+    font-size: 16px !important;
+}
+
+html body .eg-shop-cta {
+    background-color: #FF8700;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+html body .eg-filter-cta {
+    background-color: white;
+    border: 1px solid #279ED8;
+    color: #279ED8 !important;
+}
+
+html body .eg-trustLine{
+    font-size: 16px !important;
+    font-family: "inter";
+    font-weight: 400;
+}
+
+.logo-section .section-content .img{
+    display: none;
+}
+
+html body .eg-trustImg{
+    margin-left: 8%;
+ }
+
+ .power-section{
+    padding-top:0 !important;
+}
+
+@media screen and (max-width:1100px){
+    html body .eg-cta-container{
+        display:flex;
+        flex-wrap:wrap;
+    }
+    html body .eg-shop-cta{
+        margin-bottom:15px;
+    }
+}
+@media screen and (min-width:767px) and (max-width:991px){
+    html body .eg-background{
+        height:445px;
+    }
+        html body .eg-hero-section{
+        padding-left:5%;
+    }
+}
+
+@media screen and (min-width:548px) and (max-width:766px){
+    html body .eg-background{
+        height:310px;
+    }
+    html body .eg-hero-section{
+        width:50%;
+        padding-left:5%;
+    }
+    html body .eg-hero-heading{
+        font-size:26px !important;
+        margin-bottom:10px !important;
+        line-height: 32.82px;
+    }
+    html body .eg-hero-content{
+        font-size:20px !important;
+        margin-bottom:10px !important;
+        line-height: 25px !important;
+    }
+     html body .eg-trustImg{
+        width:85%;
+    }
+}
+#content>section:nth-child(2)>div:nth-child(2){
+    display:none;
+}
+
+@media screen and (max-width:547px){
+    html body .eg-background{
+        height:300px;
+    }
+    html body .eg-hero-section{
+        width:100%;
+        padding-left:4.5%;
+        background:transparent !important;
+        text-align: center;
+    }
+    html body .eg-hero-heading{
+        font-size:22px !important;
+        margin-bottom:10px !important;
+        line-height: 24.82px;
+        text-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%) !important;
+    }
+    html body .eg-hero-content{
+        font-size:14px !important;
+        margin-bottom:10px !important;
+        line-height: 20px !important;
+        margin-left:10px;
+        text-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%) !important;
+    }
+    html body .eg-cta-container{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+    }
+    html body .eg-trustImg{
+        width:85%;
+    }
+    html body .eg-button{
+        padding:10px 20px;
+    }
+    html body .eg-shop-cta{
+        margin-top:10px;
+    }
+}
+
+#content>section:nth-child(1){
+    display:block !important;
+}
+.header-inner>div:nth-child(4)>ul>li:nth-child(2){
+    display:none;
+}
+.header-inner>div:nth-child(4)>ul>li:nth-child(6){
+    display:none
+}

@@ -1,0 +1,32 @@
+.product-faq .accordion>div:nth-child(3)>div>p:nth-child(1),
+.accordion a[href="#accordion-item-how-often-do-i-need-to-change-the-filters?"] + div > p,
+.accordion a[href="#accordion-item-what-room-size-will-airdoctor-1000-cover?"],
+.accordion a[href="#accordion-item-what-room-size-will-airdoctor-2000-series-cover?"],
+.accordion a[href="#accordion-item-what-room-size-will-airdoctor-2500-cover?"],
+.accordion a[href="#accordion-item-what-room-size-will-airdoctor-3000-series-cover?"],
+.accordion a[href="#accordion-item-what-room-size-will-airdoctor-5000-series-cover?"]{
+    display: none;
+}
+
+html body .eg-thirdFaq-table td,th{
+    border:1px solid #ececec;
+    padding:10px !important;
+}
+
+html body .eg-thirdFaq-table-heading th,
+html body .eg-productName{
+    font-weight:700 !important;
+}
+
+html body .eg-fourth-heading{
+    font-weight: 700;
+}
+
+html body .eg-replace{
+    margin: 0 0 auto 77px;
+}
+
+html body .eg-fourth-subheading,
+html body .eg-replace li:first-child{
+    margin-bottom: 0;
+}
