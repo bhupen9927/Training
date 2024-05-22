@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Node List vs HTML Collection</h1>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    <script>
+        // let listItems = document.getElementsByTagName('li');
+        // console.log(listItems);
+        // console.log(listItems.length);
+
+        // listItems[0].parentNode.appendChild(document.createElement('li'));
+        // console.log(listItems);
+        // console.log(listItems.length);
+
+        let listItems = document.querySelectorAll('li');
+        console.log(listItems);
+        console.log(listItems.length);
+
+        listItems[0].parentNode.appendChild(document.createElement('li'));
+
+        listItems = document.querySelectorAll('li');
+        console.log(listItems);
+        console.log(listItems.length);
+    </script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teach Yourself</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="header-container">
+            <div class="header">
+                <div class="logoicon">
+                    <img src="https://i.ibb.co/p03S3Bp/default-logo.png">
+                </div>
+                <div class="nav-bar">
+                    <a href="#">Page 1</a>
+                    <a href="#">Page 2</a>
+                    <a href="#">Page 3</a>
+                    <a href="#">Page 4</a>
+                    <a href="#">Page 5</a>
+                    <a href="#">Page 6</a>
+                    <a href="#">Page 7</a>
+                </div>
+                <div class="menu-button">
+                    <button class="menu-btn" id="menuBtn">☰</button>
+                <!-- menu content here -->
+                <div id="menuContent">
+                    <span class="close-btn" onclick="closeMenu()">✖</span>
+                <!-- menu items here -->
+                <ul>
+                    <li><a href="#">Page 1</a></li>
+                    <li><a href="#">Page 2</a></li>
+                    <li><a href="#">Page 3</a></li>
+                    <li><a href="#">Page 4</a></li>
+                    <li><a href="#">Page 5</a></li>
+                    <li><a href="#">Page 6</a></li>
+                    <li><a href="#">Page 7</a></li>
+                </ul>
+                </div>
+                </div>
+                <script>
+                    // Function to toggle the menu
+                    function toggleMenu() {
+                        var menuContent = document.getElementById("menuContent");
+                        if (menuContent.style.left === "-300px") {
+                        menuContent.style.left = "0";
+                        } else {
+                        menuContent.style.left = "-300px";
+                        }
+                    }
+
+                      // Function to close the menu
+                        function closeMenu() {
+                         document.getElementById("menuContent").style.left = "-300px";
+                         }
+
+                    // Attach click event listener to the menu button
+                    document.getElementById("menuBtn").addEventListener("click", toggleMenu);
+                    </script>
+            </div>
+        </div>
+
+        <div class="hero-section">
+            <div class="hero-box">
+                <div class="teach-yourself">
+                    <h1>Teach Yourself</h1>
+                    <p>Sit amet consectetur adipiscing elit. Aenean et tortor at risus viverra adipiscing at. A scelerisque purus semper eget duis at. Non sodales neque sodales ut etiam. Ornare arcu odio ut sem nulla pharetra diam. Eget magna fermentum iaculis eu non diam phasellus.</p>
+                    <p class="image-link-text">Image from <a class="image-link" href="#">Freepik</a></p>
+                    <button class="primary-button">learn More</button>
+                </div>
+                <div class="hero-section-images">
+                    <div class="first-box"></div>
+                    <div class="second-box"></div>
+                    <div class="line-image">
+                    </div>
+                    <div class="teacher-image">
+                        <img src="https://images02.nicepage.com/c461c07a441a5d220e8feb1a/ae58be93ee7f528b8e68158c/swe-min.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+                <div class="footer-content">
+                    <div class="contentone">
+                        <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                </div>
+                <div class="footer-two">
+                    <span><a class="link2">Template </a>created with <a class="link2">Nicepage</a></span>    
+                </div>
+        </div>
+        </div>
+</body>
+</html>

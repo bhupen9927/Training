@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul id="menu">
+        <li>Home</li>
+    </ul>
+    <script>
+        let div = document.createElement('div');
+        div.id = 'content';
+        div.className = 'note';
+
+        // create a new heading and add it to the div
+        let h2 = document.createElement('h2');
+        h2.textContent = 'Add h2 element to the div';
+        div.appendChild(h2);
+
+        // add div to the document
+        document.body.appendChild(div);
+
+        let li = document.createElement('li');
+        li.textContent = 'Products';
+        menu.appendChild(li);
+
+        li = document.createElement('li');
+        li.textContent = 'About Us';
+        menu.appendChild(li);
+
+        // select the ul menu element
+        // const menu = document.querySelector('#menu');
+        // menu.appendChild(li);
+debugger;
+        let script = document.createElement('script');
+script.src = '/lib.js';
+document.body.appendChild(script);
+
+function loadJS(url) {
+    let script = document.createElement('script');
+    script.src = url;
+    document.body.appendChild(script);
+}
+
+loadJS('/lib.js');
+
+function loadJSAsync(url) {
+    let script = document.createElement('script');
+    script.src = url;
+    script.async = true;
+    document.body.appendChild(script);
+}
+    </script>
+</body>
+</html>

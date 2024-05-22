@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JavaScript DOM - after()</title>
+        <style>
+            button {
+                padding: 0.75em 1em;
+                background-color: #F7DF1E;
+                color: #000;
+                cursor: pointer;
+                border-radius: 50vw;
+            }
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li>Angular</li>
+            <li>Vue</li>
+        </ul>
+
+        <button>Donate Here</button>
+        <script>
+            const list = document.querySelector('ul');
+
+            const libs = ['React', 'Meteor', 'Polymer'];
+            const items = libs.map((lib) => {
+                const item = document.createElement('li');
+                item.innerText = lib;
+                return item;
+            });
+
+            list.lastChild.after(...items);
+
+            const button = document.querySelector('button');
+            button.firstChild.after(' 🧡');
+        </script>
+    </body>
+</html>

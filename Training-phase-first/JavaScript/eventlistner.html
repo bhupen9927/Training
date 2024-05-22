@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3> click below button to check the event</h3>
+    <button id="firstButton" onclick="hello()">Click Me</button>
+
+    <h3>using inline properties</h3>
+    <button id="secondButton" >click me</button>
+
+    <h3>using addEventListener</h3>
+    <button id="thirdButton" >click me</button>
+
+    <script>
+        function hello(){
+            alert("Hello I am an event");
+        }
+
+    let btn = document.querySelector('#secondButton');
+    btn.onclick=() =>{
+        alert("Hi i am second button to introduce inline properties.")
+    }
+
+    let btn1 = document.querySelector('#thirdButton');
+    btn1.addEventListener('click',helloworld);
+    function helloworld(){
+        alert("Namaste! I am third button to introduce addEvenListner method")
+    }
+
+    </script>
+</body>
+</html>

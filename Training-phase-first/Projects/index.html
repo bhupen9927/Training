@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header-container">
+            <div class="header">
+                <div class="search-container">
+                    <!-- Search box -->
+                    <input type="text" class="search-box" placeholder="Search">
+                      <svg class="search-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M18.293 16.207l4 4-1.414 1.414-4-4a8 8 0 1 1 1.414-1.414zM11 18a7 7 0 1 0 0-14 7 7 0 0 0 0 14z"/>
+                     <path fill="none" d="M0 0h24v24H0V0z"/>
+                    </svg>
+                </div>
+                <div class="menu-button">
+                    <button class="menu-btn" id="menuBtn">☰</button>
+                <!-- Your menu content here -->
+                <div id="menuContent">
+                    <span class="close-btn" onclick="closeMenu()">✖</span>
+                <!-- Add your menu items here -->
+                <ul>
+                    <li><a href="#">Page 1</a></li>
+                </ul>
+                </div>
+                </div>
+                <script>
+                    // Function to toggle the menu
+                    function toggleMenu() {
+                        var menuContent = document.getElementById("menuContent");
+                        if (menuContent.style.left === "-300px") {
+                        menuContent.style.left = "0";
+                        } else {
+                        menuContent.style.left = "-300px";
+                        }
+                    }
+
+                      // Function to close the menu
+                        function closeMenu() {
+                         document.getElementById("menuContent").style.left = "-300px";
+                         }
+
+                    // Attach click event listener to the menu button
+                    document.getElementById("menuBtn").addEventListener("click", toggleMenu);
+                    </script>
+            </div>
+        </div>
+
+        <div class="parent-container">
+            <div class="hero-section">
+                <div class="project-section">
+                    <h2>projects</h2>
+                    <div class="project-image-content">
+                        <div class="image-one">
+
+                        </div>
+                        <div class="image-one-content">
+                            <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub-project-section">
+                    <img src="https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/1cfa9a77bcda54beb439e25e/pexels-photo-3545779.jpeg">
+                    <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                </div>
+            </div>
+
+            <div class="creative-panel">
+                <div class="creative-content-box">
+                    <h2> New day,
+                        <br>
+                        New creative things.
+                    </h2>
+                    <a href="#">View More</a>
+                </div>
+            </div>
+
+            <div class="modern-design-panel">
+                <div class="modern-design-content">
+                    <p>
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <div class="social-icons">
+                            <a class="social-url" title="facebook" target="_blank" href="https://facebook.com/name">
+                                <span class="icon-social-facebook">
+                                    <svg class="svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xlink:href="#svg-0e85"></use></svg>
+                                    <svg class="svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-0e85"><path fill="currentColor" d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2
+                                     c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path></svg></span>
+                            </a>
+                            <a class="social-url" title="twitter" target="_blank" href="https://twitter.com/name">
+                                <span class="icon-social-twitter">
+                                    <svg class="svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xlink:href="#svg-0d23"></use></svg>
+                                    <svg class="svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-0d23"><path fill="currentColor" d="M92.2,38.2c0,0.8,0,1.6,0,2.3c0,24.3-18.6,52.4-52.6,52.4c-10.6,0.1-20.2-2.9-28.5-8.2
+                                                c1.4,0.2,2.9,0.2,4.4,0.2c8.7,0,16.7-2.9,23-7.9c-8.1-0.2-14.9-5.5-17.3-12.8c1.1,0.2,2.4,0.2,3.4,0.2c1.6,0,3.3-0.2,4.8-0.7
+                                                c-8.4-1.6-14.9-9.2-14.9-18c0-0.2,0-0.2,0-0.2c2.5,1.4,5.4,2.2,8.4,2.3c-5-3.3-8.3-8.9-8.3-15.4c0-3.4,1-6.5,2.5-9.2
+                                                c9.1,11.1,22.7,18.5,38,19.2c-0.2-1.4-0.4-2.8-0.4-4.3c0.1-10,8.3-18.2,18.5-18.2c5.4,0,10.1,2.2,13.5,5.7c4.3-0.8,8.1-2.3,11.7-4.5
+                                                c-1.4,4.3-4.3,7.9-8.1,10.1c3.7-0.4,7.3-1.4,10.6-2.9C98.9,32.3,95.7,35.5,92.2,38.2z"></path></svg></span>
+                            </a>
+                            <a class="social-url" title="instagram" target="_blank" href="https://instagram.com/name">
+                                <span class="icon-social-instagram">
+                                    <svg class="svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xlink:href="#svg-91bb"></use></svg>
+                                    <svg class="svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-91bb"><path fill="currentColor" d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z
+                                M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z"></path><path fill="#FFFFFF" d="M79.7,26.8c-3,0-5.4,2.5-5.4,5.4s2.5,5.4,5.4,5.4c3,0,5.4-2.5,5.4-5.4S82.7,26.8,79.7,26.8z"></path><path fill="currentColor" d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7
+                               V33.7C100.8,21.1,90.6,11,78.2,11z M91,78.4c0,7.1-5.8,12.8-12.8,12.8H33.5c-7.1,0-12.8-5.8-12.8-12.8V33.7
+                               c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z"></path></svg></span>
+                            </a>
+                        </div>
+                </div>
+                <div class="modern-design-image">
+                    <div class="modern-design-heading">
+                        <h2> Modern Design</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="social-panel">
+                    <h1>Social Economy Month</h1>
+                    <h3>Trends 2020</h3>
+            </div>
+
+            <div class="list-panel">
+                <div class="leaf-image">
+
+                </div>
+                <div class="project-list">
+                    <h2>
+                        Premium Design 
+                        <br>
+                        Amazing photo 
+                        <br>
+                        Creative Ideas
+                        <br>
+                        Unique Strategy
+                    </h2>
+                </div>
+                <div class="list-panel-image-girl">
+                    <img src="https://images02.nicepage.com/a1389d7bc73adea1e1c1fb7e/6d0ea072a4da5326aa69e0dd/pexels-photo-5889715.jpeg?version=">
+                    <p>Dignissim suspendisse in est ante in nibh mauris. Varius quam quisque id diam vel quam elementum pulvinar etiam. Nunc pulvinar sapien et ligula ullamcorper malesuada proin. Nunc mattis enim ut tellus elementum sagittis vitae et leo.
+                    </p>
+                </div>
+            </div>
+
+            <div class="quick-panel">
+                    <a href="#"> QUICK</a>
+            </div>
+
+            <div class="my-work-panel">
+                <h3>My Work</h3>
+                <div class="image-gallery">
+                    <div class="image-gallery-box">
+                        <div class="image">
+                            <img src="https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/d661c0452b915eccbfc166da/pexelsphoto972325.jpeg">
+                        </div>
+                        <div class="image">
+                            <img src="https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/75e2f326ddfa5d2f90704173/pexels-photo-911758.jpeg">
+                        </div>
+                        <div class="image">
+                            <img src="https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/5c2634996bff53a7a994b924/pexelsphoto218863.jpeg">
+                        </div>
+                        <div class="image">
+                            <img src="https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/7d5f0688acb5571a8bc3c39d/pexels-photo-2987769.jpeg">
+                        </div>
+                        <div class="image">
+                            <img src="https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/469f8e234893599c82b4bcdb/pexelsphoto3787752.jpeg">
+                        </div>
+                        <div class="image">
+                            <img src="https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/b9df833743ec511aaf30c26e/pexelsphoto3874342.jpeg">
+                        </div>
+                        <div class="image">
+                            <img src="https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/519673d07b0152e48040d50a/pexelsphoto3921861.jpeg">
+                        </div>
+                        <div class="image">
+                            <img src="https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/ecf48d29b3815cb5a9c4fdc4/pexelsphoto3978928.jpeg">
+                        </div>
+                        <div class="image">
+                            <img src="https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/391a483ca878549eb498a212/pexels-photo-3914752.jpeg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-content-panel">
+                <h3>Exclusive 
+                    <i>
+                        <b>
+                            restaurant in Paris,
+                        </b>
+                    </i> 
+                     the ultimate way to get amazing food from the best chefs in the city.
+                     <b>
+                        <i>
+                             Great atmosphere included.
+                        </i>
+                     </b>
+                     </h3>
+            </div>
+
+            <div class="contact-panel">
+                <div class="contact-panel-box">
+                    <div class="right-about">
+                        <h2>
+                            Welcome to Design Studio
+                        </h2>
+                        <p>
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehen derit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                            <br>
+                            <br>
+                            Duis aute irure dolor in reprehen derit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                            Excepteur sint occaecat cupidatat non. Tion ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.
+                        </p>
+                    </div>
+                    <div class="contact-form">
+                        <form>
+                            <input type="text" placeholder="Enter your Name" id="name" name="name" required><br>
+
+                            <input type="email" placeholder="Enter a valid email address" id="email" name="email" required><br>
+                            
+                            <textarea rows="5" cols="50" id="message" placeholder="Enter your message" name="message" required></textarea><br>
+                            
+                            <input type="checkbox" id="tos" name="tos" required>
+                            <label for="tos">I accept the
+                                <a class="terms" href="#">Terms of Service</a> 
+                                </label><br>
+
+                            <input type="submit" value="Submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+         <div class="footer">
+                <div class="footer-content">
+                    <div class="contentone">
+                        <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                </div>
+                <div class="footer-two">
+                                 <span><a class="link2">Website Templates </a>created with <a class="link2">Website Builder Software</a></span>    
+                </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
