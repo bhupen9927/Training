@@ -117,7 +117,8 @@
 
           }
 
-        ]
+        ],
+        "title": "Solo Cotbed",
 
       },
 
@@ -233,7 +234,8 @@
 
           }
 
-        ]
+        ],
+        "title": "Solo Cotbed",
 
       },
 
@@ -349,7 +351,8 @@
 
           }
 
-        ]
+        ],
+        "title": "Solo Cotbed",
 
       },
 
@@ -465,7 +468,8 @@
 
           }
 
-        ]
+        ],
+        "title": "Solo Cotbed",
 
       },
 
@@ -497,7 +501,7 @@
 
             "colorName": "Cashmere",
 
-            "colorImgURL": "https://www.mamasandpapas.com/cdn/shop/files/swatch-BUNDLESET%7Cs0064762_50x.jpg?82261",
+            "colorImgURL": "https://i.ibb.co/HgmwMC0/Ellipse-3.png",
 
             "productImg": "https://www.mamasandpapas.com/cdn/shop/files/mamas-papas-cot-beds-flockton-cotbed-cashmere-35344839442597_1024x1024@2x.jpg?v=1707919819",
 
@@ -505,7 +509,8 @@
 
           }
 
-        ]
+        ],
+        "title": "Flockton Cotbed - Cashmere",
 
       },
 
@@ -537,7 +542,8 @@
 
           }
 
-        ]
+        ],
+        "title": "Atlas Cotbed",
 
       },
 
@@ -569,7 +575,8 @@
 
           }
 
-        ]
+        ],
+        "title": "Atlas Cotbed",
 
       },
 
@@ -589,7 +596,8 @@
 
           }
 
-        ]
+        ],
+        "title": "Dover Cotbed - White",
 
       },
 
@@ -609,7 +617,8 @@
 
           }
 
-        ]
+        ],
+        "title": "Mia Cotbed - White",
 
       },
 
@@ -629,7 +638,8 @@
 
           }
 
-        ]
+        ],
+        "title": "Oxford Cotbed - White",
 
       },
 
@@ -641,7 +651,7 @@
 
             "colorName": "Pebble",
 
-            "colorImgURL": "http",
+            "colorImgURL": "https://www.mamasandpapas.com/cdn/shop/files/swatch-Solo-swatch-natural_50x.jpg?v=735786286471359758",
 
             "productImg": "https://www.mamasandpapas.com/cdn/shop/files/mamas-papas-cot-beds-wedmore-cotbed-pebble-35772119122085_1024x1024@2x.jpg?v=1713271415",
 
@@ -649,7 +659,8 @@
 
           }
 
-        ]
+        ],
+        "title": "Wedmore Cotbed - Pebble",
 
       },
 
@@ -669,7 +680,8 @@
 
           }
 
-        ]
+        ],
+        "title": "Wedmore Cotbed - White/Natural",
 
       },
 
@@ -701,7 +713,8 @@
 
           }
 
-        ]
+        ],
+        "title": "Franklin Cotbed",
 
       },
 
@@ -733,7 +746,8 @@
 
           }
 
-        ]
+        ],
+        "title": "Franklin Cotbed",
 
       },
 
@@ -745,7 +759,7 @@
 
             "colorName": "Natural/Olive Green",
 
-            "colorImgURL": "http",
+            "colorImgURL": "https://www.mamasandpapas.com/cdn/shop/files/swatch-Solo-swatch-Natural_Moss_Green_50x.jpg?v=13784706710851166881",
 
             "productImg": "https://www.mamasandpapas.com/cdn/shop/products/mamas-papas-furniture-sets-coxley-2-piece-furniture-set-natural-olive-green-33500870049957_1024x1024@2x.jpg?v=1663938991",
 
@@ -765,7 +779,8 @@
 
           }
 
-        ]
+        ],
+        "title": "Coxley Cotbed",
 
       },
 
@@ -785,7 +800,8 @@
 
           }
 
-        ]
+        ],
+        "title": "Austwick Cotbed - White",
 
       },
 
@@ -805,7 +821,8 @@
 
           }
 
-        ]
+        ],
+        "title": "Harwell Cotbed - White",
 
       },
 
@@ -817,7 +834,7 @@
 
             "colorName": "Cashmere",
 
-            "colorImgURL": "http",
+            "colorImgURL": "https://i.ibb.co/HgmwMC0/Ellipse-3.png",
 
             "productImg": "https://www.mamasandpapas.com/cdn/shop/files/mamas-papas-harwell-cotbed-cashmere-34541425426597_1024x1024@2x.jpg?v=1690362263",
 
@@ -825,7 +842,8 @@
 
           }
 
-        ]
+        ],
+        "title": "Harwell Cotbed - Cashmere",
 
       },
 
@@ -857,7 +875,8 @@
 
           }
 
-        ]
+        ],
+        "title": "Melfi Cotbed",
 
       },
 
@@ -889,7 +908,8 @@
 
           }
 
-        ]
+        ],
+        "title": "Melfi Cotbed",
 
       },
 
@@ -909,7 +929,8 @@
 
           }
 
-        ]
+        ],
+        "title": "Flyn Baby Cotbed - White",
 
       },
 
@@ -1025,7 +1046,8 @@
 
           }
 
-        ]
+        ],
+        "title": "Solo Cotbed",
 
       },
 
@@ -1141,7 +1163,8 @@
 
           }
 
-        ]
+        ],
+        "title": "Solo Cotbed",
 
       },
 
@@ -1257,7 +1280,8 @@
 
           }
 
-        ]
+        ],
+        "title": "Solo Cotbed",
 
       },
 
@@ -1373,7 +1397,8 @@
 
           }
 
-        ]
+        ],
+        "title": "Solo Cotbed",
 
       },
 
@@ -1489,7 +1514,8 @@
 
           }
 
-        ]
+        ],
+        "title": "Solo Cotbed",
 
       },
 
@@ -1501,7 +1527,7 @@
 
             "colorName": "Pebble",
 
-            "colorImgURL": "http",
+            "colorImgURL": "https://www.mamasandpapas.com/cdn/shop/files/swatch-Solo-swatch-natural_50x.jpg?v=735786286471359758",
 
             "productImg": "https://www.mamasandpapas.com/cdn/shop/files/mamas-papas-cot-beds-hampden-cotbed-pebble-35761108484261_1024x1024@2x.jpg?v=1713258479",
 
@@ -1509,7 +1535,8 @@
 
           }
 
-        ]
+        ],
+        "title": "Hampden Cotbed - Pebble",
 
       },
 
@@ -1529,7 +1556,8 @@
 
           }
 
-        ]
+        ],
+        "title": "Hampden Cotbed - White",
 
       },
 
@@ -1549,7 +1577,8 @@
 
           }
 
-        ]
+        ],
+        "title": "Harwell Single Bed - White",
 
       },
 
@@ -1569,7 +1598,8 @@
 
           }
 
-        ]
+        ],
+        "title": "Petite Cot - Pure White",
 
       },
 
@@ -1581,7 +1611,7 @@
 
             "colorName": "Oak",
 
-            "colorImgURL": "http",
+            "colorImgURL": "https://www.mamasandpapas.com/cdn/shop/files/swatch-Atlas-swatch-light_oak_50x.jpg?v=18130717097417252446",
 
             "productImg": "https://www.mamasandpapas.com/cdn/shop/files/snuz-snuzkot-cotbed-oak-35029423915173_1024x1024@2x.jpg?v=1701340107",
 
@@ -1589,7 +1619,8 @@
 
           }
 
-        ]
+        ],
+        "title": "SnuzKot Cotbed - Oak",
 
       },
 
@@ -1601,7 +1632,7 @@
 
             "colorName": "Silver Birch",
 
-            "colorImgURL": "http",
+            "colorImgURL": "https://www.mamasandpapas.com/cdn/shop/files/swatch-Solo-swatch-Slate_50x.jpg?v=2298134758161298524",
 
             "productImg": "https://www.mamasandpapas.com/cdn/shop/files/snuz-snuzkot-cotbed-silver-birch-35029426143397_1024x1024@2x.jpg?v=1701340285",
 
@@ -1609,7 +1640,8 @@
 
           }
 
-        ]
+        ],
+       "title": "SnuzKot Cotbed - Silver Birch",
 
       },
 
@@ -1629,7 +1661,8 @@
 
           }
 
-        ]
+        ],
+        "title": "SnuzKot Skandi Cotbed - Natural",
 
       },
 
@@ -1649,7 +1682,8 @@
 
           }
 
-        ]
+        ],
+        "title": "SnuzKot Skandi Cotbed - White",
 
       },
 
@@ -1669,7 +1703,8 @@
 
           }
 
-        ]
+        ],
+        "title": "SnuzKot Skandi Cotbed - Slate",
 
       },
 
@@ -1681,7 +1716,7 @@
 
             "colorName": "Walnut",
 
-            "colorImgURL": "http",
+            "colorImgURL": "https://i.ibb.co/HgmwMC0/Ellipse-3.png",
 
             "productImg": "https://www.mamasandpapas.com/cdn/shop/files/snuz-snuzkot-cotbed-walnut-35029428502693_1024x1024@2x.jpg?v=1701339932",
 
@@ -1689,7 +1724,8 @@
 
           }
 
-        ]
+        ],
+        "title": "SnuzKot Cotbed - Walnut",
 
       },
 
@@ -1709,7 +1745,8 @@
 
           }
 
-        ]
+        ],
+        "title": "SnuzKot Extension Kit - White",
 
       },
 
@@ -1729,11 +1766,13 @@
 
           }
 
-        ]
+        ],
+        "title": "SnuzKot Extension Kit - Slate",
 
       }
 
     };
+
     function waitForElement(selector, trigger, delayInterval, delayTimeout) {
       var interval = setInterval(function () {
         if (
@@ -1799,6 +1838,13 @@
             const newImg = document.createElement('img');
             newImg.className = 'cv-new-image';
             // item.querySelector("[id*='ProductCardImageWrapper'] img").insertAdjacentElement('afterend', newImg);
+            if ((index > 0 && index < 4) || (index > 22 && index < 28) || index == 7 || index == 14 || index == 18 || index == 20) {
+
+              item.style.display = "none";
+            }
+          }
+          else {
+            item.style.display = "none";
           }
         });
       }
@@ -1810,15 +1856,15 @@
         parentElement.querySelector('.grid-view-item__image-wrapper img').srcset = ele.getAttribute('cvproductimage');
         parentElement.querySelector('.grid--view-items > .grid__item .cv-colourname .cv-colour').textContent = ele.getAttribute('cvname');
         parentElement.querySelector('.grid-view-item__link').href = ele.getAttribute('cvproductlink');
-        parentElement.querySelector('.cv-image.cvActive') && parentElement.querySelector('.cv-image.cvActive') .classList.remove('cvActive');
+        parentElement.querySelector('.cv-image.cvActive') && parentElement.querySelector('.cv-image.cvActive').classList.remove('cvActive');
         ele.classList.add('cvActive');
       });
     }
     function generateHTML(data) {
       var colorStr = '';
       var colorList = data.color;
-      colorList.forEach(function (val,i) {
-        colorStr += `<div class="cv-image ${i==0? "cvActive": "" }" cvImg="${val.colorImgURL}" cvName="${val.colorName}" cvProductImage="${val.productImg}" cvProductLink="${val.productURL}">
+      colorList.forEach(function (val, i) {
+        colorStr += `<div class="cv-image ${i == 0 ? "cvActive" : ""}" cvImg="${val.colorImgURL}" cvName="${val.colorName}" cvProductImage="${val.productImg}" cvProductLink="${val.productURL}">
 <img src="${val.colorImgURL}">
 </div>`;
       });
