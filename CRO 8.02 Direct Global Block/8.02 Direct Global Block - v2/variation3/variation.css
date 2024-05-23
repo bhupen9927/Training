@@ -1,0 +1,233 @@
+html body .eg-get-block {
+    padding: 40px 0;
+    border-top: 1px solid #aeaeae;
+    border-bottom: 1px solid #aeaeae;
+    display: flex;
+    justify-content: space-between;
+}
+
+html body .eg-qr-block {
+    display: flex;
+    grid-gap: 30px;
+    align-items: center;
+}
+
+
+html body .eg-qr-container {
+    background-color: #202021;
+    width: 120px;
+    height: 120px;
+    padding: 12.5px;
+}
+
+html body .eg-get-qr {
+    height: 95px;
+}
+
+html body .eg-get-container {
+    flex-flow: column;
+    justify-content: center;
+    display: flex;
+}
+
+html body .eg-app-badge-2 {
+    border-radius: 0 !important;
+}
+
+html body .eg-qr-heading {
+    color: #fc4d16;
+    margin-bottom: 8px;
+    font-family: "Rund Text", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+html body .eg-qr-subheading {
+    color: #202021;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Rund Text", sans-serif;
+    margin-bottom: 10px;
+}
+
+
+html body .eg-qr-link {
+    color: #323232;
+    font-family: "Rund Text", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+html body .eg-hide-desktop {
+    display: none;
+}
+
+html body .eg-mobile-get-button {
+    color: white;
+    text-align: center;
+    background-color: #fc4d16;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+    height: 46px;
+    font-family: "Rund Text", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    transition: transform .2s, background-color .2s;
+    display: flex;
+    width: 294px;
+    padding: 12px 10px;
+}
+
+html body .eg-badge-pair {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+html body .eg-pay-app {
+    max-width: 100%;
+    display: inline-block;
+    width: 110px;
+}
+
+html body .eg-app-badge-2 {
+    height: 34.44px;
+    width: 110px;
+}
+
+html body .eg-Learn-more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    background-color: #fc4d16;
+    border-radius: 100px;
+    font-family: "Rund Text", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    transition: transform .2s, background-color .2s;
+    padding: 6px 17px;
+    width: 99px;
+    height: 34px;
+    margin-top: 13px;
+}
+
+/* @media screen and (min-width:992px) and (max-width:1100px) {
+    html body .eg-qr-container {
+        width: 90px;
+        height: 90px;
+    }
+
+    html body .eg-get-qr {
+        height: 70px;
+    }
+} */
+
+@media screen and (min-width:767px) and (max-width:991px){
+    html body .eg-pay-app {
+        width: 127px;
+    }
+
+    html body .eg-app-badge-2 {
+        height: 40px;
+        width: 127px;
+    }
+}
+
+@media screen and (min-width:575px) and (max-width:991px) {
+    html body .eg-get-block {
+        flex-direction: column;
+        justify-content: center;
+        padding: 30px 0;
+        margin: 30px 0 !important;
+        align-items: center;
+    }
+
+    html body .eg-qr-container,
+    html body .eg-qr-link,
+    html body .eg-Learn-more {
+        display: none;
+    }
+
+    html body .eg-qr-heading {
+        font-size: 24px;
+        margin-bottom: 6px;
+    }
+
+    html body .eg-hide-desktop {
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    html body .eg-badge-pair {
+        flex-direction: row
+    }
+
+    html body .eg-get-container {
+        margin-bottom: 20px;
+    }
+
+    html body .eg-qr-block {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:767px) {
+    html body .eg-mobile-get-button {
+        text-decoration: none !important;
+    }
+
+    html body .eg-pay-app {
+        width: 127px;
+    }
+
+    html body .eg-app-badge-2 {
+        height: 40px;
+        width: 127px;
+    }
+
+    html body .eg-mobile-get-button {
+        width: 270px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    html body .eg-get-block {
+        flex-direction: column;
+        padding: 30px 0;
+        margin: 30px 0 !important;
+    }
+
+    html body .eg-qr-container,
+    html body .eg-qr-link,
+    html body .eg-Learn-more {
+        display: none;
+    }
+
+    html body .eg-qr-heading {
+        font-size: 24px;
+        margin-bottom: 0px;
+    }
+
+    html body .eg-hide-desktop {
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    html body .eg-badge-pair {
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    html body .eg-get-container {
+        margin-bottom: 20px;
+    }
+
+    html body .eg-qr-subheading {
+        margin-bottom: 5px;
+    }
+}
