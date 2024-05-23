@@ -1,0 +1,98 @@
+html body .eg-image-container{
+    width: 94%;
+    max-width: 1450px;
+    display: flex;
+    grid-gap: 5%;
+    padding-top: 40px;
+    margin: 3% auto;
+}
+
+/* html body .eg-image-wrapper{
+    max-width: 1200px;;
+} */
+
+html body .eg-image-tile{
+    width: 25%;
+    height: 360px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+html body .eg-image-one{
+    background-image: url("https://www.wedgwood.com.au/images/Q/New%202021-01.jpg");
+}
+
+html body .eg-image-two{
+    background-image: url("https://www.wedgwood.com.au/images/Q/6-Shop-all-Teaware.jpg");
+}
+
+html body .eg-image-three{
+    background-image: url("https://www.wedgwood.com.au/images/Q/Main%20banner-71.jpg");
+}
+
+html body .eg-image-four{
+    background-image: url("https://www.wedgwood.com.au/images/Q/Category%20banner-05.jpg");
+}
+
+html body .eg-title{
+    font-family:'P22Underground', Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: left;
+    color: #FFFFFF;
+    margin: 0 0 20px 10px;
+}
+
+html body .eg-cta{
+    padding: 10px;
+    height: 46px;
+    display: flex;
+    background-color: #FFFFFF;
+    font-family: 'P22Underground', Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #000000;
+    text-transform: uppercase;
+    text-align: center;
+    align-items: center;
+    width: 92%;
+    margin: 0 10px 10px 10px;
+    justify-content: center;
+    text-decoration: none;;
+}
+
+html body .eg-cta:hover{
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+
+@media screen and (min-width:767px) and (max-width:991px){
+    html body .eg-image-container {
+    width: 96%;
+    grid-gap: 3.5%;
+    margin: 2%;   
+    }
+}
+
+@media screen and (max-width: 767px) {
+    html body .eg-image-container {
+        display: flex;
+        overflow-x: auto;
+        width: 100%;
+        grid-gap: 10px;
+        padding: 40px 20px;
+        margin: 0 auto;
+    }
+
+    html body .eg-image-tile {
+        min-width: 274px;
+        height: 318px;
+        margin-right: 10px;
+    }
+}
