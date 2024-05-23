@@ -87,25 +87,14 @@
 
 
     function initM() {
-      
-      var searchEle = document.querySelector('.modal-dialog #modalElastic');
-      searchEle.classList.add('eg-search');
-       document.querySelector('.hero-block-mobile table td > div:last-child').insertAdjacentElement('afterend', searchEle);
-      live('.button-wr button', 'mousedown', function () {
-        console.log('ssd');
-        searchEle = document.querySelector('.eg-search');
-        document.querySelector('div[id^="orderNowElasticModalblock_"] .modal-dialog p').insertAdjacentElement('afterend', searchEle);
-      });
-      live('div[id^="orderNowElasticModalblock_"] .modal-dialog button.close', 'mousedown', function () {
-        searchEle = document.querySelector('.eg-search');
-        document.querySelector('.hero-block-mobile table td > div:last-child').insertAdjacentElement('afterend', searchEle);
-      });
+      document.querySelector('.hero-block-mobile table td > div:last-child').insertAdjacentElement('afterend', document.querySelector('.show-mobile .elastic-search.compact.white'));
+
     }
 
 
     /* Initialise variation */
     waitForElement(".modal-dialog #modalElastic", init, 500, 15000);
-    waitForElement(".modal-dialog #modalElastic", initM, 500, 15000);
+    waitForElement(".hero-block-mobile table td > div:last-child", initM, 500, 15000);
 
   } catch (e) {
     if (debug) console.log(e, "error in Test" + variation_name);
