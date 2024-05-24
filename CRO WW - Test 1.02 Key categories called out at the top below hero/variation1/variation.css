@@ -1,15 +1,9 @@
 html body .eg-image-container{
     width: 94%;
     max-width: 1450px;
-    display: flex;
-    grid-gap: 5%;
-    padding-top: 40px;
-    margin: 3% auto;
+    padding: 50px 0 40px;
+    margin: 0 auto;
 }
-
-/* html body .eg-image-wrapper{
-    max-width: 1200px;;
-} */
 
 html body .eg-image-tile{
     width: 25%;
@@ -20,6 +14,7 @@ html body .eg-image-tile{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    position: relative;
 }
 
 html body .eg-image-one{
@@ -46,6 +41,7 @@ html body .eg-title{
     text-align: left;
     color: #FFFFFF;
     margin: 0 0 20px 10px;
+    z-index: 2;
 }
 
 html body .eg-cta{
@@ -63,7 +59,8 @@ html body .eg-cta{
     width: 92%;
     margin: 0 10px 10px 10px;
     justify-content: center;
-    text-decoration: none;;
+    text-decoration: none;
+    z-index: 2;
 }
 
 html body .eg-cta:hover{
@@ -71,28 +68,88 @@ html body .eg-cta:hover{
     color: #FFFFFF;
 }
 
+html body .eg-image-tile::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.20) 0%,
+    rgba(0, 0, 0, 0.50) 61.5%,
+    rgba(0, 0, 0, 0.60) 100%
+  );
+  z-index: 1;
+}
+
+@media screen and (min-width:1431px){
+    html body .eg-image-container{
+        max-width: 1640px;
+    }  
+}
 
 @media screen and (min-width:767px) and (max-width:991px){
     html body .eg-image-container {
     width: 96%;
-    grid-gap: 3.5%;
-    margin: 2%;   
+    grid-gap: 20px; 
+    }
+}
+
+@media screen and (min-width: 767px){
+    html body .eg-image-wrapper{
+        display: flex;
+        grid-gap: 40px;
     }
 }
 
 @media screen and (max-width: 767px) {
-    html body .eg-image-container {
-        display: flex;
-        overflow-x: auto;
-        width: 100%;
-        grid-gap: 10px;
-        padding: 40px 20px;
-        margin: 0 auto;
-    }
-
     html body .eg-image-tile {
         min-width: 274px;
         height: 318px;
         margin-right: 10px;
+    }
+
+    html body .eg-cta {
+        margin: 0 auto 13px;
+        width: 90%;
+    }
+
+    html body .eg-title {
+        margin: 0 auto 20px;
+        width: 90%;
+    }
+
+    html body .eg-pagination {
+        bottom: -30px !important;
+        display: flex;
+        position: absolute;
+        left: 0 !important;
+        right: 0;
+        transform: none;
+        width: auto !important;
+        justify-content: center;
+        margin: -36px 0 0 0;
+        padding: 0 16px;
+        margin-top: 0;
+    }
+    html body .swiper-pagination-bullet {
+        display: flex;
+        flex: 1 1 auto;
+        border-radius: 0;
+        margin: 0 2px !important;
+        max-width: 100%;
+        padding: 17px 0;
+        width: 20px;
+        height: 4px;
+        position: relative;
+    }
+
+    html body .swiper-pagination-bullet-active {
+        border-color: rgba(0, 0, 0, 0);
+        background-color: #081f2c;
     }
 }
