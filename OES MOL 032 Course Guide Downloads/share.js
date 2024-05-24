@@ -70,11 +70,11 @@
         console.log('Clicks on Course Guide (on page top banner)');
       });
 
-      live('html body .c-course-menu__buttons [data-target="#applyModal"],html body .main-header__wrap a[href="/apply/"]', 'click', function () {
+      live('html body .c-course-menu__buttons .btn-secondary, html body .main-header__wrap a[href="/apply/"]', 'click', function () {
         console.log('Clicks on Apply Now (navigation)');
       });
 
-      live('html body #staticButtons [data-target="#applyModal"]', 'click', function () {
+      live('html body #staticButtons .btn-secondary', 'click', function () {
         console.log('Clicks on Apply Now (on page top banner)');
       });
 
@@ -82,12 +82,12 @@
         console.log('Clicks on Course Guide (side pop out)');
       });
 
-      live('html body #stickyButtons [data-target="#applyModal"]', 'click', function () {
+      live('html body #stickyButtons .btn-secondary', 'click', function () {
         console.log('Clicks on Apply Now (side pop out)');
       });
 
 
-      live('html body .course-usp [data-target="#applyModal"]', 'click', function () {
+      live('html body .course-usp .btn-secondary', 'click', function () {
         console.log('Clicks on Apply Now (mid page for variant)');
       });
 
