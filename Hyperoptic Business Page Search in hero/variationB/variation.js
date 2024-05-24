@@ -83,6 +83,7 @@
         searchEle = document.querySelector('.eg-search');
         document.querySelector('.hero-block-desktop table td > div:last-child').insertAdjacentElement('afterend', searchEle);
       });
+      document.querySelector('.elastic-search.eg-search input').setAttribute('placeholder', 'Check your postcode');
     }
 
 

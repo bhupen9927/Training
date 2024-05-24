@@ -11,9 +11,16 @@ html body .show-mobile > div:nth-child(2) {
 html body .elastic-search.white .input-elastic-border{
     margin-top: 25px;
 }
+.hero-block-desktop .elastic-search i {
+    margin-top: 16px;
+    margin-left: 15px;
+    font-size: 26px !important;
+}
+html body .elastic-search.compact.white .input-elastic-loader {
+    margin-top: 47px;
+}
 .hero-block-desktop .elastic-search .input-elastic-border {
-    padding: 10px 20px;
-    padding-left: 30px;
+    padding: 10px 20px 10px 48px !important;
     background: #fff;
     border: 1px solid #000000 !important;
     box-sizing: border-box;
