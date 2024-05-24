@@ -1,0 +1,243 @@
+html body .eg-new-section_video {
+    display: flex;
+    grid-gap: 22px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1153px;
+    padding: 50px 0;
+}
+
+html body .eg-new-section_video>div {
+    width: 100%;
+}
+
+html body .eg-new-section_video>.eg-left {
+    padding: 0 13px;
+}
+
+html body .eg-new-section_video>.eg-left .eg-title {
+    display: block;
+    font-family: 'MuseoSans-500';
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+html body .eg-new-section_video>.eg-left .eg-para {
+    font-size: 21px;
+    font-family: 'MuseoSans-300';
+}
+
+html body .eg-new-section_video>.eg-video-container {
+    aspect-ratio: 16/9;
+}
+
+html body .eg-new-section_video>.eg-video-container iframe {
+    width: 100%;
+    height: 100%;
+}
+
+html body .eg-new-section_video-bnr {
+    display: flex;
+}
+
+html body .eg-new-section_video-bnr {
+    width: 100% !important;
+    min-height: 302px;
+    max-width: 1192px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+html body .eg-new-section_video-bnr>div {
+    width: 100%;
+    height: 100%;
+}
+
+html body .eg-new-section_video-bnr>.eg-left-img-div img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+html body .eg-new-section_video-bnr>.eg-right-text-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-gap: 15px;
+    padding: 20px;
+}
+
+html body .eg-new-section_video-bnr>.eg-right-text-div .eg-text {
+    font-family: 'MuseoSans-300';
+    font-size: 28px;
+    line-height: normal !important;
+}
+
+html body .eg-new-section_video-bnr>.eg-right-text-div .eg-logo {
+    font-size: 23px;
+    font-weight: 700;
+    font-family: 'MuseoSans-700';
+    line-height: normal;
+}
+
+html body .eg-new-section_video-bnr>.eg-left-img-div {
+    position: relative;
+}
+
+html body .eg-new-section_video-bnr>.eg-left-img-div::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    bottom: 0;
+    background: linear-gradient(to left, #00202b 7%, transparent 29%);
+}
+
+@media(max-width:930px) {
+    html body .eg-new-section_video {
+        flex-direction: column;
+    }
+
+    html body .eg-new-section_video>.eg-video-container {
+        order: -1;
+    }
+
+    html body .eg-new-section_video-bnr {
+        flex-direction: column;
+    }
+}
+
+@media(max-width:641px) {
+
+    html body .eg-new-section_video {
+        grid-gap: 30px;
+    }
+
+    html body .eg-new-section_video>.eg-left .eg-title {
+        margin-bottom: 10px;
+    }
+
+    html body .eg-new-section_video-bnr>.eg-right-text-div {
+        grid-gap: 20px;
+    }
+
+    html body .eg-new-section_video {
+        padding-top: 20px !important;
+    }
+
+    html body #eg-carousel-seasonCarousel .eg-carousel {
+        padding: 0 !important;
+    }
+
+    html body #eg-carousel-seasonCarousel .eg-carousel .eg-carousel_item-container {
+        display: flex !important;
+    }
+
+    html body #eg-carousel-seasonCarousel .eg-carousel .eg-carousel_item-container .swiper-wrapper {
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+    html body #eg-carousel-seasonCarousel .eg-carousel .eg-carousel-slide {
+        display: flex !important;
+        padding-left: 1.25rem;
+        position: relative;
+        min-width: fit-content !important;
+        max-width: unset !important;
+    }
+
+    html body #eg-carousel-seasonCarousel .eg-carousel .eg-carousel-slide::before {
+        content: "";
+        border-radius: 50%;
+        margin-left: 0.3125rem;
+        margin-right: 0.625rem;
+        width: .5rem;
+        height: .5rem;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        margin-top: -.25rem;
+    }
+
+    html body #eg-carousel-seasonCarousel .eg-carousel .eg-carousel-slide.eg-active::before {
+        background-color: #04c3fc;
+    }
+
+    html body #eg-carousel-seasonCarousel .eg-carousel .eg-carousel-slide:not(.eg-active) .eg-carousel-slide_wrapper {
+        opacity: 0.5 !important;
+    }
+
+    html body #eg-carousel-seasonCarousel .eg-carousel .eg-carousel-slide .eg-carousel-slide_wrapper {
+        display: flex;
+        color: white;
+        width: 100%;
+        font-size: 16px !important;
+    }
+
+    html body #eg-carousel-seasonCarousel [class^="swiper-button"] {
+        display: flex !important;
+        background: none !important;
+        margin: 0 !important;
+        top: 50% !important;
+        transform: translateY(-50%);
+        width: 30px !important;
+        height: 30px !important;
+        align-items: center;
+        justify-content: center;
+    }
+
+    html body #eg-carousel-seasonCarousel [class^="swiper-button"]::before {
+        position: static !important;
+        height: 80% !important;
+        width: 80% !important;
+        margin: 0 !important;
+    }
+
+    html body #eg-carousel-seasonCarousel [class^="swiper-button"]::after {
+        display: none !important;
+    }
+
+    html body #eg-carousel-seasonCarousel .eg-slider-container {
+        position: relative !important;
+        padding: 18px 10px;
+    }
+
+    html body #eg-carousel-seasonCarousel [class^="swiper-button"].swiper-button-prev {
+        left: -12px !important;
+    }
+
+    html body #eg-carousel-seasonCarousel [class^="swiper-button"].swiper-button-next {
+        right: -12px !important;
+    }
+
+    html body .seasons .custom-select {
+        display: none !important;
+    }
+
+
+    html body .eg-new-section_video-bnr>.eg-left-img-div {
+        height: 414px;
+    }
+
+    html body .eg-new-section_video-bnr>.eg-left-img-div::before {
+        background: linear-gradient(to top, #00202b 1%, transparent 56%);
+        bottom: -4px;
+    }
+
+    html body .eg-new-section_video-bnr>.eg-right-text-div {
+        justify-content: flex-start;
+        height: fit-content !important;
+    }
+
+    html body .eg-new-section_video-bnr>.eg-right-text-div .eg-text {
+        font-size: 20px;
+    }
+
+    html body .eg-new-section_video-bnr>.eg-right-text-div .eg-logo {
+        font-size: 20px;
+    }
+}
