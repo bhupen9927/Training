@@ -1,3 +1,17 @@
 .marketplace-background >div>div:nth-child(2){
     display:none;
 }
+
+html body .eg-compare-cta{
+    padding: 20px 50px;
+    border: 8px solid #DAF1FB;
+    background-color: #0093C9;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 124px;
+}

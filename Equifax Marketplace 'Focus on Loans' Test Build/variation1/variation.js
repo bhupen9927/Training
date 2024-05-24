@@ -22,6 +22,11 @@
       }, delayTimeout);
     }
 
+    const compareCTA =
+      `<div class="eg-compare">
+        <a class="eg-compare-cta" href="#">Compare Personal Loans</a>
+      </div>`;
+
 
 
     /* Variation Init */
@@ -38,6 +43,11 @@
       const content=document.querySelector('.my-auto .title-center-header>p');
       if(content){
         content.innerText='There are many providers in the market to consider when looking for a credit card, personal or secured loan. The credit card and  loan comparison tools helps to connect you with providers that suit your needs from the panel of lenders.';
+      }
+
+      const heroContent = document.querySelector('.content-other>p');
+      if (heroContent) {
+        heroContent.insertAdjacentHTML('afterend', compareCTA);
       }
     }
 
