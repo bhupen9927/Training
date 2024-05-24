@@ -57,7 +57,7 @@ html body .eg-cta{
     text-align: center;
     align-items: center;
     width: 92%;
-    margin: 0 10px 10px 10px;
+    margin: 0 auto 13px;
     justify-content: center;
     text-decoration: none;
     z-index: 2;
@@ -92,14 +92,18 @@ html body .eg-image-tile::before {
     }  
 }
 
-@media screen and (min-width:767px) and (max-width:991px){
+@media screen and (min-width:767px) and (max-width: 1024px){
     html body .eg-image-container {
     width: 96%;
-    grid-gap: 20px; 
+    
+    }
+    html body .eg-image-wrapper {
+        display: flex;
+        grid-gap: 20px; 
     }
 }
 
-@media screen and (min-width: 767px){
+@media screen and (min-width: 1025px){
     html body .eg-image-wrapper{
         display: flex;
         grid-gap: 40px;
