@@ -6,8 +6,7 @@
 /* Hero section css start */
 
 html body .eg-bg-paradise{
-    /* background-image: url("https://i.ibb.co/2g0JHxF/hero-image.png"); */
-    background-image: url(https://i.ibb.co/jTD1G22/dc6ce9f…-Expires-1717372800-Key-Pair-Id-APKAQ4-GOSFWCVNEHN3-O4-Signature-TVs.jpg);
+    background-image: url("https://i.ibb.co/2g0JHxF/hero-image.png");
     width: 100%;
     max-width: 1590px;
     margin: 0 auto;
@@ -15,12 +14,17 @@ html body .eg-bg-paradise{
     height: 492px;
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
-html body .eg-hero-season{
-    position: relative;
-    left: 209px;
-    top: 30px;
+html body .eg-hero-wrapper{
+    width: 39%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
 
 html body .eg-watch-cta {
@@ -31,10 +35,13 @@ html body .eg-watch-cta {
     font-size: 18.72px;
     font-weight: 700;
     padding: 15px 50px; 
-    position: relative;
-    top: 259px;
-    right: 150px;
     border-radius: 5px;
+    width: 326px;
+    height: 55px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 html body .eg-hero-content{
@@ -42,9 +49,187 @@ html body .eg-hero-content{
     font-size: 11.34px;
     font-weight: 500;
     color: #FFFFFF;
-    position: relative;
-    top: 140px;
-    margin-left: 282px;
+    margin: 15px 32px 15px auto;
 }
 
+@media screen and (min-width:991px) and (max-width:1199px) {
+    html body .eg-bg-paradise{
+        height: 450px;;
+    }
+}
 
+@media screen and (min-width:768px) and (max-width:991px) {
+    html body .eg-bg-paradise{
+        height: 356px;
+    }
+    html body .eg-hero-wrapper {
+        width: 44%;
+    }
+    html body .eg-watch-cta{
+        width: 294px;
+        height: 50px;
+    }
+    html body .eg-hero-content{
+        margin: 10px 0px 10px auto;
+    }
+}
+
+@media screen and (min-width:575px) and (max-width:767px) {
+    html body .eg-bg-paradise{
+        background-image: url(https://i.ibb.co/CHcjztN/Section.png);
+        height: 1030px;
+        background-size: cover;
+        background-position: 50%;
+    }
+    html body .eg-hero-wrapper{
+        width: 100%;
+        align-items: center;
+    }
+    html body .eg-hero-content{
+        margin: 15px auto;
+    }
+}
+
+@media screen and (max-width:574px) {
+    html body .eg-bg-paradise{
+        background-image: url(https://i.ibb.co/CHcjztN/Section.png);
+        height: 800px;
+        background-size: cover;
+        background-position: 50%;
+    }
+    html body .eg-hero-wrapper{
+        width: 100%;
+        align-items: center;
+    }
+    html body .eg-hero-content{
+        margin: 10px auto;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:361px){
+    html body .eg-bg-paradise{
+        height: 600px;
+    }
+    html body .eg-watch-cta{
+        width: 90%;
+        height: 48.59px;
+        padding: 0;
+        font-size: 15.09px;
+    }
+}
+
+/* Hero-section End */
+
+/* Image-gallery-section */
+
+html body .eg-image-container{
+    width: 100%;
+    max-width: 1310px;
+    margin: 40px auto;
+}
+
+html body .eg-image-gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 40px;
+}
+
+html body .eg-img-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+html body .eg-big-img{
+    width: 395px;
+    height: 265px;
+    object-fit: cover;
+    margin: 15px;
+}
+
+html body .eg-rg-imgs{
+    display: flex;
+    flex-direction: column;
+}
+
+html body .eg-sm-img{
+    width: 189px;
+    height: 125px;
+    object-fit: cover;
+    margin: 15px 0 0 0;
+}
+
+html body .eg-smup-img{
+    margin-top: 0;
+}
+
+@media screen and (max-width:1299px){
+    html body .eg-image-container{
+        margin: 20px auto;
+    }
+    html body .eg-img-wrapper{
+        width: 50%;
+    }
+    html body .eg-big-img {
+        width: 67%;
+    }
+    html body .eg-rg-imgs{
+        width: 33.5%;
+    }
+    html body .eg-sm-img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:991px){
+    html body .eg-image-gallery {
+        flex-direction: column;
+    }
+    html body .eg-img-wrapper {
+        width: 100%;
+    }
+    html body .eg-bigls-img{
+        margin-top: 0;
+    }
+    html body .eg-smup-img{
+        margin-top: -15px;
+    }
+    html body .eg-image-container{
+        margin: 40px auto;
+    }
+    html body .eg-right-images{
+        flex-direction: row-reverse;
+    }
+    html body .eg-biglw-img{
+        margin-left:15px;
+        margin-right: 0;
+    }
+    html body .eg-bigup-img{
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width:575px){
+    html body .eg-image-gallery{
+        margin: 0;
+    }
+    html body .eg-bigls-img{
+        margin-left: 0;
+    }
+    html body .eg-sm-img{
+        height: 71.35px;
+    }
+    html body .eg-big-img{
+        height: 156.59px;
+    }
+    html body .eg-right-images{
+        flex-direction: row-reverse;
+    }
+    html body .eg-biglw-img{
+        margin-left:15px;
+        margin-right: 0;
+    }
+}
+
+/* image-gallery-section end */
