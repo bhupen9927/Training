@@ -1,0 +1,322 @@
+html body.eg-home-pg .eg-symbols_hero {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    grid-gap: 20px !important;
+}
+
+html body.eg-home-pg .eg-row_hero {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+html body.eg-home-pg .eg-symbol_hero {
+    position: relative;
+    text-align: center;
+    width: 100% !important;
+    display: block;
+    height: 100% !important;
+    /* max-width: 200px !important; */
+}
+
+html body.eg-home-pg .eg-symbol-image_hero {
+    align-items: center;
+    display: flex;
+    margin-bottom: 5px;
+    width: 100% !important;
+    height: 70px !important;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+}
+
+html body.eg-home-pg .eg-symbol-image_hero img {
+    width: 100% !important;
+    height: auto !important;
+    object-fit: contain;
+}
+
+html body.eg-home-pg .eg-symbol_hero_1 .eg-symbol-image_hero img {
+    max-width: 115px !important;
+}
+
+html body.eg-home-pg .eg-symbol_hero_2 .eg-symbol-image_hero span:last-child img {
+    max-width: 115px !important;
+    height: auto !important;
+}
+
+html body.eg-home-pg .eg-symbol_hero_3 .eg-symbol-image_hero span,
+html body.eg-home-pg .eg-symbol_hero_4 .eg-symbol-image_hero span,
+html body.eg-home-pg .eg-symbol_hero_5 .eg-symbol-image_hero span {
+    --wdt: 45px !important;
+    background: #41678c center / 19px no-repeat;
+    max-height: var(--wdt) !important;
+    max-width: var(--wdt) !important;
+    box-shadow: 4px 4px 0 rgba(65, 103, 140, .15);
+    min-width: var(--wdt) !important;
+    min-height: var(--wdt) !important;
+    margin-left: auto !important;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+html body.eg-home-pg .eg-symbol_hero_3 img {
+    --wdt: 58% !important;
+    width: var(--wdt) !important;
+    height: var(--wdt) !important;
+    object-fit: contain !important;
+}
+
+html body.eg-home-pg .eg-symbol_hero_4 img {
+    --wdt: 47% !important;
+    width: var(--wdt) !important;
+    height: var(--wdt) !important;
+    object-fit: contain !important;
+}
+
+html body.eg-home-pg .eg-symbol_hero_5 img {
+    --wdt: 50% !important;
+    width: var(--wdt) !important;
+    height: var(--wdt) !important;
+    object-fit: contain !important;
+}
+
+html body.eg-home-pg .eg-symbol-description_hero {
+    color: #000 !important;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 0px;
+    font-weight: bold !important;
+    font-family: 'lato' !important;
+    padding: 0 !important;
+}
+
+html body.eg-home-pg .eg-divider_hero {
+    background-image: url(https://svgshare.com/i/11zU.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 150px;
+    width: 3px;
+    display: block !important;
+    min-width: 3px !important;
+    max-width: 3px !important;
+}
+
+html body.eg-home-pg .eg-hero-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    width: 100%;
+}
+
+html body.eg-home-pg .eg-hero-img {
+    text-align: center;
+    display: block;
+}
+
+html body.eg-home-pg .eg-hero-img img {
+    object-fit: contain;
+    height: 100%;
+}
+
+html body.eg-home-pg .eg-h1 {
+    font-size: 1.542rem;
+    margin: 0 0 .5rem !important;
+    color: #000 !important;
+    font-weight: 900;
+    line-height: 1.2;
+    padding: 0 !important;
+    text-align: start !important;
+    font-family: 'lato' !important;
+}
+
+html body.eg-home-pg .eg-sub-heading_hero {
+    font-size: 1.125rem;
+    line-height: 1.4;
+    margin-bottom: 1.5rem;
+    margin-top: 0;
+    color: #000 !important;
+    font-family: 'lato' !important;
+    font-weight: 500;
+    text-align: left !important;
+}
+
+html body.eg-home-pg .eg-action_hero {
+    display: flex;
+    margin-top: 2rem;
+    text-align: center;
+    flex-direction: column;
+    grid-gap: 30px;
+}
+
+html body.eg-home-pg #whattypeoftranslation,
+html body.eg-home-pg .template_banner>.container>*:not(.eg-container_hero),
+html body.eg-home-pg #banner>.container>*:not(.eg-container_hero),
+html body.eg-home-pg #banner>.new-container,
+html body.eg-home-pg .template_banner+a {
+    display: none !important;
+}
+
+html body.eg-home-pg .template_banner,
+html body.eg-home-pg #banner {
+    background: url('https://i.ibb.co/XSzf5k2/Image-test-4.jpg') !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+html body.eg-home-pg .eg-btn_hero {
+    border-radius: 12px;
+    font-size: 21px !important;
+    font-weight: 600 !important;
+    padding: 19px 10px 20px;
+    margin: 0 !important;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    text-align: center;
+    color: #fff !important;
+    display: block;
+    width: calc(100% - 15px);
+    font-family: 'lato' !important;
+}
+
+html body.eg-home-pg .eg-order_hero.eg-btn_hero {
+    background: #47acad;
+    background-image: -moz-linear-gradient(top, rgba(27, 71, 117, 0) 0%, rgb(34, 155, 156) 100%);
+    background-image: -webkit-linear-gradient(top, rgba(27, 71, 117, 0) 0%, rgb(34, 155, 156) 100%);
+    background-image: linear-gradient(to bottom, rgba(27, 71, 117, 0) 0%, rgb(34, 155, 156) 100%);
+}
+
+html body.eg-home-pg .eg-quote_hero.eg-btn_hero {
+    background: #1b4775;
+    background-image: -moz-linear-gradient(bottom, rgba(27, 71, 117, 0) 0%, rgba(97, 140, 185, .5) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgba(27, 71, 117, 0) 0%, rgba(97, 140, 185, .5) 100%);
+    background-image: linear-gradient(to top, rgba(27, 71, 117, 0) 0%, rgba(97, 140, 185, .5) 100%);
+}
+
+html body.eg-home-pg .eg-symbol_hero_2 .eg-symbol-image_hero span:first-child {
+    margin-bottom: 6px;
+}
+
+html body.eg-home-pg .eg-symbol-image_hero span {
+    height: auto !important;
+    display: flex !important;
+}
+
+
+html body.eg-home-pg .eg-quote_hero.eg-btn_hero {
+    background: transparent !important;
+    color: #1f3d5c !important;
+    text-decoration: underline !important;
+    padding: 0 !important;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/* max (mob , tablets) */
+
+@media(max-width:768px) {
+    html body.eg-home-pg .eg-d-none {
+        display: none !important;
+    }
+
+    html body.eg-home-pg .eg-symbols_hero .eg-symbol_hero_2~* {
+        display: none !important;
+    }
+
+    html body.eg-home-pg .eg-symbols_hero .eg-symbol_hero_2 {
+        order: -1 !important;
+    }
+
+    html body.eg-home-pg .eg-symbol-description_hero {
+        font-size: 13px !important;
+    }
+
+    html body.eg-home-pg .eg-symbols_hero {
+        margin-top: 13px !important;
+        flex-direction: column !important;
+        grid-gap: 30px !important;
+    }
+
+    html body.eg-home-pg .eg-action_hero {
+        grid-gap: 13px !important;
+    }
+
+    html body.eg-home-pg .eg-btn_hero {
+        font-size: 18px !important;
+        padding: 18px 10px 18px;
+    }
+
+    html body.eg-home-pg .eg-sub-heading_hero {
+        margin-bottom: 10px !important;
+    }
+
+    html body.eg-home-pg .template_banner {
+        min-height: auto !important;
+    }
+
+    html body.eg-home-pg .eg-symbol-image_hero {
+        height: 65px !important;
+        margin-bottom: 5px !important;
+    }
+
+    html body.eg-home-pg .eg-quote_hero.eg-btn_hero {
+        justify-content: center;
+    }
+
+
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    html body.eg-home-pg .eg-btn_hero {
+        font-size: 16px !important;
+    }
+
+    html body.eg-home-pg .eg-action_hero {
+        grid-gap: 10px !important;
+    }
+}
+
+/* min (desktop) */
+
+@media(min-width:768px) {
+    html body.eg-home-pg .eg-symbols_hero {
+        margin-top: 60px;
+    }
+
+    html body.eg-home-pg .eg-hero-content,
+    html body.eg-home-pg .eg-hero-img {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    html body.eg-home-pg .eg-h1 {
+        font-size: 2.25rem;
+    }
+
+    html body.eg-home-pg .eg-action_hero {
+        flex-direction: row !important;
+    }
+
+    html body.eg-home-pg .eg-hero-content {
+        margin-top: 50px;
+    }
+}
+
+@media(min-width:992px) {
+    html body.eg-home-pg .eg-symbols_hero {
+        margin-top: 80px;
+    }
+
+    html body.eg-home-pg .eg-sub-heading_hero {
+        font-size: 1.3125rem;
+    }
+}
