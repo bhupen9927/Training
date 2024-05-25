@@ -1,14 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Hind:300,400&display=swap');
 
+html body .eg-faq-section {
+    width: 100%;
+    max-width: 1200px;
+    margin: 40px auto;
+}
 
-.accordion {
-  .accordion-item {
+html body .eg-accordion .eg-accordion-item {
     border-bottom: 1px solid grey;
-    button[aria-expanded='true'] {
-      border-bottom: 1px solid blue;
-    }
-  }
-  button {
+}
+
+html body .eg-accordion .eg-accordion-item button[aria-expanded='true'] {
+    border-bottom: 1px solid blue;
+}
+
+html body .eg-accordion button {
     position: relative;
     display: block;
     text-align: left;
@@ -20,71 +26,81 @@
     border: none;
     background: none;
     outline: none;
-    &:hover, &:focus {
-      cursor: pointer;
-      color: blue;
-      &::after {
-        cursor: pointer;
-        color: blue;
-        border: 1px solid blue;
-      }
-    }
-    .accordion-title {
-      padding: 1em 1.5em 1em 0;
-    }
-    .icon {
-      display: inline-block;
-      position: absolute;
-      top: 18px;
-      right: 0;
-      width: 22px;
-      height: 22px;
-      &::before {
-        display: block;
-        position: absolute;
-        content: '';
-        top: 9px;
-        left: 5px;
-        width: 10px;
-        height: 2px;
-        background: currentColor;
-      }
-      &::after {
-        display: block;
-        position: absolute;
-        content: '';
-        top: 5px;
-        left: 9px;
-        width: 2px;
-        height: 10px;
-        background: currentColor;
-      }
-    }
-  }
-  button[aria-expanded='true'] {
+}
+
+html body .eg-accordion button:hover,
+html body .eg-accordion button:focus {
+    cursor: pointer;
     color: blue;
-    .icon {
-      &::after {
-        width: 0;
-      }
-    }
-    + .accordion-content {
-      opacity: 1;
-      max-height: 9em;
-      transition: all 200ms linear;
-      will-change: opacity, max-height;
-    }
-  }
-  .accordion-content {
+}
+
+html body .eg-accordion button:hover::after,
+html body .eg-accordion button:focus::after {
+    cursor: pointer;
+    color: blue;
+    border: 1px solid blue;
+}
+
+html body .eg-accordion button .eg-accordion-title {
+    padding: 1em 1.5em 1em 0;
+}
+
+html body .eg-accordion button .eg-icon {
+    display: inline-block;
+    position: absolute;
+    top: 18px;
+    right: 0;
+    width: 22px;
+    height: 22px;
+}
+
+html body .eg-accordion button .eg-icon::before {
+    display: block;
+    position: absolute;
+    content: '';
+    top: 9px;
+    left: 5px;
+    width: 10px;
+    height: 2px;
+    background: currentColor;
+}
+
+html body .eg-accordion button .eg-icon::after {
+    display: block;
+    position: absolute;
+    content: '';
+    top: 5px;
+    left: 9px;
+    width: 2px;
+    height: 10px;
+    background: currentColor;
+}
+
+html body .eg-accordion button[aria-expanded='true'] {
+    color: blue;
+}
+
+html body .eg-accordion button[aria-expanded='true'] .eg-icon::after {
+    width: 0;
+}
+
+html body .eg-accordion button[aria-expanded='true'] + .eg-accordion-content {
+    opacity: 1;
+    max-height: 9em;
+    transition: all 200ms linear;
+    will-change: opacity, max-height;
+}
+
+html body .eg-accordion .eg-accordion-content {
     opacity: 0;
     max-height: 0;
     overflow: hidden;
     transition: opacity 200ms linear, max-height 200ms linear;
     will-change: opacity, max-height;
-    p {
-      font-size: 1rem;
-      font-weight: 300;
-      margin: 2em 0;
-    }
-  }
+}
+
+html body .eg-accordion .eg-accordion-content p {
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 2em 0;
 }
