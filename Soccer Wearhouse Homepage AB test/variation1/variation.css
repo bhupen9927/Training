@@ -41,12 +41,12 @@ html body .eg-accordion button {
     display: block;
     text-align: left;
     width: 100%;
-    padding: 1em 0;
     font-family: Montserrat, sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 21.94px;
     color: #1D1D1D;
+    padding: 1em 40px 1em 20px;
 }
 
 html body .eg-accordion button:hover,
@@ -113,6 +113,7 @@ html body .eg-accordion .eg-accordion-content p {
     margin: 2em 0;
     color: #1D1D1D;
     text-transform: capitalize;
+    padding: 1em 40px 1em 20px;
 }
 
 html body .eg-return-link {
