@@ -1,17 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
 html body .eg-faq-section {
     width: 100%;
-    background-color:#EDEDED;
+    background-color: #EDEDED;
 }
 
-html body .eg-faq-container{
-    max-width: 1200px;
-    margin:0 auto;
-    padding:40px 0;
+html body .eg-faq-container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 40px 30px;
 }
 
-html body .eg-faq-hd{
+html body .eg-faq-hd {
     font-family: Oswald;
     font-size: 34px;
     font-weight: 500;
@@ -20,7 +18,7 @@ html body .eg-faq-hd{
     text-align: center;
 }
 
-html body .eg-faq-subhd{
+html body .eg-faq-subhd {
     font-family: Montserrat, sans-serif;
     font-size: 24px;
     font-weight: 600;
@@ -31,11 +29,11 @@ html body .eg-faq-subhd{
 }
 
 html body .eg-accordion .eg-accordion-item {
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid #D1D1D1;
 }
 
-html body .eg-accordion .eg-accordion-item button[aria-expanded='true'] {
-    border-bottom: 1px solid blue;
+html body .eg-accordion .eg-accordion-item.expanded {
+    border-bottom: none;
 }
 
 html body .eg-accordion button {
@@ -49,22 +47,16 @@ html body .eg-accordion button {
     font-weight: 700;
     line-height: 21.94px;
     color: #1D1D1D;
-    border: none;
-    background: none;
-    outline: none;
 }
 
 html body .eg-accordion button:hover,
 html body .eg-accordion button:focus {
     cursor: pointer;
-    color: blue;
 }
 
 html body .eg-accordion button:hover::after,
 html body .eg-accordion button:focus::after {
     cursor: pointer;
-    color: blue;
-    border: 1px solid blue;
 }
 
 html body .eg-accordion button .eg-accordion-title {
@@ -82,38 +74,24 @@ html body .eg-accordion button .eg-icon {
 }
 
 html body .eg-accordion button .eg-icon::before {
-    display: block;
-    position: absolute;
-    content: '';
-    top: 9px;
-    left: 5px;
-    width: 10px;
-    height: 2px;
-    background: currentColor;
+    content: '+';
+    font-size: 22px;
+    line-height: 22px;
 }
 
 html body .eg-accordion button .eg-icon::after {
-    display: block;
-    position: absolute;
     content: '';
-    top: 5px;
-    left: 9px;
-    width: 2px;
-    height: 10px;
-    background: currentColor;
 }
 
-html body .eg-accordion button[aria-expanded='true'] {
-    color: blue;
-}
-
-html body .eg-accordion button[aria-expanded='true'] .eg-icon::after {
-    width: 0;
+html body .eg-accordion button[aria-expanded='true'] .eg-icon::before {
+    content: '-';
+    font-size: 30px;
+    line-height: 22px;
 }
 
 html body .eg-accordion button[aria-expanded='true'] + .eg-accordion-content {
     opacity: 1;
-    max-height: 9em;
+    max-height: fit-content;
     transition: all 200ms linear;
     will-change: opacity, max-height;
 }
@@ -127,7 +105,7 @@ html body .eg-accordion .eg-accordion-content {
 }
 
 html body .eg-accordion .eg-accordion-content p {
-    font-family: Montserrat,sans-serif;
+    font-family: Montserrat, sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 19.5px;
@@ -137,7 +115,17 @@ html body .eg-accordion .eg-accordion-content p {
     text-transform: capitalize;
 }
 
-html body .eg-return-link{
+html body .eg-return-link {
     text-decoration: underline;
     color: #196BE0;
+}
+
+html body .eg-accordion .eg-accordion-item button[aria-expanded='true'] {
+    border-bottom: 1px solid #D1D1D1;
+}
+
+@media screen and (max-width:575px) {
+    html body .eg-faq-container {
+        padding: 40px 15px;
+    }
 }

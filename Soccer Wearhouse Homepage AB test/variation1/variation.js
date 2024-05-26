@@ -57,23 +57,23 @@
             </div>
         </div>`;
 
-
-
     /* Variation Init */
     function init() {
-        const footer= document.querySelector('#shopify-section-footer');
-        if(footer){
+        const footer = document.querySelector('#shopify-section-footer');
+        if (footer) {
             footer.insertAdjacentHTML('beforebegin', FAQ);
         }
         const items = document.querySelectorAll(".eg-accordion button");
         function toggleAccordion() {
-        const itemToggle = this.getAttribute('aria-expanded');
-        for (i = 0; i < items.length; i++) {
-            items[i].setAttribute('aria-expanded', 'false');
-        }
-        if (itemToggle == 'false') {
-            this.setAttribute('aria-expanded', 'true');
-        }
+            const itemToggle = this.getAttribute('aria-expanded');
+            for (let i = 0; i < items.length; i++) {
+                items[i].setAttribute('aria-expanded', 'false');
+                items[i].parentNode.classList.remove('expanded');
+            }
+            if (itemToggle == 'false') {
+                this.setAttribute('aria-expanded', 'true');
+                this.parentNode.classList.add('expanded');
+            }
         }
         items.forEach(item => item.addEventListener('click', toggleAccordion));
     }
@@ -84,5 +84,3 @@
     if (debug) console.log(e, "error in Test" + variation_name);
   }
 })();
-
-
