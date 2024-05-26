@@ -26,27 +26,29 @@
         `<div class="eg-faq-section">
             <div class="eg-faq-container">
                 <h2 class="eg-faq-hd" >frequently asked questions</h2>
+                <h4 class="eg-faq-subhd">Here are some of our most-asked questions</h4>
                 <div class="eg-accordion">
                     <div class="eg-accordion-item">
-                    <button aria-expanded="false"><span class="eg-accordion-title">Why is the moon sometimes out during the day?</span><span class="eg-icon" aria-hidden="true"></span></button>
+                    <button aria-expanded="false"><span class="eg-accordion-title">Do you accept returns?</span><span class="eg-icon" aria-hidden="true"></span></button>
                     <div class="eg-accordion-content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+                        <p>Yes, we do accept returns. for a refund, the item(s) must be in new and in sellable condition, all apparel items need their original tags. for more information, view our return policy.<br><br> <a class="eg-return-link" href="https://soccerwearhouse.com/pages/returns" >View our return policy </a></p>
                     </div>
                     </div>
                     <div class="eg-accordion-item">
-                    <button aria-expanded="false"><span class="eg-accordion-title">Why is the sky blue?</span><span class="eg-icon" aria-hidden="true"></span></button>
+                    <button aria-expanded="false"><span class="eg-accordion-title">What is the shipping policy?</span><span class="eg-icon" aria-hidden="true"></span></button>
                     <div class="eg-accordion-content">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
                     </div>  
                     </div>
                     <div class="eg-accordion-item">
-                    <button aria-expanded="false"><span class="eg-accordion-title">Will we ever discover aliens?</span><span class="eg-icon" aria-hidden="true"></span></button>
+                    <button aria-expanded="false"><span class="eg-accordion-title">How can I reach customer service?</span><span class="eg-icon" aria-hidden="true"></span></button>
                     <div class="eg-accordion-content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+                        <p>Our Online Customer Service Team Can Be Reached Monday-Friday 12-6pm Pst By Phone At (800) 892-6979 (Option 1) Or By Email At Support@Soccerwearhouse.Com. <br><br>  
+                          Each Of Our Retail Locations Also Has Their Own Dedicated Phone Line. For More Information, <a href="https://soccerwearhouse.com/pages/contact-us"> Click Here.</a></p>
                     </div>
                     </div>
                     <div class="eg-accordion-item">
-                    <button aria-expanded="false"><span class="eg-accordion-title">How much does the Earth weigh?</span><span class="eg-icon" aria-hidden="true"></span></button>
+                    <button aria-expanded="false"><span class="eg-accordion-title">What are your store locations and hours?</span><span class="eg-icon" aria-hidden="true"></span></button>
                     <div class="eg-accordion-content">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
                     </div>
