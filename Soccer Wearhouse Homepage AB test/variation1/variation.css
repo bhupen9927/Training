@@ -1,3 +1,5 @@
+/* Faq-section css start */
+
 html body .eg-faq-section {
     width: 100%;
     background-color: #EDEDED;
@@ -128,5 +130,94 @@ html body .eg-accordion .eg-accordion-item button[aria-expanded='true'] {
 @media screen and (max-width:575px) {
     html body .eg-faq-container {
         padding: 40px 15px;
+    }
+}
+
+/* Faq-section css End */
+
+html body .eg-location-section{
+    width: 100%;
+    max-width: 1400px;
+    margin: 40px auto;
+}
+
+html body .eg-loc-hd{
+    font-family: Oswald;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 50.39px;
+    letter-spacing: 0.15em;
+    text-align: center;
+    color: #1D1D1D;
+    width: 90%;
+    margin: 0 auto;
+}
+
+html body .eg-loc-subhd{
+    font-family: Montserrat, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.26px;
+    text-align: center;
+    letter-spacing: 0;
+    text-transform: capitalize;
+    color: #1D1D1D;
+    padding-bottom: 30px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+html body .eg-location-wrapper{
+    margin: 0 auto;
+    grid-template-columns: repeat(3, auto);
+    display: grid;
+    grid-column-gap: 15%;
+    grid-row-gap: 10%;
+    border-top: 1px solid #E3E3E3;
+    border-bottom: 1px solid #E3E3E3;
+    padding: 50px 0;
+    width: 80%;
+}
+
+html body .eg-loc-city{
+    font-family: Montserrat,sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.38px;
+    text-align: left;
+    letter-spacing: 0;
+    text-transform: capitalize;
+}
+
+html body .eg-loc-add{
+    font-family: Montserrat,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-align: left;
+    letter-spacing: 0;
+}
+
+html body .eg-loc-time{
+    font-family: Montserrat,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.5px;
+    text-align: left;
+    letter-spacing: 0;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width:767px) {
+    html body .eg-location-wrapper {
+        grid-template-columns: repeat(2, auto);
+        grid-column-gap: 10%;
+    }
+}
+
+@media screen and (max-width:575px) {
+    html body .eg-location-wrapper {
+        grid-template-columns: repeat(2, auto);
+        grid-gap: 7%;
     }
 }

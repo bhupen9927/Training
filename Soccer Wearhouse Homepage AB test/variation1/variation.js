@@ -56,11 +56,41 @@
                 </div>
             </div>
         </div>`;
+      const location =
+        `<div class="eg-location-section">
+          <div class="eg-location-container">
+            <h2 class="eg-loc-hd" >Locations and Hours</h2>
+            <h4 class="eg-loc-subhd">Four convenient locations throughout Southern California</h4>
+            <div class="eg-location-wrapper">
+              <div class="eg-location-list">
+                <h3 class="eg-loc-city">Anahein California</h3>
+                <p class="eg-loc-add">400 W DISNEY WAY 149 <br> ANAHEIM, CA 92802</p>
+                <h4 class="eg-loc-time">Open 7 days a week 12-8</h4>
+              </div>
+              <div class="eg-location-list">
+                <h3 class="eg-loc-city">Corona, California</h3>
+                <p class="eg-loc-add">2795 CABOT DRIVE SPACE 6-150 <br> CORONA, CA 92883</p>
+                <h4 class="eg-loc-time">Open 7 days a week 12-8</h4>
+              </div>
+              <div class="eg-location-list">
+                <h3 class="eg-loc-city">Eastvalle, California</h3>
+                <p class="eg-loc-add">12762 LIMONITE AVENUE <br> EASTVALE, CA 92880</p>
+                <h4 class="eg-loc-time">Open 7 days a week 12-8</h4>
+              </div>
+              <div class="eg-location-list">
+                <h3 class="eg-loc-city">Temecula, California</h3>
+                <p class="eg-loc-add">41377 MARGARITA ROAD <br> TEMECULA, CA 92591</p>
+                <h4 class="eg-loc-time">Open 7 days a week 12-8</h4>
+              </div>
+            </div>
+          </div>
+        </div>`
 
     /* Variation Init */
     function init() {
+      //Faq section script
         const footer = document.querySelector('#shopify-section-footer');
-        if (footer) {
+        if (footer && !document.querySelector('.eg-faq-section')) {
             footer.insertAdjacentHTML('beforebegin', FAQ);
         }
         const items = document.querySelectorAll(".eg-accordion button");
@@ -76,6 +106,14 @@
             }
         }
         items.forEach(item => item.addEventListener('click', toggleAccordion));
+        //Faq section script end 
+
+      //Location section script
+      const faqs = document.querySelector('.eg-faq-section');
+      if (faqs && !document.querySelector('.eg-location-section')) {
+        faqs.insertAdjacentHTML('beforebegin', location);
+      }
+        
     }
 
     /* Initialize variation */
