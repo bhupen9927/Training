@@ -123,6 +123,57 @@ html body .eg-return-link {
     color: #196BE0;
 }
 
+html body .eg-faq-content{
+    font-family: Montserrat,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.5px;
+    text-align: center;
+    margin-top: 30px;
+    text-transform: capitalize;
+}
+
+html body .eg-faq-cta{
+    grid-gap: 20px;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+ html body .eg-view-cta{
+    padding: 16px 30px;
+    font-family: Montserrat,sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.94px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #196BE0;
+    text-transform: capitalize;
+ }
+
+ html body .eg-view-cta:hover{
+    background-color:#0047af;
+ }
+
+ html body .eg-call-cta{
+    padding: 16px 30px;
+    border: 1.3px solid #1D1D1D;
+    font-family: Montserrat,sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.94px;
+    text-align: center;
+    color: #1D1D1D;
+    display: flex;
+    align-items: center;
+    grid-gap: 5px;
+ }
+
+ html body .eg-call-cta:hover{
+    background-color: #dcdbdb;
+ }
+
 html body .eg-accordion .eg-accordion-item button[aria-expanded='true'] {
     border-bottom: 1px solid #D1D1D1;
 }
@@ -131,9 +182,16 @@ html body .eg-accordion .eg-accordion-item button[aria-expanded='true'] {
     html body .eg-faq-container {
         padding: 40px 15px;
     }
+    html body .eg-faq-cta{
+        flex-direction: column;
+        width: fit-content;
+        margin: 30px auto;
+    }
 }
 
 /* Faq-section css End */
+
+/* location and hours section css start */
 
 html body .eg-location-section{
     width: 100%;
@@ -172,11 +230,13 @@ html body .eg-location-wrapper{
     grid-template-columns: repeat(3, auto);
     display: grid;
     grid-column-gap: 15%;
-    grid-row-gap: 10%;
     border-top: 1px solid #E3E3E3;
     border-bottom: 1px solid #E3E3E3;
-    padding: 50px 0;
+    padding-top: 50px;
     width: 80%;
+}
+html body .eg-location-list{
+    margin-bottom: 50px;
 }
 
 html body .eg-loc-city{
@@ -218,6 +278,8 @@ html body .eg-loc-time{
 @media screen and (max-width:575px) {
     html body .eg-location-wrapper {
         grid-template-columns: repeat(2, auto);
-        grid-gap: 7%;
     }
 }
+
+/* location and hours section css end */
+

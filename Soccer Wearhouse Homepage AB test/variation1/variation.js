@@ -54,9 +54,15 @@
                     </div>
                     </div>
                 </div>
+                <p class="eg-faq-content">Couldn't find the answer to your question? Check out more FAQs or call us for fast answers.</p>
+                <div class="eg-faq-cta">
+                  <a class="eg-view-cta" href="https://soccerwearhouse.com/pages/frequently-asked-questions"> View All FAQS</a>
+                  <a class="eg-call-cta" href="tel:8008926979"> <img class="eg-call-icon" src="https://i.ibb.co/0QWmjzN/call.png"> (800) 892-6979</a>
+                </div>
             </div>
         </div>`;
-      const location =
+
+        const location =
         `<div class="eg-location-section">
           <div class="eg-location-container">
             <h2 class="eg-loc-hd" >Locations and Hours</h2>
@@ -84,7 +90,8 @@
               </div>
             </div>
           </div>
-        </div>`
+        </div>`;
+
 
     /* Variation Init */
     function init() {
@@ -108,14 +115,12 @@
         items.forEach(item => item.addEventListener('click', toggleAccordion));
         //Faq section script end 
 
-      //Location section script
+        //Location section script
       const faqs = document.querySelector('.eg-faq-section');
       if (faqs && !document.querySelector('.eg-location-section')) {
         faqs.insertAdjacentHTML('beforebegin', location);
       }
-        
     }
-
     /* Initialize variation */
     waitForElement('#shopify-section-footer', init, 50, 15000);
   } catch (e) {
