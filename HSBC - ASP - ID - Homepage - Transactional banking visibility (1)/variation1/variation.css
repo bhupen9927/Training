@@ -1,0 +1,138 @@
+html body .eg-sol-Section{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+html body .eg-content-container {
+    overflow: hidden;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+html body .eg-explore {
+    border-left: 3px solid rgb(219, 0, 17);
+}
+
+html body .eg-explore h2 {
+    font-size: 2.1875rem;
+    line-height: 2.625rem;
+    font-family: "UniversNext", Arial, sans-serif;
+    color: #333;
+    font-weight: 400;
+    padding-left: 20px;
+}
+
+html body .eg-explore-para {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 30px 0;
+}
+
+html body .eg-explore-para p {
+    letter-spacing: 0.6px;
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+html body .eg-view-all {
+    display: inline-flex;
+    box-sizing: border-box;
+    align-items: center;
+    height: auto !important;
+    min-height: 2.5rem;
+    font-family: "UniversNext", Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    border: 1px solid #333;
+    background-color: #fff;
+    padding: 0.575rem 1.63rem;
+    text-decoration: none;
+    color: #333;
+}
+
+html body .eg-expsol-list{
+    display: flex;
+    align-items: flex-start;
+}
+
+html body .eg-expsol-icon{
+    margin-right: 15px;
+}
+
+html body .eg-expsol-icon img{
+    width: 60px;
+    height: 60px;
+}
+
+html body .eg-cta-panel-label__icon svg{
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    fill: #fff;
+    width: 35px;
+    height: 35px;
+}
+
+html body .eg-expsol-right{
+    padding-top: 10px;
+}
+
+html body .eg-SvgIcon{
+    width: 22px;
+    height: 22px;
+    font-size: 25px;
+    color: rgb(51, 51, 51);
+    position: relative;
+    left: 0;
+    top: 2px;
+    display: inline-block;
+}
+
+html body .eg-expsol-container{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+
+html body .eg-expsol-content{
+    display: flex;
+    flex-direction: column;
+}
+
+html body .eg-sm-SvgIcon{
+    width: 14px;
+    height: 14px;
+    font-size: 18px;
+    color: rgb(51, 51, 51);
+    position: relative;
+    left: 0;
+    top: 2px;
+    display: inline-block;
+    padding-left: 5px;
+}
+
+html body .eg-expsol-para{
+    font-family: UniversNext, Arial, sans-serif;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgb(51, 51, 51);
+    text-align: left;
+    font-size: 1rem;
+    margin: 20px 0;
+}
+
+html body .eg-expsol-link{
+    font-family: UniversNext, Arial, sans-serif;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgb(51, 51, 51);
+    text-align: left;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 15px 0;
+}
