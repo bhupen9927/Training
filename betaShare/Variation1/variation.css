@@ -1,0 +1,156 @@
+.eg-showform #modal-form>div {
+    background: #00000040;
+}
+
+html body .eg-newcta {
+    font-size: 0px;
+    opacity: 0;
+    position: absolute;
+}
+
+html body #eg-modal-form,
+html body .eg-company {
+    display: none;
+}
+
+.eg-showform #eg-modal-form,
+.eg-showCompany .eg-company   {
+    display: block;
+}
+
+html body .eg-modal-from-right {
+    box-shadow: 6px 0 10px #00000080;
+    padding: 2rem;
+    border-top-left-radius: 1.875rem;
+    border-bottom-left-radius: 1.875rem;
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+    overflow-y: auto;
+    max-width: 28rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+html body .eg-modal-from-right .modal-content {
+    height: 100%;
+    width: 100%;
+}
+
+html body .eg-modal-from-right .eg-close  {
+    margin-bottom: 2rem;
+}
+
+.eg-showform .eg-modal-from-right{
+    animation: from-right .3s;
+}
+
+html body .modal-from-right {
+    animation: to-right .3s;
+}
+
+.eg-showform {
+    overflow: hidden;
+}
+
+@keyframes to-right {
+    0% {
+        transform: translate(0);
+    }
+    
+    100% {
+        transform: translate(100%);
+    }
+}
+
+@keyframes from-right {
+    0% {
+        transform: translate(100%);
+    }
+    
+    100% {
+        transform: translate(0);
+    }
+}
+
+html body .eg-modal-from-right header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+html body .eg-modal-title {
+    padding-right: 2.5rem;
+    margin-bottom: 2rem;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    font-weight: 500;
+    font-family: var(--font-heading);
+    display: inline-block;
+}
+
+html body .eg-submit-button {
+    background: rgb(var(--color-orange));
+    color: #fff;
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 0;
+    border-radius: 999rem;
+    display: inline-flex;
+    line-height: 1;
+    text-decoration: none;
+    justify-content: center;
+    transition: background-color .1s;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 1.375rem 2rem;
+}
+
+@media screen and (max-width: 545px){
+    html body .eg-modal-from-right {
+        max-width: 100%;
+        border-radius: 0 !important;
+    }
+}
+#eg-modal-form .validation-message,
+#eg-modal-form .validation-message-invalid {
+  background-color: #B30000;
+  color: white;
+  padding: 5px;
+  width: 100%;
+  margin-top: 0px;
+  border-radius: 3px;
+}
+
+.form-error-message {
+  color:#B30000;
+  background-color: white;
+  padding: 15px;
+  border-radius: 3px;
+  border: 1px solid #B30000;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+}
+
+.error-icon {
+  display: inline-block;
+  width: 40px;
+    height: 25px;
+    background-color: #B30000;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.eg-showform .eg-company .validation-message {
+  display: none;
+}

@@ -1,0 +1,477 @@
+/* HERO SECTION */
+
+html body .herobanner .c-hero {
+    background-image: url(https://i.ibb.co/1LP6nw6/Hero-Base.png) !important;
+    position: relative;
+}
+
+html body .herobanner .c-hero::before {
+    content: '';
+    background: linear-gradient(90deg, #272E3A 0%, rgba(39, 46, 58, 0.00) 100%);
+    position: absolute;
+    z-index: 1;
+    width: 50%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+html body .eg-heroBg {
+    content: '';
+    background: linear-gradient(180deg, #1B222F 0%, rgba(27, 34, 47, 0.80) 100%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    display: none;
+}
+
+html body.eg-heroBgLayout .eg-heroBg{
+    display: block !important;
+}
+
+
+html body .herobanner  .c-hero .c-hero__container {
+    background-color: transparent !important;
+}
+
+html body .c-hero--au-product-finder .c-hero__media {
+    width: 100%;
+}
+
+html body .c-vue-product-finder-content__title h3 {
+    color: #1B222F !important;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+html body .c-vue-product-finder-content__text p {
+    color: #565656;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+html body .nav-search-w-img {
+    border-bottom: 8px solid #0077A0 !important;
+    padding: 48px 40px;
+    position: relative;
+    z-index: 9;
+}
+
+html body .c-vue-product-finder-content__selector {
+    padding: 24px;
+    border-radius: 4px;
+    background: #F4F6F9;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 16px;
+}
+
+html body .c-vue-product-finder-content__selector::before {
+    content: 'Get a free online quote today';
+    color: #1B222F;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 133.333% */
+}
+
+html body .c-vue-product-finder__wrap {
+    border-radius: 4px;
+    border: 1px solid #DDD;
+    background: #FFF;
+    padding-right: 8px;
+}
+
+html body.eg-heroBgLayout .c-vue-product-finder__wrap {
+    border: 1px solid #0065AC !important;
+}
+
+html body .multiselect__placeholder > span {
+    line-height: 10px;
+}
+
+html body .multiselect__tags {
+    background-color: #FFF !important;
+    border: none;
+}
+
+html body .c-vue-product-finder__cta button {
+    border-radius: 4px;
+    background-color: #0065AC !important;
+    color: var(--Primary-White, #FFF);
+    text-align: center;
+    font-family: "Noto Sans", sans-serif !important;
+    font-size: 18px !important;
+    font-style: normal;
+    font-weight: 600 !important;
+    line-height: 28px !important; /* 155.556% */
+    padding: 14px 18px !important;
+}
+
+html body .c-vue-product-finder .multiselect:before {
+    color: #1B222F !important;
+}
+
+html body .multiselect__placeholder p {
+    color: #797979;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+html body .multiselect__placeholder {
+    display: flex;
+    flex-direction: column;
+}
+
+html body .multiselect__placeholder > span::before {
+    content: 'Occupation';
+    color: #1B222F;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/*  HERO SECTION END  */   
+
+/* buy step get a quote section css start */
+html body .eg-container{
+    font-family: "Noto Sans";
+}
+
+html body .eg-buy-step-wrapper{
+    display: flex;
+    padding: 80px 0;
+    margin: 0 auto;
+    max-width: 1190px;
+    grid-gap: 50px;
+}
+
+html body .eg-getImage-wrapper{
+   padding-right: 32px;
+}
+
+html body .eg-get-heading{
+    font-family: "Noto Sans";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 43.58px;
+    text-align: left;
+}
+
+html body .eg-get-cta{
+    padding:18px 0;
+    margin-bottom: 39px;
+}
+
+html body .eg-get-btn{
+    background: #0065AC;
+    padding: 16px 32px;
+    font-family: "Noto Sans";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: 4px;
+}
+
+html body .eg-get-btn:hover{
+    color: #fff;
+    background-color: #009DE0;
+    border: 2px solid transparent;
+}
+
+html body .eg-emp-img{
+    height: 300px;
+    object-fit: cover;
+}
+
+html body .eg-step{
+    display: flex;
+    background: #F4F6F9;
+    padding: 32px 30px 32px 32px;
+    margin: 32px 0;
+}
+
+html body .eg-step-con{
+    padding-left: 32px;
+}
+
+html body .eg-step-num{
+    border: 2px solid #9FE0FF;
+    border-radius: 4px;
+    background: #FFFFFF;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+html body .eg-num,
+html body .eg-step-heading{
+    font-family: "Noto Sans";
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 28.6px;
+    letter-spacing: -0.30000001192092896px;
+    margin: 0;
+}
+
+html body .eg-step-heading{
+    color: #202020;
+}
+
+html body .eg-num{
+    color: #0065AC;
+    padding: 0 16.80px;
+}
+
+html body .eg-step-content{
+    font-family: "Noto Sans";
+    font-size: 15.4px;
+    font-weight: 400;
+    line-height: 21.79px;
+    letter-spacing: -0.30000001192092896px;
+    text-align: left;
+    color: #565656;
+    margin-top: 12px;
+}
+
+@media screen and (max-width:1200px){
+    html body .eg-buy-step-wrapper{
+        display: flex;
+        padding: 80px 32px 40px 32px;
+        margin: 0 auto;
+        max-width: 100%;
+        grid-gap: 5px;
+        flex-direction: column;
+    }
+
+    html body .eg-getImage-wrapper{
+        display: flex;
+        grid-gap: 48px;
+        padding: 0
+    }
+}
+
+@media screen and (max-width:768px){
+    html body .eg-getImage-wrapper{
+        display: flex;
+        grid-gap: 0;
+        padding: 0;
+        flex-direction:column;
+    }
+    html body .eg-buy-step-wrapper{
+        padding: 20px 32px 10px 32px;
+    }
+    html body .eg-step {
+        padding: 20px;
+    }
+    html body .eg-step-con {
+        padding-left: 20px;
+    }
+    html body .eg-get-heading,
+    html body .eg-get-cta{
+        text-align: center;
+    }
+}
+
+/* buy step get a quote section css end */
+
+/* Cover we can section css start */
+
+html body .panelcontainer{
+    display: none;
+}
+
+html body .eg-cover-container{
+    padding: 0 0 80px 0;
+    margin: 0 auto;
+    max-width: 1190px;
+}
+
+html body .eg-cover-heading{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 43.58px;
+    text-align: left;
+    color:#1B222F;
+    margin: 20px 0 36px 0;
+}
+
+html body .eg-cover-con{
+    display: flex;
+    grid-gap: 64px;
+}
+
+html body .eg-proff-con{
+    border-top: 4px solid #0077A0;
+    box-shadow: 0px 0px 16px 0px #00000026;
+    padding: 24px;
+}
+
+html body .eg-cover-icon{
+    width: 40px;
+    height: 40px;
+}
+
+html body .eg-small-content{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.34px;
+    color: #596C8F;
+}
+
+html body .eg-proff-heading{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #1B222F;
+    margin: 16px 0;
+}
+
+html body .eg-proff-content{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: -0.30000001192092896px;
+    color:#565656;
+    margin-bottom: 24px;
+}
+
+html body .eg-proff-get-cta{
+    width: 100%;
+    border-radius: 4px;
+    background: #0065AC;
+    padding: 16px 0;
+    text-align: center;
+}
+
+html body .eg-proff-get{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+html body .eg-right-container
+{
+    width: 64%;
+}
+
+html body .eg-encluded-con{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    column-gap: 64px;
+}
+
+html body .eg-proff-con{
+    width: 36%;
+}
+
+html body .eg-encluded-heading{
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 28.6px;
+    letter-spacing: -0.30000001192092896px;
+    color:#202020;
+    margin: 0 0 48px 0;
+}
+
+html body .eg-encluded-wrapper{
+    display: flex;
+}
+
+html body .eg-right-img{
+    width: 24px;
+    margin-top: 6px;
+    margin-right: 16px;
+}
+
+html body .eg-inctail-heading{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.30000001192092896px;
+    color: #1B222F;
+    margin: 0 0 12px 0;
+}
+
+html body .eg-inctail-content{  
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: -0.30000001192092896px;
+    color: #565656;
+    margin: 16px 0 40px 0;
+}
+
+html body .eg-limit-content,
+html body .eg-certain-content{
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width:1200px){
+    html body .eg-cover-container{
+        padding: 0 32px 80px 32px;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+    html body .eg-cover-con{
+        grid-gap: 32px;
+    }
+    html body .eg-encluded-con{
+        column-gap: 32px;
+    }
+}
+
+@media screen and (max-width:768px){
+    html body .eg-cover-container{
+        padding: 0 32px 80px 32px;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+    html body .eg-cover-con{
+        grid-gap: 48px;
+        flex-direction: column;
+    }
+    html body .eg-encluded-con{
+        column-gap: 32px;
+    }
+    html body .eg-right-container,
+    html body .eg-proff-con
+    {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:575px){
+    html body .eg-encluded-con{
+        grid-template-columns: repeat(1,auto);
+    }
+    html body .eg-limit-content{
+        margin-bottom: 40px;
+    }
+}
+
+/* Cover we can section css end */

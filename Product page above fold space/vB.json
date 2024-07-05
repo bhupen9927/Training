@@ -1,0 +1,16 @@
+{
+	"files": [
+		"./variationB/variation.css",
+		"./variationB/variation.js"
+	],
+	"inject": "",
+	"urls": [
+		"https://www.regus.com/en-gb/office-space",
+		"https://www.regus.com/en-gb/coworking",
+		"https://www.regus.com/en-gb/membership",
+		"https://www.regus.com/en-gb/virtual-offices",
+		"https://www.regus.com/en-gb/office-space/workplace-recovery",
+		"https://www.regus.com/en-gb/event-space",
+		"https://pelfreytree.com/contact-us/"
+	]
+}

@@ -1,0 +1,112 @@
+html body [class*="HeroContentWrapper"] [class*="headlineFontCss"],
+html body [class*="HeroContentWrapper"] [class*="subtitleCss"],
+html body [class*="HeroContentWrapper"] [class*="descriptionCss"],
+html body [class*="HeroContentWrapper"] [class*="trustedCompWrapper"]{
+    display: none;
+}
+html body [class*="HeroContentWrapper"] [class*="buttonsWrapper"]{
+    max-width: 500px;
+}
+html body [class*="HeroContentWrapper"] [class*="buttonsWrapper"] button,
+html body [class*="HeroContentWrapper"] [class*="buttonsWrapper"] [class*="primaryButton"] a {
+    border-radius: 30px;
+}
+html body [class*="HeroContentWrapper"] [class*="buttonsWrapper"] [class*="primaryButton"] a:after,
+html body [class*="HeroContentWrapper"] [class*="buttonsWrapper"] button:after{
+    border-radius: 30px;
+    content: "❯";
+    display: block;
+    text-align: center;
+    left: 177px;
+    top: 50%;
+    margin: 0px 0px 0px 6px;
+    width: 12px;
+    height: auto;
+}
+
+@media screen and (min-width: 768px) {
+    html body [class*="HeroContentWrapper"] .eg-heading{
+        font-size: 48px;
+        line-height: 1;
+        letter-spacing: -1px;
+    }
+}
+.top-sub-heading {
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #430006 !important;
+}
+[class*="HeroContentWrapper"] .eg-heading{
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: -0.3px;
+    position: relative;
+    font-weight: 500 !important;
+    margin-bottom: 25px;
+    margin-top: 0;
+    color: #430006 !important;
+}
+[class*="HeroContentWrapper"] .eg-para {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    line-height: 24px;
+    margin-bottom: 25px;
+    color: #430006 !important;
+}
+.eg-details li {
+    display: flex;
+    align-items: center;
+}
+
+.eg-details li svg {
+    max-width: 24px;
+    margin-right: 24px;
+    max-height: 24px;
+}
+
+.eg-details li:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+html body .solution-container {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+html body .eg-details {
+    margin-bottom: 40px;
+}
+.solution-image {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background: #430006;
+    margin-right: 16px;
+}
+
+.solution-image img {
+    filter: brightness(0) invert(1);
+    width: 18px;
+    height: 18px;
+}
+
+.solution-text .eg-phone {
+    margin-top: 6px;
+    display: block;
+    color: #430006;
+}
+@media screen and (max-width: 767px) {
+    html body [class*="HeroContentWrapper"] .eg-heading{
+        font-size: 40px;
+        line-height: 1;
+    }
+    html body [class*="HeroContentWrapper"] .top-sub-heading {
+        font-size: 26px;
+    }
+}
