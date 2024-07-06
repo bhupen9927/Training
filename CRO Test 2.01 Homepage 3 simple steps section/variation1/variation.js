@@ -157,6 +157,85 @@
         </div>
           </div>
         </div>
+        <div class="eg-buy-conatiner">
+          <div class="eg-buy-online-con">
+            <h3 class="eg-buy-heading">Get a quote and buy online </h3>
+            <div class="eg-buy-wrapper">
+              <div class="eg-left-buyList-con">
+                <div class="eg-buy-list eg-acc">
+                  <h3 class="eg-blist-heading">Accountancy insurance </h3>
+                  <p class="eg-blist-paragraph">You can count on Marsh to arrange insurance solutions to help protect you and your firm with comprehensive cover.</p>
+                  <div class="eg-blist-get-cta"><a class="eg-buy-get" href="#"> Get a quote</a></div>
+                </div>
+                <div class="eg-buy-list eg-book">
+                  <h3 class="eg-blist-heading">Accountancy insurance </h3>
+                  <p class="eg-blist-paragraph">You can count on Marsh to arrange insurance solutions to help protect you and your firm with comprehensive cover.</p>
+                  <div class="eg-blist-get-cta"><a class="eg-buy-get" href="#"> Get a quote</a></div>
+                </div>
+                <div class="eg-buy-list eg-graphic">
+                  <h3 class="eg-blist-heading">Accountancy insurance </h3>
+                  <p class="eg-blist-paragraph">You can count on Marsh to arrange insurance solutions to help protect you and your firm with comprehensive cover.</p>
+                  <div class="eg-blist-get-cta"><a class="eg-buy-get" href="#"> Get a quote</a></div>
+                </div>
+                <div class="eg-buy-list eg-mortgage">
+                  <h3 class="eg-blist-heading">Accountancy insurance </h3>
+                  <p class="eg-blist-paragraph">You can count on Marsh to arrange insurance solutions to help protect you and your firm with comprehensive cover.</p>
+                  <div class="eg-blist-get-cta"><a class="eg-buy-get" href="#"> Get a quote</a></div>
+                </div>
+                <div class="eg-buy-list eg-manage">
+                  <h3 class="eg-blist-heading">Accountancy insurance </h3>
+                  <p class="eg-blist-paragraph">You can count on Marsh to arrange insurance solutions to help protect you and your firm with comprehensive cover.</p>
+                  <div class="eg-blist-get-cta"><a class="eg-buy-get" href="#"> Get a quote</a></div>
+                </div>
+                <div class="eg-buy-list eg-hr">
+                  <h3 class="eg-blist-heading">Accountancy insurance </h3>
+                  <p class="eg-blist-paragraph">You can count on Marsh to arrange insurance solutions to help protect you and your firm with comprehensive cover.</p>
+                  <div class="eg-blist-get-cta"><a class="eg-buy-get" href="#"> Get a quote</a></div>
+                </div>
+                <div class="eg-buy-list eg-it">
+                  <h3 class="eg-blist-heading">Accountancy insurance </h3>
+                  <p class="eg-blist-paragraph">You can count on Marsh to arrange insurance solutions to help protect you and your firm with comprehensive cover.</p>
+                  <div class="eg-blist-get-cta"><a class="eg-buy-get" href="#"> Get a quote</a></div>
+                </div>
+                <div class="eg-buy-list eg-travel">
+                  <h3 class="eg-blist-heading">Accountancy insurance </h3>
+                  <p class="eg-blist-paragraph">You can count on Marsh to arrange insurance solutions to help protect you and your firm with comprehensive cover.</p>
+                  <div class="eg-blist-get-cta"><a class="eg-buy-get" href="#"> Get a quote</a></div>
+                </div>
+              </div>
+              <div class="eg-right-buyImgList-con">
+                <div class="eg-laptopgirl-img">
+                  <img class="eg-lg-img" src="https://i.ibb.co/rM9cCQp/laptopgirl.jpg">
+                  <div class="eg-laptopgirl-content">
+                    <p class="eg-lg-content">Couldn’t find your occupation?</p>
+                    <div class="eg-lg-seachbox">
+                      <img class="eg-search-icon" src="https://i.ibb.co/L1zP0Sv/search-Icon.png">
+                      <p class="eg-search-text">Search for occupation</p>
+                    </div>
+                  </div>
+                </div>
+                <h2 class="eg-addition-heading">Additional cover</h2>
+                <div class="eg-addition-list eg-management">
+                  <h3 class="eg-addition-heading">Management liability insurance</h3>
+                  <div class="eg-learn-con">
+                    <a class="eg-learn-more-cta" href="#">Learn more <img class="eg-arrow-icon" src="https://i.ibb.co/sHMDFPL/arrow-Icon.png"></a>
+                  </div>
+                </div>
+                <div class="eg-addition-list eg-cybersc">
+                  <h3 class="eg-addition-heading">Management liability insurance</h3>
+                  <div class="eg-learn-con">
+                    <a class="eg-learn-more-cta" href="#">Learn more <img class="eg-arrow-icon" src="https://i.ibb.co/sHMDFPL/arrow-Icon.png"></a>
+                  </div>
+                </div>
+                <div class="eg-addition-list eg-businessins">
+                  <h3 class="eg-addition-heading">Management liability insurance</h3>
+                  <div class="eg-learn-con">
+                    <a class="eg-learn-more-cta" href="#">Learn more <img class="eg-arrow-icon" src="https://i.ibb.co/sHMDFPL/arrow-Icon.png"></a>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
       </div>
       `;
 
