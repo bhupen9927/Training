@@ -1,0 +1,173 @@
+
+html body .eg-banner,
+html body .eg-card{
+    display: none;
+}
+
+.eg-sweet-card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 30%);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  bottom: 75px;
+}
+
+.eg-sweet-card .eg-sweet-reviews {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Glacial Indifference' !important;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #FFFFFF !important;
+  margin-bottom: 5px !important;
+  gap: 6.3px !important;
+}
+
+.eg-sweet-reviews > span {
+  font-family: 'Glacial Indifference' !important;
+  text-transform: uppercase !important;
+}
+
+.eg-sweet-card .eg-sweet-heading > h4 {
+  font-family: 'HarmoniaSansW01-Bold' !important;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.eg-sweet-card .eg-sweet-heading > p {
+  font-family: 'HarmoniaSansW01-Regular' !important;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 5px !important;
+}
+
+.eg-sweet-card > a {
+  font-family: 'HarmoniaSansW01-Bold' !important;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #F57154;
+  border-radius: 50px !important;
+  color: #FFFFFF !important;
+  text-decoration: none !important;
+  padding: 12px 62px;
+}
+
+[data-section-id="banner"] a > div {
+  background-image: url('https://i.ibb.co/kMG3DWL/Mask-group.png') !important;
+  background-size: contain !important;
+  background-repeat: no-repeat;
+  background-position: center !important;
+}
+
+[data-section-id="banner"] a .rimage-wrapper {
+  padding-top: 108.707602% !important;
+  background: none !important;
+}
+
+.rimage-outer-wrapper.mobile-only.lazyloaded {
+  margin-top: 155px !important;
+}
+
+.eg-sweet-banner {
+  background: #F6FDFF !important;
+  text-align: center;
+  padding: 10px !important;
+}
+
+.eg-sweet-banner .eg-sweet-text > p {
+  font-family: 'HarmoniaSansW01-Bold';
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 15px;
+  text-align: center;
+  margin-bottom: 3px !important;
+  color: #000000 !important;
+}
+
+.eg-sweet-banner > p {
+  font-family: 'HarmoniaSansW01-Bold';
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: center;
+  margin-top: 4px !important;
+  margin-bottom: 0px !important;
+  color: #191919 !important;
+}
+
+.eg-sweet-banner .eg-sweet-image {
+  margin-bottom: -5px !important;
+}
+
+.eg-sweet-banner .eg-sweet-text > span {
+  font-family: 'HarmoniaSansW01-Regular';
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: center;
+  color: #000000 !important;
+}
+
+@media only screen and (max-width:767px) {
+  .eg-sweet-banner {
+    padding: 10px 0 !important;
+    margin-top: -19px !important;
+  }
+}
+
+@media only screen and (min-width:767px) and (max-width:835px) {
+  .eg-sweet-banner {
+    padding: 10px 0 !important;
+    margin-top: -35px !important;
+  }
+}
+
+@media only screen and (min-width:520px) and (max-width:767px) {
+  .eg-sweet-banner {
+    margin-top: -32px !important;
+  }
+}
+
+@media only screen and (min-width:835px) {
+  .eg-sweet-card {
+    transform: translate(-50%, -60%);
+  }
+
+  [data-section-id="banner"] a > div {
+    background-size: cover !important;
+    background-position: 50% 10% !important;
+  }
+}
+
+@media only screen and (min-width:767px) and (max-width:840px) {
+  .eg-sweet-card {
+    transform: translate(-50%, -80%);
+  }
+}
+
+@media only screen and (min-width:767px) and (max-width:835px) {
+  .eg-sweet-card {
+    transform: translate(-50%, 28%);
+  }
+}
