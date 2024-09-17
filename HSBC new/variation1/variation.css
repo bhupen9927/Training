@@ -1,0 +1,109 @@
+html body .eg-CEO [class*="content-block-container"]{
+    display: flex;
+}
+
+html body .eg-CEO [class*="content-block-container"] >div:first-child{
+    width: 100%;
+}
+
+html body .eg-CEO [class*="content-block-container"] >div:first-child h2{
+    width: 80%;
+}
+
+html body .eg-img{
+    width: 100%;
+}
+
+html body .eg-CEO [class*="content-block-container"] [class*="flexible-content___Ss"]{
+    display: flex;
+    flex-direction: column;
+}
+
+html body .eg-CEO [class*="flexible-content___Ss"] >div:last-child [class*="flexi-content__description"] {
+    display: flex;
+    grid-gap: 15px;
+    align-items: center;
+}
+
+html body .eg-CEO [class*="flexi-content__description"] img{
+    width: 60px;
+    height: 60px;
+}
+
+html body .eg-CEO  [class*="flexible-content___Ss"] > div:last-child [class*="flexi-content__description"] p strong{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+@media screen and (min-width: 1280px){
+    .eg-CEO [class*="content-block-container"] [class*="flexible-content___Ss"] >div:last-child [class*="flexible-content__text-content"] {
+        margin-left: 104px !important;
+        margin-right: 0 !important;
+    }
+    .eg-CEO [class*="flexible-content___Ss"] >div:first-child .flexi-content  {
+        width: 73%;
+    }
+}
+
+@media screen and (min-width: 960px) and (max-width:1280px){
+    .eg-CEO [class*="content-block-container"] [class*="flexible-content___Ss"] >div:last-child [class*="flexible-content__text-content"] {
+        margin-left: 82px !important;
+        margin-right: 0;
+    }
+}
+
+@media screen and (min-width: 760px) and (max-width:960px){
+    .eg-CEO [class*="content-block-container"] [class*="flexible-content___Ss"] >div:last-child [class*="flexible-content__text-content"]{
+        margin-left: 24px;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 767px){
+    html body .eg-CEO [class*="content-block-container"]{
+        display: flex;
+        flex-direction: column;
+    }
+    html body .eg-CEO [class*="content-block-container"] >div:first-child h2{
+        width: 100%;
+    }
+    html body .eg-CEO [class*="content-block-container"] >div:first-child,
+    html body .eg-CEO  [class*="flexible-content___Ss"]>div:first-child {
+        margin-bottom: 0;
+    }
+    html body .eg-CEO [class*="flexible-content___Ss"] >div:last-child [class*="flexible-content__text-content"],
+    html body .eg-CEO [class*="flexible-content___Ss"] >div:first-child [class*="flexible-content__text-content"] {
+        margin-left: 0;
+    }
+    html body .eg-CEO  [class*="flexible-content___Ss"] > div:last-child [class*="flexi-content__description"] p strong{
+        font-size: 19px;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width:1024px){
+    html body .eg-CEO [class*="content-block-container"]{
+        display: flex;
+        flex-direction: column;
+    }
+    html body .eg-CEO [class*="content-block-container"] >div:first-child h2{
+        width: 100%;
+    }
+    html body .eg-CEO [class*="content-block-container"] >div:first-child,
+    html body .eg-CEO  [class*="flexible-content___Ss"]>div:first-child {
+        margin-bottom: 0;
+    }
+    html body .eg-img {
+        height: 500px;
+        object-fit: cover;
+    }
+    html body .eg-CEO [class*="flexible-content___Ss"]>div:first-child {
+        max-width: 100%;
+        margin-right: 48px;
+    }
+}
+
+@media screen and (min-width: 1023px) and (max-width:1025px){
+    html body .eg-CEO [class*="flexible-content___Ss"]>div:first-child {
+        margin-right: 82px;
+    }
+}

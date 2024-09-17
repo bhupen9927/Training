@@ -1,0 +1,90 @@
+html body .eg-work-container {
+  background-color: #efefef !important;
+  align-items: center;
+  gap: 0px 0px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 0px;
+  padding-right: 0px;
+  display: flex;
+}
+
+html body .eg-elementor-shape-fill {
+  fill: #efefef;
+}
+
+html body .eg-elementor-shape-top {
+  top: -33px;
+  rotate: 180deg;
+}
+
+html body .eg-heading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+html body .eg-heading-title {
+  font-family: "Tuna";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+html body .eg-heading-subtitle {
+  font-family: "proxima-nova", Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+
+html body .eg-first-arrow {
+  background-image: url(https://www.bellaandduke.com/wp-content/uploads/2024/02/journey-1.png);
+  background-position: 0em 1.2em;
+  background-repeat: no-repeat;
+  background-size: auto;
+  min-height: 200px;
+}
+
+html body .eg-second-arrow {
+  background-image: url(https://www.bellaandduke.com/wp-content/uploads/2024/02/journey-2.png);
+  background-position: 0.8em -0.03em;
+  background-repeat: no-repeat;
+  background-size: auto;
+  min-height: 200px;
+}
+
+html body .eg-third-arrow {
+  background-image: url(https://www.bellaandduke.com/wp-content/uploads/2024/02/journey-3.png);
+  background-position: 1em 0.5em;
+  background-repeat: no-repeat;
+  background-size: auto;
+  min-height: 200px;
+}
+
+html body .eg-fourth-arrow {
+  background-image: url(https://www.bellaandduke.com/wp-content/uploads/2024/02/journey-4.png);
+  background-position: -0.2em 0.1em;
+  background-repeat: no-repeat;
+  background-size: auto;
+  min-height: 200px;
+}
+
+html body .eg-step-heading {
+  font-family: "Tuna";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+}
+
+html body .eg-step-subheading {
+  font-family: "proxima-nova", Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}

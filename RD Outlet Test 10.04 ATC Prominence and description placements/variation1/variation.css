@@ -1,4 +1,4 @@
-html body .details .descr{
+html body .details .descr {
     position: relative;
     max-width: 600px;
 }
@@ -16,87 +16,83 @@ html body .details .descr .read-more {
     border-bottom: 1px solid #696969 !important;
     width: max-content;
     border: none;
-  }
+}
 
 html body .details .descr .read-more:hover {
     border-bottom: none;
     text-decoration: none;
-  } 
+}
 
-
-  html body .product-details .manufacturer a{
+html body .product-details .manufacturer a {
     color: #767676;
-  }
+}
 
-html body .details> .product-properties{
+html body .details>.product-properties {
     margin-top: 38px;
 }
 
-html body .details> .product-price{
+html body .details>.product-price {
     margin: -11px 0 0 0;
-} 
+}
 
-html body .details #save_percent_box{
+html body .details #save_percent_box {
     padding: 4px 0 4px 0px;
     font-size: 14px;
     font-weight: 700;
     font-family: "arial";
 }
 
-html body .details .zippay img{
+html body .details .zippay img {
     filter: none;
 }
 
-html body .eg-new-parent-div{
+html body .eg-new-parent-div {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
 }
 
-html body .details .sku-stock{
+html body .details .sku-stock {
     margin-top: 10px;
 }
 
 html body #product_details_container .zippay-desktop a.what-is-zippay img,
-html body #product_details_container .zippay-mobile a.what-is-zippay img{
+html body #product_details_container .zippay-mobile a.what-is-zippay img {
     width: 20.6px !important;
     height: 20.6px !important;
 }
 
-html body .quantity-row{
+html body .quantity-row {
     display: flex;
 }
 
 html body .add2cart-button-box,
-html body .product-details .add-to-cart-button{
+html body .product-details .add-to-cart-button {
     width: 100%;
 }
 
-@media screen and (max-width:767px){
-    html body .details> .product-properties {
+@media screen and (max-width:767px) {
+    html body .details>.product-properties {
         margin-top: 15px;
     }
-
     .product-container .details h1 {
         font-size: 28px !important;
     }
-
     html body .product-details .manufacturer a {
         font-size: 16px !important;
     }
-
-    html body .descr > p {
+    html body .descr>p {
         font-size: 12px;
     }
-
     html body .product-details .quantity-row {
         margin-top: 50px !important;
     }
 }
 
 html body .details-tabs .ui-accordion>h3:nth-of-type(2),
-html body .ui-accordion-header .ui-icon{
-    display: none !important;;
+html body .ui-accordion-header .ui-icon {
+    display: none !important;
+    ;
 }
 
 html body #product-tabs-container .ui-accordion-header:first-child {
@@ -139,7 +135,7 @@ html body .product-price-value {
     font-size: 22px !important;
 }
 
-html body .descr > p {
+html body .descr>p {
     letter-spacing: 0.43px;
     color: #696969 !important;
 }
