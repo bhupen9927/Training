@@ -24,7 +24,7 @@
 
     const employeeImage= `
       <div class="eg-emp-img">
-        <img class="eg-img" src="https://i.ibb.co/J3zR0xh/employee-image.png">
+        <img class="eg-img" src="https://i.ibb.co/F54NrVk/maricourt-ceo-indonesia.jpg">
       </div>`;
 
     function initCEO() {

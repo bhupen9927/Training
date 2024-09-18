@@ -14,7 +14,10 @@ html body .eg-CEO [class*="content-block-container"] >div:first-child h2{
 }
 
 html body .eg-img{
-    width: 100%;
+    /* width: 100%; */
+    width: 505px;
+    object-fit: cover;
+    height: 570px;
 }
 
 html body .eg-CEO [class*="content-block-container"] [class*="flexible-content___Ss"]{
@@ -81,6 +84,10 @@ html body .eg-CEO  [class*="flexible-content___Ss"] > div:last-child [class*="fl
     html body .eg-CEO  [class*="flexible-content___Ss"] > div:last-child [class*="flexi-content__description"] p strong{
         font-size: 19px;
     }
+    html body .eg-img {
+        width: 100%;
+        height: auto;
+    }
 }
 
 @media screen and (min-width: 767px) and (max-width:1024px){
@@ -97,7 +104,7 @@ html body .eg-CEO  [class*="flexible-content___Ss"] > div:last-child [class*="fl
     }
     html body .eg-img {
         height: 500px;
-        object-fit: cover;
+        width: 100%;
     }
     html body .eg-CEO [class*="flexible-content___Ss"]>div:first-child {
         max-width: 100%;
