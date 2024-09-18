@@ -1,3 +1,5 @@
+/* Second section "A message from our CEO" CSS Start */
+
 html body .eg-CEO [class*="content-block-container"]{
     display: flex;
 }
@@ -8,6 +10,7 @@ html body .eg-CEO [class*="content-block-container"] >div:first-child{
 
 html body .eg-CEO [class*="content-block-container"] >div:first-child h2{
     width: 80%;
+    font-weight: 400 !important;
 }
 
 html body .eg-img{
@@ -107,3 +110,84 @@ html body .eg-CEO  [class*="flexible-content___Ss"] > div:last-child [class*="fl
         margin-right: 82px;
     }
 }
+
+/* Second section "A message from our CEO" CSS END*/
+
+/* fourth section "Our success stories:" CSS STARt*/
+
+html body .campaign-hub > div:last-child > div:nth-of-type(4) .campaign-block-container >div:nth-of-type(2) {
+    max-width: 50%;
+}
+
+html body .campaign-hub > div:last-child > div:nth-of-type(4) .campaign-block-container >div:nth-of-type(2) h2{
+    font-weight: 400 !important;
+    text-transform: capitalize;
+}
+
+html body .campaign-hub > div:last-child > div:nth-of-type(4) .campaign-block-container >div:last-child p {
+    font-weight: 400 !important;
+}
+
+html body .campaign-hub > div:last-child > div:nth-of-type(4) .campaign-block-container >div:last-child li{
+    margin: 25px 0;
+}
+
+@media screen and (min-width:1200px){
+    html body .campaign-hub > div:last-child > div:nth-of-type(4) .campaign-block-container >div:last-child [class*="textimage-text"]{
+        padding-right: 5.5rem;
+    }
+    html body .campaign-hub > div:last-child > div:nth-of-type(4) .campaign-block-container >div:last-child img{
+        height: 400px;
+        width: 505px;
+        object-fit: cover;
+    }
+}
+
+@media screen and (min-width:991px) and (max-width:1199px){
+    html body .campaign-hub > div:last-child > div:nth-of-type(4) .campaign-block-container >div:last-child [class*="textimage-text"]{
+        padding-right: 2rem;
+    }
+
+    html body .campaign-hub > div:last-child > div:nth-of-type(4) .campaign-block-container >div:last-child img{
+         height: 400px;
+        width: 400px;
+        object-fit: cover;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:990px){
+    html body .campaign-hub > div:last-child > div:nth-of-type(4) .campaign-block-container >div:last-child [class*="textimage-text"]{
+        padding-right: 2rem;
+    }
+    html body .campaign-hub > div:last-child > div:nth-of-type(4) .campaign-block-container >div:last-child img{
+        height: 385px;
+        width: 95%;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width:768px){
+    html body .campaign-hub > div:last-child > div:nth-of-type(4) .campaign-block-container >div:last-child [class*="textimage-text"]{
+        padding-right: 0rem;
+        width: 100%;
+    }
+
+    html body .campaign-hub > div:last-child > div:nth-of-type(4) .campaign-block-container >div:last-child img{
+        height: auto;
+        width: 100%;
+        object-fit: contain;
+    } 
+    html body .campaign-hub > div:last-child > div:nth-of-type(4) .campaign-block-container >div:last-child [class*="article-content-layout"]>div{
+        flex-direction: column-reverse;
+    }
+    html body .campaign-hub > div:last-child > div:nth-of-type(4) .campaign-block-container >div:last-child figure{
+        width: 100%;
+    }
+    html body .campaign-hub > div:last-child > div:nth-of-type(4) .campaign-block-container >div:nth-of-type(2) {
+        max-width: 100%;
+    }
+    html body .campaign-hub > div:last-child > div:nth-of-type(4) .campaign-block-container >div:last-child li{
+        margin: 10px 0;
+    }
+}
+/* fourth section "Our success stories:" CSS END*/
