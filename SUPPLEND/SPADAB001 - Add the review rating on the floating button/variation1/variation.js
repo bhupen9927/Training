@@ -1,4 +1,4 @@
-(function () {
+git(function () {
   try {
     /* main variables */
     var debug = 0;

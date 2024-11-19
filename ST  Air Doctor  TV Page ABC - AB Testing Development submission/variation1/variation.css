@@ -1,0 +1,823 @@
+/* HERO SECTION CSS */
+
+.Air-TV #main .ad_tv-lander-sec4,
+.Air-TV #main .ad_tv-sep-2024-sec21 {
+    display: none;
+}
+
+.Air-TV .eg-hero-section {
+    background: radial-gradient(36.22% 52.1% at 37.34% 30.28%, #F6F6FF 0%, #DFE0EA 100%);
+}
+
+.Air-TV .eg-hero-section .eg-hero-section-wrapper {
+    display: flex;
+    width: 100%;
+    max-width: 1280px;
+    align-items: center;
+    margin: 0 auto;
+    grid-gap: 30px;
+}
+
+.Air-TV .eg-hero-section .eg-hero-left {
+    padding: 20px;
+    font-family: "Open Sans";
+}
+
+.Air-TV .eg-hero-section .eg-hero-right img {
+    position: relative;
+    bottom: 0;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.Air-TV .eg-video-button {
+    top: 51%;
+    left: 55%;
+}
+
+.Air-TV .eg-icon-ply {
+    color: #000;
+    font-size: 44px !important;
+}
+
+.Air-TV .eg-ply-btn {
+    background: #F6F6FF;
+    height: 78px !important;
+    width: 78px !important;
+    padding-right: 0;
+    padding-top: 4px;
+    border: none !important;
+}
+
+.Air-TV .eg-hero-section .eg-hero-right {
+    width: 100%;
+    max-width: 561px;
+    position: relative;
+}
+
+.Air-TV .eg-hero-section .eg-hero-left h1 {
+    font-family: "Open Sans";
+    font-size: 65px !important;
+    font-weight: 700;
+    line-height: 72px;
+    color: #0E168F;
+    margin-bottom: 16px !important;
+}
+
+.Air-TV .eg-hero-section .eg-highlight {
+    color: #3085C8
+}
+
+.Air-TV .eg-hero-section .eg-subheading {
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.68px;
+    margin-bottom: 34px;
+    font-family: "Open Sans";
+    color: #0E186F;
+}
+
+.Air-TV .eg-hero-section .eg-features-container {
+    margin-bottom: 20px;
+    border-top: 2px solid #3085C833;
+    padding-top: 34px;
+}
+
+.Air-TV .eg-hero-section .eg-features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.Air-TV .eg-hero-section .eg-featureHeading {
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 28.6px;
+    font-family: "Open Sans";
+    color: #0E186F;
+    margin-bottom: 16px;
+}
+
+.Air-TV .eg-hero-section .eg-feature {
+    display: flex;
+    align-items: center;
+    grid-gap: 10px;
+}
+
+.Air-TV .eg-hero-section .eg-feature img {
+    height: 31px;
+    width: 34px;
+    margin-bottom: 5px;
+}
+
+.Air-TV .eg-hero-section .eg-feature p {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21.79px;
+    font-family: "Open Sans";
+    color: #0E186F;
+    margin: 0;
+}
+
+.Air-TV .eg-hero-section .eg-cta-button {
+    background-color: #F9A31A;
+    color: #fff;
+    line-height: 21.79px;
+    font-family: "Open Sans";
+    padding: 10px 40px !important;
+    font-size: 16px !important;
+    font-weight: 700;
+    border-radius: 40px;
+    cursor: pointer;
+    text-align: center;
+    border: 2px solid #FFFFFF
+}
+
+.Air-TV .eg-hero-section .eg-cta-button:hover {
+    box-shadow: inset 0 1px 5px -2px #000 !important;
+}
+
+@media only screen and (min-width:992px) and (max-width:1200px) {
+    .Air-TV .eg-hero-section .eg-hero-left {
+        width: 100%;
+        max-width: 540px;
+    }
+
+    .Air-TV .eg-hero-section .eg-hero-left h1 {
+        font-size: 52px !important;
+        line-height: 63px;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1128px) {
+    .Air-TV .eg-hero-section .eg-hero-right img {
+        position: relative;
+        bottom: -20px;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .Air-TV .eg-hero-section .eg-hero-left h1 {
+        font-size: 34px !important;
+        line-height: 46.3px;
+    }
+
+    .Air-TV .eg-hero-section .eg-subheading {
+        font-size: 22px;
+        line-height: 33px;
+    }
+
+    .Air-TV .eg-hero-section .eg-featureHeading {
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 29.96px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .Air-TV .eg-ply-btn {
+        height: 52px !important;
+        width: 52px !important;
+        padding-top: 0;
+    }
+
+    .Air-TV .eg-video-button {
+        top: 52%;
+        left: 54.7%;
+    }
+
+    .Air-TV .eg-icon-ply {
+        font-size: 33px !important;
+    }
+
+    .Air-TV .eg-hero-section .eg-hero-section-wrapper {
+        flex-direction: column;
+        padding: 0px 20px;
+        grid-gap: 0px;
+        padding-bottom: 35px;
+    }
+
+    .Air-TV .eg-hero-section .eg-hero-right {
+        order: -1;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .Air-TV .eg-hero-section .eg-hero-right img {
+        bottom: 0;
+    }
+
+    .Air-TV .eg-hero-section .eg-hero-left {
+        padding: 0px;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .Air-TV .eg-hero-section .eg-hero-left h1,
+    .Air-TV .eg-hero-section .eg-subheading,
+    .Air-TV .eg-hero-section .eg-featureHeading {
+        text-align: center;
+    }
+
+    .Air-TV .eg-hero-section .eg-features {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .Air-TV .eg-hero-section .eg-cta-button {
+        width: 100%;
+    }
+
+    .Air-TV .eg-hero-section .eg-hero-left h1 {
+        margin-bottom: 5px !important;
+    }
+
+    .Air-TV .eg-hero-section .eg-subheading {
+        margin-bottom: 22px !important;
+        width: 100%;
+        max-width: 90%;
+        margin: auto;
+    }
+
+    .Air-TV .eg-hero-section .eg-features-container {
+        padding-top: 20px;
+    }
+
+    .Air-TV .eg-hero-section .eg-featureHeading {
+        width: 100%;
+        max-width: 90%;
+        margin: auto;
+        margin-bottom: 16px !important;
+    }
+
+    .Air-TV .eg-hero-section .eg-features {
+        gap: 8px;
+    }
+}
+
+@media only screen and (max-width:370px) {
+
+    .Air-TV .eg-hero-section .eg-featureHeading,
+    .Air-TV .eg-hero-section .eg-subheading {
+        width: 100%;
+        max-width: 100% !important;
+    }
+}
+
+.Air-TV .eg-hero-AsSeenOn {
+    background: #F6F6FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 41px 20px;
+    grid-gap: 20px;
+    opacity: 60%;
+}
+
+.Air-TV .eg-asSeen-text {
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.51px;
+    color: #0E186F;
+    margin: 0;
+    padding-right: 20px;
+    border-right: 1px solid #B7BAD4;
+}
+
+.Air-TV .eg-asSeen-logos {
+    display: flex;
+    grid-gap: 20px;
+}
+
+.Air-TV .eg-asSeen-img {
+    width: 31%;
+    max-height: 34px;
+}
+
+@media screen and (max-width:767px) {
+    .Air-TV .eg-hero-AsSeenOn {
+        flex-direction: column;
+        padding: 40px 48px;
+    }
+
+    .Air-TV .eg-asSeen-text {
+        padding-right: 0;
+        border-right: none;
+    }
+
+    .Air-TV .eg-asSeen-logos {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        grid-gap: 23px;
+    }
+
+    .Air-TV .eg-asSeen-img {
+        width: 46%;
+        max-height: 25px;
+    }
+
+    .Air-TV .eg-forbes {
+        width: 84px;
+    }
+
+    .Air-TV .eg-cnn {
+        width: 57px;
+    }
+}
+
+/* HERO SECTION CSS END*/
+
+/* AIRBORNE CONTAMINNATS CSS*/
+
+.Air-TV .eg-airborne .eg-container_new {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    grid-gap: 65px;
+    align-items: center;
+    padding: 85px 0px;
+}
+
+.Air-TV .eg-airborne {
+    background-image: url(https://i.ibb.co/R4866sS/Background-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Air-TV .eg-airborne .eg-container_new .eg-video {
+    width: 100%;
+    max-width: 653px;
+}
+
+.Air-TV .eg-airborne .eg-container_new .eg-video .section-content .row-collapse>div {
+    height: 422px;
+}
+
+/* .Air-TV .eg-airborne .eg-container_new .eg-video .img-holder-home2 {
+    display: none;
+} */
+
+.Air-TV .eg-airborne .eg-container_new .eg-video .img-holder-home2>div:nth-child(1) img {
+    height: 423px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.Air-TV .eg-airborne .eg-container_new .eg-video .section-content .row-collapse>div>div:last-of-type {
+    border-radius: 0px 0px 30px 30px;
+}
+
+.Air-TV .eg-airborne .eg-contnet .eg-bulletpoints {
+    padding-left: 25px !important;
+}
+
+.Air-TV .eg-airborne .eg-contnet .eg-heading {
+    font-family: Open Sans;
+    font-size: 45px !important;
+    font-weight: 700;
+    line-height: 53px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #0C166D;
+    text-transform: math-auto;
+}
+
+.Air-TV .eg-airborne .eg-contnet .eg-subheading,
+.Air-TV .eg-airborne .eg-contnet .eg-bulletpoints li {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #313D4A;
+}
+
+.Air-TV .eg-airborne .eg-contnet .eg-bulletpoints li {
+    margin: 0px;
+}
+
+.Air-TV .eg-airborne .eg-contnet .eg-heading {
+    font-family: Open Sans;
+    font-size: 45px !important;
+    font-weight: 700;
+    line-height: 53px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #0C166D;
+    margin-bottom: 15px !important;
+}
+
+.Air-TV .eg-airborne .eg-contnet .eg-subheading {
+    margin-bottom: 12px;
+}
+
+.Air-TV .eg-airborne .eg-contnet .eg-bulletpoints+.eg-button a {
+    background: #F9A31A;
+    border: 2px solid #FFFFFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21.79px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 100%;
+    max-width: 223px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    box-shadow: 0px 4px 4px 0px #00000026;
+    border-radius: 40px;
+    margin-top: 25px;
+}
+
+@media only screen and (min-width:1400px) {
+    .Air-TV .eg-airborne .eg-container_new {
+        max-width: 1280px;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1250px) {
+    .Air-TV .eg-airborne .eg-container_new {
+        padding: 85px 30px;
+    }
+
+    .Air-TV .eg-airborne .eg-container_new {
+        padding: 85px 30px;
+        grid-gap: 35px;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .Air-TV .eg-airborne .eg-contnet .eg-heading {
+        font-size: 30px !important;
+        line-height: 40.85px;
+    }
+
+    .Air-TV .eg-airborne .eg-container_new {
+        padding: 85px 25px;
+        grid-gap: 45px;
+    }
+
+    .Air-TV .eg-airborne .eg-container_new {
+        flex-direction: column;
+        grid-gap: 45px;
+        padding: 85px 20px;
+    }
+
+    .Air-TV .eg-airborne {
+        background: #DFE0EA !important;
+    }
+}
+
+/* AIRBORNE CONTAMINNATS CSS END*/
+
+/* LIMITED TIME OFFER SECTION */
+
+html body.Air-TV .eg-3500-section .section-bg {
+    background: #FFFFFF;
+    background-image: none !important;
+}
+
+html body.Air-TV .eg-section-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+html body.Air-TV .eg-3500-section .hospital-grade-info {
+    max-width: 100%;
+    flex-basis: 100%;
+}
+
+html body.Air-TV .eg-section-header>.eg-inner:first-child {
+    flex: 0 0 40%;
+}
+
+html body.Air-TV .eg-section-header .eg-limited-time {
+    font-size: 20px !important;
+    font-weight: 400;
+    line-height: 27.24px;
+    text-align: left;
+    color: #0C166D;
+}
+
+html body.Air-TV .eg-section-header h3 {
+    font-size: 45px !important;
+    font-weight: 700;
+    line-height: 61.28px;
+    text-align: left;
+    color: #0C166D;
+}
+
+html body.Air-TV .eg-section-header .eg-bullets-title {
+    font-size: 22px !important;
+    font-weight: 400;
+    line-height: 29.96px;
+    text-align: left;
+    color: #0E186F;
+}
+
+html body.Air-TV .eg-section-header ul {
+    padding-left: 1.5rem;
+}
+
+html body.Air-TV .eg-section-header li {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: left;
+    color: #313D4A;
+}
+
+html body.Air-TV .eg-section-header li .eg-bold-titles {
+    font-weight: 700 !important;
+}
+
+html body.Air-TV .eg-3500-section .eg-section-header+div {
+    box-shadow: 0px 0px 50px 0px #00000040;
+    border-radius: 30px;
+    margin-top: 30px !important;
+    max-width: 902px;
+    margin: 0 auto;
+    margin-left: auto !important;
+}
+
+html body.Air-TV .eg-3500-section .eg-section-header+div #custom-heading-title,
+html body.Air-TV .eg-3500-section .eg-section-header+div #custom-heading-title+p,
+html body.Air-TV .eg-3500-section .eg-section-header+div .iot_features,
+html body.Air-TV .eg-3500-section .eg-section-header+div .guranteed_img,
+html body.Air-TV .eg-3500-section .iot_upgrade_section .affirm_price_wrapper .affirm_regular_price,
+html body.Air-TV .eg-3500-section .upgrade_to_iot_section input,
+html body.Air-TV .eg-3500-section .upgrade_to_iot_section>b {
+    display: none;
+}
+
+html body.Air-TV .eg-3500-section .eg-section-header+div .product_section-wrapper>div>div:first-child {
+    flex-basis: 40%;
+    max-width: 40%;
+}
+
+html body.Air-TV .eg-3500-section .eg-section-header+div .product_section-wrapper>div>div:last-child {
+    flex-basis: 60%;
+    max-width: 60%;
+}
+
+html body.Air-TV .product-listing-section .product_section-wrapper .product_text-inner-col a.button.secondary {
+    background: #F9A31A;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px !important;
+    font-family: "Open Sans";
+    font-size: 16px !important;
+    font-weight: 700;
+    line-height: 21.79px !important;
+    text-align: left;
+    color: #FFFFFF;
+    padding: 10px 40px !important;
+    box-shadow: 0px 4px 4px 0px #00000026;
+    margin-top: 8px;
+}
+
+html body.Air-TV .upgrade_to_iot_section {
+    margin: 0px !important;
+    padding-top: 0 !important;
+}
+
+html body.Air-TV .product-listing-section .product_image-colinner {
+    margin-bottom: 0;
+}
+
+html body.Air-TV .eg-3500-section .eg-section-header+div .product_text-inner-col {
+    text-align: center !important;
+}
+
+html body.Air-TV .eg-3500-section .iot_upgrade_section .affirm_price_wrapper {
+    justify-content: center;
+    grid-gap: 3px;
+    margin-bottom: 0;
+}
+
+html body.Air-TV .eg-3500-section .iot_upgrade_section .affirm_price_wrapper .affirm_emi_txt,
+html body.Air-TV .eg-3500-section .affirm_price_wrapper .affirm_sale_price>span {
+    max-width: 203px;
+    font-size: 15px !important;
+    font-weight: 400 !important;
+    line-height: 20.43px !important;
+    text-align: center;
+    color: #313D4A !important;
+}
+
+html body.Air-TV .eg-3500-section .affirm_price_wrapper .affirm_sale_price>span {
+    max-width: 80px !important;
+}
+
+html body.Air-TV .eg-3500-section [id*="product_affiam"]>div>a {
+    background-color: transparent;
+    border: none;
+    max-width: 100% !important;
+    grid-gap: 6px !important;
+    margin: 0 !important;
+}
+
+html body.Air-TV .eg-3500-section [id*="product_affiam"]>div>a:hover {
+    box-shadow: none !important;
+}
+
+html body.Air-TV .eg-3500-section [id*="product_affiam"]>div>a>span {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20.43px;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    color: #313D4A;
+}
+
+html body.Air-TV .eg-3500-section .section.product-listing-section {
+    padding: 30px 50px !important;
+}
+
+html body.Air-TV .eg-3500-section .iot_upgrade_section .product_price_container {
+    justify-content: center;
+}
+
+html body.Air-TV .eg-new-upgrade {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    grid-gap: 6px;
+}
+
+html body.Air-TV .eg-new-upgrade>.eg-product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-radius: 4px;
+    padding: 5px 20px;
+    min-height: 54px;
+}
+
+html body.Air-TV .eg-new-upgrade .eg-inputs {
+    display: flex;
+    align-items: center;
+    grid-gap: 10px;
+}
+
+html body.Air-TV .eg-new-upgrade .eg-product:not(.eg-selected) .eg-input {
+    border: 1px solid #CBCBCB;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    border-radius: 50%;
+}
+
+html body.Air-TV .eg-new-upgrade .eg-product.eg-selected .eg-input::before {
+    content: '';
+    background: url(https://i.ibb.co/WFfFPgs/Vector.png);
+    width: 18px;
+    height: 18px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+html body.Air-TV .eg-new-upgrade .eg-inputs>p {
+    font-size: 16px !important;
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: left;
+    color: #313D4A;
+    margin-bottom: 0;
+}
+
+html body.Air-TV .eg-new-upgrade .eg-product.eg-selected {
+    background: #0E186F;
+    box-shadow: 0px 0px 10px 0px #00E0FF66;
+}
+
+html body.Air-TV .eg-new-upgrade .eg-product:not(.eg-selected) {
+    border: 1px solid #CBCBCB
+}
+
+html body.Air-TV .eg-new-upgrade .eg-product.eg-selected .eg-inputs>p,
+html body.Air-TV .eg-new-upgrade .eg-product.eg-selected .eg-price {
+    color: #FFFFFF;
+}
+
+html body.Air-TV .eg-new-upgrade .eg-small-text {
+    font-size: 14px;
+    font-style: italic;
+    line-height: 19.07px;
+}
+
+html body.Air-TV .eg-new-upgrade .eg-new-discount {
+    background: #3085C8;
+    border-radius: 4px;
+    color: #FEFDFD;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.79px;
+    text-align: left;
+    padding: 4px 10px;
+}
+
+html body.Air-TV .eg-new-upgrade .eg-price {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21.79px;
+    text-align: left;
+    margin-right: 15px;
+    color: #313D4A;
+}
+
+html body.Air-TV .product_price_container .woocommerce-Price-amount {
+    display: flex;
+    align-items: center;
+    grid-gap: 10px;
+}
+
+html body.Air-TV .product_price_container .woocommerce-Price-amount bdi {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.51px;
+    text-align: center;
+    text-decoration-line: line-through;
+    color: #B8B8B8;
+}
+
+html body.Air-TV .eg-3500-section .eg-updated-price {
+    color: #F9A31A;
+    font-size: 32px;
+}
+
+@media screen and (max-width: 991px) {
+    html body.Air-TV .eg-3500-section .section.product-listing-section {
+        max-width: 100%;
+        padding: 30px !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    html body.Air-TV .eg-section-header {
+        flex-direction: column;
+    }
+
+    html body.Air-TV .eg-section-header .eg-limited-time,
+    html body.Air-TV .eg-section-header h3 {
+        text-align: center;
+    }
+
+    html body.Air-TV .eg-section-header .eg-limited-time {
+        text-transform: uppercase;
+    }
+
+    html body.Air-TV .eg-section-header h3 {
+        font-size: 30px !important;
+        line-height: 40px;
+        margin-top: 5px !important;
+        margin-bottom: 15px !important;
+    }
+
+    html body.Air-TV .eg-3500-section .eg-section-header+div {
+        margin-top: 0 !important;
+        margin-bottom: 10px;
+    }
+
+    html body.Air-TV .eg-new-upgrade>.eg-product {
+        padding: 5px 10px;
+    }
+
+    html body.Air-TV .iot_upgrade_section .product_section-wrapper>div>div:first-child {
+        padding: 0 !important;
+    }
+
+    html body.Air-TV .eg-3500-section .eg-section-header+div .product_text-inner-col {
+        margin-bottom: 0 !important;
+    }
+
+    html body.Air-TV .eg-section-header+div+div {
+        padding: 0 32px !important;
+    }
+
+    html body.Air-TV .eg-new-upgrade .eg-inputs {
+        flex-wrap: wrap;
+        grid-row-gap: 0;
+    }
+
+    html body.Air-TV .eg-new-upgrade .eg-price {
+        padding-left: 28px;
+    }
+}
+
+/* LIMITED TIME OFFER SECTION CSS END */
