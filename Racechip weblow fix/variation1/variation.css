@@ -1,0 +1,326 @@
+/* NEW CSS */
+@media only screen and (max-width:767px) {
+    .eg-webflow .home-chiptuning-products .drei-wege-zu-mehr-leistung-2 {
+        width: fit-content;
+    }
+
+    .eg-webflow .container-3 .title-copy-goes-here-be-awesome-2 {
+        font-size: 14px;
+    }
+
+    .eg-webflow .w-background-video video {
+        height: 540px;
+        margin-top: auto;
+        inset: unset !important;
+    }
+
+    .eg-webflow .w-background-video video+div:before {
+        content: '';
+        backdrop-filter: blur(10px);
+        width: 100%;
+        height: 10%;
+        position: absolute;
+        bottom: 51%;
+        z-index: 0;
+        background: linear-gradient(0deg, #000000 54%, rgba(0, 0, 0, 0) 100%);
+    }
+
+    .eg-webflow .w-background-video video+div:after {
+        content: '';
+        backdrop-filter: blur(10px);
+        width: 100%;
+        height: 53%;
+        position: absolute;
+        background: #000000E5;
+        bottom: 0px;
+    }
+
+    .eg-webflow .w-background-video video+div>.container-3,
+    .eg-webflow .w-background-video .logo-title {
+        z-index: 99;
+    }
+
+    .eg-webflow .w-background-video video+div>.container-3 {
+        padding-top: 34vh;
+    }
+
+    .eg-webflow .w-background-video video+div>.container-3 .stage__benefits {
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+        grid-row-gap: 10px;
+    }
+
+    .eg-webflow .w-background-video video+div>.container-3 .stage__benefits>div {
+        width: 100%;
+        max-width: 47%;
+    }
+
+    .eg-webflow .w-background-video .logo-title .logos {
+        grid-row-gap: 10px;
+    }
+}
+
+@media only screen and (max-width:415px) {
+    .eg-webflow .w-background-video video+div>.container-3 .stage__benefits>div p {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:380px) {
+    .eg-webflow .w-background-video video+div>.container-3 .stage__benefits>div p {
+        font-size: 11px;
+    }
+
+    .eg-webflow .w-background-video video+div:before {
+        bottom: 55% !important;
+    }
+
+    .eg-webflow .w-background-video video+div:after {
+        height: 57% !important;
+    }
+
+    .eg-webflow .w-background-video video+div>.container-3 .stage__benefits img {
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (min-width:380px) and (max-width:400px) {
+    .eg-webflow .w-background-video video+div:after {
+        height: 56% !important;
+    }
+
+    .eg-webflow .w-background-video video+div:before {
+        bottom: 52.5% !important;
+    }
+}
+
+.eg-webflow .container-3 .content-2 {
+    background: #ea5b0c;
+}
+
+.eg-webflow .container-3 .content-2 h1 span {
+    color: white;
+}
+
+.eg-webflow .container-3 .title-copy-goes-here-be-awesome-2 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.eg-webflow .eg-header>p {
+    color: #ea5b0c;
+    font-weight: 700;
+    font-family: Barlow Semi Condensed, sans-serif;
+    font-style: italic;
+    margin-bottom: 3px;
+    font-size: 16px;
+}
+
+.eg-webflow .eg-header span {
+    color: white;
+    font-weight: 400;
+    font-family: Barlow Semi Condensed, sans-serif;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.eg-webflow .eg-header .eg-logo p {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #989fa6;
+    font-family: Barlow Semi Condensed, sans-serif;
+    font-style: italic;
+}
+
+.eg-webflow .eg-header {
+    text-align: center;
+}
+
+.eg-webflow .logo-title .logos>div:first-of-type {
+    display: none;
+}
+
+.eg-webflow .logo-title .content {
+    grid-row-gap: 5px;
+}
+
+.eg-webflow .navigation .navbar-no-shadow-container .container-regular {
+    border: unset;
+    width: 100%;
+    max-width: 1355px;
+    margin: auto;
+    padding: 0px !important;
+}
+
+.eg-webflow .navigation .navbar-no-shadow-container {
+    border-radius: unset;
+    padding: 0px !important;
+}
+
+.eg-webflow .navigation {
+    padding: 0px;
+}
+
+.eg-webflow .navigation .navbar-no-shadow-container .container-regular .nav-menu a {
+    font-weight: bold;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #fff;
+    font-style: normal;
+}
+
+.eg-webflow .navigation [role="navigation"]>div {
+    opacity: 1;
+}
+
+@media only screen and (min-width:1200px) and (max-width:1400px) {
+    .eg-webflow .hero .container-3>div:last-of-type>div>div {
+        width: 100%;
+        max-width: 751px;
+    }
+
+    .eg-webflow .navigation .navbar-no-shadow-container .container-regular .nav-menu a {
+        font-size: 18px;
+    }
+
+    .eg-webflow .hero .container-3>div:last-of-type>div {
+        display: flex;
+        flex-wrap: wrap;
+        width: fit-content;
+        max-width: 751px;
+        grid-gap: 5px;
+    }
+
+    .eg-webflow .hero .container-3>div:last-of-type {
+        max-width: fit-content !important;
+    }
+
+    .eg-webflow .hero .container-3 {
+        align-items: unset;
+    }
+
+    .eg-webflow .hero .container-3 {
+        position: absolute;
+        bottom: 0px;
+    }
+
+    .eg-webflow .hero {
+        position: relative;
+    }
+}
+
+@media only screen and (min-width:1400px) {
+    .eg-webflow .container-3>div:last-of-type .stage__benefits {
+        height: 115px;
+    }
+
+    .eg-webflow .hero .container-3 {
+        position: absolute;
+        bottom: 0px;
+    }
+
+    .eg-webflow .hero {
+        position: relative;
+    }
+
+    .eg-webflow .navigation .navbar-no-shadow-container .container-regular .nav-menu a {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .eg-webflow .navigation .navbar-wrapper {
+        padding: 0px 15px;
+    }
+
+    .eg-webflow .navigation {
+        z-index: 9999;
+    }
+
+    .eg-webflow .navigation .navbar-wrapper .chip-tuning {
+        font-weight: 300;
+        line-height: normal;
+        color: #fff;
+        font-style: normal;
+    }
+
+    .eg-webflow .navigation .navbar-wrapper .navbar-brand {
+        order: -1;
+    }
+
+    .eg-webflow .w-nav-overlay {
+        position: fixed;
+        top: 0px;
+        bottom: 0px;
+    }
+
+    .eg-webflow .w-nav-overlay [role="navigation"] {
+        background: black;
+        bottom: 0px;
+        border-radius: unset;
+    }
+
+    .eg-webflow .w-nav-overlay [role="navigation"]>div,
+    .eg-webflow .w-nav-overlay [role="navigation"] [role="list"] li {
+        width: 100%;
+    }
+
+    .eg-webflow .w-nav-overlay [role="navigation"] [role="list"] {
+        padding: 20px 0px;
+        grid-gap: 30px;
+    }
+
+    .eg-webflow .w-nav-overlay [role="navigation"] [role="list"] li a {
+        font-family: Roboto, Arial, Verdana, sans-serif;
+        font-weight: 300;
+        font-size: 1.07143rem;
+        font-style: unset !important;
+    }
+
+    .eg-webflow .eg-menuheader {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
+        height: 40px;
+    }
+
+    .eg-webflow .eg-menuheader .logo {
+        width: fit-content;
+        position: absolute;
+        left: -15px;
+    }
+
+    .eg-webflow .eg-menuheader .eg-closeicon {
+        position: absolute;
+        right: 0px;
+    }
+
+    .eg-webflow .w-nav-overlay [role="navigation"]>div:nth-child(3) ul {
+        padding-top: 10px !important;
+    }
+}
+
+@media only screen and (min-width:480px) and (max-width:992px) {
+    .eg-webflow .navigation .navbar-wrapper .chip-tuning {
+        font-weight: 300;
+        line-height: normal;
+        color: #fff;
+        font-style: normal;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .eg-webflow .w-background-video .logo-title .logos {
+        grid-column-gap: 20px;
+    }
+}
+
+@media only screen and (min-width:767px) and (max-width:1280px) {
+    html body .background-video .logo-title {
+        padding-top: 15px;
+    }
+}
+
+/* NEW CSS END*/

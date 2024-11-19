@@ -1,0 +1,89 @@
+html body.AB001 .shopify-section .adv {
+    display: none;
+}
+
+html body.AB001 .eg-sticky-box {
+    position: sticky;
+    bottom: 0;
+    background-color: #27953D;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 72px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 99;
+}
+
+html body.AB001 .eg-rating {
+    display: flex;
+    grid-gap: 10px;
+    align-items: center;
+}
+
+html body.AB001 .eg-rating-count,
+html body.AB001 .eg-reviews {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19.6px;
+}
+
+html body.AB001 .eg-stars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+html body.AB001 .eg-discount-text {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25.2px;
+}
+
+html body.AB001 .eg-adv-button {
+    grid-column-gap: 12px;
+    background-color: var(--white);
+    color: var(--green);
+    border-radius: 56px;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 28px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    display: flex;
+}
+
+html body.AB001 .eg-button-icon {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+html body.AB001 .eg-stars svg path {
+    fill: #FFFFFF;
+}
+
+@media screen and (max-width:767px) {
+    html body.AB001 .eg-sticky-left {
+        display: flex;
+        flex-direction: column;
+    }
+
+    html body.AB001 .eg-sticky-box {
+        flex-direction: column;
+        padding: 8px 19.5px;
+        grid-gap: 10px;
+    }
+
+    html body.AB001 .eg-adv-button {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    html body.AB001 .eg-sticky-right {
+        width: 100%;
+    }
+}
