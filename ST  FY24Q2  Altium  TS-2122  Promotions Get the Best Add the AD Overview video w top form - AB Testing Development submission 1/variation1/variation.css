@@ -1,0 +1,175 @@
+html body.TS2-2122 .eg-wds-btn {
+    border: 1px solid #222222;
+    padding: 20px 0;
+    border-radius: 120px;
+    font: 500 16px Inter, -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+    line-height: 1.15;
+    text-decoration: none !important;
+    transition: background-color .3s, border-color .3s;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 5px;
+    color: #222222;
+    max-width: 200px;
+}
+
+html body.TS2-2122 .eg-video-icon {
+    width: 20px;
+    height: 20px;
+}
+
+html body.TS2-2122 .eg-video-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 9999;
+}
+
+html body.TS2-2122 .eg-video-popup.visible {
+    display: flex;
+}
+
+@media screen and (min-width:1024px) {
+    html body.TS2-2122 .eg-video-content {
+        position: relative;
+        width: 73%;
+        height: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        z-index: 99;
+    }
+
+    html body.TS2-2122 .eg-video-content iframe {
+        width: 100%;
+        height: 100%;
+    }
+
+    html body.TS2-2122 .eg-b-video__wrap-media {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    html body.TS2-2122 .eg-video-close {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+html body.TS2-2122 .eg-video-overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+html body.TS2-2122 .eg-video-close {
+    top: 16px;
+    right: 16px;
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    background: #4a4d54;
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity .3s;
+    z-index: 9;
+}
+
+html body.TS2-2122 .eg-video-close:before {
+    content: "";
+    background: url(/themes/custom/altium_designer_new/html/dist/images/ico/ico-modal-close.svg) center no-repeat;
+    width: 34px;
+    height: 34px;
+    display: block;
+}
+
+@media (min-width: 992px) {
+    html body.TS2-2122 .s-hero__text .s-hero__text-wrap p {
+        margin-bottom: 20px;
+    }
+
+    html body.TS2-2122 .s-hero__text .s-hero__text-wrap h6 {
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* html body.TS2-2122 .eg-video-content {
+        width: 85%;
+        height: 36%;
+    } */
+}
+
+@media screen and (max-width: 767px) {
+    html body.TS2-2122 .s-hero__text .s-hero__btn {
+        display: flex;
+        grid-gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    /* html body.TS2-2122 .eg-video-content {
+        width: 95%;
+        height: 35%;
+    } */
+
+    html body.TS2-2122 .eg-wds-btn {
+        width: 200px;
+    }
+}
+
+html body .l-container .s-hero__row {
+    display: flex;
+    align-items: center;
+}
+
+html body .l-container .s-hero__row>div {
+    width: 100%;
+}
+
+html body .l-container .s-hero__row>div:last-child {
+    display: flex;
+    justify-content: center;
+    max-width: 480px;
+
+}
+
+html body .l-container .s-hero__row>div:last-child>div {
+    background: #fff;
+    box-shadow: 0px 4px 64px 0px #1111111F;
+    padding: 40px;
+    border-radius: 12px;
+}
+
+@media screen and (max-width: 992px) {
+    html body .l-container .s-hero__row {
+        flex-direction: column;
+    }
+
+    html body .l-container .s-hero__row>div {
+        width: 100%;
+    }
+
+    html body .l-container .b-form__in {
+        padding: 0 !important;
+    }
+}
