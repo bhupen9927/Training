@@ -1,0 +1,180 @@
+html body #search-mainmain .buttons-set {
+    display: none;
+}
+
+html body #search-mainmain .product-listing {
+    height: fit-content;
+    display: grid;
+    overflow-y: unset;
+    max-width: 385px;
+    padding: 0 65px 0 0;
+    margin-right: 0;
+}
+
+html body .product-listing .product {
+    width: 100% !important;
+}
+
+html body #search-mainmain {
+    right: auto;
+    min-width: fit-content;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding-top: 30px;
+
+}
+
+html body .eg-category-list-container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, auto);
+    padding: 0 7.5px 0 75px;
+}
+
+html body .eg-image-link {
+    width: 148px;
+    height: 148px;
+    object-fit: cover;
+}
+
+html body .eg-category-image {
+    overflow: hidden;
+}
+
+html body .eg-category:hover .eg-image-link {
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+html body .eg-category-name {
+    background: #F2F2F2;
+    margin: 0;
+    padding: 7px 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    margin-top: -4px;
+}
+
+#search-mainmain::-webkit-scrollbar {
+    display: none;
+}
+
+html body .product-listing .product-image,
+html body .product-listing .price-special,
+html body .product-listing .sb-category-price,
+html body .product-listing .tag--offer {
+    display: none !important;
+}
+
+html body .product-listing .product {
+    width: 100% !important;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 7.5px !important;
+}
+
+html body #search-mainmain .product .sb-prodcut-name {
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    margin-top: 6px;
+    text-align: left;
+    width: max-content;
+    max-width: 330px;
+    display: flex;
+}
+
+html body #search-mainmain .product .sb-prodcut-name:hover {
+    text-decoration: underline;
+    text-decoration-color: #54575B;
+}
+
+html body #search-mainmain .product .sb-prodcut-name::before {
+    content: '';
+    background: url(https://www.bathroommountain.co.uk/assets/search-svg.svg) no-repeat;
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+@media screen and (min-width: 768px) and (max-width:1200px) {
+    html body #search-mainmain .product-listing {
+        padding: 0 25px 0 0;
+    }
+
+    html body .eg-category-list-container {
+        padding: 0 7.5px 0 35px;
+    }
+
+    html body #search-mainmain .product .sb-prodcut-name {
+        max-width: 195px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:1024px) {
+    html body .eg-category-list-container {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(2, auto) !important;
+        padding-bottom: 30px;
+    }
+
+    html body #search-mainmain .product-listing {
+        height: fit-content;
+        max-width: 240px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:1024px) {
+    html body .eg-category-list-container {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(3, auto);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    html body .eg-category-list-container {
+        grid-gap: 25px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px 20px 0;
+    }
+
+    html body #search-mainmain .product-listing {
+        padding: 15px 7.5px 30px 7.5px;
+    }
+
+    html body #search-mainmain {
+        height: 500px;
+        flex-direction: column;
+        padding-top: 70px;
+    }
+
+    html body .eg-category-list-container .eg-category:nth-child(5),
+    html body .eg-category-list-container .eg-category:nth-child(6) {
+        display: none;
+    }
+
+    html body .eg-category {
+        width: 45%;
+    }
+
+    html body .eg-image-link {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    html body .eg-category-list-container {
+        padding: 10px 15px 0;
+    }
+}
