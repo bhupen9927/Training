@@ -1,0 +1,242 @@
+html body.AB-048 .ingredient-main,
+html body.AB-048 .natural_ingredient {
+    display: none;
+}
+
+html body.AB-048 .reviews-sectionvideo {
+    background-color: #FFFFFF;
+}
+
+html body.AB-048 .eg-container {
+    text-align: center;
+    padding: 20px;
+    background: url('https://cdn.shopify.com/s/files/1/0629/1950/8199/files/abstract_pattern_design_background_2007-ai_2.png?v=1730714836'),
+        #FFF8EE;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 550px;
+}
+
+html body.AB-048 .eg-heading {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 41.6px;
+    letter-spacing: 0.6000000238418579px;
+    text-align: center;
+    margin-bottom: 26px;
+}
+
+html body.AB-048 .eg-product-container {
+    position: relative;
+    display: inline-block;
+}
+
+html body.AB-048 .eg-product-img {
+    width: 400px;
+    height: auto;
+    position: relative;
+    z-index: 2;
+}
+
+html body.AB-048 .eg-label {
+    position: absolute;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.8px;
+    letter-spacing: 0.6000000238418579px;
+    z-index: 9;
+}
+
+html body.AB-048 .eg-arrow-text {
+    margin-bottom: 5px;
+}
+
+html body.AB-048 .eg-top-left {
+    width: 442px;
+}
+
+html body.AB-048 .eg-bottom-left {
+    width: 335px;
+    transform: rotate(180deg);
+}
+
+html body.AB-048 .eg-top-right {
+    width: 330px;
+}
+
+html body.AB-048 .eg-bottom-right {
+    width: 351px;
+}
+
+html body.AB-048 .eg-label-top-left {
+    top: 19%;
+    left: -307px;
+}
+
+html body.AB-048 .eg-label-bottom-left {
+    bottom: 30%;
+    left: -300px;
+}
+
+html body.AB-048 .eg-label-top-right {
+    align-items: flex-end;
+    right: -182px;
+    top: 38%;
+}
+
+html body.AB-048 .eg-label-bottom-right {
+    bottom: 16%;
+    right: -310px;
+    align-items: flex-end;
+}
+
+@media screen and (min-width: 768px) {
+    html body.AB-048 .eg-arr-mob {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    html body.AB-048 .eg-container {
+        height: 485px;
+    }
+
+    html body.AB-048 .eg-label-top-left {
+        top: 22%;
+        left: -146px;
+    }
+
+    html body.AB-048 .eg-label-bottom-left {
+        bottom: 32%;
+        left: -146px;
+    }
+
+    html body.AB-048 .eg-label-top-right {
+        right: -134px;
+        top: 38%;
+    }
+
+    html body.AB-048 .eg-label-bottom-right {
+        bottom: 10%;
+        right: -167px;
+        width: 100%;
+    }
+
+    html body.AB-048 .eg-product-img {
+        width: 342px;
+    }
+
+    html body.AB-048 .eg-top-left {
+        width: 263px;
+    }
+
+    html body.AB-048 .eg-bottom-left {
+        width: 185px;
+    }
+
+    html body.AB-048 .eg-top-right {
+        width: 268px;
+    }
+
+    html body.AB-048 .eg-bottom-right {
+        width: 201px;
+    }
+
+    html body.AB-048 .eg-label-bottom-left .eg-arrow-text {
+        width: 89%;
+    }
+
+    html body.AB-048 .eg-label-bottom-right .eg-arrow-text {
+        width: 52%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    html body.AB-048 .eg-arr-desk {
+        display: none;
+    }
+
+    html body.AB-048 .eg-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 50px 15px;
+        background: url('https://cdn.shopify.com/s/files/1/0629/1950/8199/files/abstract_pattern_design_background_2007-ai_5.png?v=1730714821'),
+            #FFF8EE;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: auto;
+    }
+
+    html body.AB-048 .eg-heading {
+        font-size: 24px;
+        line-height: 31.2px;
+        margin-bottom: 30px;
+        margin-top: 0;
+        text-align: left;
+    }
+
+    html body.AB-048 .eg-product-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    html body.AB-048 .eg-product-img {
+        width: 100%;
+        height: auto;
+        margin: 9px 0;
+    }
+
+    html body.AB-048 .eg-label {
+        font-size: 16px;
+        line-height: 20.8px;
+    }
+
+    html body.AB-048 .eg-label-top-left,
+    html body.AB-048 .eg-label-bottom-left,
+    html body.AB-048 .eg-label-top-right,
+    html body.AB-048 .eg-label-bottom-right {
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: 5px 0;
+        text-align: left;
+        flex-direction: column-reverse;
+    }
+
+    html body.AB-048 .eg-arr-mob {
+        width: 100%;
+    }
+
+    html body.AB-048 .eg-label-top-left,
+    html body.AB-048 .eg-label-bottom-left,
+    html body.AB-048 .eg-label-top-right,
+    html body.AB-048 .eg-label-bottom-right {
+        order: -1;
+    }
+
+    html body.AB-048 .eg-label-top-right,
+    html body.AB-048 .eg-label-bottom-right {
+        align-items: flex-start;
+    }
+
+    html body.AB-048 .eg-bottom-left {
+        transform: none;
+    }
+
+    html body.AB-048 .eg-arrow-text {
+        padding-top: 5px;
+    }
+}
