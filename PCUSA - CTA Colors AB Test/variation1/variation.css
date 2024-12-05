@@ -1,0 +1,33 @@
+@media screen and (min-width:1024px) {
+
+    /* html body.PCUSA-colors #top-banner .container .btn-info,
+html body.PCUSA-colors .price_calculator #action-btn .btn-info, */
+    html body.PCUSA-colors .btn-info,
+    html body.PCUSA-colors #footer .subscribe .btn-info {
+        border: #EA088C !important;
+        background: #EA088C !important;
+        color: #FFFFFF !important;
+    }
+
+    /* html body.PCUSA-colors #top-banner .container .btn-info:hover,
+html body.PCUSA-colors .price_calculator #action-btn .btn-info:hover */
+    html body.PCUSA-colors .btn-info:hover,
+    html body.PCUSA-colors #footer .subscribe .btn-info:hover {
+        border: #c80a79 !important;
+        background: #c80a79 !important;
+        color: #FFFFFF !important;
+    }
+
+    html body.PCUSA-colors #top-banner .container .btn-secondary,
+    html body.PCUSA-colors .price_calculator #action-btn .email_save_quote,
+    html body.PCUSA-colors #how_it_works .container .btn-outline-dark {
+        color: #000000 !important;
+        background: #B1DFF9;
+    }
+
+    html body.PCUSA-colors #top-banner .container .btn-secondary:hover,
+    html body.PCUSA-colors .price_calculator #action-btn .email_save_quote:hover,
+    html body.PCUSA-colors #how_it_works .container .btn-outline-dark:hover {
+        background: #57b6ec;
+    }
+}
