@@ -1,0 +1,447 @@
+html body.CRO-1601 .eg-popup {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+    display: none;
+}
+
+html body.CRO-1601 .eg-popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 16px;
+}
+
+@media screen and (min-width: 1200px) {
+    html body.CRO-1601 .eg-popup-content {
+        width: 1156px;
+    }
+}
+
+html body.CRO-1601 .eg-close-popup {
+    cursor: pointer;
+}
+
+html body.CRO-1601 .eg-popup-header {
+    background-color: #000000;
+    padding: 19px 24px;
+    border-radius: 16px 16px 0px 0px;
+    display: flex;
+    grid-gap: 72px;
+    justify-content: space-between;
+}
+
+html body.CRO-1601 .eg-popup-header .eg-popup-heading {
+    color: white;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+    padding-left: 48px;
+}
+
+html body.CRO-1601 .eg-close-popup:hover {
+    opacity: 0.8;
+}
+
+html body.CRO-1601 .eg-cross {
+    height: 48px;
+    width: 48px;
+}
+
+html body.CRO-1601 .eg-vehicle-container {
+    padding: 26px 72px 28px 72px;
+    height: 82vh;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 2000px) {
+    html body.CRO-1601 .eg-vehicle-container {
+        height: 100%;
+    }
+}
+
+html body.CRO-1601 .eg-vehicle-info {
+    border-bottom: 1px solid #D2D2D2;
+    background-color: #F2F2F2;
+    padding: 20px;
+    border-radius: 8px 8px 0 0;
+    display: flex;
+    white-space: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    grid-gap: 20px;
+}
+
+html body.CRO-1601 .eg-vehicle-title {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #000000;
+    padding-left: 4px;
+}
+
+html body.CRO-1601 .eg-vehicle-plate {
+    border: 1px solid #000000;
+    background-color: #FFFFFF;
+    padding: 2px 8px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #000000;
+    border-radius: 4px;
+    margin: 0 12px;
+    text-transform: capitalize;
+}
+
+html body.CRO-1601 .eg-change-vehicle {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #0066D3;
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 2.8px;
+}
+
+html body.CRO-1601 .eg-browse-full-range {
+    padding: 9px 20px;
+    border: 1px solid #509E31;
+    background: #509E31;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #FFFFFF;
+    border-radius: 4px;
+}
+
+html body.CRO-1601 .eg-browse-full-range:hover {
+    opacity: 0.8;
+}
+
+html body.CRO-1601 .eg-vehicle-specs {
+    border-bottom: 1px solid #D2D2D2;
+    border-left: 1px solid #D2D2D2;
+    border-right: 1px solid #D2D2D2;
+    padding: 20px;
+    border-radius: 0 0 8px 8px;
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+html body.CRO-1601 .eg-tyre {
+    height: 24px;
+    width: 24px;
+}
+
+html body.CRO-1601 .eg-specs {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+html body.CRO-1601 .eg-mid-specs {
+    border-left: 1px solid #00000033;
+    border-right: 1px solid #00000033;
+    padding: 0 8px;
+}
+
+html body.CRO-1601 .eg-top-specs {
+    padding: 0 8px 0 16px;
+}
+
+html body.CRO-1601 .eg-bottom-specs {
+    padding-left: 8px;
+}
+
+html body.CRO-1601 .eg-moved-to-popup {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: none;
+}
+
+html body.CRO-1601 .eg-moved-to-popup .recommended-content-item {
+    padding-bottom: 0;
+}
+
+html body.CRO-1601 .eg-specs-number {
+    font-weight: 600;
+    line-height: 20px;
+}
+
+html body.CRO-1601 .eg-vehicle-logo {
+    width: auto;
+    max-width: 43px;
+    height: 30px;
+    padding: 4.29px 3.22px 4.29px 4.3px;
+}
+
+html body.CRO-1601 .eg-vehicle-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+html body.CRO-1601 .eg-vehicle-info-mobile {
+    display: none;
+}
+
+html body.CRO-1601 .eg-cards-container .tyre-tile .runflat {
+    min-height: 0;
+}
+
+html body.CRO-1601 .eg-cards-container .tyre-tile .brand-logo {
+    height: 15px;
+}
+
+html body.CRO-1601 .eg-cards-container .tyre-tile .price-summary {
+    height: 140px;
+}
+
+html body.CRO-1601 .eg-cards-container .tyre-tile .price-summary .price {
+    margin: 10px 0 0px;
+}
+
+html body.CRO-1601 .eg-cards-container .recommended-content-item_suggestion .mt-suggestion_title {
+    padding: 18px 20px;
+}
+
+html body.CRO-1601 .eg-cards-container .tyre-tile .hover-details .promo-note {
+    height: 50px;
+}
+
+@media screen and (min-width: 767px) and (max-width:800px) {
+    html body.CRO-1601 .eg-vehicle-container {
+        height: 80vh !important;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:1024px) {
+    html body.CRO-1601 .eg-popup-content {
+        width: 100%;
+    }
+
+    html body.CRO-1601 .eg-vehicle-container {
+        padding: 35px;
+        height: 60vh;
+    }
+
+    html body.CRO-1601 .eg-popup-header .eg-popup-heading {
+        padding-left: 11px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    html body.CRO-1601 .eg-vehicle-container {
+        margin-bottom: 25px;
+    }
+
+    html body.CRO-1601 .eg-popup-header .eg-popup-heading {
+        padding-left: 2px;
+    }
+
+    html body.CRO-1601 .eg-moved-to-popup .recommended-content-item-suggestions>div:last-child {
+        padding-right: 15px;
+    }
+
+    html body.CRO-1601 .eg-popup-content {
+        width: 100%;
+        background-color: #F2F2F2;
+    }
+
+    html body.CRO-1601 .eg-popup-header .eg-popup-heading {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 0;
+    }
+
+    html body.CRO-1601 .eg-popup-header {
+        align-items: center;
+        padding: 24px 16px;
+    }
+
+    html body.CRO-1601 .eg-vehicle-info {
+        white-space: normal;
+        border-top: 1px solid #D2D2D2;
+        border-left: 1px solid #D2D2D2;
+        border-right: 1px solid #D2D2D2;
+        padding: 12px 16px;
+    }
+
+    html body.CRO-1601 .eg-vehicle-container {
+        padding: 18px 18px 0;
+        height: auto;
+    }
+
+    html body.CRO-1601 .eg-cross {
+        height: 40px;
+        width: 40px;
+    }
+
+    html body.CRO-1601 .eg-cards-container {
+        margin: 20px 0 30px;
+        position: relative;
+    }
+
+    html body.CRO-1601 .eg-cards-container .eg-moved-to-popup::after {
+        content: "";
+        background-image: linear-gradient(270deg, rgba(255, 255, 255, 0.6) -15.62%, rgba(255, 255, 255, 0) 100%);
+        position: absolute;
+        right: -17px;
+        top: 0;
+        width: 20px;
+        height: 100%;
+        pointer-events: none;
+    }
+
+    html body.CRO-1601 .eg-browse-full-range {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    html body.CRO-1601 .eg-vehicle-title {
+        display: inline-block;
+        width: 49%;
+    }
+
+    html body.CRO-1601 .eg-vehicle-logo {
+        object-fit: cover;
+        height: auto;
+        max-height: 31px;
+        margin-right: 12px;
+    }
+
+    html body.CRO-1601 .eg-vehicle-wrapper {
+        display: flex;
+        align-items: center;
+    }
+
+    html body.CRO-1601 .eg-vehicle-wrapper::after {
+        content: "\f078";
+        display: inline-block;
+        margin-left: 8px;
+        transition: transform 0.3s ease;
+        font-family: Font Awesome\ 5 Pro;
+        font-size: 18px;
+        color: #000;
+        width: 18px;
+        text-align: center;
+    }
+
+    html body.CRO-1601 .eg-vehicle-wrapper.active::after {
+        content: "\f077";
+    }
+
+    html body.CRO-1601 .eg-vehicle-wrapper-top {
+        display: flex;
+        align-items: center;
+    }
+
+    html body.CRO-1601 .eg-vehicle-info-mobile {
+        display: block;
+    }
+
+    html body.CRO-1601 .eg-vehicle-specs {
+        margin-bottom: 0;
+        padding: 12px 16px;
+        background-color: #FAFAFA;
+    }
+
+    html body.CRO-1601 .eg-vehicle-info-wrapper {
+        border-left: 1px solid #D2D2D2;
+        border-right: 1px solid #D2D2D2;
+        border-bottom: 1px solid #D2D2D2;
+        background-color: #F2F2F2;
+        padding: 12px 16px;
+        display: flex;
+        white-space: nowrap;
+        justify-content: flex-end;
+        align-items: center;
+        flex-direction: row-reverse;
+        grid-gap: 10px;
+    }
+
+    html body.CRO-1601 .eg-vehicle-plate {
+        margin: 0;
+    }
+
+    html body.CRO-1601 .eg-vehicle-location {
+        font-weight: 600;
+    }
+
+    html body.CRO-1601 .eg-change-vehicle {
+        white-space: nowrap;
+    }
+
+    html body.CRO-1601 .eg-moved-to-popup .recommended-content-item {
+        padding-bottom: 25px;
+    }
+
+    html body.CRO-1601 .recommended-content-item .scrollbar-thumb-x {
+        width: 74% !important;
+    }
+
+    html body.CRO-1601 .recommended-content-item .scrollbar-track-x:after,
+    html body.CRO-1601 .recommended-content-item .scrollbar-track-x:before {
+        background: transparent !important;
+    }
+
+    html body.CRO-1601 .recommended-content-item .scrollbar-track-x {
+        width: 90% !important;
+        margin: 0 20px;
+    }
+}
+
+@media screen and (min-width:421px) and (max-width:450px) {
+    html body.CRO-1601 .recommended-content-item .scrollbar-thumb-x {
+        width: 55% !important;
+    }
+}
+
+@media screen and (min-width:392px) and (max-width:420px) {
+    html body.CRO-1601 .recommended-content-item .scrollbar-thumb-x {
+        width: 51% !important;
+    }
+}
+
+@media screen and (max-width:391px) {
+    html body.CRO-1601 .eg-vehicle-container.open {
+        height: 85dvh
+    }
+
+    html body.CRO-1601 .recommended-content-item .scrollbar-thumb-x {
+        width: 48% !important;
+
+    }
+}
+
+@media screen and (max-width:376px) {
+    html body.CRO-1601 .eg-vehicle-container.open {
+        height: 75dvh
+    }
+
+    html body.CRO-1601 .eg-vehicle-container {
+        height: 79dvh
+    }
+}
+
+@media screen and (max-width:361px) {
+    html body.CRO-1601 .recommended-content-item .scrollbar-thumb-x {
+        width: 43% !important;
+
+    }
+}

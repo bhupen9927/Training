@@ -26,7 +26,7 @@
         <div class="eg-popup-content">
           <div class="eg-popup-header">
             <h2 class="eg-popup-heading">Continue shopping for your vehicle</h2>
-            <span class="eg-close-popup"><img class="eg-cross" src="https://i.ibb.co/BjjMsBT/cross.png"></span>
+            <span class="eg-close-popup"><img class="eg-cross" src="https://cdn.optimizely.com/img/24967681153/de7ef9573f024552b8870b9ce085ec9b.png"></span>
           </div>
           <div class="eg-vehicle-container">
             <div class="eg-vehicle-info">
@@ -48,7 +48,7 @@
               </div>
             </div>
             <div class="eg-vehicle-specs">
-              <img class="eg-tyre" src="https://i.ibb.co/WGWkBXP/Tyre.png" >
+              <img class="eg-tyre" src="https://cdn.optimizely.com/img/24967681153/0828c016b8ef4679914ce1b4ee789c58.png" >
               <span class="eg-specs eg-top-specs">Width <span class="eg-specs-number">0</span></span>
               <span class="eg-specs eg-mid-specs">Profile <span class="eg-specs-number">0</span></span>
               <span class="eg-specs eg-bottom-specs">Rim <span class="eg-specs-number">0</span></span>
@@ -61,28 +61,37 @@
     const originalParents = new Map();
 
     function init() {
-      document.body.insertAdjacentHTML('beforeend', popupHTML);
-      document.body.classList.add('CRO-1601');
+      const regoWidgetUsedRaw = localStorage.getItem('rego-widget-used');
+      if (regoWidgetUsedRaw) {
+        try {
+          const regoWidgetUsed = JSON.parse(regoWidgetUsedRaw);
+          if (regoWidgetUsed && regoWidgetUsed.value === true &&
+            !document.cookie.includes('popupDisplayed=true') && window.location.href.includes('find-by-rego')) {
+            
+            document.body.insertAdjacentHTML('beforeend', popupHTML);
+            document.body.classList.add('CRO-1601');
+            displayPopup();
+            moveCardsToPopup();
+            attachEventListeners();
+            verifyAndPopulateData();
+            moveBrowseButtonForMobile();
 
-      if (window.location.href.includes("find-by-rego")) {
-        displayPopup();
-        moveCardsToPopup();
-      }
-
-      attachEventListeners();
-      verifyAndPopulateData();
-      moveBrowseButtonForMobile();
-
-      if (window.innerWidth < 767) {
-        initMobileDropdown();
+            if (window.innerWidth < 767) {
+              initMobileDropdown();
+            }
+          }
+        } catch (error) {
+          console.error('Error parsing rego-widget-used:', error);
+        }
       }
     }
 
     function displayPopup() {
       const popup = document.getElementById('eg-myPopup');
-      setTimeout(() => {
-        popup.style.display = 'block';
-      }, 1000);
+      popup.style.display = 'block';
+      const expiryDate = new Date();
+      expiryDate.setDate(expiryDate.getDate() + 30);
+      document.cookie = `popupDisplayed=true; path=/; expires=${expiryDate.toUTCString()}`;
     }
 
     function moveCardsToPopup() {
