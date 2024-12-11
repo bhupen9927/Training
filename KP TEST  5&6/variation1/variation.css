@@ -1,0 +1,488 @@
+html body.KS-5-6 .eg-miniCart {
+    display: none;
+}
+
+html body.KS-5-6.eg-show-mimiCart .eg-miniCart {
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    top: 50px;
+    transition: max-height var(--transitionDuration);
+    transition-delay: var(--transitionDelay);
+    width: 550px;
+    max-height: 100vh;
+    right: 0;
+    z-index: 99999;
+}
+
+html body.KS-5-6 .eg-miniCart>div {
+    background: #fff;
+    margin-top: 10px;
+}
+
+html body.KS-5-6 .eg-miniCart::before {
+    border-bottom: 11px solid #eee;
+    border-left: 15px solid #0000;
+    border-right: 15px solid #0000;
+    content: "";
+    opacity: 1;
+    position: absolute;
+    right: 14px;
+    top: 0;
+    width: 0;
+    z-index: 1;
+}
+
+html body.KS-5-6 .eg-mini-overlay {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 9999;
+    display: none;
+}
+
+html body.KS-5-6.eg-show-mimiCart .eg-mini-overlay {
+    display: block;
+}
+
+html body .eg-miniCart>.eg-mini-wrapper {
+    max-height: calc(100vh - 200px);
+    min-height: 255px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+html body.KS-5-6 .eg-miniCart .eg-cart-header {
+    background-color: #eee;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1em;
+}
+
+/* html body .eg-miniCart .eg-cart-header .eg-close-icon span {
+
+} */
+
+html body.KS-5-6 .eg-miniCart .eg-miniCart-title {
+    margin: 0;
+    font-size: 18px;
+}
+
+html body.KS-5-6 .eg-miniCart .eg-cart-body {
+    padding: 1em;
+    background: #fff;
+    max-height: 350px;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+html body.KS-5-6 .eg-miniCart .eg-cart-body::-webkit-scrollbar {
+    display: none;
+}
+
+/* html body .eg-cart-body .eg-card-body-wrapper {
+    overflow: auto;
+} */
+
+html body.KS-5-6 .eg-cart-body .eg-card-body-wrapper ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+html body.KS-5-6 .eg-cart-body .eg-card-body-wrapper .about-us {
+    padding: 0;
+    overflow: hidden;
+}
+
+html body.KS-5-6 .eg-cart-body .basket-page-package-section-header {
+    padding: 10px 0;
+    background: #fff;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+html body.KS-5-6 .eg-cart-body .basket-page-package-section-header .basket-page-package-section-header-button {
+    width: unset;
+}
+
+html body.KS-5-6 .eg-miniCart .basket-page-package-section {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+html body.KS-5-6 .eg-miniCart .basket-page-package-section-header-title-inner,
+html body .eg-miniCart .basket-page-package-section-main-details-package-package-name {
+    font-size: 16px;
+}
+
+html body.KS-5-6 .eg-miniCart .basket-page-package-section-column-headers-inner {
+    padding: 0;
+}
+
+html body.KS-5-6 .eg-miniCart .basket-page-package-section-main-details-wrapper-inner {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    grid-gap: 10px;
+
+}
+
+html body.KS-5-6 .eg-miniCart .basket-page-package-section-column-header.basket-page-package-section-column-header-package,
+html body.KS-5-6 .eg-miniCart .basket-page-package-section-main-details-package {
+    width: 38%;
+}
+
+html body.KS-5-6 .eg-miniCart .basket-page-package-section-main-details-date,
+html body.KS-5-6 .eg-miniCart .basket-page-package-section-column-header.basket-page-package-section-column-header-date,
+html body.KS-5-6 .eg-miniCart .basket-page-package-section-main-details-unitprice,
+html body.KS-5-6 .eg-miniCart .basket-page-package-section-column-header.basket-page-package-section-column-header-unitprice,
+html body.KS-5-6 .eg-miniCart .basket-page-package-section-column-header.basket-page-package-section-column-header-total,
+html body.KS-5-6 .eg-miniCart .basket-page-package-section-main-details-total,
+html body.KS-5-6 .eg-miniCart .basket-page-package-section-column-header.basket-page-package-section-column-header-quantity,
+html body.KS-5-6 .eg-miniCart .basket-page-package-section-main-details-quantity {
+    width: 15%;
+}
+
+html body.KS-5-6 .eg-miniCart .eg-cart-footer {
+    display: flex;
+    padding: 1em;
+    background: #eee;
+    justify-content: center;
+    grid-gap: 24px;
+}
+
+html body.KS-5-6 .eg-miniCart .eg-cart-footer .eg-checkout-button,
+html body.KS-5-6 .eg-miniCart .eg-cart-footer .eg-basket-button {
+    font-size: 16px;
+    width: 100%;
+    height: 56px;
+    padding: 18px 0;
+    text-decoration: none !important;
+    border: none;
+    background: #4fe8b5;
+    color: #353535;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+html body.KS-5-6 .eg-miniCart .eg-cart-footer .eg-checkout-button:hover {
+    background: #4edbac;
+}
+
+html body.KS-5-6 .eg-miniCart .eg-cart-footer .eg-basket-button {
+    background: #fff;
+    border: 1px solid #4fe8b5;
+}
+
+html body.KS-5-6 .eg-miniCart .eg-cart-footer .eg-basket-button:hover {
+    background: #4fe8b5;
+}
+
+html body.KS-5-6 .eg-miniCart .eg-close-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+html body.KS-5-6 .eg-miniCart .eg-close-icon img {
+    width: 18px;
+    height: 18px;
+}
+
+html body.KS-5-6 .eg-miniCart .basket-page-top-checkout-bar,
+html body.KS-5-6 .eg-miniCart .basket-page-package-section-package-total,
+html body.KS-5-6 .eg-miniCart .basket-page-bottom-checkout-bar,
+html body.KS-5-6 .eg-miniCart .basket-page-quantity-block button,
+html body.KS-5-6 .eg-miniCart .deleteConfirmSection {
+    display: none !important;
+}
+
+@media screen and (max-width: 1023px) {
+    html body.KS-5-6 .eg-miniCart .basket-page-package-section-header-title {
+        height: unset;
+    }
+
+    html body.KS-5-6 .eg-miniCart .basket-page-package-section-header-title {
+        padding: 0 10px;
+    }
+
+    html body.KS-5-6 .eg-miniCart .basket-page-package-section-header-title>div {
+        text-align: left;
+    }
+
+    html body.KS-5-6 .eg-miniCart .basket-page-package-section-main-details-wrapper-inner {
+        flex-wrap: wrap;
+    }
+
+    html body.KS-5-6 .eg-miniCart .basket-page-package-section-main-details-date,
+    html body.KS-5-6 .eg-miniCart .basket-page-package-section-main-details-toggle {
+        width: 24%;
+    }
+
+    html body.KS-5-6 .eg-miniCart .basket-page-package-section-main-details-package {
+        width: 48%;
+    }
+
+    html body.KS-5-6 .eg-miniCart .basket-page-package-section-main-details-wrapper.eg-show-details .basket-page-package-section-main-details-total,
+    html body.KS-5-6 .eg-miniCart .basket-page-package-section-main-details-wrapper.eg-show-details .basket-page-package-section-main-details-quantity,
+    html body.KS-5-6 .eg-miniCart .basket-page-package-section-main-details-wrapper.eg-show-details .basket-page-package-section-main-details-unitprice {
+        display: block;
+        width: 32%;
+    }
+
+    html body.KS-5-6 .eg-miniCart .basket-page-package-section-main-details-toggle-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-gap: 10px;
+        color: #353535;
+    }
+
+    html body.KS-5-6 .eg-miniCart .basket-page-package-section-main-details-toggle-link:hover {
+        color: #353535;
+    }
+
+    html body.KS-5-6 .eg-miniCart .basket-page-package-section-main-details-toggle-link .glyphicon {
+        position: unset;
+        margin: 0;
+    }
+
+    html body.KS-5-6 .eg-miniCart .basket-page-package-section-main-details-wrapper.eg-show-details .basket-page-package-section-main-details-toggle-link .glyphicon {
+        transform: rotate(180deg);
+    }
+
+    html body.KS-5-6 .eg-miniCart .basket-page-package-section-main-details-wrapper>div>div {
+        border: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    html body.KS-5-6.eg-show-mimiCart .eg-miniCart {
+        width: 380px;
+        right: -32px;
+    }
+
+    html body.KS-5-6 .eg-miniCart .basket-page-package-section>div>div,
+    html body.KS-5-6 .eg-cart-body .basket-page-package-section-header {
+        padding: 0;
+    }
+
+    html body.KS-5-6 .eg-miniCart .basket-page-package-section-main-details-wrapper-inner>div {
+        width: 100% !important;
+    }
+
+    html body.KS-5-6 .eg-miniCart .basket-page-package-section-main-details-wrapper-inner {
+        grid-gap: 0px;
+        justify-content: unset;
+        padding: 0;
+    }
+
+    html body.KS-5-6 .eg-miniCart .eg-cart-footer {
+        grid-gap: 10px;
+    }
+
+    html body.KS-5-6 .eg-miniCart .basket-page-package-section-main-details-date {
+        padding: 20px 10px;
+    }
+
+    html body.KS-5-6 .eg-miniCart .eg-cart-footer .eg-checkout-button,
+    html body.KS-5-6 .eg-miniCart .eg-cart-footer .eg-basket-button {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 391px) {
+    html body.KS-5-6.eg-show-mimiCart .eg-miniCart {
+        width: 360px;
+        right: -42px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    html body.KS-5-6.eg-show-mimiCart .eg-miniCart {
+        width: 340px;
+        right: -46px;
+    }
+}
+
+/* test5 css start */
+
+html body.KS-5-6 .eg-parent {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    padding: 0 50px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+html body.KS-5-6 .eg-your-order h3 {
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+html body.KS-5-6 .eg-parent>form,
+html body.KS-5-6 .eg-your-order {
+    width: 50%;
+}
+
+html body.KS-5-6 .container.basket-page-checkout-bar,
+html body.KS-5-6 .eg-orders-container .container,
+html body.KS-5-6 .eg-cart-total .basket-page-checkout-subtotal-bar {
+    width: 100%;
+}
+
+html body.KS-5-6 .eg-orders-container .basket-page-package-section-column-header.basket-page-package-section-column-header-date,
+html body.KS-5-6 .eg-orders-container .basket-page-package-section-main-details-date {
+    width: 19%;
+}
+
+html body.KS-5-6 .eg-orders-container .basket-page-package-section-column-header.basket-page-package-section-column-header-package,
+html body.KS-5-6 .eg-orders-container .basket-page-package-section-main-details-package {
+    width: 48%;
+}
+
+html body.KS-5-6 .eg-orders-container .basket-page-package-section-main-details-unitprice,
+html body.KS-5-6 .eg-orders-container .basket-page-package-section-column-header.basket-page-package-section-column-header-unitprice {
+    width: 20%;
+}
+
+html body.KS-5-6 .eg-orders-container .basket-page-package-section-main-details-quantity,
+html body.KS-5-6 .eg-orders-container .basket-page-package-section-column-header.basket-page-package-section-column-header-quantity {
+    /* html body.KS-5-6 .eg-orders-container .basket-page-package-section-header-button { */
+    display: none;
+}
+
+html body.KS-5-6 .eg-orders-container .basket-page-package-section-package-total,
+html body.KS-5-6 .eg-cart-total .basket-page-checkout-secure-payments,
+html body.KS-5-6 .eg-cart-total .basket-checkout-submit {
+    display: none;
+}
+
+html body.KS-5-6 .eg-orders-container .basket-page-package-section-wrapper .basket-page-package-section {
+    margin-bottom: 5px;
+}
+
+html body.KS-5-6 .eg-coupan,
+html body.KS-5-6 .eg-coupan-con {
+    margin-bottom: 0;
+}
+
+html body.KS-5-6 .basket-page-checkout-bar {
+    background: none;
+}
+
+html body.KS-5-6 .eg-cart-total .basket-page-checkout-bar-total-price {
+    width: 59%;
+    padding: 12px 0 12px 0;
+}
+
+html body.KS-5-6 .eg-cart-total .basket-page-checkout-bar-order-total {
+    padding: 12px 0;
+}
+
+html body.KS-5-6 .eg-cart-total .basket-page-checkout-subtotal-bar-title {
+    text-align: left;
+    width: auto;
+    float: left;
+}
+
+html body.KS-5-6 .eg-cart-total .basket-page-checkout-subtotal-bar-inner-wrapper {
+    padding: 16px 0;
+}
+
+html body.KS-5-6 .eg-cart-total .basket-page-checkout-subtotal-bar-inner-wrapper {
+    padding: 16px 0 0 0;
+}
+
+html body.KS-5-6 .eg-coupan-con form label {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+
+html body.KS-5-6 .eg-coupan-con form label .m-voucher__input,
+html body.KS-5-6 .eg-coupan-con form label .m-voucher__apply {
+    margin: 0;
+}
+
+html body.KS-5-6 .eg-cart-total .basket-page-checkout-bar-inner-wrapper {
+    padding: 0 0 0 10px;
+}
+
+html body.KS-5-6 .eg-cart-total .container {
+    width: 100%;
+}
+
+@media screen and (min-width:1024px) {
+
+    html body.KS-5-6 .eg-cart-total .basket-page-checkout-subtotal-bar-subtotal-wrapper,
+    html body.KS-5-6 .eg-cart-total .basket-page-checkout-subtotal-bar-vat-wrapper {
+        padding: 12px 32px;
+    }
+
+
+    html body.KS-5-6 .eg-cart-total .basket-page-checkout-bar-inner-wrapper {
+        padding: 0 0 0 42px;
+    }
+}
+
+@media screen and (min-width:767px) and (max-width:1024px) {
+    html body.KS-5-6 .eg-cart-total .basket-page-checkout-bar-total-price {
+        width: 59% !important;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    html body.KS-5-6 .eg-parent {
+        flex-direction: column-reverse;
+        gap: 25px;
+        padding: 0 25px;
+    }
+
+    html body.KS-5-6 .eg-parent>form,
+    html body.KS-5-6 .eg-your-order,
+    html body.KS-5-6 .eg-orders-container .basket-page-package-section-column-header.basket-page-package-section-column-header-date,
+    html body.KS-5-6 .eg-orders-container .basket-page-package-section-main-details-date {
+        width: 100%;
+    }
+
+    html body.KS-5-6 .eg-orders-container .basket-page-package-section-column-header.basket-page-package-section-column-header-package,
+    html body.KS-5-6 .eg-orders-container .basket-page-package-section-main-details-package {
+        width: auto;
+    }
+
+    html body.KS-5-6 .eg-coupan-con form label {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    html body.KS-5-6 .eg-cart-total .basket-page-checkout-bar-total-price {
+        width: 100%;
+        height: auto;
+    }
+
+    html body.KS-5-6 .eg-your-order>h3 {
+        padding-left: 10px;
+    }
+
+    html body.KS-5-6 .basket-page-package-section-main-details-wrapper.eg-show-details .basket-page-package-section-main-details-total,
+    html body.KS-5-6 .basket-page-package-section-main-details-wrapper.eg-show-details .basket-page-package-section-main-details-unitprice {
+        display: block;
+        width: 100%;
+    }
+}
