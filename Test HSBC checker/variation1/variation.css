@@ -1,0 +1,461 @@
+.EG-CHECKER .eg-hsbc_checker .eg-container_new {
+    width: 100%;
+    max-width: 1216px;
+    margin: auto;
+    padding-top: 4rem;
+}
+
+/* MAIN TEST CONTAINER CSS */
+
+html body .eg-cards {
+    display: flex;
+    justify-content: center;
+    max-height: 21.75rem;
+}
+
+html body .eg-promo-card {
+    padding: 25px;
+    width: 50%;
+    background-color: #000;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 25px;
+}
+
+html body .eg-promo-card__heading {
+    color: #fff;
+    font-family: "UniversNext", Arial, sans-serif;
+    font-size: 35px;
+    line-height: 42px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+html body .eg-promo-card__content {
+    color: #fff;
+    font-family: "UniversNext", Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+html body .eg-complete-time {
+    display: flex;
+    align-items: center;
+    grid-gap: 10px;
+    font-family: "UniversNext", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #F3F3F3;
+}
+
+html body .eg-complete-time img {
+    width: 18px;
+    height: 18px;
+}
+
+html body .eg-test-btn {
+    background: #DB0011;
+    padding: 10px 20px;
+    border: none;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+html body .eg-test-btn>span {
+    font-family: "UniversNext", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #fff;
+}
+
+html body .eg-start-image {
+    width: 50%;
+}
+
+html body .eg-start-image img {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (min-width: 1280px) {
+    html body .eg-container_new {
+        max-width: 1216px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    html body .eg-promo-card__heading {
+        font-size: 1.75rem;
+        line-height: 2.25rem;
+    }
+
+    html body .eg-promo-card__content {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    html body .eg-container_new {
+        padding: 2.5rem 1.5rem;
+    }
+
+    html body .eg-promo-card__content {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    html body .eg-promo-card {
+        grid-gap: 20px;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    html body .eg-cards {
+        min-height: 29.375rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    html body .eg-start-image {
+        display: none;
+    }
+
+    html body .eg-promo-card {
+        width: 100%;
+    }
+
+    html body .eg-promo-card__content {
+        font-size: 14px !important;
+    }
+
+    html body .eg-complete-time {
+        order: 1;
+    }
+
+    html body .eg-promo-card {
+        grid-gap: 15px;
+    }
+}
+
+/* MAIN TEST CONTAINER CSS END */
+
+/* START SECTION CSS */
+.EG-CHECKER .eg-hsbc_checker .eg-start_section {
+    padding: 45px 85px;
+    background: #FFFFFF;
+}
+
+.EG-CHECKER .eg-hsbc_checker .eg-start_section .eg-timing img {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    position: relative;
+    top: -2px;
+}
+
+.EG-CHECKER .eg-hsbc_checker .eg-start_section .eg-timing {
+    font-family: Univers Next for HSBC, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #333333;
+}
+
+.EG-CHECKER .eg-hsbc_checker .eg-start_section .eg-heading h1 {
+    font-family: Univers Next for HSBC, sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+    margin-top: 29px;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+
+.EG-CHECKER .eg-hsbc_checker .eg-start_section .eg-content p {
+    font-family: Univers Next for HSBC, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-decoration-style: solid;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #333333;
+    letter-spacing: 0.5px;
+}
+
+.EG-CHECKER .eg-hsbc_checker .eg-start_section .eg-content a {
+    color: #333333;
+}
+
+.EG-CHECKER .eg-hsbc_checker .eg-start_section .eg-wrapper_elem {
+    display: flex;
+    flex-direction: row;
+    grid-gap: 40px;
+}
+
+.EG-CHECKER .eg-hsbc_checker .eg-start_section .eg-right_section img {
+    width: 400px;
+    max-width: 400px;
+}
+
+.EG-CHECKER .eg-hsbc_checker .eg-start_section .eg-button a {
+    background: #DB0011;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 44px;
+    margin-left: auto;
+    font-family: Univers Next for HSBC, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+}
+
+.EG-CHECKER .eg-hsbc_checker .eg-start_section .eg-button {
+    border-top: 1px solid #767676;
+    padding-top: 25px;
+}
+
+@media only Screen and (max-width:960px) {
+
+    .EG-CHECKER .eg-hsbc_checker .eg-container_new {
+        width: 100%;
+        max-width: 92%;
+        margin: auto;
+        padding-top: 4rem;
+    }
+}
+
+@media only screen and (min-width:767px) and (max-width:960px) {
+    .EG-CHECKER .eg-hsbc_checker .eg-start_section {
+        padding: 45px 45px;
+    }
+
+    .EG-CHECKER .eg-hsbc_checker .eg-start_section .eg-right_section img {
+        width: 300px;
+        max-width: 300px;
+    }
+
+    .EG-CHECKER .eg-hsbc_checker .eg-start_section .eg-wrapper_elem {
+        margin-bottom: 40px;
+        grid-gap: 20px;
+    }
+
+    .EG-CHECKER .eg-hsbc_checker .eg-container_new {
+        width: 100%;
+        max-width: 94%;
+    }
+}
+
+@media only screen and (min-width:960px) and (max-width:1070px) {
+    .EG-CHECKER .eg-hsbc_checker .eg-start_section .eg-wrapper_elem {
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .EG-CHECKER .eg-hsbc_checker .eg-start_section .eg-right_section .eg-image {
+        display: none !important;
+    }
+
+    .EG-CHECKER .eg-hsbc_checker .eg-start_section {
+        padding: 25px 25px;
+    }
+
+    .EG-CHECKER .eg-hsbc_checker .eg-container_new {
+        max-width: 88%;
+    }
+
+    .EG-CHECKER .eg-hsbc_checker .eg-start_section .eg-heading h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .EG-CHECKER .eg-hsbc_checker .eg-start_section .eg-content p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .EG-CHECKER .eg-hsbc_checker .eg-start_section .eg-wrapper_elem {
+        grid-gap: 0px;
+        margin-bottom: 22px;
+    }
+
+    .EG-CHECKER .eg-hsbc_checker .eg-start_section .eg-button a {
+        width: 100%;
+    }
+}
+
+/* START SECTION CSS END*/
+
+/* RESULT SECTION CSS START*/
+
+.eg-result-container {
+  margin: 2rem auto;
+  padding: 45px 85px;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.eg-result-header {
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.eg-result-header .eg-result-button {
+  background: none;
+  color: #000000;
+  margin-bottom: 25px;
+  border: 1px solid #000000;
+  border-radius: 20px;
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.eg-result-header h1 {
+font-size: 35px;
+font-weight: 400;
+line-height: 42px;
+margin-bottom: 25px;
+color: #000000;
+}
+
+.eg-result-header p {
+font-size: 22px;
+font-weight: 400;
+line-height: 31px;
+color: #000000;
+margin-bottom: 25px;
+width: 55%;
+}
+
+.eg-result-summary {
+  display: flex;
+  gap: 45px;
+}
+
+.eg-result-card {
+  flex: 1;
+  padding: 15px;
+  border: 1px solid #D7D8D6;
+  background: #fff;
+}
+
+.eg-result-card h2 {
+font-size: 22px;
+font-weight: 400;
+line-height: 31px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  color: #000000;
+}
+
+.eg-result-card .eg-result-icon {
+  width: 26px;
+  height: 26px;
+}
+
+.eg-result-card ol {
+  margin: 0;
+  padding: 0 0 0 1.5rem;
+  list-style: decimal;
+}
+
+.eg-rs-one,
+.eg-rs-two{
+    margin-bottom: 25px;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+color: #000000;
+}
+
+.eg-result-card ul {
+  margin: 0.5rem 0 0 1.5rem;
+  padding: 0;
+}
+
+.eg-result-card ul li {
+  list-style: disc;
+  margin: 10px 0;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+}
+
+.eg-result-card ul li strong{
+    font-weight: 700;
+}
+
+.eg-result-finish {
+  text-align: right;
+  margin-top: 40px;
+    padding-top: 25px;
+    border-top: 1px solid #767676;
+}
+
+.eg-result-finish-button {
+  background: #DB0011;
+  color: white;
+  border: none;
+  padding: 13px 20px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  cursor: pointer;
+  width: 180px;
+}
+
+@media screen and (max-width:767px){
+    .eg-result-container {
+        padding:25px;
+    }
+    .eg-result-summary {
+        flex-direction: column;
+        gap: 25px;
+    }
+    .eg-result-header p {
+        width: 100%;
+        font-size: 19px;
+    }
+    .eg-result-header h1 {
+        font-size: 28px;
+    }
+    .eg-result-card h2 {
+        font-size: 19px;
+    }
+    .eg-result-finish-button {
+        width: 100%;
+    }
+}
+
+/* RESULT SECTION CSS END*/
