@@ -1,0 +1,97 @@
+/* HERO SECTION CSS */
+.EG-COURSEPAGE .eg-heroSection .inline-brochure-form {
+    display: none;
+}
+
+.EG-COURSEPAGE .eg-heroSection .content-left .content-right {
+    width: 100%;
+}
+
+.EG-COURSEPAGE .eg-heroSection .content-left .course-buttons {
+    align-items: baseline;
+}
+
+/* HERO SECTION CSS END */
+
+/* SWINBURNE ONLINE SECTION START */
+
+.EG-COURSEPAGE .eg-swinOnline-container {
+    background-image: url(https://i.ibb.co/cXbSy0KM/girl-with-earphones.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 125px 0;
+    background-position-y: center;
+}
+
+.EG-COURSEPAGE .eg-swinOnline-title{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.EG-COURSEPAGE .eg-swinOnline-text{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.EG-COURSEPAGE .eg-swinOnline-ctas{
+    display: flex;
+    grid-gap: 8px;
+}
+
+.EG-COURSEPAGE .eg-apply-now{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ED1C2E;
+    border: 1px solid #ED1C2E;
+    transform: translateZ(0);
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.EG-COURSEPAGE .eg-apply-now:hover{
+    color: #ED1C2E;
+    background: #FFFFFF;
+    filter: none;
+}
+
+.EG-COURSEPAGE .eg-apply-now img{
+    filter: brightness(0) invert(1);
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+}
+
+.EG-COURSEPAGE .eg-apply-now img:hover{
+    filter: none;
+}
+
+.EG-COURSEPAGE .eg-course-guide{
+    border: 2px solid #ED1C2E;
+    background: transparent;
+}
+
+.EG-COURSEPAGE .eg-course-guide:hover{
+    color: #000;
+}
+
+.EG-COURSEPAGE .eg-btn{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+    padding: 16px 20px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    min-width: 275px;
+    height: 56px;
+}
+
+/* SWINBURNE ONLINE SECTION END */
