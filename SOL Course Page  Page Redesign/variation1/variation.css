@@ -1,5 +1,19 @@
+/* COMMON CSS */
+.EG-COURSEPAGE .main>.forms-layout,
+.EG-COURSEPAGE .main>.vertical-accordion,
+.EG-COURSEPAGE .main>.testimonial,
+.EG-COURSEPAGE .main>.left-right:not(.eg-seek),
+.EG-COURSEPAGE .course-overview+.inline-brochure-form {
+    display: none !important;
+}
+
+/* COMMON CSS END*/
+
 /* HERO SECTION CSS */
-.EG-COURSEPAGE .eg-heroSection .inline-brochure-form {
+.EG-COURSEPAGE .eg-heroSection .inline-brochure-form,
+.EG-COURSEPAGE .eg-heroSection .course-buttons .static-apply-btn .divider,
+.EG-COURSEPAGE .eg-heroSection .course-buttons .static-apply-btn .remaining,
+.EG-COURSEPAGE .eg-heroSection .category+#staticButtons {
     display: none;
 }
 
@@ -7,11 +21,760 @@
     width: 100%;
 }
 
+.EG-COURSEPAGE .eg-heroSection .category {
+    border: unset !important;
+    margin-bottom: -10px !important;
+    padding-left: 0px !important;
+}
+
 .EG-COURSEPAGE .eg-heroSection .content-left .course-buttons {
     align-items: baseline;
+    flex-direction: row;
+    justify-content: flex-start;
+    grid-gap: 10px;
+}
+
+.EG-COURSEPAGE .eg-heroSection .title {
+    font-family: 'urw-din';
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -0.5px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+}
+
+.EG-COURSEPAGE .eg-hero_bulletpoints>p {
+    font-family: DINOT;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.EG-COURSEPAGE .eg-hero_bulletpoints .eg-list>li {
+    font-family: DINOT;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+    list-style: none;
+    list-style-type: disc;
+    margin-bottom: 0px !important;
+}
+
+.EG-COURSEPAGE .eg-hero_bulletpoints .eg-list>li::marker {
+    color: white !important;
+}
+
+.EG-COURSEPAGE .eg-hero_bulletpoints .eg-list {
+    margin-bottom: 45px;
+}
+
+.EG-COURSEPAGE .eg-heroSection .course-buttons .static-apply-btn {
+    width: 275px;
+    height: 56px;
+}
+
+.EG-COURSEPAGE .eg-heroSection {
+    background-image: url(https://www.swinburneonline.edu.au/app/uploads/2025/02/013_CatBlack2024_Accounting-scaled.jpg) !important;
+}
+
+.EG-COURSEPAGE .eg-heroSection .course-buttons .eg-course_guide {
+    width: 275px;
+    border: 2px solid #ED1C2E;
+    background: transparent;
+    height: 56px;
+    text-transform: capitalize;
+}
+
+.course-glance-v2 .content-left .eg-course_guide:hover {
+    border: 2px solid #FFFFFF;
+    background: #FFFFFF !important;
+}
+
+.eg-cspavaliable span:before {
+    content: '';
+    background-image: url(https://i.ibb.co/JMRcNSS/CSP-monetization.png);
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-size: contain;
+    position: relative;
+    top: 3px;
+    margin-right: 5px;
+}
+
+.EG-COURSEPAGE .eg-heroSection .details-wrapper .details .text-uppercase {
+    font-weight: 500 !important;
+    font-size: 14px;
+    line-height: 20.03px;
+    letter-spacing: 0px;
+    font-family: DINOT;
+}
+
+.EG-COURSEPAGE .eg-heroSection .details-wrapper .details .caption {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20.03px;
+    font-family: DINOT;
+}
+
+.EG-COURSEPAGE .eg-heroSection .course-buttons .eg-course_guide img {
+    display: flex !important;
+}
+
+.EG-COURSEPAGE .eg-heroSection .details-wrapper .details {
+    border-radius: 0px;
+    background: #181818;
+}
+
+.EG-COURSEPAGE .eg-heroSection .details-wrapper .details>div:nth-child(1) {
+    order: 1;
+}
+
+.EG-COURSEPAGE .eg-heroSection .details-wrapper .details>div:nth-child(4) {
+    order: 2;
+}
+
+.EG-COURSEPAGE .eg-heroSection .details-wrapper .details>div:nth-child(2) {
+    order: 3;
+}
+
+.EG-COURSEPAGE .eg-heroSection .details-wrapper .details>div:nth-child(3) {
+    order: 4;
+}
+
+.EG-COURSEPAGE .eg-heroSection .details-wrapper .details>div:nth-child(5) {
+    order: 5;
+}
+
+.EG-COURSEPAGE .eg-heroSection .details-wrapper .details>div:nth-child(6) {
+    order: 6;
+}
+
+.EG-COURSEPAGE .eg-heroSection .eg-cspavaliable {
+    background: #FFFFFF;
+    padding: 24px 40px;
+    display: flex;
+}
+
+.EG-COURSEPAGE .eg-heroSection .eg-cspavaliable>p {
+    margin-bottom: 0px;
+    font-family: DINOT;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15.46px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #231E21;
+    z-index: 9;
+}
+
+.EG-COURSEPAGE .eg-heroSection .eg-cspavaliable span,
+.EG-COURSEPAGE .eg-heroSection .eg-cspavaliable a {
+    font-weight: 500;
+    color: #231E21 !important;
+}
+
+.EG-COURSEPAGE .eg-heroSection .eg-cspavaliable a {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width:767px) {
+    .EG-COURSEPAGE .eg-heroSection .title {
+        font-size: 32px;
+        line-height: 34px;
+    }
+
+    .EG-COURSEPAGE .eg-heroSection .details-wrapper .details {
+        background: linear-gradient(180deg, #000000 0%, #231E21 100%) !important;
+    }
+
+    .EG-COURSEPAGE .eg-heroSection .details-wrapper .details .text-uppercase,
+    .EG-COURSEPAGE .eg-heroSection .details-wrapper .details .caption {
+        font-size: 16.03px !important;
+        line-height: 20.03px;
+    }
+
+    .EG-COURSEPAGE .eg-hero_bulletpoints>p {
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .EG-COURSEPAGE .eg-heroSection .content-left .course-buttons {
+        flex-direction: column;
+    }
+
+    .EG-COURSEPAGE .eg-heroSection .eg-cspavaliable {
+        padding: 24px 16px;
+    }
+
+    .EG-COURSEPAGE .eg-heroSection {
+        padding-bottom: 25px;
+    }
+
+    .EG-COURSEPAGE .eg-heroSection .content-left .content-right {
+        margin-bottom: 10px !important;
+    }
+
+    .EG-COURSEPAGE .eg-heroSection .container {
+        padding-top: 170px;
+    }
+}
+
+@media only screen and (min-width:767px) {
+    .EG-COURSEPAGE .eg-heroSection .eg-cspavaliable br {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:767px) and (max-width:1024px) {
+    .EG-COURSEPAGE .eg-heroSection {
+        padding-bottom: 25px;
+    }
 }
 
 /* HERO SECTION CSS END */
+
+/* OVERVIEW SECTION CSS  */
+
+html body .eg-courseOverview {
+    padding-bottom: 60px !important;
+}
+
+html body .eg-courseOverview .eg-overviewTitle {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 5px;
+    margin-bottom: 18px;
+}
+
+html body .eg-courseOverview .eg-overviewTitle::after {
+    display: block;
+    content: '';
+    border: 3px solid #ED1C2E;
+    width: 24px;
+}
+
+html body .eg-courseOverview>.container>div>div:nth-child(2) {
+    flex: 0 0 49.33333%;
+    max-width: 49.33333%;
+}
+
+html body .eg-courseOverview>.container>div>div:last-child {
+    flex: 0 0 38.33333%;
+    max-width: 38.33333%;
+    margin-left: 75px !important;
+}
+
+html body .eg-courseOverview>.container>div>div:nth-child(2) h2 {
+    margin-bottom: 55px;
+}
+
+html body .eg-courseOverview>.container>div>div:last-child ul li:first-child {
+    margin-bottom: 30px !important;
+}
+
+html body .eg-courseOverview>.container>div>div:last-child ul li {
+    margin-bottom: 8px !important;
+}
+
+html body .eg-courseOverview>.container>div>div:nth-child(2)>p,
+html body .eg-courseOverview .button-wrapper {
+    display: none;
+}
+
+html body .eg-courseOverview .eg-overview-content-intro,
+html body .eg-courseOverview .eg-overview-content-list li,
+html body .eg-courseOverview .eg-overview-graduate {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #231E21;
+}
+
+html body .eg-courseOverview .eg-overview-content-intro {
+    margin-bottom: 16px !important;
+}
+
+html body .eg-courseOverview .eg-overview-content-list li {
+    margin-bottom: 0 !important
+}
+
+html body .eg-courseOverview .eg-overview-content-list {
+    list-style-type: disc !important;
+    padding-left: 32px;
+}
+
+html body .eg-courseOverview .eg-overview-content-list li::marker {
+    color: #000000 !important;
+}
+
+html body .eg-courseOverview .eg-overview-graduate {
+    font-weight: 700;
+}
+
+/* VIDEO CSS*/
+
+html body .eg-courseOverview .video-modal {
+    display: block;
+    position: relative;
+    opacity: 1;
+    margin-top: 70px;
+}
+
+html body .eg-courseOverview .video-modal .modal-dialog-centered:before {
+    height: unset;
+}
+
+@media screen and (min-width: 768px) {
+    html body .eg-courseOverview .video-modal .modal-dialog {
+        min-width: 773px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    html body .eg-courseOverview>.container>div>div:nth-child(2),
+    html body .eg-courseOverview>.container>div>div:last-child {
+        flex: unset;
+        max-width: unset;
+    }
+
+    html body .eg-courseOverview>.container>div>div:last-child {
+        margin-left: auto !important;
+    }
+
+    html body .eg-courseOverview>.container>div>div:nth-child(2) h2 {
+        font-size: 28px;
+        line-height: 33.6px;
+    }
+
+    html body .eg-courseOverview .eg-overviewTitle {
+        margin-bottom: 13px;
+    }
+
+    html body .eg-courseOverview>.container>div>div:nth-child(2) h2 {
+        margin-bottom: 24px;
+    }
+
+    html body .eg-courseOverview .eg-overview-content-intro,
+    html body .eg-courseOverview .eg-overview-content-list li,
+    html body .eg-courseOverview .eg-overview-graduate {
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    html body .eg-courseOverview .eg-overview-content-list {
+        padding-left: 27px;
+    }
+
+    html body .eg-courseOverview>.container>div>div:last-child ul {
+        padding-inline-start: 20px;
+    }
+
+    html body .eg-courseOverview>.container>div>div:last-child h2 {
+        margin-bottom: 15px;
+    }
+
+    html body .eg-courseOverview>.container>div>div:last-child ul li {
+        margin-bottom: 14px !important;
+    }
+}
+
+/* OVERVIEW SECTION CSS END */
+
+/* SEEK SECTION CSS */
+
+.EG-COURSEPAGE .eg-seek .h5 {
+    margin-bottom: 10px;
+}
+
+.EG-COURSEPAGE .eg-seek .image-wrapper+p {
+    line-height: 34px !important;
+}
+
+.EG-COURSEPAGE .eg-seek .row>.image {
+    order: -1;
+}
+
+.EG-COURSEPAGE .eg-seek .row>.content {
+    margin-right: 0px !important;
+}
+
+.EG-COURSEPAGE .eg-seek .row {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width:767px) {
+    .EG-COURSEPAGE .eg-seek {
+        padding: 25px 0px !important;
+    }
+
+    .EG-COURSEPAGE .eg-seek .h5 {
+        font-size: 28px !important;
+        line-height: 38px !important;
+    }
+
+    .EG-COURSEPAGE .eg-seek .h5+.image-wrapper {
+        margin-top: 24px !important;
+        margin-bottom: 15px !important;
+    }
+
+    .EG-COURSEPAGE .eg-seek .image-wrapper+p {
+        line-height: 33px !important;
+    }
+}
+
+@media only screen and (min-width:767px) and (max-width:1024px) {
+    .EG-COURSEPAGE .eg-seek .image-wrapper.desktop {
+        display: flex !important;
+    }
+}
+
+/* SEEK SECTION CSS END*/
+
+/* MAIN SECTION CSS */
+
+/* COMMON CSS */
+.EG-COURSEPAGE .main .course-tab-content {
+    display: none !important;
+}
+
+.EG-COURSEPAGE .eg-structure .eg-main_heading h2,
+.EG-COURSEPAGE .eg-entry_requirements .eg-main_heading h2 {
+    font-family: DINOT;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.EG-COURSEPAGE .eg-structure .eg-main_heading h2:after,
+.EG-COURSEPAGE .eg-entry_requirements .eg-main_heading h2:after {
+    content: '';
+    position: absolute;
+    bottom: -9px;
+    left: 0;
+    height: 3px;
+    width: 25px;
+    background: #ED1C2E;
+}
+
+.EG-COURSEPAGE .eg-structure .eg-course_structure h2 {
+    font-family: URW DIN, sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0px;
+    color: #231E21;
+}
+
+/* COMMON CSS END */
+
+/* STRUCTURE CSS */
+
+.EG-COURSEPAGE .eg-main_section {
+    width: 100%;
+    max-width: 1290px;
+    margin: auto;
+}
+
+.EG-COURSEPAGE .eg-structure .eg-content,
+.EG-COURSEPAGE .eg-structure .eg-bullet_points li {
+    font-family: DINOT;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #231E21;
+}
+
+.EG-COURSEPAGE .eg-structure .eg-content {
+    margin-bottom: 10px;
+}
+
+.EG-COURSEPAGE .eg-structure .eg-bullet_points {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 3px;
+    padding-left: 35px;
+}
+
+.EG-COURSEPAGE .eg-structure .eg-course_image h2 {
+    font-family: 'DINOT';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #231E21;
+    margin-top: 20px;
+}
+
+.EG-COURSEPAGE .eg-structure .eg-study h2 {
+    font-family: 'urw-din';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0px;
+    color: #231E21;
+}
+
+.EG-COURSEPAGE .eg-structure .eg-study h2 {
+    font-family: 'urw-din';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0px;
+    color: #231E21;
+}
+
+.EG-COURSEPAGE .eg-structure .eg-study .accordion .accordion-item {
+    background: #FFFFFF;
+    border-top: 2px solid #F6F6F6;
+}
+
+.EG-COURSEPAGE .eg-structure .eg-study .accordion .accordion-item-title {
+    font-family: DINOT;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #231E21;
+    height: 64px;
+}
+
+.EG-COURSEPAGE .eg-structure .eg-study .accordion>div:last-of-type {
+    border-bottom: 2px solid #F6F6F6;
+}
+
+.EG-COURSEPAGE .eg-structure .eg-study .accordion-item-desc {
+    font-family: DINOT;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #231E21 !important;
+    border-top: 2px solid #F6F6F6;
+}
+
+.eg-main_section .eg-structure .eg-course_image .eg-image img {
+    width: 100%;
+    max-width: 790px;
+}
+
+.eg-main_section .eg-structure .eg-course_image .eg-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.EG-COURSEPAGE .eg-structure,
+.EG-COURSEPAGE .eg-entry_requirements {
+    padding: 32px 16px;
+}
+
+@media only screen and (max-width:767px) {
+
+    .EG-COURSEPAGE .eg-structure .eg-course_structure h2 {
+        font-size: 28px;
+        line-height: 33px;
+        margin-bottom: 20px;
+    }
+
+    .EG-COURSEPAGE .eg-structure .eg-content,
+    .EG-COURSEPAGE .eg-structure .eg-bullet_points li {
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    .EG-COURSEPAGE .eg-structure .eg-course_structure h2,
+    .EG-COURSEPAGE .eg-structure .eg-content {
+        margin-bottom: 15px;
+    }
+
+    .EG-COURSEPAGE .eg-structure .eg-study h2 {
+        font-size: 28px;
+        line-height: 33px;
+    }
+
+    .EG-COURSEPAGE .eg-structure .eg-study .accordion .accordion-item-title {
+        font-size: 18px;
+    }
+}
+
+/* STRUCTURE CSS END */
+
+/* ENTRY REQUIREMENTS CSS */
+
+.EG-COURSEPAGE .eg-entry_requirements .eg-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.EG-COURSEPAGE .eg-entry_requirements .accordion.eg-mobile,
+.EG-COURSEPAGE .eg-entry_requirements .eg-content_wrapper>div:not(.active) {
+    display: none;
+}
+
+.EG-COURSEPAGE .eg-entry_requirements .eg-tabs .eg-tab {
+    width: 382px;
+    height: 68px;
+    font-family: DINOT;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.EG-COURSEPAGE .eg-entry_requirements .eg-tabs .eg-tab .eg-icon img {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    transform: rotate(-90deg);
+    top: 24px;
+    right: 2px;
+}
+
+.EG-COURSEPAGE .eg-entry_requirements .eg-tabs {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+}
+
+@media only screen and (max-width:767px) {
+    .EG-COURSEPAGE .eg-entry_requirements .eg-wrapper.eg-desktop {
+        display: none !important;
+    }
+
+    .EG-COURSEPAGE .eg-entry_requirements .accordion.eg-mobile {
+        display: flex !important;
+        flex-direction: column;
+    }
+}
+
+/* ENTRY REQUIREMENTS CSS END*/
+
+/* accoedion css */
+.eg-main_section .accordion-item {
+    background: #008CB2;
+}
+
+.eg-main_section .accordion-item .accordion-item-title {
+    position: relative;
+    display: flex;
+    cursor: pointer;
+    padding: 10px 0px;
+    align-items: center;
+    margin: 0px;
+    color: #F1F3FA;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.eg-main_section .accordion-item .accordion-item-desc {
+    display: none;
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 300;
+    color: #191919;
+    box-sizing: border-box;
+    padding-left: 0px;
+}
+
+.eg-main_section .accordion-item input[type="checkbox"] {
+    position: absolute;
+    height: 0;
+    width: 0;
+    opacity: 0;
+}
+
+.eg-main_section .accordion-item input[type="checkbox"]:checked~.accordion-item-desc {
+    display: flex;
+    flex-direction: column;
+}
+
+.eg-main_section .accordion-item input[type="checkbox"]:checked~.accordion-item-title .icon:after {
+    content: "";
+    font-size: 34px;
+    background-image: url(https://i.ibb.co/mCt7KkK5/chevron-down.png);
+    width: 20px;
+    height: 20px;
+    display: flex;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+}
+
+.eg-main_section .accordion-item input[type="checkbox"]~.accordion-item-title .icon:after {
+    content: "";
+    font-size: 34px;
+    background-image: url(https://i.ibb.co/mCt7KkK5/chevron-down.png);
+    width: 20px;
+    height: 20px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    top: -3px;
+}
+
+.eg-main_section .accordion-item:first-child {
+    margin-top: 0;
+}
+
+.eg-main_section .accordion-item-desc {
+    padding: 10px;
+    color: white !important;
+}
+
+.eg-main_section .accordion-item-desc .tested-tried-heading h2 {
+    color: white !important;
+}
+
+.eg-main_section .accordion-title {
+    color: #6E6F71 !important;
+}
+
+/* accordion css end */
+
+
+
+
+
+
+
+
 
 /* SWINBURNE ONLINE SECTION START */
 
@@ -23,7 +786,7 @@
     background-position-y: center;
 }
 
-.EG-COURSEPAGE .eg-swinOnline-title{
+.EG-COURSEPAGE .eg-swinOnline-title {
     font-size: 24px;
     font-weight: 700;
     line-height: 30px;
@@ -32,7 +795,7 @@
     margin: 0;
 }
 
-.EG-COURSEPAGE .eg-swinOnline-text{
+.EG-COURSEPAGE .eg-swinOnline-text {
     font-size: 24px;
     font-weight: 500;
     line-height: 30px;
@@ -41,12 +804,12 @@
     margin-bottom: 24px;
 }
 
-.EG-COURSEPAGE .eg-swinOnline-ctas{
+.EG-COURSEPAGE .eg-swinOnline-ctas {
     display: flex;
     grid-gap: 8px;
 }
 
-.EG-COURSEPAGE .eg-apply-now{
+.EG-COURSEPAGE .eg-apply-now {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,33 +819,33 @@
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
-.EG-COURSEPAGE .eg-apply-now:hover{
+.EG-COURSEPAGE .eg-apply-now:hover {
     color: #ED1C2E;
     background: #FFFFFF;
     filter: none;
 }
 
-.EG-COURSEPAGE .eg-apply-now img{
+.EG-COURSEPAGE .eg-apply-now img {
     filter: brightness(0) invert(1);
     width: 16px;
     height: 16px;
     margin-left: 10px;
 }
 
-.EG-COURSEPAGE .eg-apply-now img:hover{
+.EG-COURSEPAGE .eg-apply-now img:hover {
     filter: none;
 }
 
-.EG-COURSEPAGE .eg-course-guide{
+.EG-COURSEPAGE .eg-course-guide {
     border: 2px solid #ED1C2E;
     background: transparent;
 }
 
-.EG-COURSEPAGE .eg-course-guide:hover{
+.EG-COURSEPAGE .eg-course-guide:hover {
     color: #000;
 }
 
-.EG-COURSEPAGE .eg-btn{
+.EG-COURSEPAGE .eg-btn {
     font-size: 16px;
     font-weight: 700;
     line-height: 18px;
@@ -95,3 +858,135 @@
 }
 
 /* SWINBURNE ONLINE SECTION END */
+
+/* SWINBURNE ONLINE STUDY SECTION START */
+
+.eg-onlinestudy {
+    margin: auto;
+}
+
+/* Header Section */
+/* .eg-main_heading {
+    text-align: center;
+    margin-bottom: 2rem;
+} */
+
+.eg-subheading {
+    font-family: 'DINOT';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: #231E21;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.EG-COURSEPAGE .eg-subheading h2:after {
+    content: '';
+    position: absolute;
+    bottom: -9px;
+    left: 0;
+    height: 3px;
+    width: 25px;
+    background: #ED1C2E;
+}
+
+.eg-heading {
+    font-family: URW DIN;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0px;
+    color: #231E21;
+}
+
+.eg-description {
+    font-family: DINOT;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #231E21;
+}
+
+/* Features List */
+.eg-features {
+    list-style: disc;
+    padding: 0;
+    margin: 24px 0;
+}
+
+.eg-features li {
+    font-family: DINOT;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0px;
+    margin-bottom: 1rem;
+    padding-left: 20px;
+    color: #231E21;
+}
+
+/* Flexible Study Section */
+.eg-flexible-study {
+    margin: 2rem 0;
+    display: flex;
+    grid-gap: 48px;
+}
+
+.eg-dot-grid {
+    width: 30%;
+}
+
+.eg-link {
+    font-family: DINOT;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #ED1C2E;
+    cursor: pointer;
+}
+
+.eg-image {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* Features Cards */
+.eg-features-cards {
+    margin-top: 60px;
+}
+
+.eg-card {
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.eg-card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.eg-icon {
+    margin-right: 10px;
+    font-size: 1.5rem;
+}
+
+.eg-card-description {
+    color: #555;
+}
+
+.eg-card-list {
+    list-style: disc;
+    margin: 0;
+    padding-left: 1.5rem;
+}
+
+/* SWINBURNE ONLINE STUDY SECTION END */

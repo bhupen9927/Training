@@ -1,0 +1,2150 @@
+/* HERO SECTION CSS */
+
+.Air-TV #main .ad_tv-lander-sec4,
+.Air-TV #main>div:nth-of-type(3) .attachment-original,
+.Air-TV #main .ad_tv-sep-2024-sec21,
+.Air-TV #main .ad_tv-lander-sec12+.ad_tv-lander-sec6 .Air-TV #main .ad_tv-lander-sec14,
+.Air-TV #main .ad_tv-lander-sec16,
+.Air-TV #main .ad_tv-lander-sec5,
+.Air-TV #main .ad_tv-lander-sec12+section,
+.Air-TV #main .ad_tv-lander-sec14,
+.Air-TV #main .ad_tv-lander-sec18,
+.Air-TV #main .ad_tv-lander-sec18+div,
+.Air-TV #main .ad_tv-lander-sec18+div+div,
+.Air-TV #main .ad_tv-lander-sec18+div+div+div,
+.Air-TV #main .ad_tv-lander-sec18+div+div+div+div,
+.Air-TV #main .ad_tv-lander-sec9,
+.Air-TV #main .ad_tv-lander-sec11,
+.Air-TV #main .ad_tv-lander-sec12 {
+    display: none !important;
+}
+
+.Air-TV #main .ad_tv-lander-sec18+div+div+div+div,
+.Air-TV #main .ad_tv-lander-sec18+div {
+    padding: 0px !important;
+}
+
+.Air-TV .eg-hero-section {
+    background: linear-gradient(130.86deg, #E6F5FF 46.54%, #76B0DA 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Air-TV .eg-hero-section .eg-hero-section-wrapper {
+    display: flex;
+    width: 100%;
+    max-width: 1280px;
+    align-items: center;
+    margin: 0 auto;
+    grid-gap: 56px;
+    justify-content: center;
+    padding: 25px 0px;
+    padding-top: 35px;
+}
+
+.Air-TV .eg-hero-section .eg-hero-left {
+    padding: 20px;
+    font-family: "Open Sans";
+}
+
+.Air-TV .eg-hero-section .eg-hero-right img {
+    position: relative;
+    bottom: 0;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 3px 3px 0px 0px;
+    cursor: pointer;
+}
+
+.Air-TV .eg-hero-section .eg-video-thumbnail+.eg-content {
+    border-bottom: 3px solid #253E89;
+    background: #FFFFFF;
+    padding: 20px;
+    border-radius: 0px 0px 3px 3px;
+}
+
+.Air-TV .eg-hero-section .eg-video-thumbnail+.eg-content p {
+    margin-bottom: 0px;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #3A7AAF;
+    display: flex;
+    flex-direction: column;
+}
+
+.Air-TV .eg-hero-section .eg-video-thumbnail+.eg-content span {
+    font-weight: 700;
+}
+
+.Air-TV .eg-video-thumbnail .eg-doc-mob {
+    display: none;
+}
+
+.Air-TV .eg-video-button {
+    top: 40%;
+    left: 50%;
+}
+
+.Air-TV .eg-icon-ply {
+    color: #FFF;
+    font-size: 44px !important;
+}
+
+.Air-TV .eg-ply-btn {
+    background: transparent;
+    height: 78px !important;
+    width: 78px !important;
+    padding-right: 0;
+    padding-top: 4px;
+    border: none !important;
+}
+
+.Air-TV .eg-hero-section .eg-hero-right {
+    width: 100%;
+    max-width: 318px;
+    position: relative;
+    order: -1;
+}
+
+.Air-TV .eg-hero-section .eg-hero-left h1 {
+    font-family: "Open Sans";
+    font-size: 42px !important;
+    font-weight: 700;
+    line-height: 57.2px;
+    color: #364C9E;
+    margin-bottom: 13px !important;
+}
+
+/* .Air-TV .eg-hero-section .eg-highlight {
+    color: #3085C8
+} */
+
+.Air-TV .eg-hero-section .eg-subheading {
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.68px;
+    margin-bottom: 28px;
+    font-family: "Open Sans";
+    color: #313D4A;
+}
+
+.Air-TV .eg-hero-section .eg-features-container {
+    margin-bottom: 25px;
+    width: 90%;
+}
+
+.Air-TV .eg-hero-section .eg-features {
+    display: flex;
+    flex-wrap: wrap;
+    grid-column-gap: 29px;
+    width: 100%;
+    max-width: 448px;
+    grid-row-gap: 10px;
+}
+
+.Air-TV .eg-hero-section .eg-featureHeading {
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 28.6px;
+    font-family: "Open Sans";
+    color: #2F459B;
+    margin-bottom: 22px;
+}
+
+.Air-TV .eg-hero-section .eg-feature {
+    display: flex;
+    align-items: center;
+    grid-gap: 10px;
+}
+
+.Air-TV .eg-hero-section .eg-feature img {
+    height: 27px;
+    width: 27px;
+}
+
+.Air-TV .eg-hero-section .eg-feature p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    font-family: "Open Sans";
+    color: #2F459B;
+    margin: 0;
+}
+
+.Air-TV .eg-hero-section .eg-cta-button {
+    background-color: #F9A31A;
+    color: #fff;
+    line-height: 21.79px;
+    font-family: "Open Sans";
+    padding: 10px 40px !important;
+    font-size: 16px !important;
+    font-weight: 700;
+    border-radius: 40px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.Air-TV .eg-hero-section .eg-cta-button:hover {
+    box-shadow: inset 0 1px 5px -2px #000 !important;
+}
+
+.Air-TV .eg-hero-section .eg-video-thumbnail:before {
+    content: '';
+    position: absolute;
+    width: 106px;
+    height: 106px;
+    border-radius: 100px;
+    display: flex;
+    z-index: 9;
+    background-image: url(https://sitetunershosting.com/clients/AirDoctor/hero_badge.png);
+    background-size: contain;
+    top: -20px;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (min-width:992px) and (max-width:1200px) {
+    .Air-TV .eg-hero-section .eg-hero-left {
+        width: 100%;
+        max-width: 540px;
+    }
+
+    .Air-TV .eg-hero-section .eg-hero-left h1 {
+        font-size: 42px !important;
+        line-height: 57.2px;
+    }
+
+    .Air-TV .eg-hero-section .eg-hero-left h1 br {
+        display: none !important;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1128px) {
+    .Air-TV .eg-hero-section .eg-hero-right img {
+        position: relative;
+        bottom: -20px;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .Air-TV .eg-hero-section .eg-hero-left h1 {
+        font-size: 34px !important;
+        line-height: 46.3px;
+    }
+
+    .Air-TV .eg-hero-section .eg-hero-section-wrapper {
+        grid-gap: 35px;
+        padding: 25px 40px;
+    }
+
+    .Air-TV .eg-hero-section .eg-subheading {
+        font-size: 24px;
+        line-height: 32.68px;
+    }
+
+    .Air-TV .eg-hero-section .eg-featureHeading {
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 29.96px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .Air-TV .eg-video-thumbnail .eg-doc-mob {
+        display: block;
+    }
+
+    .Air-TV .eg-video-thumbnail .eg-doc-desk,
+    .Air-TV .eg-hero-section .eg-hero-left h1 br {
+        display: none;
+    }
+
+    .Air-TV .eg-ply-btn {
+        height: 52px !important;
+        width: 52px !important;
+        padding-top: 0;
+    }
+
+    .Air-TV .eg-video-button {
+        top: 40%;
+        left: 54.7%;
+    }
+
+    .Air-TV .eg-icon-ply {
+        font-size: 33px !important;
+    }
+
+    .Air-TV .eg-hero-section .eg-hero-section-wrapper {
+        flex-direction: column;
+        padding: 35px 20px;
+        grid-gap: 0px;
+        padding-bottom: 35px;
+    }
+
+    .Air-TV .eg-hero-section .eg-hero-right {
+        order: -1;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .Air-TV .eg-hero-section .eg-hero-right img {
+        bottom: 0;
+    }
+
+    .Air-TV .eg-hero-section .eg-hero-right img,
+    .Air-TV .eg-hero-section .eg-video-thumbnail+.eg-content {
+        bottom: 0;
+        width: 90%;
+        margin-left: auto;
+    }
+
+    .Air-TV .eg-hero-section .eg-hero-left {
+        padding: 0px;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .Air-TV .eg-hero-section .eg-hero-left h1,
+    .Air-TV .eg-hero-section .eg-subheading,
+    .Air-TV .eg-hero-section .eg-featureHeading {
+        text-align: center;
+    }
+
+    .Air-TV .eg-hero-section .eg-features {
+        grid-template-columns: repeat(2, 1fr);
+        display: grid;
+        grid-column-gap: 15px;
+        grid-row-gap: 28px;
+    }
+
+    .Air-TV .eg-hero-section .eg-cta-button {
+        width: 100%;
+        display: block;
+    }
+
+    .Air-TV .eg-hero-section .eg-hero-left h1 {
+        margin-bottom: 17px !important;
+        margin-top: 30px !important;
+    }
+
+    .Air-TV .eg-hero-section .eg-subheading {
+        margin-bottom: 23px !important;
+        width: 100%;
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .Air-TV .eg-hero-section .eg-features-container {
+        padding-top: 20px;
+        width: 100% !important;
+        margin-bottom: 25px;
+    }
+
+    .Air-TV .eg-hero-section .eg-featureHeading {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .Air-TV .eg-hero-section .eg-featureHeading {
+        width: 100%;
+        max-width: 90%;
+        margin: auto;
+        margin-bottom: 16px !important;
+    }
+}
+
+@media only screen and (max-width:370px) {
+
+    .Air-TV .eg-hero-section .eg-featureHeading,
+    .Air-TV .eg-hero-section .eg-subheading {
+        width: 100%;
+        max-width: 100% !important;
+    }
+}
+
+.Air-TV .eg-hero-AsSeenOn {
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 41px 20px;
+    grid-gap: 20px;
+    flex-direction: column;
+}
+
+.Air-TV .eg-asSeen-text {
+    font-family: "Open Sans";
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 38.13px;
+    color: #364C9E;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.Air-TV .eg-asSeen-logos {
+    display: flex;
+    grid-gap: 20px;
+}
+
+.Air-TV .eg-asSeen-img {
+    width: 100%;
+    max-height: 75px;
+    object-fit: contain;
+}
+
+@media screen and (max-width:767px) {
+    .Air-TV .eg-hero-AsSeenOn {
+        padding: 60px 30px;
+        gap: 40px;
+    }
+
+    .Air-TV .eg-asSeen-img {
+        width: 100%;
+    }
+
+    .Air-TV .eg-asSeen-logos>img:nth-child(2) {
+        width: 211px;
+        height: 27px;
+    }
+
+    .Air-TV .eg-asSeen-logos>img:nth-child(3) {
+        width: 87px;
+        height: 36px;
+    }
+
+    .Air-TV .eg-asSeen-logos>img:nth-child(4) {
+        width: 131px;
+        height: 35px;
+    }
+
+    .Air-TV .eg-asSeen-logos {
+        justify-content: center;
+        align-items: center;
+        grid-gap: 23px;
+        flex-direction: column;
+    }
+
+    .Air-TV .eg-asSeen-text {
+        font-size: 24px;
+        line-height: 32.68px;
+    }
+}
+
+@media only screen and (min-width:767px) {
+    .Air-TV .eg-hero-section .eg-video-thumbnail:before {
+        top: -23px;
+        left: -30px;
+    }
+}
+
+/* HERO SECTION CSS END*/
+
+/* AIRBORNE CONTAMINNATS CSS*/
+
+.Air-TV .eg-airborne .eg-container_new {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    grid-gap: 65px;
+    align-items: center;
+    padding: 85px 0px;
+}
+
+.Air-TV .eg-airborne {
+    background: #FFFFFF;
+}
+
+.Air-TV .eg-airborne .eg-container_new .eg-video {
+    width: 100%;
+    max-width: 720px;
+}
+
+.Air-TV .eg-airborne .eg-container_new .eg-video .section-content .row-collapse>div {
+    height: 422px;
+}
+
+.Air-TV .eg-airborne .eg-container_new .eg-video .row-collapse>.home-vid-2>div:last-of-type {
+    display: none !important;
+}
+
+.Air-TV .eg-airborne .eg-container_new .eg-video .img-holder-home2>div:nth-child(1) img {
+    height: 405px;
+    object-fit: contain;
+    background-size: contain;
+    width: 720px !important;
+}
+
+.Air-TV .eg-airborne .eg-container_new .eg-contnet {
+    width: 100%;
+    max-width: 417px;
+}
+
+.Air-TV .eg-airborne .eg-container_new .eg-video .section-content .row-collapse>div>div:last-of-type {
+    border-radius: 0px 0px 30px 30px;
+}
+
+.Air-TV .eg-airborne .eg-contnet .eg-bulletpoints {
+    padding-left: 37px !important;
+}
+
+.Air-TV .eg-airborne .eg-contnet .eg-subheading,
+.Air-TV .eg-airborne .eg-contnet .eg-bulletpoints li {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #313D4A;
+}
+
+.Air-TV .eg-airborne .eg-contnet .eg-bulletpoints li {
+    margin: 0px;
+}
+
+.Air-TV .eg-airborne .eg-contnet .eg-heading {
+    font-family: Open Sans;
+    font-size: 28px !important;
+    font-weight: 700;
+    line-height: 38.13px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #364C9E;
+    margin-bottom: 30px !important;
+    text-transform: math-auto;
+}
+
+.Air-TV .eg-airborne .eg-contnet .eg-subheading {
+    margin-bottom: 25px;
+}
+
+.Air-TV .eg-airborne .eg-contnet .eg-bulletpoints+.eg-button a {
+    background: #F9A31A;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21.79px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 100%;
+    max-width: 223px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    box-shadow: 0px 4px 4px 0px #00000026;
+    border-radius: 40px;
+    margin-top: 25px;
+}
+
+.Air-TV .eg-airborne .eg-contnet .eg-bulletpoints+.eg-button a:hover {
+    box-shadow: inset 0 1px 5px -2px #000 !important;
+}
+
+.Air-TV .eg-airborne .eg-contnet .eg-heading br {
+    display: none !important;
+}
+
+@media only screen and (min-width:1400px) {
+    .Air-TV .eg-airborne .eg-container_new {
+        max-width: 1280px;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1250px) {
+    .Air-TV .eg-airborne .eg-container_new {
+        padding: 85px 30px;
+    }
+
+    .Air-TV .eg-airborne .eg-container_new {
+        padding: 85px 30px;
+        grid-gap: 35px;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .Air-TV .eg-airborne .eg-contnet .eg-heading {
+        font-size: 30px !important;
+        line-height: 40.85px;
+    }
+
+    .Air-TV .eg-airborne .eg-container_new {
+        padding: 85px 25px;
+        grid-gap: 45px;
+    }
+
+    .Air-TV .eg-airborne .eg-container_new {
+        flex-direction: column;
+        grid-gap: 45px;
+        padding: 85px 20px;
+    }
+}
+
+@media only screen and (min-width:767px) and (max-width:992px) {
+    .Air-TV .eg-airborne .eg-container_new {
+        grid-gap: 30px !important;
+        flex-direction: row;
+    }
+
+    .Air-TV .eg-airborne .eg-container_new .eg-video .img-holder-home2>div:nth-child(1) img {
+        object-fit: cover !important;
+        background-size: cover !important;
+    }
+
+    .Air-TV .eg-airborne .eg-contnet .eg-heading {
+        font-size: 24px !important;
+        line-height: 32.68px !important;
+    }
+
+    .Air-TV .eg-airborne .eg-container_new {
+        grid-gap: 30px !important;
+        padding: 35px 20px !important;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .Air-TV .eg-airborne .eg-container_new .eg-video .section-content .row-collapse>div {
+        height: unset !important;
+    }
+
+    .Air-TV .eg-airborne .eg-container_new {
+        margin-top: 60px;
+        grid-gap: 30px !important;
+        padding: 60px 20px !important;
+    }
+
+    .Air-TV .eg-airborne .eg-contnet .eg-heading {
+        font-size: 24px !important;
+        line-height: 32.68px;
+        text-align: center;
+    }
+
+    .Air-TV .eg-airborne .eg-contnet .eg-heading {
+        margin-bottom: 30px !important;
+    }
+
+    .Air-TV .eg-airborne .eg-contnet .eg-subheading {
+        margin-bottom: 22px !important;
+    }
+
+    .Air-TV .eg-airborne .eg-contnet .eg-bulletpoints+.eg-button a {
+        max-width: 100% !important;
+    }
+}
+
+/* AIRBORNE CONTAMINNATS CSS END*/
+
+/* AirDoctor's Triple Filtration System CSS*/
+
+html body .eg-filter_section .eg-container {
+    width: 100%;
+    /* max-width: 1440px; */
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+html body .eg-filter_section .eg-left_section {
+    width: 100%;
+    max-width: 50%;
+    padding-top: 55px;
+    padding-left: 60px;
+    background: linear-gradient(128.41deg, #E6F5FF 46.82%, #76B0DA 100%);
+    padding-right: 25px;
+}
+
+html body .eg-filter_section .eg-left-inner {
+    max-width: 559px;
+    margin: 0 0 0 auto;
+}
+
+html body .eg-filter_section .eg-right_section {
+    width: 100%;
+    max-width: 100%;
+}
+
+html body .eg-filter_section .eg-right_section img {
+    height: 690px;
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+html body .eg-filter_section .eg-left_section .eg-heading {
+    font-family: Open Sans;
+    font-size: 28px !important;
+    font-weight: 700;
+    line-height: 38.13px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #364C9E;
+    margin-bottom: 20px !important;
+}
+
+html body .eg-filter_section .eg-left_section .eg-para {
+    font-family: Open Sans;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 28.6px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #313D4A;
+    width: 88%;
+    margin: auto;
+    margin-bottom: 30px !important;
+}
+
+html body .eg-filter_section .eg-left_section .eg-bulletpoints .eg-box span {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #313D4A;
+}
+
+html body .eg-filter_section .eg-left_section .eg-bulletpoints .eg-box>span:first-of-type {
+    color: #364C9E;
+    padding: 10px;
+    background: #FFFFFF;
+    font-size: 50px;
+    line-height: 68.09px;
+}
+
+html body .eg-filter_section .eg-left_section .eg-bulletpoints .eg-box {
+    height: 88px;
+    display: flex;
+    align-items: center;
+    grid-gap: 15px;
+}
+
+html body .eg-filter_section .eg-left_section .eg-bulletpoints {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 20px;
+}
+
+html body .eg-filter_section .eg-left_section .eg-bulletpoints+a {
+    background: #F9A31A;
+    padding: 10px 40px;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21.79px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+    border-radius: 100px;
+    margin: auto;
+    width: fit-content;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+
+html body .eg-filter_section .eg-left_section .eg-bulletpoints+a:hover {
+    box-shadow: inset 0 1px 5px -2px #000 !important;
+}
+
+@media only screen and (min-width:767px) and (max-width:1024px) {
+    html body .eg-filter_section .eg-container {
+        flex-direction: column;
+    }
+
+    html body .eg-filter_section .eg-left_section {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    html body .eg-filter_section .eg-left_section {
+        padding-bottom: 40px;
+    }
+
+    html body .eg-filter_section .eg-left-inner {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    html body .eg-filter_section .eg-container {
+        flex-direction: column;
+    }
+
+    html body .eg-filter_section .eg-left_section {
+        max-width: 100% !important;
+        padding: 55px 20px;
+    }
+
+    html body .eg-filter_section .eg-left_section .eg-bulletpoints+a,
+    html body .eg-filter_section .eg-left_section .eg-para {
+        width: 100% !important;
+    }
+
+    html body .eg-filter_section .eg-right_section,
+    html body .eg-filter_section .eg-left_section .eg-heading br {
+        display: none !important;
+    }
+
+    html body .eg-filter_section .eg-left_section .eg-image {
+        display: block !important;
+    }
+
+    html body .eg-filter_section .eg-left_section .eg-heading {
+        font-size: 24px !important;
+        line-height: 32.68px !important;
+        margin-bottom: 25px !important;
+    }
+
+    html body .eg-filter_section .eg-left_section .eg-image img {
+        border-radius: 20px;
+        box-shadow: 0px 4px 4px 0px #00000040;
+    }
+
+    html body .eg-filter_section .eg-left_section .eg-bulletpoints {
+        margin-top: 35px !important;
+    }
+
+    html body .eg-filter_section .eg-left_section .eg-bulletpoints .eg-box {
+        height: unset !important;
+    }
+
+    html body .eg-filter_section .eg-left_section .eg-bulletpoints .eg-box>span:first-of-type {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    html body .eg-filter_section .eg-left_section .eg-bulletpoints .eg-box:last-child>span:first-of-type {
+        min-height: 121px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    html body .eg-filter_section .eg-left_section .eg-bulletpoints .eg-box:last-child>span:first-of-type {
+        min-height: 147px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    html body .eg-filter_section .eg-left_section .eg-bulletpoints .eg-box:last-child>span:first-of-type {
+        min-height: 170px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    html body .eg-filter_section .eg-left_section .eg-bulletpoints .eg-box:last-child>span:first-of-type {
+        min-height: 190px;
+    }
+}
+
+/* AirDoctor's Triple Filtration System CSS END*/
+
+/* AIR DOC DIFFERENCE CSS START*/
+
+.Air-TV .eg-difference {
+    background: linear-gradient(130.86deg, #E6F5FF 46.54%, #76B0DA 100%);
+    padding-bottom: 75px !important;
+}
+
+.Air-TV .eg-difference .section-content {
+    max-width: 1024px;
+    background-color: transparent;
+    margin: 0 auto;
+    padding: 25px 50px;
+    padding-top: 0px;
+}
+
+.Air-TV .eg-difference h2 {
+    padding-top: 60px;
+    color: #364C9E;
+    font-family: "Open Sans" !important;
+    font-size: 28px !important;
+    font-weight: 700;
+    line-height: 38.13px;
+    text-transform: math-auto;
+    letter-spacing: 0px;
+}
+
+.Air-TV .eg-difference .section-content>div:last-child>div>div {
+    position: relative;
+    right: 24.1%;
+    max-width: 29%;
+    background: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+    padding: 20px 0;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.Air-TV .eg-difference .section-content>div:last-child .clearfix {
+    padding-top: 0 !important;
+}
+
+.Air-TV .eg-difference .section-content>div:last-child .button {
+    max-width: 220px !important;
+    margin: 0 auto !important;
+    font-family: "Open Sans";
+}
+
+html body .eg-difference.ad_tv-lander-sec17 .tv-land-table-body img {
+    width: 24px;
+    height: 24px;
+    max-width: 24px;
+    background-size: contain;
+    object-fit: contain;
+}
+
+html body .eg-difference.ad_tv-lander-sec17 .tv-land-table-body>div:nth-child(3) img {
+    padding: 0px !important;
+}
+
+.Air-TV .eg-difference .tv-land-table-body .light-bg {
+    background: #FFFFFF;
+}
+
+.Air-TV .eg-difference .tv-land-table-body p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #364C9E;
+    font-family: "Open Sans";
+    padding-left: 20px;
+    line-height: 21.79px;
+}
+
+.Air-TV .eg-difference .tv-heading-ss h3 {
+    font-size: 16px !important;
+    font-weight: 700;
+    line-height: 30px;
+    color: #313D4A !important;
+    font-family: "Open Sans";
+    line-height: 21.79px;
+}
+
+.Air-TV .eg-difference .tv-land-table-body>div:first-child {
+    display: flex;
+    align-items: center;
+    flex-basis: 47%;
+    max-width: 47%;
+    padding-left: 30px !important;
+}
+
+html body .eg-difference.ad_tv-lander-sec17 .tv-land-table-head>div:first-of-type {
+    flex-basis: 47%;
+    max-width: 47%;
+}
+
+html body .eg-difference.ad_tv-lander-sec17 .tv-land-table-head>div:last-of-type {
+    align-items: center;
+    display: flex;
+}
+
+html body .eg-difference.ad_tv-lander-sec17 .tv-land-table-body>div:nth-child(2),
+html body .eg-difference.ad_tv-lander-sec17 .tv-land-table-head>div:nth-child(2) {
+    flex-basis: 28%;
+    max-width: 28%;
+}
+
+html body .eg-difference.ad_tv-lander-sec17 .tv-land-table-head>div:nth-child(2) {
+    padding: 25px 0px !important;
+}
+
+html body .eg-difference.ad_tv-lander-sec17 .tv-land-table-body>div {
+    padding: 10px !important;
+}
+
+/* .Air-TV .eg-difference .tv-land-table-body>div:last-child {
+    max-width: 15%;
+    flex-basis: 15%;
+} */
+
+.Air-TV .eg-difference .tv-land-table-body>div:last-child img {
+    padding: 3px;
+}
+
+.Air-TV .eg-difference .section-content>div:nth-child(2)>div:last-child img {
+    padding: 0 !important;
+}
+
+.Air-TV .eg-difference .tv-bluw-bg {
+    background: #FFFFFF;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.Air-TV .eg-difference .tv-bluw-bg img {
+    width: 192px;
+    height: 42px;
+    object-fit: contain;
+    max-width: 192px;
+}
+
+.Air-TV .eg-difference.ad_tv-lander-sec17 .tv-land-table-body {
+    border-bottom: 1px solid #D6D6D6 !important;
+}
+
+.Air-TV .eg-difference.ad_tv-lander-sec17 .tv-land-table-body:nth-child(8) {
+    border-bottom: none !important;
+}
+
+@media screen and (min-width:850px) and (max-width:1300px) {
+    .Air-TV .eg-difference .tv-land-table-body p {
+        padding-left: 0;
+    }
+
+    .Air-TV .eg-difference .section-content>div:last-child>div>div {
+        right: 24.3%;
+        max-width: 28.8%;
+    }
+
+    .Air-TV .eg-difference .section-content {
+        padding: 15px 20px !important;
+        max-width: 97%;
+    }
+
+    .Air-TV .eg-difference .section-content>div:last-child .button {
+        max-width: 190px !important;
+    }
+}
+
+@media screen and (min-width:850px) and (max-width:990px) {
+    .Air-TV .eg-difference .section-content {
+        margin-top: 90px !important;
+    }
+}
+
+@media screen and (min-width:767px) and (max-width:850px) {
+    .Air-TV .eg-difference h2 {
+        padding-top: 15px;
+    }
+
+    .Air-TV .eg-difference .section-content {
+        padding: 15px 20px !important;
+        max-width: 97%;
+        margin-top: 30px;
+    }
+
+    .Air-TV .eg-difference .section-content>div:last-child>div>div {
+        right: -11.5%;
+        max-width: 29.1%;
+    }
+
+    .Air-TV .eg-difference .section-content>div:last-child .button {
+        max-width: 142px !important;
+    }
+
+    .Air-TV .eg-difference .tv-land-table-body p {
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .Air-TV .eg-difference {
+        background: #F3F3F3 !important;
+        padding-bottom: 40px !important;
+        padding-top: 40px !important;
+    }
+
+    html body .eg-difference.ad_tv-lander-sec17 .tv-land-table-body>div:nth-child(2),
+    html body .eg-difference.ad_tv-lander-sec17 .tv-land-table-head>div:nth-child(2) {
+        flex-basis: 18% !important;
+        max-width: 18% !important;
+    }
+
+    html body .eg-difference.ad_tv-lander-sec17 .section-content>div:last-of-type>div {
+        padding: 0px !important;
+    }
+
+    .Air-TV .eg-difference .tv-land-table-body>div:first-child,
+    html body .eg-difference.ad_tv-lander-sec17 .tv-land-table-head>div:first-of-type {
+        flex-basis: 63% !important;
+        max-width: 63% !important;
+        padding-left: 0px !important;
+    }
+
+    .Air-TV .eg-difference .tv-bluw-bg img {
+        width: 155px;
+        height: 155px;
+        transform: rotate(90deg);
+        position: relative;
+        left: -28px;
+    }
+
+    .Air-TV .eg-difference .section-content>div:nth-child(8) {
+        border: unset !important;
+    }
+
+    .Air-TV .eg-difference .section-content>div:nth-child(8)>div {
+        border-radius: 0px 0px 4px 4px;
+    }
+
+    .Air-TV .eg-difference .tv-heading-ss h3 {
+        writing-mode: vertical-rl;
+        transform: rotate(0deg);
+        height: 155px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+
+    .Air-TV .eg-difference h2 {
+        font-size: 24px !important;
+        line-height: 32.68px;
+        padding-right: 20px !important;
+        padding: 0px;
+        margin: 0px !important;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .Air-TV .eg-difference .section-content {
+        padding: 15px 20px !important;
+        max-width: 97%;
+        margin-top: 20px;
+    }
+
+    .Air-TV .eg-difference .section-content>div:last-child>div>div {
+        right: unset;
+        max-width: 100%;
+        background: transparent;
+        padding: 45px 0 10px;
+        box-shadow: none;
+    }
+
+    .Air-TV .eg-difference .section-content>div:last-child .button {
+        max-width: 100% !important;
+    }
+
+    .Air-TV .eg-difference .tv-land-table-body p {
+        font-size: 16px;
+        line-height: 19px;
+        padding-left: 0;
+    }
+
+    .Air-TV .eg-difference .tv-heading-ss h3 {
+        font-size: 15px !important;
+        line-height: 20.43px;
+
+    }
+}
+
+@media screen and (max-width:450px) {
+    .Air-TV .eg-difference .section-content {
+        margin-top: 55px !important;
+    }
+}
+
+@media only screen and (max-width:415px) {
+
+    .Air-TV .eg-difference .tv-land-table-body>div:first-child,
+    html body .eg-difference.ad_tv-lander-sec17 .tv-land-table-head>div:first-of-type {
+        flex-basis: 57% !important;
+        max-width: 57% !important;
+    }
+
+    html body .eg-difference.ad_tv-lander-sec17 .tv-land-table-body>div:nth-child(2),
+    html body .eg-difference.ad_tv-lander-sec17 .tv-land-table-head>div:nth-child(2) {
+        flex-basis: 26% !important;
+        max-width: 26% !important;
+    }
+}
+
+@media only screen and (min-width:415px) and (max-width:490px) {
+    .Air-TV .eg-difference .tv-bluw-bg img {
+        left: -38px;
+    }
+}
+
+/* AIR DOC DIFFERENCE CSS END*/
+
+/* FAQ CSS START*/
+
+.Air-TV .ad_tv-lander-section,
+.Air-TV .ad_tv-lander-sec19 {
+    display: none;
+}
+
+.Air-TV .eg-faq .accordion-item a {
+    padding-left: 20px;
+    background: #F3F3F3 !important;
+    border: unset !important;
+    height: 64px;
+    display: flex;
+    align-items: center;
+}
+
+.Air-TV .eg-faq .accordion .accordion-title .toggle {
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.Air-TV .eg-faq .text h2 {
+    color: #364C9E !important;
+    font-size: 28px !important;
+    font-weight: 700;
+    line-height: 38.3px;
+    margin-bottom: 45px !important;
+}
+
+.Air-TV .eg-faq .section-content>div {
+    width: 100%;
+    max-width: 973px;
+}
+
+.Air-TV .eg-faq {
+    background-color: #FFFFFF !important;
+}
+
+.Air-TV .eg-faq .accordion-title span {
+    color: #364C9E;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21.79px;
+}
+
+.Air-TV .eg-faq .accordion .accordion-inner p {
+    color: #313D4A;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    margin-bottom: 0px !important;
+}
+
+.Air-TV .eg-faq .toggle i {
+    color: #F9A31A;
+}
+
+.Air-TV .eg-faq .accordion-item a+div {
+    padding: 20px !important;
+}
+
+.Air-TV .eg-faq .accordion {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 5px;
+}
+
+@media only screen and (max-width:767px) {
+    .Air-TV .eg-faq .accordion-item a {
+        height: fit-content !important;
+    }
+
+    .Air-TV .eg-faq {
+        padding-top: 30px !important;
+    }
+}
+
+/* FAQ CSS END*/
+
+/* GUARANTEE SECTION STARTS */
+
+.Air-TV .eg-guarantee-Section {
+    background: #fff !important;
+}
+
+.Air-TV .eg-guarantee-Section>.section-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Air-TV .eg-guarantee-Section>.section-content .eg-new-image {
+    height: 285px;
+    width: 224px;
+    position: relative;
+    background-size: contain !important;
+}
+
+.Air-TV .eg-guarantee-Section>.section-content>.eg-image-wrapper {
+    display: flex;
+    position: relative;
+    padding-right: 15px;
+}
+
+.Air-TV .eg-guarantee-Section>.section-content>.eg-image-wrapper .eg-guarantee-img {
+    width: 90px;
+    height: 90px;
+    padding: 6px;
+    background-color: #fff;
+    border: 1px solid #D9D9D9;
+    border-radius: 62px;
+    position: absolute;
+    right: 0;
+    top: -23px;
+}
+
+.Air-TV .eg-guarantee-Section .section-content {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.Air-TV .eg-guarantee-Section .section-content>div:nth-child(2),
+.Air-TV .eg-guarantee-Section .section-content .hospital-grade-tv-price>div>p+h4>span::before,
+.Air-TV .eg-guarantee-Section .section-content .hospital-grade-tv-price>div>p:has(span) {
+    display: none;
+}
+
+.Air-TV .eg-guarantee-Section .section-content>div:last-child {
+    flex-direction: column;
+    background: #FFFFFF;
+    padding: 50px 0 60px;
+    max-width: 700px;
+    position: relative;
+    margin: 0 !important;
+}
+
+.Air-TV .eg-guarantee-Section .section-content>div:last-child>div:nth-child(2),
+.Air-TV .eg-guarantee-Section .section-content>div:last-child>div:nth-child(3) {
+    max-width: 100%;
+    padding: 0 50px !important;
+}
+
+.Air-TV .eg-guarantee-Section .section-content>div:last-child>div:nth-child(2)>div>div {
+    font-family: "Open Sans", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 38.13px;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #364C9E;
+}
+
+.Air-TV .eg-guarantee-Section .section-content .hospital-grade-tv-price>div>p {
+    font-size: 16px !important;
+    font-weight: 700;
+    line-height: 21.79px;
+    text-align: center;
+    color: #364C9E;
+    margin-bottom: 10px;
+    text-transform: none;
+}
+
+.Air-TV .eg-guarantee-Section .section-content .hospital-grade-tv-price>div>p+h4 {
+    font-size: 32px !important;
+    font-weight: 700;
+    line-height: 43.58px;
+    text-align: center;
+    color: #00C54F;
+    margin-bottom: 10px !important;
+}
+
+.Air-TV .eg-guarantee-Section .section-content .hospital-grade-tv-price>div>p+h4>span {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.51px;
+    text-align: center;
+    text-decoration-line: line-through;
+    text-decoration-color: #B8B8B8;
+    color: #B8B8B8;
+}
+
+.Air-TV .eg-guarantee-Section .section-content>div:last-child>div:first-child {
+    display: none;
+}
+
+.Air-TV .eg-guarantee-Section .section-content>div:last-child>div:first-child .img-inner {
+    padding: 22px;
+}
+
+.Air-TV .eg-guarantee-Section .section-content>div:last-child>div:nth-child(3)>div>div>div:nth-child(2)>div>div:first-child img {
+    height: 164px;
+    object-fit: contain;
+}
+
+.Air-TV .eg-guarantee-Section .hospital-grade-info .hospital-grade-tv-price a.shortaffim,
+.Air-TV .eg-guarantee-Section .hospital-grade-info .hospital-grade-tv-price a.click_fffiam_popup {
+    padding: 12px 20px !important;
+    font-size: 16px !important;
+    max-width: 186px !important;
+}
+
+.Air-TV .eg-guarantee-Section .section-content>div:last-child>div:nth-child(3)>div>div>div:nth-child(2) {
+    flex-basis: 12.666667%;
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1300px) {
+    .Air-TV .eg-guarantee-Section .section-content {
+        max-width: 990px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .Air-TV .eg-guarantee-Section .section-content {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 870Px) {
+    .Air-TV .eg-guarantee-Section .section-content>div:last-child>div:nth-child(3) {
+        max-width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .Air-TV .eg-guarantee-Section .section-content>div:last-child>div:nth-child(3)>div>div,
+    .Air-TV .eg-guarantee-Section .section-content {
+        flex-direction: column;
+    }
+
+    .Air-TV .eg-guarantee-Section .section-content>div:last-child>div:nth-child(3)>div>div>div,
+    .Air-TV .eg-guarantee-Section .section-content .hospital-grade-tv-price>div>p {
+        max-width: 100%;
+    }
+
+    .Air-TV .eg-guarantee-Section .section-content>div:last-child>div:nth-child(3)>div>div>div .img {
+        width: 100% !important;
+    }
+
+    .Air-TV .eg-guarantee-Section .section-content>div:last-child>div:nth-child(3)>div>div>div:nth-child(2)>div>div:first-child img {
+        height: auto;
+    }
+
+    .Air-TV .eg-guarantee-Section .section-content .hospital-grade-tv-price>div>p+h4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-gap: 12px;
+    }
+
+    .Air-TV .eg-guarantee-Section .section-content .hospital-grade-tv-price>div>p+h4>span {
+        margin: 0 !important;
+    }
+
+    .Air-TV .eg-guarantee-Section .section-content>div:last-child>div:first-child .img-inner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Air-TV .eg-guarantee-Section .section-content>div:nth-child(3) {
+        display: none;
+    }
+
+    .Air-TV .eg-guarantee-Section .section-content>div:first-child {
+        font-family: "Open Sans", sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32.68px;
+        text-align: center;
+        color: #364C9E;
+        margin-bottom: 30px !important;
+    }
+
+    .Air-TV .hospital-grade-tv-price.rightimg-iffilate {
+        padding-right: 0 !important;
+    }
+
+    .Air-TV .eg-guarantee-Section .section-content>div:last-child>div:nth-child(3)>div>div>div {
+        padding: 0 !important;
+    }
+
+    .Air-TV .eg-guarantee-Section .section-content>div:nth-child(2) {
+        display: block !important;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .Air-TV .eg-guarantee-Section .section-bg {
+        height: 270px;
+    }
+
+    .Air-TV .eg-guarantee-Section .section-content>div:last-child {
+        max-width: 320px;
+        padding-bottom: 20px;
+    }
+
+    .Air-TV .eg-guarantee-Section .section-content>div:last-child>div:first-child {
+        left: unset;
+        top: -93px;
+    }
+
+    .Air-TV .eg-guarantee-Section .section-content>div:last-child>div:nth-child(2)>div::before {
+        font-size: 19px;
+    }
+
+    .Air-TV .eg-guarantee-Section .section-content>div:last-child>div:nth-child(2)>div>div {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 6px;
+    }
+
+    .Air-TV .eg-guarantee-Section .section-content>div:last-child>div:nth-child(2) {
+        padding: 0 28px !important;
+    }
+
+    .Air-TV .eg-guarantee-Section .section-content>div:last-child>div:nth-child(3) {
+        padding: 0 !important;
+    }
+
+    .Air-TV .eg-guarantee-Section .section-content .hospital-grade-tv-price+div>div>div:nth-child(2) .img-inner {
+        margin-bottom: 15px;
+    }
+
+    .Air-TV .eg-guarantee-Section {
+        padding: 30px 0 !important;
+    }
+}
+
+/* GUARANTEE SECTION END */
+
+/* LIMITED TIME OFFER SECTION */
+.Air-TV .eg-3500-section .section-bg {
+    background: linear-gradient(130.86deg, #E6F5FF 46.54%, #76B0DA 100%) !important;
+}
+
+html body .eg-3500-section {
+    padding: 10px 0 !important;
+}
+
+.Air-TV .eg-3500-section .section-content>div {
+    max-width: 1280px;
+}
+
+.Air-TV .eg-section-header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.Air-TV .eg-3500-section .hospital-grade-info {
+    max-width: 100%;
+    flex-basis: 100%;
+}
+
+.Air-TV .eg-section-header>.eg-inner:first-child {
+    flex: 0 0 40%;
+}
+
+.Air-TV .eg-limited-time {
+    color: #364C9E;
+    font-size: 28px !important;
+    font-weight: 700 !important;
+    line-height: 38.13px;
+    text-align: left;
+    margin-bottom: 35px !important;
+    font-family: "Open Sans" !important;
+    text-transform: none;
+}
+
+.Air-TV .eg-section-header .eg-bullets-title,
+.Air-TV .eg-section-header li {
+    font-family: "Open Sans" !important;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: left;
+    color: #313D4A;
+}
+
+.Air-TV .eg-section-header ul {
+    padding-left: 0.5rem;
+}
+
+.Air-TV .eg-3500-section .eg-section-header+div {
+    box-shadow: 0px 0px 50px 0px #00000040;
+    border-radius: 30px;
+    margin-top: 30px !important;
+    max-width: 902px;
+    margin: 0 auto;
+    margin-left: auto !important;
+}
+
+html body .eg-3500-section .product_section-wrapper>div {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+html body .eg-3500-section .product_section-wrapper>div>div:last-child {
+    max-width: 70%;
+    margin-right: 60px;
+}
+
+html body .eg-3500-section .product_section-wrapper>div>div:first-child {
+    max-width: 30%;
+    position: relative;
+}
+
+html body .eg-3500-section .product_section-wrapper>div>div:first-child::after {
+    content: '';
+    background: url(https://sitetunershosting.com/clients/AirDoctor/hero_badge.png);
+    width: 106px;
+    height: 104px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: -51px;
+    right: 0;
+}
+
+.Air-TV .eg-3500-section #custom-heading-title,
+.Air-TV .eg-3500-section .single_payment_txt,
+.Air-TV .eg-3500-section .iot_features,
+.Air-TV .eg-3500-section .guranteed_img,
+.Air-TV .eg-3500-section .iot_upgrade_section .affirm_price_wrapper .affirm_regular_price,
+.Air-TV .eg-3500-section .upgrade_to_iot_section input,
+.Air-TV .eg-3500-section .upgrade_to_iot_section>b {
+    display: none;
+}
+
+html body .product_text-inner-col {
+    text-align: center !important;
+}
+
+.Air-TV .eg-3500-section .eg-section-header+div .product_section-wrapper>div>div:first-child {
+    flex-basis: 40%;
+    max-width: 40%;
+}
+
+.Air-TV .eg-3500-section .eg-section-header+div .product_section-wrapper>div>div:last-child {
+    flex-basis: 60%;
+    max-width: 60%;
+}
+
+.Air-TV .product-listing-section .product_section-wrapper .product_text-inner-col a.button.secondary {
+    background: #F9A31A;
+    border-radius: 40px !important;
+    font-family: "Open Sans";
+    font-size: 16px !important;
+    font-weight: 700;
+    line-height: 21.79px !important;
+    text-align: left;
+    color: #FFFFFF;
+    padding: 10px 40px !important;
+    margin-top: 16px;
+}
+
+.Air-TV .upgrade_to_iot_section {
+    margin: 0px !important;
+    padding: 0 !important;
+}
+
+.Air-TV .product-listing-section .product_image-colinner {
+    margin-bottom: 0;
+}
+
+.Air-TV .eg-3500-section .eg-section-header+div .product_text-inner-col {
+    text-align: center !important;
+}
+
+.Air-TV .eg-3500-section .iot_upgrade_section .affirm_price_wrapper {
+    justify-content: center;
+    grid-gap: 3px;
+    margin: 0;
+    color: #7A8ABB;
+    font-family: "Open Sans" !important;
+}
+
+.Air-TV .eg-3500-section .iot_upgrade_section .affirm_price_wrapper .affirm_emi_txt,
+.Air-TV .eg-3500-section .affirm_price_wrapper .affirm_sale_price>span {
+    max-width: 203px;
+    font-size: 15px !important;
+    font-weight: 400 !important;
+    line-height: 20.43px !important;
+    text-align: center;
+    color: #313D4A !important;
+}
+
+.Air-TV .eg-3500-section .affirm_price_wrapper .affirm_sale_price>span {
+    max-width: 80px !important;
+}
+
+.Air-TV .eg-3500-section [id*="product_affiam"]>div>a {
+    background-color: transparent;
+    border: none;
+    max-width: 100% !important;
+    grid-gap: 6px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.Air-TV .eg-3500-section [id*="product_affiam"]>div>a:hover {
+    box-shadow: none !important;
+}
+
+.Air-TV .eg-3500-section [id*="product_affiam"]>div>a>span {
+    display: none;
+}
+
+.Air-TV .eg-3500-section .section.product-listing-section {
+    padding: 30px 50px !important;
+}
+
+.Air-TV .eg-3500-section .iot_upgrade_section .product_price_container {
+    justify-content: center;
+}
+
+.Air-TV .eg-new-upgrade {
+    display: flex;
+    margin: 10px 0 20px;
+}
+
+.Air-TV .eg-new-upgrade>.eg-product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 15px 20px;
+}
+
+.Air-TV .eg-new-upgrade .eg-inputs {
+    display: flex;
+    align-items: center;
+    grid-gap: 10px;
+}
+
+.Air-TV .eg-new-upgrade .eg-inputs>p {
+    font-size: 16px !important;
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: center;
+    color: #757575;
+    margin-bottom: 7px;
+}
+
+.Air-TV .eg-new-upgrade .eg-product.eg-selected {
+    border: 1px solid #0C4292;
+}
+
+.Air-TV .eg-new-upgrade .eg-product:not(.eg-selected) {
+    border: 1px solid #CBCBCB
+}
+
+.Air-TV .eg-new-upgrade .eg-product.eg-selected .eg-inputs>p,
+.Air-TV .eg-new-upgrade .eg-product.eg-selected .eg-price {
+    color: #364C9E;
+}
+
+.Air-TV .eg-new-upgrade .eg-new-discount {
+    background: #4CAF50;
+    border-radius: 4px;
+    color: #FEFDFD;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.79px;
+    text-align: left;
+    padding: 4px 10px;
+}
+
+.Air-TV .eg-new-upgrade .eg-product:not(.eg-selected) .eg-new-discount {
+    background: #757575;
+}
+
+.Air-TV .eg-new-upgrade .eg-price {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21.79px;
+    text-align: left;
+    margin-right: 5px;
+    color: #313D4A;
+}
+
+.Air-TV .eg-new-upgrade .eg-product:not(.eg-selected) .eg-price {
+    color: #757575;
+}
+
+.Air-TV .product_price_container .woocommerce-Price-amount {
+    display: flex;
+    align-items: center;
+    grid-gap: 10px;
+}
+
+.Air-TV .product_price_container .woocommerce-Price-amount bdi {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.51px;
+    text-align: center;
+    text-decoration-line: line-through;
+    color: #B8B8B8;
+}
+
+.Air-TV .eg-3500-section .eg-updated-price {
+    color: #F9A31A;
+    font-size: 32px;
+}
+
+html body .affirm_section_raw {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    grid-gap: 5px;
+}
+
+@media screen and (max-width: 991px) {
+    .Air-TV .eg-3500-section .section.product-listing-section {
+        max-width: 100%;
+        padding: 30px !important;
+    }
+
+    /* html body .product-listing-section .product_section-wrapper .row {
+        align-items: center !important;
+    } */
+}
+
+@media screen and (max-width: 860px) {
+
+    html body .eg-3500-section .product_section-wrapper>div {
+        justify-content: center;
+        grid-gap: 40px;
+        flex-direction: column-reverse !important;
+    }
+
+    .Air-TV .eg-section-header {
+        flex-direction: column;
+    }
+
+    .Air-TV .eg-limited-time {
+        text-align: center;
+        font-size: 24px !important;
+        margin-bottom: 0 !important;
+    }
+
+    .Air-TV .eg-3500-section .section.product-listing-section {
+        padding: 0 !important;
+    }
+
+    .Air-TV .eg-3500-section .eg-section-header+div {
+        margin-top: 0 !important;
+        margin-bottom: 10px;
+    }
+
+    .Air-TV .eg-new-upgrade>.eg-product {
+        padding: 5px 10px;
+    }
+
+    .Air-TV .iot_upgrade_section .product_section-wrapper>div>div:first-child {
+        padding: 0 !important;
+    }
+
+    .Air-TV .eg-3500-section .eg-section-header+div .product_text-inner-col {
+        margin-bottom: 0 !important;
+    }
+
+    .Air-TV .eg-section-header+div+div {
+        padding: 0 32px !important;
+    }
+
+    .Air-TV .eg-new-upgrade .eg-inputs {
+        flex-wrap: wrap;
+        grid-row-gap: 0;
+        justify-content: center;
+    }
+
+    .Air-TV .eg-new-upgrade .eg-inputs>p {
+        text-align: center;
+    }
+
+    html body .eg-3500-section .product_section-wrapper>div>div:first-child::after {
+        right: 227px;
+    }
+
+    html body .affirm_section_raw {
+        flex-direction: row !important;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .Air-TV .iot_upgrade_section .product_section-wrapper>div>div:first-child .product_image-pf {
+        width: 223px;
+    }
+
+    .Air-TV .iot_upgrade_section .product_section-wrapper>div>div:first-child {
+        margin-top: 20px;
+    }
+
+    html body .eg-3500-section .product_section-wrapper>div>div:first-child::after {
+        right: 46px;
+    }
+
+    .Air-TV .product-listing-section .product_section-wrapper .product_text-inner-col a.button.secondary {
+        border: none !important;
+    }
+}
+
+/* LIMITED TIME OFFER SECTION CSS END*/
+
+
+/* FEATURES SECTION STARTS */
+
+.Air-TV .ad_tv-lander-sec16,
+.Air-TV .ad_tv-lander-sec14 {
+    display: none;
+}
+
+.Air-TV .eg-features-Section {
+    background: linear-gradient(130.86deg, #E6F5FF 46.54%, #76B0DA 100%);
+}
+
+.Air-TV .eg-features-Section h2 {
+    font-size: 28px !important;
+    font-weight: 700 !important;
+    line-height: 38.13px;
+    text-align: center;
+    color: #364C9E;
+    text-transform: none;
+    margin: 0 0 30px !important;
+}
+
+.Air-TV .eg-features-Section .section-content>div {
+    grid-column-gap: 10px;
+}
+
+.Air-TV .eg-features-Section .section-content>div .tv-land-btn,
+.Air-TV .eg-features-Section .section-content>div>div:nth-child(8) {
+    display: none;
+}
+
+.Air-TV .eg-features-Section .section-content>div>div:not(:first-child) {
+    flex-basis: calc(16.66% - 10px);
+    max-width: calc(16.66% - 10px);
+    border-bottom: 0;
+    padding: 10px 10px 18px !important;
+    cursor: pointer;
+    min-height: 266px;
+    border-radius: 4px;
+}
+
+.Air-TV .eg-features-Section .section-content>div>div .icon-box-img {
+    max-width: 165px !important;
+}
+
+.Air-TV .eg-features-Section .section-content>div>div.eg-show-des .icon-box-img {
+    display: none;
+}
+
+.Air-TV .eg-features-Section .section-content>div>div .icon-box-text {
+    padding-left: 0 !important;
+}
+
+.Air-TV .eg-features-Section .section-content>div>div .icon-box-text h3 {
+    color: #364C9E;
+    font-size: 18px !important;
+    font-weight: 700;
+    line-height: 24.51px;
+    text-align: center;
+}
+
+.Air-TV .eg-features-Section .section-content>div>div .icon-box-text p {
+    display: none;
+    font-size: 16px !important;
+    font-weight: 400;
+    line-height: 21.51px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.Air-TV .eg-features-Section .section-content>div>div:not(:first-child).eg-show-des {
+    background: #364C9E;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.Air-TV .eg-features-Section .section-content>div>div:not(:first-child).eg-show-des .icon-box-text p {
+    display: block;
+}
+
+.Air-TV .eg-features-Section .section-content>div>div>div {
+    height: 100%;
+}
+
+.Air-TV .eg-features-Section .section-content>div>div .featured-box {
+    justify-content: center;
+    height: 100%;
+}
+
+.Air-TV .eg-features-Section .section-content>div>div.eg-show-des .icon-box-text {
+    display: flex;
+    flex-direction: column-reverse;
+    grid-gap: 5px;
+}
+
+.Air-TV .eg-features-Section .section-content>div>div.eg-show-des .icon-box-text h3 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.51px;
+    text-align: center;
+    border-top: 1px solid #FFFFFF;
+    padding-top: 5px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1240px) {
+    .Air-TV .eg-features-Section .section-content>div>div:not(:first-child) {
+        flex-basis: calc(30% - 10px);
+        max-width: calc(30% - 10px);
+        min-height: 212px;
+    }
+
+    .Air-TV .eg-features-Section .section-content>div {
+        grid-gap: 10px;
+        justify-content: center;
+    }
+
+    .Air-TV .eg-features-Section .section-content>div>div .featured-box {
+        flex-direction: column;
+    }
+
+    .Air-TV .eg-features-Section .section-content>div>div .icon-box-img {
+        max-width: 140px !important;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 990px) {
+    .Air-TV .eg-features-Section .section-content>div>div:not(:first-child) {
+        min-height: 212px;
+    }
+
+    .Air-TV .eg-features-Section .section-content>div>div .icon-box-img {
+        max-width: 160px !important;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .Air-TV .eg-features-Section .section-content>div>div:not(:first-child) {
+        padding: 0 !important;
+        box-shadow: none !important;
+        border-radius: 4px;
+        min-height: unset !important;
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+
+    .Air-TV .eg-features-Section .section-content>div>div:not(:first-child) .slick-slide {
+        height: 100%;
+    }
+
+    .Air-TV .eg-features-Section .section-content>div>div:not(:first-child) .slick-slide>div,
+    .Air-TV .eg-features-Section .section-content>div>div:not(:first-child) .slick-slide>div>div {
+        height: 100%;
+    }
+
+    .Air-TV .eg-features-Section .section-content>div:nth-child(3),
+    .Air-TV .eg-features-Section .section-content>div:nth-child(4) {
+        display: none;
+    }
+
+    .Air-TV .eg-features-Section .section-content>div>div:not(:first-child) .slick-slide>div>div {
+        border-bottom: none !important;
+        background: #364C9E;
+        box-shadow: 0px 4px 4px 0px #00000040 !important;
+    }
+
+    .Air-TV .eg-features-Section .section-content>div>div .icon-box-text p {
+        display: block;
+    }
+
+    .Air-TV .eg-features-Section .section-content>div {
+        max-width: 259px;
+        margin: 0 auto 20px;
+    }
+
+    .Air-TV .eg-features-Section .section-content>div>div .icon-box-text h3 {
+        color: #fff;
+    }
+
+    .Air-TV .eg-features-Section .section-content .slick-dots li {
+        margin: 0 !important;
+        width: 11px;
+        height: 11px;
+    }
+
+    .Air-TV .eg-features-Section .section-content .slick-dots li button {
+        padding: 0 !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #fff;
+        margin: 0 !important;
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+
+    .Air-TV .eg-features-Section .section-content .slick-dots li.slick-active button {
+        background: #000;
+    }
+
+    .Air-TV .eg-features-Section .section-content .slick-dots li button::before {
+        display: none;
+    }
+
+    .Air-TV .eg-features-Section .section-content .slick-dots {
+        display: flex;
+        grid-gap: 10px;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        bottom: -30px;
+    }
+
+    .Air-TV .eg-features-Section .section-content>div>div .icon-box-text {
+        margin-bottom: 20px !important;
+    }
+
+    .Air-TV .eg-features-Section .section-content .slick-arrow.slick-prev::before {
+        background: url(https://sitetunershosting.com/clients/AirDoctor/cheveron-left.png);
+        transform: none;
+        background-repeat: no-repeat;
+    }
+
+    .Air-TV .eg-features-Section .section-content .slick-arrow.slick-prev {
+        left: -50px;
+    }
+
+    .Air-TV .eg-features-Section .section-content .slick-arrow.slick-next {
+        right: -50px;
+    }
+
+    .Air-TV .eg-features-Section .section-content .slick-arrow.slick-next::before {
+        background: url(https://sitetunershosting.com/clients/AirDoctor/cheveron-left.png);
+        transform: rotate(180deg);
+    }
+
+}
+
+@media screen and (max-width: 380px) {
+    .Air-TV .eg-features-Section .section-content .slick-arrow.slick-prev {
+        left: -40px;
+    }
+
+    .Air-TV .eg-features-Section .section-content .slick-arrow.slick-next {
+        right: -40px;
+    }
+}
+
+
+/* FEATURES SECTION END */
+
+/* REVIEW SECTION CSS START */
+
+.Air-TV .eg-review {
+    background: #F3F3F3;
+}
+
+/* REVIEW SECTION CSS END */

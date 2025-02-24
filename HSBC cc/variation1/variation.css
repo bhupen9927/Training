@@ -1,0 +1,83 @@
+html body .eg-award-section {
+    display: flex;
+    flex-direction: row;
+}
+
+html body .eg-award-card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    padding: 0 1rem;
+    width: 33.33%;
+    box-sizing: border-box;
+}
+
+html body .eg-award-card:first-child .award-card-image:first-child {
+    width: 126px !important;
+}
+
+html body .award-card-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px !important;
+    height: 100px !important;
+    margin-bottom: 1.9rem;
+    margin-left: 0;
+}
+
+
+html body .eg-details p:first-child {
+    margin-top: 0 !important;
+}
+
+html body .eg-details p {
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: 1.5rem;
+    font-weight: 300;
+    margin: 0.75rem 0;
+    letter-spacing: 0.15px;
+}
+
+html body .eg-details p strong {
+    font-weight: 500 !important;
+}
+
+@media screen and (max-width: 767px) {
+
+    html body .eg-details p:first-child {
+        width: 100% !important;
+        max-width: 285px !important;
+    }
+
+    html body .eg-award-section {
+        flex-direction: column;
+    }
+
+    html body .eg-award-card {
+        width: 100%;
+        margin: 3.5rem 0 0;
+        padding: 0;
+    }
+
+    html body .award-card-image {
+        margin: 0 auto 2.3rem;
+        max-height: 6.25rem;
+        max-width: 100%;
+        width: auto;
+    }
+
+    html body [class*="content-item"]:nth-child(4)>div>div:nth-child(2)>div {
+        min-height: 8rem !important;
+    }
+
+    html body [class*="content-item"]:nth-child(4) {
+        margin-bottom: 1rem !important;
+    }
+
+    html body .eg-award-card:first-child {
+        margin-top: 1rem !important;
+    }
+
+}
