@@ -1,0 +1,86 @@
+.EG-SALE-BANNER .eg-saleBanner {
+    box-shadow: 0px 4px 4px 0px #00000026;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 10px;
+    margin-top: 32px;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.EG-SALE-BANNER .eg-banner-image {
+    width: 65%;
+    background: url(https://sitetunershosting.com/clients/CatholicCompany/bannerCatholic.png);
+    height: 226px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.EG-SALE-BANNER .eg-banner-content {
+    width: 35%;
+    background: linear-gradient(252.56deg, #E3E3E3 10.63%, #DEDEDE 61.95%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 226px;
+    gap: 26px;
+}
+
+.EG-SALE-BANNER .eg-banner-content h4 {
+    font-family: Cabin;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38.88px;
+    letter-spacing: 1px;
+    margin: 0;
+    text-align: left;
+    color: #153A6E;
+}
+
+.EG-SALE-BANNER .eg-banner-content a {
+    font-family: Cabin;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFF;
+    letter-spacing: 1px;
+    border: 1px solid #153A6E;
+    border-radius: 50px;
+    background-color: #153A6E;
+    width: 246px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+@media screen and (min-width:767px) and (max-width:1024px) {
+    .EG-SALE-BANNER .eg-banner-content a {
+        width: 206px;
+    }
+
+    .EG-SALE-BANNER .eg-banner-content h4 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .EG-SALE-BANNER .eg-saleBanner {
+        flex-direction: column;
+    }
+
+    .EG-SALE-BANNER .eg-banner-image {
+        width: 100%;
+    }
+
+    .EG-SALE-BANNER .eg-banner-content {
+        width: 100%;
+    }
+
+    .EG-SALE-BANNER .eg-banner-image {
+        background-position: 82%;
+    }
+}

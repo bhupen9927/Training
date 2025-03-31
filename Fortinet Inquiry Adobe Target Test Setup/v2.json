@@ -1,0 +1,13 @@
+{
+  "files": [
+    "./variation2/variation.css",
+    "./variation2/variation.js"
+  ],
+  "urls": [
+    "http://www.fortinet.com/products/ethernet-switches",
+    "http://www.fortinet.com/products/wireless-access-points",
+    "http://www.fortinet.com/products/wireless-wan-fortiextender",
+    "http://www.fortinet.com/products/sd-wan",
+    "http://www.fortinet.com/products/sase"
+  ]
+}

@@ -1,0 +1,165 @@
+.EG-RECOMMENDED .eg-recommended-section {
+    background-color: #111;
+    padding: 0;
+}
+
+.EG-RECOMMENDED .eg-recommended-container {
+    padding: 40px 15.75px;
+    position: relative;
+    margin: 0 auto;
+    /* background-image: url(/content/dam/fortinet/images/icons/network.svg);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position-x: right;
+    background-position-y: 40%; */
+}
+
+.EG-RECOMMENDED .eg-recommended-container:before {
+    content: "";
+    background: url(https://www.fortinet.com/etc/designs/fortinet/media/icons/dots.png) no-repeat;
+    opacity: .5;
+    width: 211px;
+    height: 181px;
+    display: block;
+    background-size: contain;
+    position: absolute;
+    top: -6px;
+    left: -120px;
+    z-index: 0;
+    filter: invert(100%);
+}
+
+.EG-RECOMMENDED .eg-recommended-heading {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 39.6px;
+    margin-bottom: 20px;
+}
+
+.EG-RECOMMENDED .eg-content-wrapper {
+    display: flex;
+}
+
+.EG-RECOMMENDED .eg-slide {
+    border-radius: 5px;
+    overflow: hidden;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+    transition: transform 0.3s ease;
+    display: flex !important;
+    justify-content: center;
+    align-items: flex-start;
+    grid-gap: 20px;
+}
+
+.EG-RECOMMENDED .eg-slide-link {
+    border-radius: 5px;
+    overflow: hidden;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+    transition: transform 0.3s ease;
+    display: flex !important;
+    justify-content: center;
+    align-items: flex-start;
+    grid-gap: 20px;
+}
+
+.EG-RECOMMENDED .eg-slide img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+}
+
+.EG-RECOMMENDED .eg-slide-content {
+    padding-right: 10px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.EG-RECOMMENDED .eg-slide-content h3 {
+    font-size: 16px;
+    color: #fff;
+    padding-top: 5px;
+    font-weight: 700;
+    display: inline-block;
+    max-width: 30ch;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+
+.EG-RECOMMENDED .eg-slide a:hover {
+    text-decoration: none;
+}
+
+.EG-RECOMMENDED .eg-trailing-link {
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-decoration: none;
+}
+
+.EG-RECOMMENDED .eg-trailing-link:after {
+    content: "\00BB";
+    display: inline-block;
+    text-align: right;
+    width: 1em;
+    text-decoration: none;
+}
+
+.EG-RECOMMENDED .eg-trailing-link:hover {
+    color: #da291c;
+    transition: color .4s ease !important;
+    cursor: pointer;
+    text-decoration: none !important;
+    background-image: none !important;
+}
+
+.EG-RECOMMENDED .eg-trailing-link:hover::before {
+    display: none;
+}
+
+.EG-RECOMMENDED .eg-prev,
+.EG-RECOMMENDED .eg-next {
+    position: absolute;
+    top: 60px;
+    background: transparent;
+}
+
+.EG-RECOMMENDED .eg-prev {
+    bottom: unset;
+    left: unset;
+    right: 110px;
+}
+
+.EG-RECOMMENDED .eg-next {
+    bottom: unset;
+    right: 40px;
+    left: unset;
+    margin-left: 85px;
+}
+
+.EG-RECOMMENDED .swiper-button-prev:after,
+.EG-RECOMMENDED .swiper-button-next:after {
+    color: #fff !important;
+    font-weight: 500 !important;
+    font-size: 20px !important;
+}
+
+@media screen and (min-width: 768px) and (max-width:1024px) {
+    .EG-RECOMMENDED .eg-recommended-container {
+        padding: 40px 15px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .EG-RECOMMENDED .eg-prev {
+        right: 60px;
+    }
+
+    .EG-RECOMMENDED .eg-next {
+        right: 20px;
+    }
+}
